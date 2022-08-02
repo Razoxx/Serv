@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE list SYSTEM "phantomAI.dtd">
+<list>
+
+     <!-- ТХ Сундучник -->
+	 
+	<ClassObject classId="93" className="Adventurer" sex="1">
+		<ai_type type="b_fighter" sub_type="stupid" />
+		<henna id1="169"/>
+		<nuke_skills>
+			<skill id="263" level="37" is_enchantable="true" is_random="false" ench_max_value="30" ench_route="7"/> <!-- Deadly Blow -->
+			<skill id="344" level="1" is_enchantable="true" is_random="false" ench_max_value="15" ench_route="7"/> <!-- Lethal Blow -->
+		</nuke_skills>
+		<rare_nuke_skills>
+			<skill id="409" level="10" is_enchantable="true" is_random="false" ench_max_value="30" ench_route="7"/>	<!-- Critical Blow -->
+		</rare_nuke_skills>
+		<self_buff_skills>
+			<skill id="4" level="2" />	<!-- Dash -->
+			<skill id="445" level="1" /> <!-- Mirage -->
+		</self_buff_skills>
+		<situation_skills>
+			<skill id="768" level="1" target="self" cond="hp;70;0"/> <!-- Exciting Adventure -->
+		</situation_skills>
+		<ultimate_self_buff_skills>
+			<skill id="111" level="2" is_enchantable="true" is_random="false" ench_max_value="30" ench_route="2"/> <!-- Ultimate Evasion -->
+			<skill id="922" level="1" /> <!-- Hide -->
+		</ultimate_self_buff_skills>
+		<debuff_skills>
+			<skill id="358" level="1" is_enchantable="true" is_random="false" ench_max_value="15" ench_route="1"/> <!-- Bluff -->
+			<skill id="531" level="1" /> <!-- Critical Wound -->
+			<skill id="821" level="1" /> <!-- Shadow Step -->
+		</debuff_skills>
+		<rare_debuff_skills>
+			<skill id="991" level="1" /> <!-- Throw Dagger -->
+			<skill id="821" level="1" />	<!-- Shadow Step -->
+		</rare_debuff_skills>
+		<passive_skills>
+			<skill id="631" level="6" />	<!-- Emergent Ability - Attack -->
+			<skill id="652" level="1" />	<!-- Knight Ability - Defense -->
+			<skill id="655" level="1" />	<!-- Enchanter Ability - Barrier -->
+			<skill id="651" level="1" />	<!-- Warrior Ability - Haste -->
+			<skill id="26074" level="10" />	<!-- Bot Vicious Stance -->
+		</passive_skills>
+		<consumble_skills>
+			<skill id="6439" level="1" target="self" cond="MP;50;0"/> <!-- MP Potion, бот использует когда MP меньше 50% один раз -->
+			<skill id="2166" level="1" target="self" cond="CP;90;0"/> <!-- CP Potion Low, бот использует когда CP меньше 90% -->
+		</consumble_skills>
+	</ClassObject>
+ </list>

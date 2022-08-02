@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT list (BotJewelObject)*>
+<!ELEMENT BotJewelObject (earring_left|earring_right|ring_left|ring_right|necklace)*>
+<!ATTLIST BotJewelObject
+	classId CDATA #REQUIRED
+	className CDATA #REQUIRED>
+<!ELEMENT earring_left (#PCDATA)>
+<!ATTLIST earring_left
+	id CDATA #REQUIRED
+	enchant CDATA #REQUIRED
+	is_random CDATA #IMPLIED>
+<!ELEMENT earring_right (#PCDATA)>
+<!ATTLIST earring_right
+	id CDATA #REQUIRED
+	enchant CDATA #REQUIRED
+	is_random CDATA #IMPLIED>
+<!ELEMENT ring_left (#PCDATA)>
+<!ATTLIST ring_left
+	id CDATA #REQUIRED
+	enchant CDATA #REQUIRED
+	is_random CDATA #IMPLIED>
+<!ELEMENT ring_right (#PCDATA)>
+<!ATTLIST ring_right
+	id CDATA #REQUIRED
+	enchant CDATA #REQUIRED
+	is_random CDATA #IMPLIED>
+<!ELEMENT necklace (#PCDATA)>
+<!ATTLIST necklace
+	id CDATA #REQUIRED
+	enchant CDATA #REQUIRED
+	is_random CDATA #IMPLIED>

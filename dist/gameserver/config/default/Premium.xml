@@ -1,0 +1,150 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list>
+	<!-- В шапке указываем: цену, предмет изымаемый за покупку, и время на которое покупаем в сутках -->
+	<!-- ID указываем в порядке возрастания. ID = 1 используется для ПА при создании персонажа -->
+	<premium id="0" price="500" item="4037" time="30">
+		
+		<!-- Бонусы RateBonus -->
+		<!-- Отображается в листе покупки сервиса -->
+		<RateValue val="2."/>
+		<!-- Бонус EXP -->
+		<RateXP val="2."/>
+		<!-- Бонус SP -->
+		<RateSP val="2."/>
+		<!-- Бонус Adena -->
+		<RateAdena val="2."/>
+		<!-- Бонус Item -->
+		<RateItem val="2."/>
+		<!-- Бонус Spoil -->
+		<RateSpoil val="2."/>
+		<!-- Бонус craftMW -->
+		<RateCrafMW val="2."/>
+		<!-- Бонус craftDouble -->
+		<RateCraftDouble val="2."/>
+		<!-- Бонус QuestReward -->
+		<RateQuestReward val="2."/>
+		<!-- Бонус QuestDrop -->
+		<RateQuestDrop val="2."/>
+		
+		<!-- Опции -->
+		<!-- Разрешить передавать непередаваемые предметы?-->
+		<AllowTransferItem val="false"/>
+		<!-- Разрешить авто-подбор лута только премиумам? -->
+		<AllowAutoLootItem val="false"/>
+		<!-- Устанавливать Хиро ауру -->
+		<AllowHeroAura val="false"/>
+		<!-- Включить бесконечные шоты? -->
+		<AllowSoulSpiritShotInfinitely val="false"/>
+		<!-- Включить бесконечные шоты для петов? -->
+		<AllowSoulSpiritShotInfinitelyPet val="false"/>
+		<!-- Вкличить бесконечные стрелы? -->
+		<AllowArrowInfinitely val="false"/>
+		
+		
+		<!-- Заточка -->
+		<!-- Шанс успешной заточки для ПА -->
+		<EnchantChance val="68"/>
+		<EnchantChanceArmor val="52"/>
+		<EnchantChanceAccessory val="54"/>
+		<!-- Шанс заточки Блесс точкой -->
+		<EnchantChanceBless val="68"/>
+		<EnchantChanceArmorBless val="52"/>
+		<EnchantChanceAccessoryBless val="54"/>
+		<!-- Шанс заточки Кристальной точкой -->
+		<EnchantChanceCrystal val="68"/>
+		<EnchantChanceArmorCrystal val="52"/>
+		<EnchantChanceAccessoryCrystal val="54"/>
+		
+		<!-- Альтернативная система заточки -->
+		<UseAltEnchant val="false"/>
+		<!-- Для значения заточки выше максимального, описанного в данном конфиге, уровня будет использоваться последнее значение -->
+		<!-- Оружие Файтера -->
+		<EnchantWeaponFighter val="100,100,100,70,70,70,70,70,70,70,70,70,70,70,70,35,35,35,35,35"/>
+		<EnchantWeaponFighterCrystal val="100,100,100,70,70,70,70,70,70,70,70,70,70,70,70,35,35,35,35,35"/>
+		<EnchantWeaponFighterBlessed val="100,100,100,70,70,70,70,70,70,70,70,70,70,70,70,35,35,35,35,35"/>
+		<!-- Оружие Мага -->
+		<EnchantWeaponMage val="100,100,100,70,70,70,70,70,70,70,70,70,70,70,70,35,35,35,35,35"/>
+		<EnchantWeaponMageCrystal val="100,100,100,70,70,70,70,70,70,70,70,70,70,70,70,35,35,35,35,35"/>
+		<EnchantWeaponMageBlessed val="100,100,100,70,70,70,70,70,70,70,70,70,70,70,70,35,35,35,35,35"/>
+		<!-- Одежда -->
+		<EnchantArmor val="100,100,100,66,33,25,20,16,14,12,11,10,9,8,8,7,7,6,6,6"/>
+		<EnchantArmorCrystal val="100,100,100,66,33,25,20,16,14,12,11,10,9,8,8,7,7,6,6,6"/>
+		<EnchantArmorBlessed val="100,100,100,66,33,25,20,16,14,12,11,10,9,8,8,7,7,6,6,6"/>
+		<!-- Аксессуары -->
+		<EnchantAccessory val="100,100,100,66,33,25,20,16,14,12,11,10,9,8,8,7,7,6,6,6"/>
+		<EnchantAccessoryCrystal val="100,100,100,66,33,25,20,16,14,12,11,10,9,8,8,7,7,6,6,6"/>
+		<EnchantAccessoryBlessed val="100,100,100,66,33,25,20,16,14,12,11,10,9,8,8,7,7,6,6,6"/>
+	</premium>
+	<premium id="1" price="1500" item="4037" time="30">
+		
+		<!-- Бонусы RateBonus -->
+		<!-- Отображается в листе покупки сервиса -->
+		<RateValue val="3."/>
+		<!-- Бонус EXP -->
+		<RateXP val="3."/>
+		<!-- Бонус SP -->
+		<RateSP val="3."/>
+		<!-- Бонус Adena -->
+		<RateAdena val="3."/>
+		<!-- Бонус Item -->
+		<RateItem val="3."/>
+		<!-- Бонус Spoil -->
+		<RateSpoil val="3."/>
+		<!-- Бонус craftMW -->
+		<RateCrafMW val="3."/>
+		<!-- Бонус craftDouble -->
+		<RateCraftDouble val="3."/>
+		<!-- Бонус QuestReward -->
+		<RateQuestReward val="3."/>
+		<!-- Бонус QuestDrop -->
+		<RateQuestDrop val="3."/>
+		
+		<!-- Опции -->
+		<!-- Разрешить передавать непередаваемые предметы?-->
+		<AllowTransferItem val="false"/>
+		<!-- Разрешить авто-подбор лута только премиумам? -->
+		<AllowAutoLootItem val="false"/>
+		<!-- Устанавливать Хиро ауру -->
+		<AllowHeroAura val="false"/>
+		<!-- Включить бесконечные шоты? -->
+		<AllowSoulSpiritShotInfinitely val="false"/>
+		<!-- Включить бесконечные шоты для петов? -->
+		<AllowSoulSpiritShotInfinitelyPet val="false"/>
+		<!-- Вкличить бесконечные стрелы? -->
+		<AllowArrowInfinitely val="false"/>
+		
+		<!-- Заточка -->
+		<!-- Шанс успешной заточки для ПА -->
+		<EnchantChance val="68"/>
+		<EnchantChanceArmor val="52"/>
+		<EnchantChanceAccessory val="54"/>
+		<!-- Шанс заточки Блесс точкой -->
+		<EnchantChanceBless val="68"/>
+		<EnchantChanceArmorBless val="52"/>
+		<EnchantChanceAccessoryBless val="54"/>
+		<!-- Шанс заточки Кристальной точкой -->
+		<EnchantChanceCrystal val="68"/>
+		<EnchantChanceArmorCrystal val="52"/>
+		<EnchantChanceAccessoryCrystal val="54"/>
+		
+		<!-- Альтернативная система заточки -->
+		<UseAltEnchant val="false"/>
+		<!-- Для значения заточки выше максимального, описанного в данном конфиге, уровня будет использоваться последнее значение -->
+		<!-- Оружие Файтера -->
+		<EnchantWeaponFighter val="100,100,100,70,70,70,70,70,70,70,70,70,70,70,70,35,35,35,35,35"/>
+		<EnchantWeaponFighterCrystal val="100,100,100,70,70,70,70,70,70,70,70,70,70,70,70,35,35,35,35,35"/>
+		<EnchantWeaponFighterBlessed val="100,100,100,70,70,70,70,70,70,70,70,70,70,70,70,35,35,35,35,35"/>
+		<!-- Оружие Мага -->
+		<EnchantWeaponMage val="100,100,100,70,70,70,70,70,70,70,70,70,70,70,70,35,35,35,35,35"/>
+		<EnchantWeaponMageCrystal val="100,100,100,70,70,70,70,70,70,70,70,70,70,70,70,35,35,35,35,35"/>
+		<EnchantWeaponMageBlessed val="100,100,100,70,70,70,70,70,70,70,70,70,70,70,70,35,35,35,35,35"/>
+		<!-- Одежда -->
+		<EnchantArmor val="100,100,100,66,33,25,20,16,14,12,11,10,9,8,8,7,7,6,6,6"/>
+		<EnchantArmorCrystal val="100,100,100,66,33,25,20,16,14,12,11,10,9,8,8,7,7,6,6,6"/>
+		<EnchantArmorBlessed val="100,100,100,66,33,25,20,16,14,12,11,10,9,8,8,7,7,6,6,6"/>
+		<!-- Аксессуары -->
+		<EnchantAccessory val="100,100,100,66,33,25,20,16,14,12,11,10,9,8,8,7,7,6,6,6"/>
+		<EnchantAccessoryCrystal val="100,100,100,66,33,25,20,16,14,12,11,10,9,8,8,7,7,6,6,6"/>
+		<EnchantAccessoryBlessed val="100,100,100,66,33,25,20,16,14,12,11,10,9,8,8,7,7,6,6,6"/>
+	</premium>
+</list>

@@ -1,0 +1,2021 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list>
+    <!-- Упаковка: Украшенная Перьями Шляпа (7 дн.) (Dandy's Chapeau 7-Day Pack) Великое Лечение -->
+    <item id="21683" type="0">
+        <product id="20446" chance="10000" count="1" />
+    </item>
+    <!-- Упаковка: Купон на Ожерелье Питомца (1 шт.) -->
+    <item id="13276" type="0">
+        <product id="13273" chance="10000" count="1" />
+    </item>
+    <!-- Упаковка: Купон на Ожерелье Питомца (2 шт.) -->
+    <item id="14239" type="0">
+        <product id="21279" chance="10000" count="2" />
+    </item>
+    <!-- Упаковка: Купон на Ожерелье Питомца (1 шт.) -->
+    <item id="21277" type="0">
+        <product id="21279" chance="10000" count="1" />
+    </item>
+    <!-- Упаковка: Купон на Ожерелье Питомца (1 шт.) -->
+    <item id="21278" type="0">
+        <product id="21280" chance="10000" count="1" />
+    </item>
+    <!-- Упаковка: Купон на Ожерелье Питомца (1 шт.) -->
+    <item id="14248" type="0">
+        <product id="21279" chance="10000" count="1" />
+    </item>
+    <!-- Упаковка: Купон на Ожерелье Питомца (1 шт.) -->
+    <item id="14291" type="0">
+        <product id="21280" chance="10000" count="1" />
+    </item>
+    <!-- Упаковка: Купон на Ожерелье Питомца (2 шт.) -->
+    <item id="14290" type="0">
+        <product id="21280" chance="10000" count="2" />
+    </item>
+	<!-- Упаковки Рун %Deprecat% -->
+	<item id="20548" type="0">
+        <product id="20335" chance="10000" count="1" />
+    </item>
+	<item id="20549" type="0">
+        <product id="20336" chance="10000" count="1" />
+    </item>
+	<item id="20550" type="0">
+        <product id="20337" chance="10000" count="1" />
+    </item>
+	<item id="20551" type="0">
+        <product id="20338" chance="10000" count="1" />
+    </item>
+	<item id="20552" type="0">
+        <product id="20339" chance="10000" count="1" />
+    </item>
+	<item id="20553" type="0">
+        <product id="20340" chance="10000" count="1" />
+    </item>
+	<item id="20554" type="0">
+        <product id="20341" chance="10000" count="1" />
+    </item>
+	<item id="20555" type="0">
+        <product id="20342" chance="10000" count="1" />
+    </item>
+	<item id="20556" type="0">
+        <product id="20343" chance="10000" count="1" />
+    </item>
+	<item id="20557" type="0">
+        <product id="20344" chance="10000" count="1" />
+    </item>
+	<item id="20558" type="0">
+        <product id="20345" chance="10000" count="1" />
+    </item>
+	<item id="20559" type="0">
+        <product id="20346" chance="10000" count="1" />
+    </item>
+	<item id="21601" type="0">
+        <product id="20335" chance="10000" count="1" />
+    </item>
+	<item id="21602" type="0">
+        <product id="20336" chance="10000" count="1" />
+    </item>
+	<item id="21603" type="0">
+        <product id="20337" chance="10000" count="1" />
+    </item>
+	<item id="21604" type="0">
+        <product id="20338" chance="10000" count="1" />
+    </item>
+	<item id="21605" type="0">
+        <product id="20339" chance="10000" count="1" />
+    </item>
+	<item id="21606" type="0">
+        <product id="20340" chance="10000" count="1" />
+    </item>
+	<item id="21607" type="0">
+        <product id="20341" chance="10000" count="1" />
+    </item>
+	<item id="21608" type="0">
+        <product id="20342" chance="10000" count="1" />
+    </item>
+	<item id="21609" type="0">
+        <product id="20343" chance="10000" count="1" />
+    </item>
+	<item id="21610" type="0">
+        <product id="20344" chance="10000" count="1" />
+    </item>
+	<item id="21611" type="0">
+        <product id="20345" chance="10000" count="1" />
+    </item>
+	<item id="21612" type="0">
+        <product id="20346" chance="10000" count="1" />
+    </item>
+	<!-- Упаковка: Руна Опыта 30% (1 ч.) -->
+    <item id="21085" type="0">
+        <product id="20742" chance="10000" count="1" />
+    </item>
+    <!-- Упаковка: Руна Опыта 50% (5 ч.) -->
+    <item id="21602" type="0">
+        <product id="20336" chance="10000" count="1" />
+    </item>	
+    <!-- Упаковка: Агатион Китайский Актер (7 дн.) -->
+    <item id="20798" type="0">
+        <product id="20776" chance="10000" count="1" />
+    </item>
+    <!-- Фортуна Хаоса -->
+    <item id="21041" type="0">
+        <product id="8619" chance="2600" count="1" />
+        <product id="6622" chance="1900" count="3" />
+        <product id="8620" chance="1700" count="3" />
+        <product id="8618" chance="1400" count="3" />
+        <product id="21038" chance="500" count="6" />
+        <product id="9627" chance="500" count="1" />
+        <product id="14700" chance="400" count="25" />
+        <product id="14701" chance="400" count="12" />
+        <product id="21030" chance="200" count="4" />
+        <product id="21031" chance="200" count="4" />
+        <product id="21032" chance="100" count="8" />
+        <product id="21033" chance="100" count="8" />
+    </item>
+    <!-- Упаковка: Браслет MotoZ (7 дней) -->
+    <item id="21409" type="0">
+        <product id="21415" chance="10000" count="1" />
+    </item>
+    <!-- Упаковка: Браслет MotoZ (7 дней) Ивент -->
+    <item id="21410" type="0">
+        <product id="21416" chance="10000" count="1" />
+    </item>
+    <!-- Упаковка: Браслет MotoZ (30 дней) -->
+    <item id="21411" type="0">
+        <product id="21417" chance="10000" count="1" />
+    </item>
+    <!-- Упаковка: Браслет MotoZ (30 дней) Ивент -->
+    <item id="21412" type="0">
+        <product id="21418" chance="10000" count="1" />
+    </item>
+    <!-- Упаковка: Браслет MotoZ -->
+    <item id="21413" type="0">
+        <product id="21419" chance="10000" count="1" />
+    </item>
+    <!-- Упаковка: Браслет MotoZ Ивент -->
+    <item id="21414" type="0">
+        <product id="21420" chance="10000" count="1" />
+    </item>
+    <!-- Shiny Agathion   -->
+    <item id="55" type="0">
+        <product id="14102" chance="10000" count="1" />
+    </item>	
+    <item id="140" type="0">
+        <product id="14094" chance="10000" count="1" />
+    </item>	
+    <item id="14229" type="0">
+        <product id="13025" chance="10000" count="1" />
+    </item>	
+    <item id="14250" type="0">
+        <product id="14076" chance="10000" count="1" />
+    </item>	
+    <item id="14268" type="0">
+        <product id="14094" chance="10000" count="1" />
+    </item>	
+    <item id="14276" type="0">
+        <product id="14102" chance="10000" count="1" />
+    </item>	
+
+    <!-- Sobbing Agathion   -->
+    <item id="56" type="0">
+        <product id="14103" chance="10000" count="1" />
+    </item>	
+    <item id="141" type="0">
+        <product id="14095" chance="10000" count="1" />
+    </item>	
+    <item id="14230" type="0">
+        <product id="13026" chance="10000" count="1" />
+    </item>	
+    <item id="14251" type="0">
+        <product id="14077" chance="10000" count="1" />
+    </item>	
+    <item id="14269" type="0">
+        <product id="14095" chance="10000" count="1" />
+    </item>	
+    <item id="14277" type="0">
+        <product id="14103" chance="10000" count="1" />
+    </item>	
+
+    <!-- Sudden Agathion   -->
+    <item id="139" type="0">
+        <product id="14093" chance="10000" count="1" />
+    </item>	
+    <item id="170" type="0">
+        <product id="14101" chance="10000" count="1" />
+    </item>	
+    <item id="14228" type="0">
+        <product id="13024" chance="10000" count="1" />
+    </item>	
+    <item id="14249" type="0">
+        <product id="14075" chance="10000" count="1" />
+    </item>	
+    <item id="14267" type="0">
+        <product id="14093" chance="10000" count="1" />
+    </item>	
+    <item id="14275" type="0">
+        <product id="14101" chance="10000" count="1" />
+    </item>	
+
+    <!-- Agathion of Love    -->
+    <item id="13083" type="0">
+        <product id="13023" chance="10000" count="1" />
+    </item>	
+    <item id="13107" type="0">
+        <product id="13023" chance="10000" count="1" />
+    </item>	
+    <item id="13280" type="0">
+        <product id="13254" chance="10000" count="1" />
+    </item>	
+    <item id="13344" type="0">
+        <product id="13309" chance="10000" count="1" />
+    </item>	
+    <item id="13369" type="0">
+        <product id="13340" chance="10000" count="1" />
+    </item>	
+    <item id="20254" type="0">
+        <product id="20253" chance="10000" count="1" />
+    </item>	
+
+    <!-- Teddy Boy Agathion    -->
+    <item id="14237" type="0">
+        <product id="14059" chance="10000" count="1" />
+    </item>	
+    <item id="14246" type="0">
+        <product id="14072" chance="10000" count="1" />
+    </item>	
+    <item id="14265" type="0">
+        <product id="14091" chance="10000" count="1" />
+    </item>	
+    <item id="14273" type="0">
+        <product id="14099" chance="10000" count="1" />
+    </item>	
+
+    <!-- Teddy Girl Agathion    -->
+    <item id="14238" type="0">
+        <product id="14060" chance="10000" count="1" />
+    </item>	
+    <item id="14247" type="0">
+        <product id="14073" chance="10000" count="1" />
+    </item>	
+    <item id="14266" type="0">
+        <product id="14092" chance="10000" count="1" />
+    </item>	
+    <item id="14274" type="0">
+        <product id="14100" chance="10000" count="1" />
+    </item>	
+
+    <!-- Saerom Agathion   -->
+    <item id="14719" type="0">
+        <product id="14675" chance="10000" count="1" />
+    </item>	
+
+    <!-- Majo Agathion   -->
+    <item id="20035" type="0">
+        <product id="20006" chance="10000" count="1" />
+    </item>	
+    <item id="20036" type="0">
+        <product id="20007" chance="10000" count="1" />
+    </item>	
+    <item id="20037" type="0">
+        <product id="20008" chance="10000" count="1" />
+    </item>	
+    <item id="20038" type="0">
+        <product id="20009" chance="10000" count="1" />
+    </item>	
+    <item id="20039" type="0">
+        <product id="20010" chance="10000" count="1" />
+    </item>	
+    <item id="20040" type="0">
+        <product id="20011" chance="10000" count="1" />
+    </item>	
+
+    <!-- Plaipitak Agathion   -->
+    <item id="20041" type="0">
+        <product id="20012" chance="10000" count="1" />
+    </item>	
+    <item id="20042" type="0">
+        <product id="20013" chance="10000" count="1" />
+    </item>	
+    <item id="20043" type="0">
+        <product id="20014" chance="10000" count="1" />
+    </item>	
+    <item id="20044" type="0">
+        <product id="20015" chance="10000" count="1" />
+    </item>	
+
+    <!-- Baby Panda Agathion    -->
+    <item id="20069" type="0">
+        <product id="20063" chance="10000" count="1" />
+    </item>	
+    <item id="20072" type="0">
+        <product id="20066" chance="10000" count="1" />
+    </item>	
+
+    <!-- Bamboo Panda Agathion    -->
+    <item id="20070" type="0">
+        <product id="20064" chance="10000" count="1" />
+    </item>	
+    <item id="20073" type="0">
+        <product id="20067" chance="10000" count="1" />
+    </item>	
+
+    <!-- Sexy Panda Agathion    -->
+    <item id="20071" type="0">
+        <product id="20065" chance="10000" count="1" />
+    </item>	
+    <item id="20074" type="0">
+        <product id="20068" chance="10000" count="1" />
+    </item>	
+
+    <!-- Maneki Neko Agathion    -->
+    <item id="20215" type="0">
+        <product id="20221" chance="10000" count="1" />
+    </item>	
+    <item id="20216" type="0">
+        <product id="20222" chance="10000" count="1" />
+    </item>	
+    <item id="20217" type="0">
+        <product id="20223" chance="10000" count="1" />
+    </item>	
+    <item id="20218" type="0">
+        <product id="20224" chance="10000" count="1" />
+    </item>	
+    <item id="20219" type="0">
+        <product id="20225" chance="10000" count="1" />
+    </item>	
+    <item id="20220" type="0">
+        <product id="20226" chance="10000" count="1" />
+    </item>	
+
+    <!-- One-Eyed Bat Drove Agathion  -->
+    <item id="20227" type="0">
+        <product id="20230" chance="10000" count="1" />
+    </item>	
+    <item id="20228" type="0">
+        <product id="20231" chance="10000" count="1" />
+    </item>	
+    <item id="20229" type="0">
+        <product id="20232" chance="10000" count="1" />
+    </item>	
+
+    <!-- Pegasus Agathion   -->
+    <item id="20233" type="0">
+        <product id="20236" chance="10000" count="1" />
+    </item>	
+    <item id="20234" type="0">
+        <product id="20237" chance="10000" count="1" />
+    </item>	
+    <item id="20235" type="0">
+        <product id="20238" chance="10000" count="1" />
+    </item>	
+
+    <!-- Robed Tojigong Agathion    -->
+    <item id="20239" type="0">
+        <product id="20245" chance="10000" count="1" />
+    </item>	
+    <item id="20240" type="0">
+        <product id="20246" chance="10000" count="1" />
+    </item>	
+    <item id="20241" type="0">
+        <product id="20247" chance="10000" count="1" />
+    </item>	
+    <item id="20242" type="0">
+        <product id="20248" chance="10000" count="1" />
+    </item>	
+    <item id="20243" type="0">
+        <product id="20249" chance="10000" count="1" />
+    </item>	
+    <item id="20244" type="0">
+        <product id="20250" chance="10000" count="1" />
+    </item>	
+
+    <!-- Bugbear Agathion   -->
+    <item id="20251" type="0">
+        <product id="20252" chance="10000" count="1" />
+    </item>	
+
+    <!-- Sumo Wrestler Agathion    -->
+    <item id="20280" type="0">
+        <product id="20297" chance="10000" count="1" />
+    </item>	
+    <item id="20281" type="0">
+        <product id="20298" chance="10000" count="1" />
+    </item>	
+    <item id="20282" type="0">
+        <product id="20299" chance="10000" count="1" />
+    </item>	
+    <item id="20283" type="0">
+        <product id="20300" chance="10000" count="1" />
+    </item>	
+
+    <!-- Sumo Match Agathion    -->
+    <item id="20284" type="0">
+        <product id="20301" chance="10000" count="1" />
+    </item>	
+    <item id="20285" type="0">
+        <product id="20302" chance="10000" count="1" />
+    </item>	
+
+    <!-- Button-Eyed Bear Doll Agathion -->
+    <item id="20286" type="0">
+        <product id="20303" chance="10000" count="1" />
+    </item>	
+    <item id="20287" type="0">
+        <product id="20304" chance="10000" count="1" />
+    </item>	
+    <item id="20288" type="0">
+        <product id="20305" chance="10000" count="1" />
+    </item>	
+    <item id="20289" type="0">
+        <product id="20306" chance="10000" count="1" />
+    </item>	
+
+    <!-- God of Fortune Agathion     -->
+    <item id="20290" type="0">
+        <product id="20307" chance="10000" count="1" />
+    </item>	
+    <item id="20291" type="0">
+        <product id="20308" chance="10000" count="1" />
+    </item>	
+
+    <!-- Dryad Agathion   -->
+    <item id="20292" type="0">
+        <product id="20309" chance="10000" count="1" />
+    </item>	
+
+    <!-- Wonboso Agathion   -->
+    <item id="20293" type="0">
+        <product id="20310" chance="10000" count="1" />
+    </item>	
+    <item id="20294" type="0">
+        <product id="20311" chance="10000" count="1" />
+    </item>	
+
+    <!-- Daewoonso Agathion   -->
+    <item id="20295" type="0">
+        <product id="20312" chance="10000" count="1" />
+    </item>	
+    <item id="20296" type="0">
+        <product id="20313" chance="10000" count="1" />
+    </item>	
+
+    <!-- Transformation Stick  : Snow Kung -->
+    <item id="14234" type="0">
+        <product id="14056" chance="10000" count="1" />
+    </item>	
+    <item id="14243" type="0">
+        <product id="14069" chance="10000" count="1" />
+    </item>	
+    <item id="14262" type="0">
+        <product id="14088" chance="10000" count="1" />
+    </item>	
+    <item id="14270" type="0">
+        <product id="14096" chance="10000" count="1" />
+    </item>	
+
+    <!-- Transformation Stick  : Pumpkin -->
+    <item id="13084" type="0">
+        <product id="12800" chance="10000" count="1" />
+    </item>	
+    <item id="13108" type="0">
+        <product id="13324" chance="10000" count="1" />
+    </item>	
+    <item id="13281" type="0">
+        <product id="13253" chance="10000" count="1" />
+    </item>	
+    <item id="13370" type="0">
+        <product id="13339" chance="10000" count="1" />
+    </item>	
+
+    <!-- Transformation Stick   : Scarecrow -->
+    <item id="14235" type="0">
+        <product id="14057" chance="10000" count="1" />
+    </item>	
+    <item id="14244" type="0">
+        <product id="14070" chance="10000" count="1" />
+    </item>	
+    <item id="14263" type="0">
+        <product id="14089" chance="10000" count="1" />
+    </item>	
+    <item id="14271" type="0">
+        <product id="14097" chance="10000" count="1" />
+    </item>	
+
+    <!-- Transformation Stick   : Tin Golem -->
+    <item id="14236" type="0">
+        <product id="14058" chance="10000" count="1" />
+    </item>	
+    <item id="14245" type="0">
+        <product id="14071" chance="10000" count="1" />
+    </item>	
+    <item id="14264" type="0">
+        <product id="14090" chance="10000" count="1" />
+    </item>	
+    <item id="14272" type="0">
+        <product id="14098" chance="10000" count="1" />
+    </item>	
+
+    <!-- Feather of Blessing Packs     -->
+    <item id="13082" type="0">
+        <product id="10649" chance="10000" count="3" />
+    </item>	
+    <item id="13106" type="0">
+        <product id="10649" chance="10000" count="3" />
+    </item>	
+    <item id="13279" type="0">
+        <product id="10649" chance="10000" count="1" />
+    </item>	
+    <item id="13343" type="0">
+        <product id="13300" chance="10000" count="3" />
+    </item>	
+    <item id="13368" type="0">
+        <product id="13300" chance="10000" count="1" />
+    </item>	
+
+    <!-- Horn-Rimmed Glasses Pack - Agility -->
+    <item id="20045" type="0">
+        <product id="20016" chance="10000" count="1" />
+    </item>	
+
+    <!-- Afro Hair Packs    -->
+    <item id="20046" type="0">
+        <product id="20017" chance="10000" count="1" />
+    </item>	
+    <item id="20047" type="0">
+        <product id="20018" chance="10000" count="1" />
+    </item>	
+    <item id="20048" type="0">
+        <product id="20019" chance="10000" count="1" />
+    </item>	
+    <item id="20278" type="0">
+        <product id="20275" chance="10000" count="1" />
+    </item>	
+    <item id="20279" type="0">
+        <product id="20276" chance="10000" count="1" />
+    </item>	
+
+    <!-- Uniform Hat Pack    -->
+    <item id="20049" type="0">
+        <product id="20020" chance="10000" count="1" />
+    </item>	
+
+    <!-- Goggle Pack   -->
+    <item id="20315" type="0">
+        <product id="20321" chance="10000" count="1" />
+    </item>	
+
+    <!-- Napoleon Hat Pack    -->
+    <item id="20316" type="0">
+        <product id="20322" chance="10000" count="1" />
+    </item>	
+
+    <!-- Horn Hairband Pack    -->
+    <item id="20317" type="0">
+        <product id="20323" chance="10000" count="1" />
+    </item>	
+
+    <!-- Black Gem Mask Pack     -->
+    <item id="20318" type="0">
+        <product id="20324" chance="10000" count="1" />
+    </item>	
+
+    <!-- Plastic Hair Pack    -->
+    <item id="20319" type="0">
+        <product id="20325" chance="10000" count="1" />
+    </item>	
+
+    <!-- Assassin's Bamboo Hat Pack    -->
+    <item id="20050" type="0">
+        <product id="20021" chance="10000" count="1" />
+    </item>	
+
+    <!-- Ruthless Tribe Mask Pack     -->
+    <item id="20051" type="0">
+        <product id="20022" chance="10000" count="1" />
+    </item>	
+
+    <!-- Ribbon Hairband Pack    -->
+    <item id="20052" type="0">
+        <product id="20023" chance="10000" count="1" />
+    </item>	
+
+    <!-- Visor Pack   -->
+    <item id="20053" type="0">
+        <product id="20024" chance="10000" count="1" />
+    </item>	
+
+    <!-- Kat the Cat Hat Packs      -->
+    <item id="13110" type="0">
+        <product id="12782" chance="10000" count="1" />
+    </item>	
+    <item id="13086" type="0">
+        <product id="12782" chance="10000" count="1" />
+    </item>	
+    <item id="13282" type="0">
+        <product id="13239" chance="10000" count="1" />
+    </item>	
+    <item id="13347" type="0">
+        <product id="13310" chance="10000" count="1" />
+    </item>	
+    <item id="13371" type="0">
+        <product id="13325" chance="10000" count="1" />
+    </item>	
+    <item id="20060" type="0">
+        <product id="20031" chance="10000" count="1" />
+    </item>	
+
+    <!-- Feline Queen Hat Packs     -->
+    <item id="13111" type="0">
+        <product id="12783" chance="10000" count="1" />
+    </item>	
+    <item id="13087" type="0">
+        <product id="12783" chance="10000" count="1" />
+    </item>	
+    <item id="13283" type="0">
+        <product id="13240" chance="10000" count="1" />
+    </item>	
+    <item id="13348" type="0">
+        <product id="13311" chance="10000" count="1" />
+    </item>	
+    <item id="13372" type="0">
+        <product id="13326" chance="10000" count="1" />
+    </item>	
+
+    <!-- Monster Eye Hat Packs     -->
+    <item id="13112" type="0">
+        <product id="12786" chance="10000" count="1" />
+    </item>	
+    <item id="13088" type="0">
+        <product id="12786" chance="10000" count="1" />
+    </item>	
+    <item id="13284" type="0">
+        <product id="13241" chance="10000" count="1" />
+    </item>	
+    <item id="13349" type="0">
+        <product id="13312" chance="10000" count="1" />
+    </item>	
+    <item id="13373" type="0">
+        <product id="13327" chance="10000" count="1" />
+    </item>	
+
+    <!-- Brown Bear Hat Packs     -->
+    <item id="13089" type="0">
+        <product id="12787" chance="10000" count="1" />
+    </item>	
+    <item id="13113" type="0">
+        <product id="12787" chance="10000" count="1" />
+    </item>	
+    <item id="13285" type="0">
+        <product id="13242" chance="10000" count="1" />
+    </item>	
+    <item id="13350" type="0">
+        <product id="13313" chance="10000" count="1" />
+    </item>	
+    <item id="13374" type="0">
+        <product id="13328" chance="10000" count="1" />
+    </item>	
+
+    <!-- Fungus Hat Packs    -->
+    <item id="13090" type="0">
+        <product id="12788" chance="10000" count="1" />
+    </item>	
+    <item id="13114" type="0">
+        <product id="12788" chance="10000" count="1" />
+    </item>	
+    <item id="13286" type="0">
+        <product id="13243" chance="10000" count="1" />
+    </item>	
+    <item id="13351" type="0">
+        <product id="13314" chance="10000" count="1" />
+    </item>	
+    <item id="13375" type="0">
+        <product id="13329" chance="10000" count="1" />
+    </item>	
+
+    <!-- Skull Hat Packs    -->
+    <item id="13091" type="0">
+        <product id="12789" chance="10000" count="1" />
+    </item>	
+    <item id="13115" type="0">
+        <product id="12789" chance="10000" count="1" />
+    </item>	
+    <item id="13287" type="0">
+        <product id="13244" chance="10000" count="1" />
+    </item>	
+    <item id="13352" type="0">
+        <product id="13315" chance="10000" count="1" />
+    </item>	
+    <item id="13376" type="0">
+        <product id="13330" chance="10000" count="1" />
+    </item>	
+    <item id="20061" type="0">
+        <product id="20032" chance="10000" count="1" />
+    </item>	
+
+    <!-- Ornithomimus Hat Packs    -->
+    <item id="13092" type="0">
+        <product id="12790" chance="10000" count="1" />
+    </item>	
+    <item id="13116" type="0">
+        <product id="12790" chance="10000" count="1" />
+    </item>	
+    <item id="13288" type="0">
+        <product id="13245" chance="10000" count="1" />
+    </item>	
+    <item id="13353" type="0">
+        <product id="13316" chance="10000" count="1" />
+    </item>	
+    <item id="13377" type="0">
+        <product id="13331" chance="10000" count="1" />
+    </item>	
+
+    <!-- Feline King Hat Packs     -->
+    <item id="13093" type="0">
+        <product id="12791" chance="10000" count="1" />
+    </item>	
+    <item id="13117" type="0">
+        <product id="12791" chance="10000" count="1" />
+    </item>	
+    <item id="13289" type="0">
+        <product id="13246" chance="10000" count="1" />
+    </item>	
+    <item id="13354" type="0">
+        <product id="13317" chance="10000" count="1" />
+    </item>	
+    <item id="13378" type="0">
+        <product id="13332" chance="10000" count="1" />
+    </item>	
+
+    <!-- Kai the Cat Hat Packs      -->
+    <item id="13094" type="0">
+        <product id="12792" chance="10000" count="1" />
+    </item>	
+    <item id="13118" type="0">
+        <product id="12792" chance="10000" count="1" />
+    </item>	
+    <item id="13290" type="0">
+        <product id="13247" chance="10000" count="1" />
+    </item>	
+    <item id="13355" type="0">
+        <product id="13318" chance="10000" count="1" />
+    </item>	
+    <item id="13379" type="0">
+        <product id="13333" chance="10000" count="1" />
+    </item>	
+
+    <!-- Color Name Packs    -->
+    <item id="13098" type="0">
+        <product id="13021" chance="10000" count="3" />
+    </item>	
+    <item id="13122" type="0">
+        <product id="13021" chance="10000" count="3" />
+    </item>	
+    <item id="13124" type="0">
+        <product id="13021" chance="10000" count="1" />
+    </item>	
+    <item id="13359" type="0">
+        <product id="13307" chance="10000" count="3" />
+    </item>	
+    <item id="13360" type="0">
+        <product id="13307" chance="10000" count="1" />
+    </item>	
+
+    <!-- Steam Beatle Mounting Bracelet 7 Day Pack       -->
+    <item id="14232" type="0">
+        <product id="14054" chance="10000" count="1" />
+    </item>	
+    <item id="14241" type="0">
+        <product id="14067" chance="10000" count="1" />
+    </item>	
+    <item id="21637" type="0">
+        <product id="20449" chance="10000" count="1" />
+    </item>	
+
+    <!-- Steam Beatle Mounting Bracelet 30 Day Pack       -->
+    <item id="21638" type="0">
+        <product id="20535" chance="10000" count="1" />
+    </item>	
+
+    <!-- Steam Beatle Mounting Bracelet Pack      -->
+    <item id="20395" type="0">
+        <product id="13546" chance="10000" count="1" />
+    </item>	
+    <item id="21639" type="0">
+        <product id="20396" chance="10000" count="1" />
+    </item>	
+
+    <!-- Light Purple   -Maned Horse Bracelet Pack -->
+    <item id="13097" type="0">
+        <product id="13022" chance="10000" count="1" />
+    </item>	
+    <item id="20058" type="0">
+        <product id="20029" chance="10000" count="1" />
+    </item>	
+
+    <!-- Light Purple   -Maned Horse Bracelet 7 Day Pack -->
+    <item id="13121" type="0">
+        <product id="13308" chance="10000" count="1" />
+    </item>	
+    <item id="21634" type="0">
+        <product id="20448" chance="10000" count="1" />
+    </item>	
+
+    <!-- Light Purple   -Maned Horse Bracelet 30 Day Pack -->
+    <item id="20059" type="0">
+        <product id="20030" chance="10000" count="1" />
+    </item>	
+    <item id="21635" type="0">
+        <product id="20030" chance="10000" count="1" />
+    </item>	
+
+    <!-- Light Purple   -Maned Horse Bracelet Pack -->
+    <item id="21636" type="0">
+        <product id="20029" chance="10000" count="1" />
+    </item>	
+
+    <!-- Gold Maned Lion Mounting Bracelet 7 Day Pack        -->
+    <item id="14231" type="0">
+        <product id="14053" chance="10000" count="1" />
+    </item>	
+    <item id="14240" type="0">
+        <product id="14066" chance="10000" count="1" />
+    </item>	
+
+    <!-- Gold Maned Lion Mounting Bracelet 30 Day Pack        -->
+    <item id="20503" type="0">
+        <product id="14053" chance="10000" count="1" />
+    </item>	
+    <item id="21640" type="0">
+        <product id="20536" chance="10000" count="1" />
+    </item>	
+
+    <!-- Gold Maned Lion Mounting Bracelet Pack      -->
+    <item id="20502" type="0">
+        <product id="13547" chance="10000" count="1" />
+    </item>	
+
+    <!-- Mysterious Formal Dress     - Event Pack -->
+    <item id="20096" type="0">
+        <product id="20099" chance="10000" count="1" />
+    </item>	
+
+    <!-- Premium Valentine Decoration Pack     -->
+    <item id="20189" type="0">
+        <product id="20190" chance="10000" count="1" />
+    </item>	
+
+    <!-- Rocket Gun Hat    -->
+    <item id="20811" type="0">
+        <product id="20789" chance="10000" count="1" />
+    </item>	
+
+    <!-- Shiny Mask of Giant Hercules 7 day Pack        -->
+    <item id="20748" type="0">
+        <product id="20743" chance="10000" count="1" />
+    </item>	
+    <!-- Shiny Mask of Silent Scream 7 day Pack        -->
+    <item id="20749" type="0">
+        <product id="20744" chance="10000" count="1" />
+    </item>	
+    <!-- Shiny Spirit of Wrath Mask 7 day Pack        -->
+    <item id="20750" type="0">
+        <product id="20745" chance="10000" count="1" />
+    </item>	
+    <!-- Shiny Undecaying Corpse Mask 7Day Pack      -->
+    <item id="20751" type="0">
+        <product id="20746" chance="10000" count="1" />
+    </item>	
+    <!-- Shiny Planet X235 Alien Mask 7 day Pack        -->
+    <item id="20752" type="0">
+        <product id="20747" chance="10000" count="1" />
+    </item>	
+
+    <!-- Jet Bike 7 day Pack      -->
+    <item id="20946" type="0">
+        <product id="20938" chance="10000" count="1" />
+    </item>	
+    <item id="21642" type="0">
+        <product id="20938" chance="10000" count="1" />
+    </item>	
+    <!-- Jet Bike 30 day Pack      -->
+    <item id="20947" type="0">
+        <product id="20939" chance="10000" count="1" />
+    </item>	
+    <item id="21643" type="0">
+        <product id="20939" chance="10000" count="1" />
+    </item>	
+    <!-- Jet Bike   -->
+    <item id="21089" type="0">
+        <product id="21088" chance="10000" count="1" />
+    </item>	
+    <item id="21644" type="0">
+        <product id="21088" chance="10000" count="1" />
+    </item>	
+
+    <!-- Golden Spice Crate    -->
+    <item id="9055" type="0">
+        <product id="15474" chance="7500" count="50" />
+        <product id="15476" chance="500" count="5" />
+        <product id="15478" chance="2000" count="5" />
+    </item>	
+    <!-- Crystal Spice Crate    -->
+    <item id="9056" type="0">
+        <product id="15475" chance="7500" count="50" />
+        <product id="15477" chance="500" count="5" />
+        <product id="15475" chance="2000" count="5" />
+    </item>	
+
+    <!-- Freya Agathions   -->
+    <!-- Three-headed Dragon   -->
+    <item id="20994" type="0">
+        <product id="20970" chance="10000" count="1" />
+    </item>	
+    <!-- Ball Trapping Gnosian     Soccer Ball of Cheers -->
+    <item id="21000" type="0">
+        <product id="20983" chance="10000" count="1" />
+    </item>	
+    <!-- Ball Trapping Orodriel     Soccer Ball of Cheers -->
+    <item id="21001" type="0">
+        <product id="20984" chance="10000" count="1" />
+    </item>	
+    <!-- Penalty Kick    Soccer Ball of Cheers,Buff of Cheers -->
+    <item id="21002" type="0">
+        <product id="20985" chance="10000" count="1" />
+    </item>	
+    <!-- Ball Trapping Gnosian     Soccer Ball of Cheers -->
+    <item id="21003" type="0">
+        <product id="20986" chance="10000" count="1" />
+    </item>	
+    <!-- Ball Trapping Orodriel     Soccer Ball of Cheers -->
+    <item id="21004" type="0">
+        <product id="20987" chance="10000" count="1" />
+    </item>	
+    <!-- Penalty Kick    Soccer Ball of Cheers,Buff of Cheers -->
+    <item id="21005" type="0">
+        <product id="20988" chance="10000" count="1" />
+    </item>	
+    <!-- Ball Trapping Gnosian     Soccer Ball of Cheers -->
+    <item id="21006" type="0">
+        <product id="20989" chance="10000" count="1" />
+    </item>	
+    <!-- Ball Trapping Orodriel     Soccer Ball of Cheers -->
+    <item id="21007" type="0">
+        <product id="20990" chance="10000" count="1" />
+    </item>	
+    <!-- Penalty Kick    Soccer Ball of Cheers,Buff of Cheers -->
+    <item id="21008" type="0">
+        <product id="20991" chance="10000" count="1" />
+    </item>	
+    <!-- Granny Tiger    7 day limited period -->
+    <item id="21067" type="0">
+        <product id="21046" chance="10000" count="1" />
+    </item>	
+    <!-- Granny Tiger   -->
+    <item id="21068" type="0">
+        <product id="21047" chance="10000" count="1" />
+    </item>	
+    <!-- Flower Fairy Spirit    -->
+    <item id="21069" type="0">
+        <product id="21048" chance="10000" count="1" />
+    </item>	
+    <!-- Cheerleader Orodriel    7 day limited period -->
+    <item id="21070" type="0">
+        <product id="21049" chance="10000" count="1" />
+    </item>	
+    <!-- Cheerleader Orodriel   -->
+    <item id="21071" type="0">
+        <product id="21050" chance="10000" count="1" />
+    </item>	
+    <!-- Cheerleader Lana    7 day limited period -->
+    <item id="21072" type="0">
+        <product id="21051" chance="10000" count="1" />
+    </item>	
+    <!-- Cheerleader Lana   -->
+    <item id="21073" type="0">
+        <product id="21052" chance="10000" count="1" />
+    </item>	
+    <!-- Cheerleader Naonin    7 day limited period -->
+    <item id="21074" type="0">
+        <product id="21053" chance="10000" count="1" />
+    </item>	
+    <!-- Cheerleader Naonin   -->
+    <item id="21075" type="0">
+        <product id="21054" chance="10000" count="1" />
+    </item>	
+    <!-- Cheerleader Mortia    7 day limited period -->
+    <item id="21076" type="0">
+        <product id="21055" chance="10000" count="1" />
+    </item>	
+    <!-- Cheerleader Mortia   -->
+    <item id="21077" type="0">
+        <product id="21056" chance="10000" count="1" />
+    </item>	
+    <!-- Cheerleader Kaurin    7 day limited period -->
+    <item id="21078" type="0">
+        <product id="21057" chance="10000" count="1" />
+    </item>	
+    <!-- Cheerleader Kaurin   -->
+    <item id="21079" type="0">
+        <product id="21058" chance="10000" count="1" />
+    </item>	
+    <!-- Cheerleader Meruril    7 day limited period -->
+    <item id="21080" type="0">
+        <product id="21059" chance="10000" count="1" />
+    </item>	
+    <!-- Cheerleader Meruril    7 day limited period -->
+    <item id="21081" type="0">
+        <product id="21060" chance="10000" count="1" />
+    </item>	
+    <!-- Handy - 7 day limited period   -->
+    <item id="21082" type="0">
+        <product id="21061" chance="10000" count="1" />
+    </item>	
+    <!-- Handy  -->
+    <item id="21083" type="0">
+        <product id="21062" chance="10000" count="1" />
+    </item>	
+    <!-- Phoenix Agathion 7 Day Pack       - Nirvana Rebirth -->
+    <item id="20948" type="0">
+        <product id="20940" chance="10000" count="1" />
+    </item>	
+    <!-- Phoenix Agathion 7 Day Pack       - Oriental Phoenix  -->
+    <item id="20949" type="0">
+        <product id="20941" chance="10000" count="1" />
+    </item>	
+	<!-- Bone Quiver  -->
+    <item id="22089" type="0">
+        <product id="1341" chance="100000" count="10000" />
+    </item>	
+	<!-- Steel Quiver  -->
+    <item id="22090" type="0">
+        <product id="1342" chance="100000" count="10000" />
+    </item>	
+	<!-- Silver Quiver  -->
+    <item id="22091" type="0">
+        <product id="1343" chance="100000" count="10000" />
+    </item>	
+	<!-- Mithril Quiver  -->
+    <item id="22092" type="0">
+        <product id="1344" chance="100000" count="10000" />
+    </item>	
+	<!-- Quiver of Light  -->
+    <item id="22093" type="0">
+        <product id="1345" chance="100000" count="10000" />
+    </item>	
+	<item id="8534" type="0">
+        <product id="853" chance="14172" count="1" />
+		<product id="884" chance="21367" count="1" />
+		<product id="916" chance="10642" count="1" />
+	</item>
+	<item id="8535" type="0">
+        <product id="854" chance="14124" count="1" />
+		<product id="885" chance="21258" count="1" />
+		<product id="917" chance="10602" count="1" />
+    </item>
+	<item id="8536" type="0">
+        <product id="119" chance="9832" count="1" />
+		<product id="855" chance="13102" count="1" />
+		<product id="886" chance="19700" count="1" />
+    </item>
+	<item id="8537" type="0">
+        <product id="856" chance="13751" count="1" />
+		<product id="887" chance="20627" count="1" />
+		<product id="918" chance="10313" count="1" />
+    </item>
+	<item id="8538" type="0">
+        <product id="864" chance="12025" count="1" />
+		<product id="895" chance="18037" count="1" />
+		<product id="926" chance="9033" count="1" />
+    </item>
+	<item id="8539" type="0">
+        <product id="8177" chance="22222" count="1" />
+		<product id="8178" chance="18518" count="1" />
+		<product id="8179" chance="15873" count="1" />
+    </item>
+	<item id="8540" type="0">
+        <product id="8175" chance="16666" count="1" />
+    </item>
+	<item id="15200" type="1">
+        <product id="15222" chance="100000" count="1" />
+		<product id="15223" chance="100000" count="1" />
+		<product id="15224" chance="100000" count="1" />
+		<product id="15225" chance="100000" count="1" />
+		<product id="15230" chance="100000" count="1" />
+		<product id="15231" chance="100000" count="1" />
+		<product id="15232" chance="100000" count="1" />
+		<product id="15233" chance="100000" count="1" />
+		<product id="15234" chance="100000" count="1" />
+		<product id="15237" chance="100000" count="1" />
+		<product id="15270" chance="100000" count="1" />
+		<product id="15271" chance="100000" count="1" />
+		<product id="15272" chance="100000" count="1" />
+		<product id="15273" chance="100000" count="1" />
+	</item>
+	<item id="15201" type="1">
+        <product id="15246" chance="100000" count="1" />
+		<product id="15247" chance="100000" count="1" />
+		<product id="15248" chance="100000" count="1" />
+		<product id="15249" chance="100000" count="1" />
+		<product id="15261" chance="100000" count="1" />
+		<product id="15262" chance="100000" count="1" />
+		<product id="15265" chance="100000" count="1" />
+		<product id="15274" chance="100000" count="1" />
+		<product id="15275" chance="100000" count="1" />
+		<product id="15276" chance="100000" count="1" />
+		<product id="15277" chance="100000" count="1" />
+	</item>
+	<item id="15202" type="1">
+        <product id="15254" chance="100000" count="1" />
+		<product id="15255" chance="100000" count="1" />
+		<product id="15256" chance="100000" count="1" />
+		<product id="15257" chance="100000" count="1" />
+		<product id="15258" chance="100000" count="1" />
+		<product id="15274" chance="100000" count="1" />
+		<product id="15275" chance="100000" count="1" />
+		<product id="15276" chance="100000" count="1" />
+		<product id="15277" chance="100000" count="1" />
+	</item>
+	<item id="15203" type="1">
+        <product id="15246" chance="100000" count="1" />
+		<product id="15247" chance="100000" count="1" />
+		<product id="15248" chance="100000" count="1" />
+		<product id="15249" chance="100000" count="1" />
+		<product id="15261" chance="100000" count="1" />
+		<product id="15265" chance="100000" count="1" />
+		<product id="15266" chance="100000" count="1" />
+		<product id="15274" chance="100000" count="1" />
+		<product id="15275" chance="100000" count="1" />
+		<product id="15276" chance="100000" count="1" />
+		<product id="15277" chance="100000" count="1" />
+	</item>
+	<item id="15204" type="1">
+        <product id="15250" chance="100000" count="1" />
+		<product id="15251" chance="100000" count="1" />
+		<product id="15252" chance="100000" count="1" />
+		<product id="15253" chance="100000" count="1" />
+		<product id="15259" chance="100000" count="1" />
+		<product id="15260" chance="100000" count="1" />
+		<product id="15274" chance="100000" count="1" />
+		<product id="15275" chance="100000" count="1" />
+		<product id="15276" chance="100000" count="1" />
+		<product id="15277" chance="100000" count="1" />
+	</item>
+	<item id="15205" type="1">
+        <product id="15250" chance="100000" count="1" />
+		<product id="15251" chance="100000" count="1" />
+		<product id="15252" chance="100000" count="1" />
+		<product id="15253" chance="100000" count="1" />
+		<product id="15267" chance="100000" count="1" />
+		<product id="15268" chance="100000" count="1" />
+		<product id="15269" chance="100000" count="1" />
+		<product id="15274" chance="100000" count="1" />
+		<product id="15275" chance="100000" count="1" />
+		<product id="15276" chance="100000" count="1" />
+		<product id="15277" chance="100000" count="1" />
+	</item>
+	<item id="15206" type="1">
+        <product id="15246" chance="100000" count="1" />
+		<product id="15247" chance="100000" count="1" />
+		<product id="15248" chance="100000" count="1" />
+		<product id="15249" chance="100000" count="1" />
+		<product id="15250" chance="100000" count="1" />
+		<product id="15251" chance="100000" count="1" />
+		<product id="15252" chance="100000" count="1" />
+		<product id="15253" chance="100000" count="1" />
+		<product id="15263" chance="100000" count="1" />
+		<product id="15264" chance="100000" count="1" />
+		<product id="15266" chance="100000" count="1" />
+		<product id="15274" chance="100000" count="1" />
+		<product id="15275" chance="100000" count="1" />
+		<product id="15276" chance="100000" count="1" />
+		<product id="15277" chance="100000" count="1" />
+	</item>
+	<item id="15207" type="1">
+        <product id="15246" chance="100000" count="1" />
+		<product id="15247" chance="100000" count="1" />
+		<product id="15248" chance="100000" count="1" />
+		<product id="15249" chance="100000" count="1" />
+		<product id="15254" chance="100000" count="1" />
+		<product id="15255" chance="100000" count="1" />
+		<product id="15256" chance="100000" count="1" />
+		<product id="15257" chance="100000" count="1" />
+		<product id="15258" chance="100000" count="1" />
+		<product id="15261" chance="100000" count="1" />
+		<product id="15274" chance="100000" count="1" />
+		<product id="15275" chance="100000" count="1" />
+		<product id="15276" chance="100000" count="1" />
+		<product id="15277" chance="100000" count="1" />
+	</item>
+	<item id="15222" type="1">
+        <product id="15141" chance="100000" count="1" />
+		<product id="15142" chance="100000" count="1" />
+		<product id="15143" chance="100000" count="1" />
+		<product id="15144" chance="100000" count="1" />
+		<product id="15145" chance="100000" count="1" />
+	</item>
+	<item id="15223" type="1">
+        <product id="15115" chance="100000" count="1" />
+		<product id="15116" chance="100000" count="1" />
+		<product id="15118" chance="100000" count="1" />
+		<product id="15120" chance="100000" count="1" />
+		<product id="15121" chance="100000" count="1" />
+	</item>
+	<item id="15224" type="1">
+        <product id="15126" chance="100000" count="1" />
+		<product id="15127" chance="100000" count="1" />
+		<product id="15128" chance="100000" count="1" />
+		<product id="15129" chance="100000" count="1" />
+		<product id="15130" chance="100000" count="1" />
+	</item>
+	<item id="15225" type="1">
+        <product id="15135" chance="100000" count="1" />
+		<product id="15136" chance="100000" count="1" />
+		<product id="15137" chance="100000" count="1" />
+		<product id="15138" chance="100000" count="1" />
+		<product id="15138" chance="100000" count="1" />
+		<product id="15140" chance="100000" count="1" />
+	</item>
+	<item id="15226" type="1">
+        <product id="15110" chance="100000" count="1" />
+		<product id="15111" chance="100000" count="1" />
+		<product id="15112" chance="100000" count="1" />
+		<product id="15113" chance="100000" count="1" />
+		<product id="15093" chance="100000" count="1" />
+	</item>
+	<item id="15227" type="1">
+        <product id="15114" chance="100000" count="1" />
+		<product id="15115" chance="100000" count="1" />
+		<product id="15117" chance="100000" count="1" />
+		<product id="15119" chance="100000" count="1" />
+	</item>
+	<item id="15228" type="1">
+        <product id="15122" chance="100000" count="1" />
+		<product id="15123" chance="100000" count="1" />
+		<product id="15124" chance="100000" count="1" />
+		<product id="15125" chance="100000" count="1" />
+		<product id="15126" chance="100000" count="1" />
+	</item>
+	<item id="15229" type="1">
+        <product id="15131" chance="100000" count="1" />
+		<product id="15132" chance="100000" count="1" />
+		<product id="15133" chance="100000" count="1" />
+		<product id="15134" chance="100000" count="1" />
+		<product id="15137" chance="100000" count="1" />
+	</item>
+	<item id="15230" type="1">
+        <product id="15092" chance="100000" count="1" />
+		<product id="15093" chance="100000" count="1" />
+		<product id="15094" chance="100000" count="1" />
+		<product id="15095" chance="100000" count="1" />
+		<product id="15096" chance="100000" count="1" />
+	</item>
+	<item id="15231" type="1">
+        <product id="15097" chance="100000" count="1" />
+		<product id="15098" chance="100000" count="1" />
+		<product id="15099" chance="100000" count="1" />
+		<product id="15100" chance="100000" count="1" />
+		<product id="15101" chance="100000" count="1" />
+	</item>
+	<item id="15232" type="1">
+        <product id="15102" chance="100000" count="1" />
+		<product id="15103" chance="100000" count="1" />
+		<product id="15104" chance="100000" count="1" />
+		<product id="15105" chance="100000" count="1" />
+		<product id="15126" chance="100000" count="1" />
+	</item>
+	<item id="15233" type="1">
+        <product id="15106" chance="100000" count="1" />
+		<product id="15107" chance="100000" count="1" />
+		<product id="15108" chance="100000" count="1" />
+		<product id="15109" chance="100000" count="1" />
+		<product id="15137" chance="100000" count="1" />
+	</item>
+	<item id="15234" type="1">
+        <product id="15146" chance="100000" count="1" />
+		<product id="15147" chance="100000" count="1" />
+		<product id="15148" chance="100000" count="1" />
+		<product id="15149" chance="100000" count="1" />
+	</item>
+	<item id="15235" type="1">
+        <product id="15150" chance="100000" count="1" />
+		<product id="15151" chance="100000" count="1" />
+		<product id="15152" chance="100000" count="1" />
+		<product id="15153" chance="100000" count="1" />
+	</item>
+	<item id="15236" type="1">
+        <product id="15154" chance="100000" count="1" />
+		<product id="15155" chance="100000" count="1" />
+		<product id="15156" chance="100000" count="1" />
+		<product id="15157" chance="100000" count="1" />
+	</item>
+	<item id="15237" type="1">
+        <product id="15158" chance="100000" count="1" />
+		<product id="15159" chance="100000" count="1" />
+		<product id="15160" chance="100000" count="1" />
+		<product id="15161" chance="100000" count="1" />
+	</item>
+	<item id="15238" type="1">
+        <product id="15162" chance="100000" count="1" />
+		<product id="15163" chance="100000" count="1" />
+		<product id="15164" chance="100000" count="1" />
+		<product id="15165" chance="100000" count="1" />
+	</item>
+	<item id="15239" type="1">
+        <product id="15166" chance="100000" count="1" />
+		<product id="15167" chance="100000" count="1" />
+		<product id="15168" chance="100000" count="1" />
+		<product id="15169" chance="100000" count="1" />
+	</item>
+	<item id="15240" type="1">
+        <product id="15170" chance="100000" count="1" />
+		<product id="15171" chance="100000" count="1" />
+		<product id="15172" chance="100000" count="1" />
+		<product id="15173" chance="100000" count="1" />
+	</item>
+	<item id="15241" type="1">
+        <product id="15174" chance="100000" count="1" />
+		<product id="15175" chance="100000" count="1" />
+		<product id="15176" chance="100000" count="1" />
+		<product id="15177" chance="100000" count="1" />
+	</item>
+	<item id="15242" type="1">
+        <product id="15178" chance="100000" count="1" />
+		<product id="15179" chance="100000" count="1" />
+		<product id="15180" chance="100000" count="1" />
+		<product id="15181" chance="100000" count="1" />
+	</item>
+	<item id="15243" type="1">
+        <product id="15182" chance="100000" count="1" />
+		<product id="15183" chance="100000" count="1" />
+		<product id="15184" chance="100000" count="1" />
+		<product id="15185" chance="100000" count="1" />
+	</item>
+	<item id="15244" type="1">
+        <product id="15186" chance="100000" count="1" />
+		<product id="15187" chance="100000" count="1" />
+		<product id="15188" chance="100000" count="1" />
+		<product id="15189" chance="100000" count="1" />
+	</item>
+	<item id="15245" type="1">
+        <product id="15190" chance="100000" count="1" />
+		<product id="15191" chance="100000" count="1" />
+		<product id="15192" chance="100000" count="1" />
+		<product id="15193" chance="100000" count="1" />
+	</item>
+	<item id="15246" type="1">
+        <product id="15027" chance="100000" count="1" />
+		<product id="15028" chance="100000" count="1" />
+		<product id="15029" chance="100000" count="1" />
+		<product id="15030" chance="100000" count="1" />
+		<product id="15031" chance="100000" count="1" />
+	</item>
+	<item id="15247" type="1">
+        <product id="15001" chance="100000" count="1" />
+		<product id="15002" chance="100000" count="1" />
+		<product id="15004" chance="100000" count="1" />
+		<product id="15006" chance="100000" count="1" />
+		<product id="15007" chance="100000" count="1" />
+	</item>
+	<item id="15248" type="1">
+        <product id="15012" chance="100000" count="1" />
+		<product id="15013" chance="100000" count="1" />
+		<product id="15014" chance="100000" count="1" />
+		<product id="15015" chance="100000" count="1" />
+		<product id="15016" chance="100000" count="1" />
+	</item>
+	<item id="15249" type="1">
+        <product id="15021" chance="100000" count="1" />
+		<product id="15022" chance="100000" count="1" />
+		<product id="15023" chance="100000" count="1" />
+		<product id="15024" chance="100000" count="1" />
+		<product id="15025" chance="100000" count="1" />
+		<product id="15026" chance="100000" count="1" />
+	</item>
+	<item id="15250" type="1">
+        <product id="14996" chance="100000" count="1" />
+		<product id="14997" chance="100000" count="1" />
+		<product id="14998" chance="100000" count="1" />
+		<product id="14999" chance="100000" count="1" />
+		<product id="14979" chance="100000" count="1" />
+	</item>
+	<item id="15251" type="1">
+        <product id="15000" chance="100000" count="1" />
+		<product id="15001" chance="100000" count="1" />
+		<product id="15003" chance="100000" count="1" />
+		<product id="15005" chance="100000" count="1" />
+	</item>
+	<item id="15252" type="1">
+        <product id="15008" chance="100000" count="1" />
+		<product id="15009" chance="100000" count="1" />
+		<product id="15010" chance="100000" count="1" />
+		<product id="15011" chance="100000" count="1" />
+		<product id="15012" chance="100000" count="1" />
+	</item>
+	<item id="15253" type="1">
+        <product id="15017" chance="100000" count="1" />
+		<product id="15018" chance="100000" count="1" />
+		<product id="15019" chance="100000" count="1" />
+		<product id="15020" chance="100000" count="1" />
+		<product id="15023" chance="100000" count="1" />
+	</item>
+	<item id="15254" type="1">
+        <product id="14978" chance="100000" count="1" />
+		<product id="14979" chance="100000" count="1" />
+		<product id="14980" chance="100000" count="1" />
+		<product id="14981" chance="100000" count="1" />
+		<product id="14982" chance="100000" count="1" />
+	</item>
+	<item id="15255" type="1">
+        <product id="14983" chance="100000" count="1" />
+		<product id="14984" chance="100000" count="1" />
+		<product id="14985" chance="100000" count="1" />
+		<product id="14986" chance="100000" count="1" />
+		<product id="14987" chance="100000" count="1" />
+	</item>
+	<item id="15256" type="1">
+        <product id="14988" chance="100000" count="1" />
+		<product id="14989" chance="100000" count="1" />
+		<product id="14990" chance="100000" count="1" />
+		<product id="14991" chance="100000" count="1" />
+		<product id="15012" chance="100000" count="1" />
+	</item>
+	<item id="15257" type="1">
+        <product id="14992" chance="100000" count="1" />
+		<product id="14993" chance="100000" count="1" />
+		<product id="14994" chance="100000" count="1" />
+		<product id="14995" chance="100000" count="1" />
+		<product id="15023" chance="100000" count="1" />
+	</item>
+	<item id="15258" type="1">
+        <product id="15032" chance="100000" count="1" />
+		<product id="15033" chance="100000" count="1" />
+		<product id="15034" chance="100000" count="1" />
+		<product id="15035" chance="100000" count="1" />
+	</item>
+	<item id="15259" type="1">
+        <product id="15036" chance="100000" count="1" />
+		<product id="15037" chance="100000" count="1" />
+		<product id="15038" chance="100000" count="1" />
+		<product id="15039" chance="100000" count="1" />
+	</item>
+	<item id="15260" type="1">
+        <product id="15040" chance="100000" count="1" />
+		<product id="15041" chance="100000" count="1" />
+		<product id="15042" chance="100000" count="1" />
+		<product id="15043" chance="100000" count="1" />
+	</item>
+	<item id="15261" type="1">
+        <product id="15044" chance="100000" count="1" />
+		<product id="15045" chance="100000" count="1" />
+		<product id="15046" chance="100000" count="1" />
+		<product id="15047" chance="100000" count="1" />
+	</item>
+	<item id="15262" type="1">
+        <product id="15048" chance="100000" count="1" />
+		<product id="15049" chance="100000" count="1" />
+		<product id="15050" chance="100000" count="1" />
+		<product id="15051" chance="100000" count="1" />
+	</item>
+	<item id="15263" type="1">
+        <product id="15052" chance="100000" count="1" />
+		<product id="15053" chance="100000" count="1" />
+		<product id="15054" chance="100000" count="1" />
+		<product id="15055" chance="100000" count="1" />
+	</item>
+	<item id="15264" type="1">
+        <product id="15056" chance="100000" count="1" />
+		<product id="15057" chance="100000" count="1" />
+		<product id="15058" chance="100000" count="1" />
+		<product id="15059" chance="100000" count="1" />
+	</item>
+	<item id="15265" type="1">
+        <product id="15060" chance="100000" count="1" />
+		<product id="15061" chance="100000" count="1" />
+		<product id="15062" chance="100000" count="1" />
+		<product id="15063" chance="100000" count="1" />
+	</item>
+	<item id="15266" type="1">
+        <product id="15064" chance="100000" count="1" />
+		<product id="15065" chance="100000" count="1" />
+		<product id="15066" chance="100000" count="1" />
+		<product id="15067" chance="100000" count="1" />
+	</item>
+	<item id="15267" type="1">
+        <product id="15068" chance="100000" count="1" />
+		<product id="15069" chance="100000" count="1" />
+		<product id="15070" chance="100000" count="1" />
+		<product id="15071" chance="100000" count="1" />
+	</item>
+	<item id="15268" type="1">
+        <product id="15072" chance="100000" count="1" />
+		<product id="15073" chance="100000" count="1" />
+		<product id="15074" chance="100000" count="1" />
+		<product id="15075" chance="100000" count="1" />
+	</item>
+	<item id="15269" type="1">
+        <product id="15076" chance="100000" count="1" />
+		<product id="15077" chance="100000" count="1" />
+		<product id="15078" chance="100000" count="1" />
+		<product id="15079" chance="100000" count="1" />
+	</item>
+	<item id="15270" type="1">
+        <product id="15080" chance="100000" count="2" />
+		<product id="15081" chance="100000" count="1" />
+		<product id="15082" chance="100000" count="2" />
+	</item>
+	<item id="15271" type="1">
+        <product id="15084" chance="100000" count="1" />
+		<product id="15083" chance="100000" count="2" />
+		<product id="15085" chance="100000" count="2" />
+	</item>
+	<item id="15272" type="1">
+        <product id="15087" chance="100000" count="1" />
+		<product id="15086" chance="100000" count="2" />
+		<product id="15088" chance="100000" count="2" />
+	</item>
+	<item id="15273" type="1">
+        <product id="15090" chance="100000" count="1" />
+		<product id="15089" chance="100000" count="2" />
+		<product id="15091" chance="100000" count="2" />
+	</item>
+	<item id="15274" type="1">
+        <product id="14966" chance="100000" count="2" />
+		<product id="14967" chance="100000" count="1" />
+		<product id="14968" chance="100000" count="2" />
+	</item>
+	<item id="15275" type="1">
+        <product id="14970" chance="100000" count="1" />
+		<product id="14969" chance="100000" count="2" />
+		<product id="14971" chance="100000" count="2" />
+	</item>
+	<item id="15276" type="1">
+        <product id="14973" chance="100000" count="1" />
+		<product id="14972" chance="100000" count="2" />
+		<product id="14974" chance="100000" count="2" />
+	</item>
+	<item id="15277" type="1">
+        <product id="14976" chance="100000" count="1" />
+		<product id="14975" chance="100000" count="2" />
+		<product id="14977" chance="100000" count="2" />
+	</item>
+	 <!-- Упаковка: Зелье Поддержания Энергии - Ивент (Vitality Maintaining Potion Pack - For Events) -->
+    <item id="17024" type="0">
+        <product id="15440" chance="10000" count="5" />
+    </item>
+	<!-- Упаковка: Зелье Всплеска Энергии (Vitality Replenishing Potion Pack)  -->
+    <item id="21631" type="0">
+        <product id="20392" chance="10000" count="1" />
+    </item>
+	<!-- Сфера Удачи Ивент -->
+    <item id="21312" type="0">
+        <product id="14065" chance="14000" count="1" />
+		<product id="14055" chance="69000" count="1" />
+		<!-- данные с потолка -->
+		<product id="14678" chance="500" count="1" />
+		<product id="14679" chance="300" count="1" />
+		<product id="14680" chance="150" count="1" />
+		<product id="14681" chance="50" count="1" />
+		
+    </item>
+	<!-- Сфера Удачи -->
+    <item id="21311" type="0">
+        <product id="14065" chance="14000" count="1" />
+		<product id="14055" chance="69000" count="1" />
+		<!-- данные с потолка -->
+		<product id="14678" chance="500" count="1" />
+		<product id="14679" chance="300" count="1" />
+		<product id="14680" chance="150" count="1" />
+		<product id="14681" chance="50" count="1" />
+		
+    </item>
+	<item id="20328" type="0">
+        <product id="6647" chance="10000" count="5000" />
+    </item>
+	<item id="20331" type="0">
+        <product id="6647" chance="10000" count="10000" />
+    </item>
+	<item id="20101" type="1">
+        <product id="20075" chance="10000" count="1" />
+		<product id="20076" chance="10000" count="1" />
+		<product id="20077" chance="10000" count="1" />
+    </item>
+	<item id="20102" type="1">
+        <product id="20075" chance="10000" count="1" />
+		<product id="20076" chance="10000" count="1" />
+		<product id="20078" chance="10000" count="1" />
+    </item>
+	
+	<!--*********************************************
+	*												*
+	*												*
+	*	Реализация упаковок 90 дней by АНТИКЛАН		*
+	*												*
+	*												*
+	**********************************************-->
+	
+	<!-- Упаковка: Комплект Снаряжения 90 дн. Время действия: 90 дн. -->
+    <item id="16853" type="1">
+		
+		<!-- Доспехи Ранг S -->
+		<product id="21781" chance="10000" count="1" /> <!-- Упаковка: Комплект Ипмерского Крестоносца - Артефакт Дружбы(Ранг S) Время действия: 90 дн. -->
+		<product id="21786" chance="10000" count="1" /> <!-- Упаковка: Комплект из Драконьей Кожи (Ранг S) - Артефакт Дружбы Время действия: 90 дн. -->
+		<product id="21792" chance="10000" count="1" /> <!-- Упаковка: Комплект Мантии Тайн (Ранг S) - Артефакт Дружбы Время действия: 90 дн. -->
+		
+		<!-- Доспехи Ранг A -->
+		<product id="16975" chance="10000" count="1" /> <!-- Упаковка: Комплект Тяжелых Доспехов Кошмаров - Артефакт Дружбы(Ранг A) Время действия: 90 дн. -->
+		<product id="16979" chance="10000" count="1" /> <!-- Упаковка: Комплект Легких Доспехов Кристалла Тьмы - Артефакт Дружбы(Ранг A) Время действия: 90 дн. -->
+		<product id="16983" chance="10000" count="1" /> <!-- Упаковка: Комплект Мантии Кристалла Тьмы - Артефакт Дружбы(Ранг A) Время действия: 90 дн. -->
+		
+		<!-- Доспехи Ранг B -->
+		<product id="16976" chance="10000" count="1" /> <!-- Упаковка: Комплект Латных Доспехов Рока - Артефакт Дружбы(Ранг B) Время действия: 90 дн. -->
+		<product id="16980" chance="10000" count="1" /> <!-- Упаковка: Комплект Кожаных Доспехов Рока - Артефакт Дружбы(Ранг B) Время действия: 90 дн. -->
+		<product id="16984" chance="10000" count="1" /> <!-- Упаковка: Комплект Мантии Авадона - Артефакт Дружбы(Ранг B) Время действия: 90 дн. -->
+		
+		<!-- Доспехи Ранг C -->
+		<product id="16977" chance="10000" count="1" /> <!-- Упаковка: Комплект Полных Латных Доспехов - Артефакт Дружбы(Ранг C) Время действия: 90 дн. -->
+		<product id="16981" chance="10000" count="1" /> <!-- Упаковка: Комплект Латных Кожаных Доспехов - Артефакт Дружбы(Ранг C) Время действия: 90 дн. -->
+		<product id="16985" chance="10000" count="1" /> <!-- Упаковка: Комплект Туники Кармиана (Ранг C) - Артефакт Дружбы Время действия: 90 дн. -->
+		
+		<!-- Доспехи Ранг D -->
+		<product id="16978" chance="10000" count="1" /> <!-- Упаковка: Комплект Панцирных Доспехов - Артефакт Дружбы(Ранг D) Время действия: 90 дн. -->
+		<product id="16982" chance="10000" count="1" /> <!-- Упаковка: Комплект Доспехов из Шкуры Мантикоры - Артефакт Дружбы(Ранг D) Время действия: 90 дн. -->
+		<product id="16986" chance="10000" count="1" /> <!-- Упаковка: Комплект Мифриловой Туники - Артефакт Дружбы(Ранг D) Время действия: 90 дн. -->
+		
+		<!-- Бижутерия A, B, C, D -->
+		<product id="21816" chance="10000" count="1" /> <!-- Упаковка: Аксессуары Татеосса (Ранг S) - Артефакт Дружбы Время действия: 90 дн. -->
+		<product id="16999" chance="10000" count="1" /> <!-- Комплект Величия (Ранг A) - Артефакт Дружбы Время действия: 90 дн. -->
+		<product id="17000" chance="10000" count="1" /> <!-- Комплект Черного Снаряжения (Ранг B) - Артефакт Дружбы Время действия: 90 дн. -->
+		<product id="17001" chance="10000" count="1" /> <!-- Комплект Печати (Ранг C) - Артефакт Дружбы Время действия: 90 дн. -->
+		<product id="17002" chance="10000" count="1" /> <!-- Комплект Эльфов (Ранг D) - Артефакт Дружбы Время действия: 90 дн. -->
+		
+		<!-- Оружие -->
+		<product id="16987" chance="10000" count="1" /> <!-- Упаковка с Магическим Оружием - Артефакт Дружбы Время действия: 90 дн. -->
+		<product id="16988" chance="10000" count="1" /> <!-- Упаковка с Кинжалом - Артефакт Дружбы Время действия: 90 дн. -->
+		<product id="16989" chance="10000" count="1" /> <!-- Упаковка с Луком - Артефакт Дружбы Время действия: 90 дн. -->
+		<product id="16990" chance="10000" count="1" /> <!-- Упаковка с Булавой - Артефакт Дружбы Время действия: 90 дн. -->
+		<product id="16991" chance="10000" count="1" /> <!-- Упаковка с Одноручным Мечом - Артефакт Дружбы Время действия: 90  -->
+		<product id="16992" chance="10000" count="1" /> <!-- Упаковка с Двуручным Мечом - Артефакт Дружбы Время действия: 90 дн. -->
+		<product id="16993" chance="10000" count="1" /> <!-- Упаковка с Кастетом - Артефакт Дружбы Время действия: 90 дн. -->
+		<product id="16994" chance="10000" count="1" /> <!-- Упаковка с Парными Мечами - Артефакт Дружбы Время действия: 90 дн. -->
+		<product id="16995" chance="10000" count="1" /> <!-- Упаковка с Копьем - Артефакт Дружбы Время действия: 90 дн. -->
+		<product id="16996" chance="10000" count="1" /> <!-- Упаковка с Древним Мечом - Артефакт Дружбы Время действия: 90 дн. -->
+		<product id="16997" chance="10000" count="1" /> <!-- Упаковка с Рапирой - Артефакт Дружбы Время действия: 90 дн. -->
+		<product id="16998" chance="10000" count="1" /> <!-- Упаковка с Арбалетом - Артефакт Дружбы Время действия: 90 дн. -->
+
+	</item>
+
+	<!--*****************************************
+	*											*
+	*	Блок описания упаковок шмота по рангам	*
+	*											*
+	******************************************-->
+	
+	<!--******
+	* Ранг S *
+	*******-->
+	
+	<!-- Упаковка: Комплект Ипмерского Крестоносца - Артефакт Дружбы(Ранг S) Время действия: 90 дн. -->
+	<item id="21781" type="1">
+        <product id="21779" chance="10000" count="1" /> <!-- Шлем -->
+        <product id="21775" chance="10000" count="1" /> <!-- Тело: Верх -->
+        <product id="21776" chance="10000" count="1" /> <!-- Тело: Низ -->
+        <product id="21777" chance="10000" count="1" /> <!-- Перчатки -->
+        <product id="21778" chance="10000" count="1" /> <!-- Сапоги -->
+        <product id="21780" chance="10000" count="1" /> <!-- Щит -->
+    </item>
+	
+	<!-- Упаковка: Комплект из Драконьей Кожи (Ранг S) - Артефакт Дружбы Время действия: 90 дн. -->
+	<item id="21786" type="1">
+        <product id="21785" chance="10000" count="1" /> <!-- Шлем -->
+        <product id="21782" chance="10000" count="1" /> <!-- Тело: Цельное -->
+        <product id="21783" chance="10000" count="1" /> <!-- Перчатки -->
+        <product id="21784" chance="10000" count="1" /> <!-- Сапоги -->
+    </item>
+	
+	<!-- Упаковка: Комплект Мантии Тайн (Ранг S) - Артефакт Дружбы Время действия: 90 дн. -->
+	<item id="21792" type="1">
+        <product id="21790" chance="10000" count="1" /> <!-- Шлем -->
+        <product id="21787" chance="10000" count="1" /> <!-- Тело: Цельное -->
+        <product id="21788" chance="10000" count="1" /> <!-- Перчатки -->
+        <product id="21789" chance="10000" count="1" /> <!-- Сапоги -->
+		<product id="21791" chance="10000" count="1" /> <!-- Символ -->
+    </item>
+	
+	<!--******
+	* Ранг A *
+	*******-->
+	
+	<!-- Упаковка: Комплект Тяжелых Доспехов Кошмаров - Артефакт Дружбы(Ранг A) Время действия: 90 дн. -->
+	<item id="16975" type="1">
+        <product id="16916" chance="10000" count="1" /> <!-- Шлем -->
+        <product id="16915" chance="10000" count="1" /> <!-- Тело: Цельное -->
+        <product id="16917" chance="10000" count="1" /> <!-- Перчатки -->
+        <product id="16918" chance="10000" count="1" /> <!-- Сапоги -->
+        <product id="16919" chance="10000" count="1" /> <!-- Щит -->
+    </item>
+	
+	<!-- Упаковка: Комплект Легких Доспехов Кристалла Тьмы - Артефакт Дружбы(Ранг A) Время действия: 90 дн. -->
+	<item id="16979" type="1">
+        <product id="16867" chance="10000" count="1" /> <!-- Шлеи -->
+        <product id="16884" chance="10000" count="1" /> <!-- Тело: Верх -->
+        <product id="16885" chance="10000" count="1" /> <!-- Тело: Низ -->
+        <product id="16886" chance="10000" count="1" /> <!-- Перчатки -->
+		<product id="16887" chance="10000" count="1" /> <!-- Сапоги -->
+    </item>
+	
+	<!-- Упаковка: Комплект Мантии Кристалла Тьмы - Артефакт Дружбы(Ранг A) Время действия: 90 дн. -->
+	<item id="16983" type="1">
+        <product id="16867" chance="10000" count="1" /> <!-- Шлем -->
+        <product id="16866" chance="10000" count="1" /> <!-- Тело: Цельное -->
+        <product id="16868" chance="10000" count="1" /> <!-- Перчатки -->
+        <product id="16869" chance="10000" count="1" /> <!-- Сапоги -->
+		<product id="16870" chance="10000" count="1" /> <!-- Щит -->
+    </item>
+	
+	<!--******
+	* Ранг B *
+	*******-->
+	
+	<!-- Упаковка: Комплект Латных Доспехов Рока - Артефакт Дружбы(Ранг B) Время действия: 90 дн. -->
+	<item id="16976" type="1">
+        <product id="16889" chance="10000" count="1" /> <!-- Шлем -->
+        <product id="16894" chance="10000" count="1" /> <!-- Тело: Цельное -->
+        <product id="16890" chance="10000" count="1" /> <!-- Перчатки -->
+        <product id="16892" chance="10000" count="1" /> <!-- Сапоги -->
+        <product id="16895" chance="10000" count="1" /> <!-- Щит -->
+    </item>
+	
+	<!-- Упаковка: Комплект Кожаных Доспехов Рока - Артефакт Дружбы(Ранг B) Время действия: 90 дн. -->
+	<item id="16980" type="1">
+		<product id="16889" chance="10000" count="1" /> <!-- Шлем -->
+        <product id="16888" chance="10000" count="1" /> <!-- Тело: Цельное -->
+        <product id="16891" chance="10000" count="1" /> <!-- Перчатки -->
+        <product id="16893" chance="10000" count="1" /> <!-- Сапоги -->
+    </item>
+	
+	<!-- Упаковка: Комплект Мантии Авадона - Артефакт Дружбы(Ранг B) Время действия: 90 дн. -->
+	<item id="16984" type="1">
+        <product id="16872" chance="10000" count="1" /> <!-- Шлем -->
+        <product id="16871" chance="10000" count="1" /> <!-- Тело: Цельное -->
+        <product id="16873" chance="10000" count="1" /> <!-- Перчатки -->
+        <product id="16874" chance="10000" count="1" /> <!-- Сапоги -->
+        <product id="16875" chance="10000" count="1" /> <!-- Щит -->
+    </item>
+	
+	<!--******
+	* Ранг C *
+	*******-->
+	
+	<!-- Упаковка: Комплект Полных Латных Доспехов - Артефакт Дружбы(Ранг C) Время действия: 90 дн. -->
+	<item id="16977" type="1">
+        <product id="16900" chance="10000" count="1" /> <!-- Шлем -->
+        <product id="16901" chance="10000" count="1" /> <!-- Тело: Цельное -->
+        <product id="16903" chance="10000" count="1" /> <!-- Перчатки -->
+        <product id="16902" chance="10000" count="1" /> <!-- Сапоги -->
+        <product id="16904" chance="10000" count="1" /> <!-- Щит -->
+    </item>
+	
+	<!-- Упаковка: Комплект Латных Кожаных Доспехов - Артефакт Дружбы(Ранг C) Время действия: 90 дн. -->
+	<item id="16981" type="1">
+        <product id="16900" chance="10000" count="1" /> <!-- Шлем -->
+        <product id="16896" chance="10000" count="1" /> <!-- Тело: Верх -->
+        <product id="16897" chance="10000" count="1" /> <!-- Тело: Низ -->
+        <product id="16899" chance="10000" count="1" /> <!-- Перчатки -->
+        <product id="16898" chance="10000" count="1" /> <!-- Сапоги -->
+    </item>
+	
+	<!-- Упаковка: Комплект Туники Кармиана (Ранг C) - Артефакт Дружбы Время действия: 90 дн. -->
+	<item id="16985" type="1">
+        <product id="16900" chance="10000" count="1" /> <!-- Шлем -->
+        <product id="16876" chance="10000" count="1" /> <!-- Тело: Верх -->
+        <product id="16877" chance="10000" count="1" /> <!-- Тело: Низ -->
+        <product id="16878" chance="10000" count="1" /> <!-- Перчатки -->
+        <product id="16879" chance="10000" count="1" /> <!-- Сапоги -->
+		<product id="16904" chance="10000" count="1" /> <!-- Щит -->
+    </item>
+	
+	<!--******
+	* Ранг D *
+	*******-->
+	
+	<!-- Упаковка: Комплект Панцирных Доспехов - Артефакт Дружбы(Ранг D) Время действия: 90 дн. -->
+	<item id="16978" type="1">
+        <product id="16911" chance="10000" count="1" /> <!-- Шлем -->
+        <product id="16909" chance="10000" count="1" /> <!-- Тело: Верх -->
+        <product id="16910" chance="10000" count="1" /> <!-- Тело: Низ -->
+        <product id="16913" chance="10000" count="1" /> <!-- Перчатки -->
+        <product id="16912" chance="10000" count="1" /> <!-- Сапоги -->
+		<product id="16914" chance="10000" count="1" /> <!-- Щит -->
+    </item>
+	
+	<!-- Упаковка: Комплект Доспехов из Шкуры Мантикоры - Артефакт Дружбы(Ранг D) Время действия: 90 дн. -->
+	<item id="16982" type="1">
+        <product id="16911" chance="10000" count="1" /> <!-- Шлем -->
+        <product id="16905" chance="10000" count="1" /> <!-- Тело: Верх -->
+        <product id="16906" chance="10000" count="1" /> <!-- Тело: Низ -->
+        <product id="16908" chance="10000" count="1" /> <!-- Перчатки -->
+        <product id="16907" chance="10000" count="1" /> <!-- Сапоги -->
+    </item>
+	
+	<!-- Упаковка: Комплект Мифриловой Туники - Артефакт Дружбы(Ранг D) Время действия: 90 дн. -->
+	<item id="16986" type="1">
+        <product id="16911" chance="10000" count="1" /> <!-- Шлем -->
+        <product id="16880" chance="10000" count="1" /> <!-- Тело: Верх -->
+        <product id="16881" chance="10000" count="1" /> <!-- Тело: Низ -->
+        <product id="16882" chance="10000" count="1" /> <!-- Перчатки -->
+        <product id="16883" chance="10000" count="1" /> <!-- Сапоги -->
+		<product id="16914" chance="10000" count="1" /> <!-- Щит -->
+    </item>
+
+	<!--*********************************************
+	*												*
+	*	Блок описания упаковок бижутерии по рангам	*
+	*												*
+	**********************************************-->
+	
+	<!-- Упаковка: Аксессуары Татеосса (Ранг S) - Артефакт Дружбы Время действия: 90 дн. -->
+	<item id="21816" type="1">
+        <product id="21815" chance="10000" count="1" /> <!-- Ожерелье -->
+        <product id="21813" chance="10000" count="1" /> <!-- Серьга -->
+		<product id="21813" chance="10000" count="1" /> <!-- Серьга -->
+        <product id="21814" chance="10000" count="1" /> <!-- Кольцо -->
+		<product id="21814" chance="10000" count="1" /> <!-- Кольцо -->
+    </item>
+	
+	<!-- Комплект Величия (Ранг A) - Артефакт Дружбы Время действия: 90 дн. -->
+	<item id="16999" type="1">
+        <product id="16855" chance="10000" count="1" /> <!-- Ожерелье -->
+        <product id="16854" chance="10000" count="1" /> <!-- Серьга -->
+		<product id="16854" chance="10000" count="1" /> <!-- Серьга -->
+        <product id="16856" chance="10000" count="1" /> <!-- Кольцо -->
+		<product id="16856" chance="10000" count="1" /> <!-- Кольцо -->
+    </item>
+
+	<!-- Комплект Черного Снаряжения (Ранг B) - Артефакт Дружбы Время действия: 90 дн. -->
+	<item id="17000" type="1">
+        <product id="16858" chance="10000" count="1" /> <!-- Ожерелье -->
+        <product id="16857" chance="10000" count="1" /> <!-- Серьга -->
+		<product id="16857" chance="10000" count="1" /> <!-- Серьга -->
+        <product id="16859" chance="10000" count="1" /> <!-- Кольцо -->
+		<product id="16859" chance="10000" count="1" /> <!-- Кольцо -->
+    </item>
+
+	<!-- Комплект Печати (Ранг C) - Артефакт Дружбы Время действия: 90 дн. -->
+	<item id="17001" type="1">
+        <product id="16861" chance="10000" count="1" /> <!-- Ожерелье -->
+        <product id="16860" chance="10000" count="1" /> <!-- Серьга -->
+		<product id="16860" chance="10000" count="1" /> <!-- Серьга -->
+        <product id="16862" chance="10000" count="1" /> <!-- Кольцо -->
+		<product id="16862" chance="10000" count="1" /> <!-- Кольцо -->
+    </item>
+
+	<!-- Комплект Эльфов (Ранг D) - Артефакт Дружбы Время действия: 90 дн. -->
+	<item id="17002" type="1">
+        <product id="16864" chance="10000" count="1" /> <!-- Ожерелье -->
+        <product id="16863" chance="10000" count="1" /> <!-- Серьга -->
+		<product id="16863" chance="10000" count="1" /> <!-- Серьга -->
+        <product id="16865" chance="10000" count="1" /> <!-- Кольцо -->
+		<product id="16865" chance="10000" count="1" /> <!-- Кольцо -->
+    </item>
+
+	<!--*****************************************
+	*											*
+	*	Блок описания упаковок оружия по типам	*
+	*											*
+	******************************************-->
+	
+	<!-- Упаковка с Магическим Оружием - Артефакт Дружбы Время действия: 90 дн. -->
+	<item id="16987" type="1">
+		<product id="21821" chance="10000" count="1" /> <!-- Посох Тайн - Артефакт Дружбы Время действия: 90 дн. -->
+		<product id="16920" chance="10000" count="1" /> <!-- Легендарный Меч - Артефакт Дружбы Время действия: 90 дн. -->
+		<product id="16921" chance="10000" count="1" /> <!-- Слезы Чародея - Артефакт Дружбы Время действия: 90 дн. -->
+		<product id="16922" chance="10000" count="1" /> <!-- Клинок Меча Гомункула - Артефакт Дружбы Время действия: 90 дн. -->
+		<product id="16923" chance="10000" count="1" /> <!-- Посох Жизни - Артефакт Дружбы Время действия: 90 дн. -->
+    </item>
+	
+	<!-- Упаковка с Кинжалом - Артефакт Дружбы Время действия: 90 дн. -->
+	<item id="16988" type="1">
+		<product id="21822" chance="10000" count="1" /> <!-- Убийца Ангелов - Артефакт Дружбы Время действия: 90 дн. -->
+		<product id="16924" chance="10000" count="1" /> <!-- Буря Наги - Артефакт Дружбы Время действия: 90 дн. -->
+		<product id="16925" chance="10000" count="1" /> <!-- Крис - Артефакт Дружбы Время действия: 90 дн. -->
+		<product id="16926" chance="10000" count="1" /> <!-- Кинжал Тьмы - Артефакт Дружбы Время действия: 90 дн. -->
+		<product id="16927" chance="10000" count="1" /> <!-- Мифриловый Кинжал - Артефакт Дружбы Время действия: 90 дн. -->
+    </item>
+	
+	<!-- Упаковка с Луком - Артефакт Дружбы Время действия: 90 дн. -->
+	<item id="16989" type="1">
+		<product id="21823" chance="10000" count="1" /> <!-- Лук Дракона - Артефакт Дружбы Время действия: 90 дн. -->
+		<product id="16928" chance="10000" count="1" /> <!-- Лук Шиид - Артефакт Дружбы Время действия: 90 дн -->.
+		<product id="16929" chance="10000" count="1" /> <!-- Лук Угрозы - Артефакт Дружбы Время действия: 90 дн. -->
+		<product id="16930" chance="10000" count="1" /> <!-- Лук Превосходства - Артефакт Дружбы Время действия: 90 дн. -->
+		<product id="16931" chance="10000" count="1" /> <!-- Легкий Лук - Артефакт Дружбы Время действия: 90 дн. -->
+    </item>
+	
+	<!-- Упаковка с Булавой - Артефакт Дружбы Время действия: 90 дн. -->
+	<item id="16990" type="1">
+		<product id="21824" chance="10000" count="1" /> <!-- Базальтовый Боевой Молот - Артефакт Дружбы Время действия: 90 дн. -->
+		<product id="16932" chance="10000" count="1" /> <!-- Топор Баракиэля - Артефакт Дружбы Время действия: 90 дн. -->
+		<product id="16933" chance="10000" count="1" /> <!-- Топор Искусства Войны - Артефакт Дружбы Время действия: 90 дн. -->
+		<product id="16934" chance="10000" count="1" /> <!-- Булава Якса - Артефакт Дружбы Время действия: 90 дн. -->
+		<product id="16935" chance="10000" count="1" /> <!-- Костолом - Артефакт Дружбы Время действия: 90 дн. -->
+    </item>
+	
+	<!-- Упаковка с Одноручным Мечом - Артефакт Дружбы Время действия: 90  -->
+	<item id="16991" type="1">
+		<product id="21825" chance="10000" count="1" /> <!-- Забытый Клинок - Артефакт Дружбы Время действия: 90 дн. -->
+		<product id="16936" chance="10000" count="1" /> <!-- Клинок Сирры - Артефакт Дружбы Время действия: 90 дн. -->
+		<product id="16937" chance="10000" count="1" /> <!-- Дамаскус - Артефакт Дружбы Время действия: 90 дн. -->
+		<product id="16938" chance="10000" count="1" /> <!-- Длинный Меч Самурая - Артефакт Дружбы Время действия: 90 дн. -->
+		<product id="16939" chance="10000" count="1" /> <!-- Длинный Меч Эльфов - Артефакт Дружбы Время действия: 90 дн. -->
+    </item>
+	
+	<!-- Упаковка с Двуручным Мечом - Артефакт Дружбы Время действия: 90 дн. -->
+	<item id="16992" type="1">
+		<product id="21826" chance="10000" count="1" /> <!-- Разделитель Небес - Артефакт Дружбы Время действия: 90 дн. -->
+		<product id="16940" chance="10000" count="1" /> <!-- Меч Ипоса - Артефакт Дружбы Время действия: 90 дн. -->
+		<product id="16941" chance="10000" count="1" /> <!-- Меч Стража - Артефакт Дружбы Время действия: 90 дн. -->
+		<product id="16942" chance="10000" count="1" /> <!-- Клинок Берсерка - Артефакт Дружбы Время действия: 90 дн. -->
+		<product id="16943" chance="10000" count="1" /> <!-- Клеймор - Артефакт Дружбы Время действия: 90 дн. -->
+    </item>
+	
+	<!-- Упаковка с Кастетом - Артефакт Дружбы Время действия: 90 дн. -->
+	<item id="16993" type="1">
+		<product id="21827" chance="10000" count="1" /> <!-- Демон Одиночка - Артефакт Дружбы Время действия: 90 дн. -->
+		<product id="16944" chance="10000" count="1" /> <!-- Ураган Собекка - Артефакт Дружбы Время действия: 90 дн. -->
+		<product id="16945" chance="10000" count="1" /> <!-- Цестус Беллиона - Артефакт Дружбы Время действия: 90 дн. -->
+		<product id="16946" chance="10000" count="1" /> <!-- Большая Пата - Артефакт Дружбы Время действия: 90 дн. -->
+		<product id="16947" chance="10000" count="1" /> <!-- Шипованный Джамадхар - Артефакт Дружбы Время действия: 90 дн. -->
+    </item>
+	
+	<!-- Упаковка с Парными Мечами - Артефакт Дружбы Время действия: 90 дн. -->
+	<item id="16994" type="1">
+		<product id="21828" chance="10000" count="1" /> <!-- Клинок Таллума*Темный Легион - Артефакт Дружбы Время действия: 90 дн. -->
+		<product id="16948" chance="10000" count="1" /> <!-- Дамаскус*Клинок Таллума - Артефакт Дружбы Время действия: 90 дн. -->
+		<product id="16949" chance="10000" count="1" /> <!-- Длинный Меч Самурая*Длинный Меч Самурая - Артефакт Дружбы Время действия: 90 дн. -->
+		<product id="16950" chance="10000" count="1" /> <!-- Меч Духов*Меч Налетчика - Артефакт Дружбы Время действия: 90 дн. -->
+		<product id="16951" chance="10000" count="1" /> <!-- Полуторный Меч*Меч Эльфов - Артефакт Дружбы Время действия: 90 дн. -->
+    </item>
+	
+	<!-- Упаковка с Копьем - Артефакт Дружбы Время действия: 90 дн. -->
+	<item id="16995" type="1">
+		<product id="21829" chance="10000" count="1" /> <!-- Святое Копье - Артефакт Дружбы Время действия: 90 дн. -->
+		<product id="16952" chance="10000" count="1" /> <!-- Копье Тифона - Артефакт Дружбы Время действия: 90 дн. -->
+		<product id="16953" chance="10000" count="1" /> <!-- Пика - Артефакт Дружбы Время действия: 90 дн. -->
+		<product id="16954" chance="10000" count="1" /> <!-- Секира Орков - Артефакт Дружбы Время действия: 90 дн. -->
+		<product id="16955" chance="10000" count="1" /> <!-- Глефа - Артефакт Дружбы Время действия: 90 дн. -->
+    </item>
+	
+	<!-- Упаковка с Древним Мечом - Артефакт Дружбы Время действия: 90 дн. -->
+	<item id="16996" type="1">
+		<product id="21830" chance="10000" count="1" /> <!-- Грам - Артефакт Дружбы Время действия: 90 дн. -->
+		<product id="16956" chance="10000" count="1" /> <!-- Балтганг - Артефакт Дружбы Время действия: 90 дн. -->
+		<product id="16957" chance="10000" count="1" /> <!-- Расчленитель - Артефакт Дружбы Время действия: 90 дн. -->
+		<product id="16958" chance="10000" count="1" /> <!-- Клык - Артефакт Дружбы Время действия: 90 дн. -->
+		<product id="16959" chance="10000" count="1" /> <!-- Кацбальгер Генерала - Артефакт Дружбы Время действия: 90 дн. -->
+    </item>
+	
+	<!-- Упаковка с Рапирой - Артефакт Дружбы Время действия: 90 дн. -->
+	<item id="16997" type="1">
+		<product id="21831" chance="10000" count="1" /> <!-- Леветайн - Артефакт Дружбы Время действия: 90 дн. -->
+		<product id="16960" chance="10000" count="1" /> <!-- Гравированная Рапира - Артефакт Дружбы Время действия: 90 дн. -->
+		<product id="16961" chance="10000" count="1" /> <!-- Колишмард - Артефакт Дружбы Время действия: 90 дн. -->
+		<product id="16962" chance="10000" count="1" /> <!-- Эсток Адмирала - Артефакт Дружбы Время действия: 90 дн. -->
+		<product id="16963" chance="10000" count="1" /> <!-- Большая Рапира - Артефакт Дружбы Время действия: 90 дн. -->
+    </item>
+	
+	<!-- Упаковка с Арбалетом - Артефакт Дружбы Время действия: 90 дн. -->
+	<item id="16998" type="1">
+		<product id="21832" chance="10000" count="1" /> <!-- Шарнга - Артефакт Дружбы Время действия: 90 дн. -->
+		<product id="16964" chance="10000" count="1" /> <!-- Песня Мести - Артефакт Дружбы Время действия: 90 дн. -->
+		<product id="16965" chance="10000" count="1" /> <!-- Цербер - Артефакт Дружбы Время действия: 90 дн. -->
+		<product id="16966" chance="10000" count="1" /> <!-- Самострел - Артефакт Дружбы Время действия: 90 дн. -->
+		<product id="16967" chance="10000" count="1" /> <!-- Легкий Арбалет - Артефакт Дружбы Время действия: 90 дн. -->
+    </item>
+	<item id="20560" type="1">
+        <product id="20347" chance="10000" count="1" />
+    </item>
+	<item id="20561" type="1">
+        <product id="20348" chance="10000" count="1" />
+    </item>
+	<item id="20562" type="1">
+        <product id="20349" chance="10000" count="1" />
+    </item>
+	<item id="20563" type="1">
+        <product id="20350" chance="10000" count="1" />
+    </item>
+	<item id="20564" type="1">
+        <product id="20351" chance="10000" count="1" />
+    </item>
+	<item id="20565" type="1">
+        <product id="20352" chance="10000" count="1" />
+    </item>
+	<item id="20566" type="1">
+        <product id="22066" chance="10000" count="1" />
+    </item>
+	<item id="21087" type="1">
+        <product id="21086" chance="10000" count="1" />
+    </item>
+	
+</list>
+
+

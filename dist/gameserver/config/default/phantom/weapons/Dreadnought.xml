@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE list SYSTEM "phantomWeapon.dtd">
+<list>
+	<BotWeaponObject classId="89" className="Dreadnought">
+		<weapon id="16001" enchant="10" is_random="false" augment_chance="50" attribute_min="300" attribute_max="300" attribute="earth" is_att_random="false"/>
+	</BotWeaponObject>
+	<BotWeaponObject classId="89" className="Dreadnought">
+		<weapon id="14493" enchant="10" is_random="false" augment_chance="50" attribute_min="300" attribute_max="300" attribute="wind" is_att_random="false"/>
+	</BotWeaponObject>
+	<BotWeaponObject classId="89" className="Dreadnought">
+		<weapon id="14495" enchant="10" is_random="false" augment_chance="50" attribute_min="300" attribute_max="300" attribute="holy" is_att_random="false"/>
+	</BotWeaponObject>
+	<BotWeaponObject classId="89" className="Dreadnought">
+		<weapon id="15961" enchant="10" is_random="false" augment_chance="50" attribute_min="300" attribute_max="300" attribute="fire" is_att_random="false"/>
+	</BotWeaponObject>
+	<BotWeaponObject classId="89" className="Dreadnought">
+		<weapon id="15960" enchant="10" is_random="false" augment_chance="50" attribute_min="300" attribute_max="300" attribute="water" is_att_random="false"/>
+	</BotWeaponObject>
+	<BotWeaponObject classId="89" className="Dreadnought">
+		<weapon id="16002" enchant="10" is_random="false" augment_chance="50" attribute_min="300" attribute_max="300" attribute="dark" is_att_random="false"/>
+	</BotWeaponObject>
+ </list>

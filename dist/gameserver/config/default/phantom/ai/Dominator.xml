@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE list SYSTEM "phantomAI.dtd">
+<list>
+
+     <!-- Овер -->
+	 
+	<ClassObject classId="115" className="Dominator" sex="1">
+		<ai_type type="b_mystic" sub_type="stupid" />
+		<henna id1="180" id2="171" id3="175"/>
+		<nuke_skills>
+			<skill id="1245" level="14" is_enchantable="true" is_random="false" ench_max_value="30" ench_route="1"/> <!-- Steal Essence -->
+		</nuke_skills>
+		<rare_nuke_skills>
+		 <!-- Нету -->
+		</rare_nuke_skills>
+		<self_buff_skills>
+			<skill id="1256" level="13" is_enchantable="true" is_random="false" ench_max_value="30" ench_route="1"/> <!-- The Heart of Pa'agrio -->
+		</self_buff_skills>
+		<ultimate_self_buff_skills>
+			<skill id="1306" level="1" is_enchantable="true" is_random="false" ench_max_value="30" ench_route="1"/> <!-- Ritual of Life -->
+			<skill id="1540" level="1" /> <!-- Turn to Stone -->
+			<skill id="1532" level="1" /> <!-- Enlightenment -->
+		</ultimate_self_buff_skills>
+		<debuff_skills>
+			<skill id="1248" level="12" /> <!-- Seal of Suspension -->
+			<skill id="1104" level="14" /> <!-- Seal of Winter -->
+			<skill id="1208" level="17" /> <!-- Seal of Binding -->
+			<skill id="1097" level="20" /> <!-- Dreaming Spirit -->
+		</debuff_skills>
+		<rare_debuff_skills>
+			<skill id="1509" level="1" /> <!-- Seal of Limit -->
+		</rare_debuff_skills>
+		<passive_skills>
+			<skill id="632" level="6" /> <!-- Emergent Ability - Defence -->
+			<skill id="652" level="1" /> <!-- Knight Ability - Defense -->
+			<skill id="655" level="1" /> <!-- Enchanter Ability - Barrier -->
+			<skill id="1491" level="1" /> <!-- Summoner Ability - Spirit -->
+		</passive_skills>
+		<consumble_skills>
+			<skill id="6439" level="1" target="self" cond="MP;50;0"/> <!-- MP Potion, бот использует когда MP меньше 50% один раз -->
+			<skill id="2166" level="1" target="self" cond="CP;90;0"/> <!-- CP Potion Low, бот использует когда CP меньше 90% -->
+		</consumble_skills>
+	</ClassObject>
+ </list>

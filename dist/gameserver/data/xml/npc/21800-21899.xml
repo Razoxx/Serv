@@ -1,0 +1,2678 @@
+<?xml version="1.0"?><!DOCTYPE list SYSTEM "npc.dtd"><list>
+    <npc id="21800" name="Vassal Ghost" title="">
+        <set name="aggroRange" value="300"/>
+        <set name="ai_type" value="Mystic"/>
+        <set name="baseAtkRange" value="40"/>
+        <set name="baseCON" value="43"/>
+        <set name="baseCritRate" value="4"/>
+        <set name="baseDEX" value="30"/>
+        <set name="baseHpMax" value="2762.08447"/>
+        <set name="baseHpRate" value="2"/>
+        <set name="baseHpReg" value="8.5"/>
+        <set name="baseINT" value="21"/>
+        <set name="baseMAtk" value="571"/>
+        <set name="baseMAtkSpd" value="500"/>
+        <set name="baseMDef" value="219"/>
+        <set name="baseMEN" value="20"/>
+        <set name="baseMpMax" value="1574"/>
+        <set name="baseMpReg" value="3"/>
+        <set name="basePAtk" value="836"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="basePDef" value="328"/>
+        <set name="baseRunSpd" value="15"/>
+        <set name="baseSTR" value="40"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="baseWIT" value="20"/>
+        <set name="baseWalkSpd" value="15"/>
+        <set name="collision_height" value="21"/>
+        <set name="collision_radius" value="13"/>
+        <set name="level" value="77"/>
+        <set name="isAgro" value="0"/>
+        <set name="rewardExp" value="13234"/>
+        <set name="rewardRp" value="0"/>
+        <set name="rewardSp" value="1432"/>
+        <set name="shots" value="NONE"/>
+        <set name="texture" value=""/>
+        <set name="type" value="Monster"/>
+        <skills>
+            <skill id="4416" level="1"/>
+            <skill id="4274" level="1"/>
+            <skill id="4789" level="5"/>
+            <skill id="4567" level="8"/>
+            <skill id="4408" level="10"/>
+            <skill id="4409" level="1"/>
+            <skill id="4410" level="11"/>
+            <skill id="4411" level="11"/>
+            <skill id="4412" level="11"/>
+            <skill id="4413" level="11"/>
+            <skill id="4414" level="2"/>
+            <skill id="4415" level="3"/>
+        </skills>
+        <rewardlist type="RATED_GROUPED">
+            <group chance="70">
+                <reward chance="100" item_id="57" max="3785" min="1853"/>
+            </group>
+            <group chance="0.2536">
+                <reward chance="1.8833" item_id="11946" max="1" min="1"/>
+                <reward chance="23.2872" item_id="5543" max="1" min="1"/>
+                <reward chance="1.8833" item_id="11949" max="1" min="1"/>
+                <reward chance="23.0697" item_id="5532" max="1" min="1"/>
+                <reward chance="1.8833" item_id="11953" max="1" min="1"/>
+                <reward chance="23.0402" item_id="8341" max="1" min="1"/>
+                <reward chance="1.8833" item_id="11958" max="1" min="1"/>
+                <reward chance="23.0697" item_id="8346" max="1" min="1"/>
+            </group>
+            <group chance="49.0569">
+                <reward chance="18.8588" item_id="1867" max="3" min="1"/>
+                <reward chance="37.7176" item_id="1872" max="1" min="1"/>
+                <reward chance="6.2863" item_id="1882" max="1" min="1"/>
+                <reward chance="0.9926" item_id="1894" max="1" min="1"/>
+                <reward chance="0.4715" item_id="4042" max="1" min="1"/>
+                <reward chance="0.0126" item_id="5272" max="1" min="1"/>
+                <reward chance="0.2357" item_id="8732" max="1" min="1"/>
+                <reward chance="0.0589" item_id="8742" max="1" min="1"/>
+                <reward chance="0.0059" item_id="8752" max="1" min="1"/>
+                <reward chance="35.3601" item_id="1344" max="30" min="10"/>
+            </group>
+        </rewardlist>
+        <rewardlist type="SWEEP">
+            <reward chance="0.167" item_id="5167" max="1" min="1"/>
+            <reward chance="1.0311" item_id="5529" max="1" min="1"/>
+            <reward chance="6.2641" item_id="4042" max="1" min="1"/>
+        </rewardlist>
+        <attributes>
+            <attack attribute="unholy" value="20"/>
+            <defence attribute="fire" value="20"/>
+            <defence attribute="water" value="20"/>
+            <defence attribute="wind" value="20"/>
+            <defence attribute="earth" value="20"/>
+            <defence attribute="holy" value="-32"/>
+            <defence attribute="unholy" value="53"/>
+        </attributes>
+    </npc>
+    <npc id="21801" name="Treasure Chest" title="">
+        <set name="aggroRange" value="300"/>
+        <set name="ai_type" value="Fighter"/>
+        <set name="baseAtkRange" value="40"/>
+        <set name="baseCON" value="43"/>
+        <set name="baseCritRate" value="1"/>
+        <set name="baseDEX" value="30"/>
+        <set name="baseHpMax" value="364.30351"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="3.5"/>
+        <set name="baseINT" value="21"/>
+        <set name="baseMAtk" value="33"/>
+        <set name="baseMAtkSpd" value="500"/>
+        <set name="baseMDef" value="60"/>
+        <set name="baseMEN" value="20"/>
+        <set name="baseMpMax" value="205.2"/>
+        <set name="baseMpReg" value="1.5"/>
+        <set name="basePAtk" value="48"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="basePDef" value="90"/>
+        <set name="baseRunSpd" value="165"/>
+        <set name="baseSTR" value="40"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="baseWIT" value="20"/>
+        <set name="baseWalkSpd" value="80"/>
+        <set name="collision_height" value="8.5"/>
+        <set name="collision_radius" value="8.5"/>
+        <set name="level" value="21"/>
+        <set name="isAgro" value="0"/>
+        <set name="rewardExp" value="631"/>
+        <set name="rewardRp" value="0"/>
+        <set name="rewardSp" value="29"/>
+        <set name="shots" value="NONE"/>
+        <set name="texture" value=""/>
+        <set name="type" value="Monster"/>
+        <ai_params>
+            <set name="noRandomWalk" value="true"/>
+        </ai_params>
+        <skills>
+            <skill id="4416" level="2"/>
+            <skill id="4408" level="1"/>
+            <skill id="4409" level="1"/>
+            <skill id="4410" level="11"/>
+            <skill id="4411" level="11"/>
+            <skill id="4412" level="11"/>
+            <skill id="4045" level="1"/>
+            <skill id="4413" level="11"/>
+            <skill id="4414" level="2"/>
+            <skill id="4415" level="5"/>
+        </skills>
+        <rewardlist type="RATED_GROUPED">
+            <group chance="70">
+                <reward chance="100" item_id="57" max="191" min="107"/>
+            </group>
+            <group chance="1.3812">
+                <reward chance="7.0524" item_id="39" max="1" min="1"/>
+                <reward chance="85.8951" item_id="1930" max="1" min="1"/>
+                <reward chance="7.0525" item_id="51" max="1" min="1"/>
+            </group>
+            <group chance="12.7651">
+                <reward chance="54.3692" item_id="1864" max="1" min="1"/>
+                <reward chance="27.1846" item_id="1869" max="1" min="1"/>
+                <reward chance="10.8738" item_id="1878" max="1" min="1"/>
+                <reward chance="7.5724" item_id="2151" max="1" min="1"/>
+            </group>
+        </rewardlist>
+        <rewardlist type="SWEEP">
+            <reward chance="46.9914" item_id="1864" max="1" min="1"/>
+            <reward chance="23.4957" item_id="1869" max="1" min="1"/>
+            <reward chance="2.3733" item_id="1926" max="1" min="1"/>
+        </rewardlist>
+        <attributes>
+            <defence attribute="fire" value="20"/>
+            <defence attribute="water" value="20"/>
+            <defence attribute="wind" value="20"/>
+            <defence attribute="earth" value="20"/>
+            <defence attribute="holy" value="20"/>
+            <defence attribute="unholy" value="20"/>
+        </attributes>
+    </npc>
+    <npc id="21802" name="Treasure Chest" title="">
+        <set name="aggroRange" value="300"/>
+        <set name="ai_type" value="Fighter"/>
+        <set name="baseAtkRange" value="40"/>
+        <set name="baseCON" value="43"/>
+        <set name="baseCritRate" value="1"/>
+        <set name="baseDEX" value="30"/>
+        <set name="baseHpMax" value="435.34437"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="3.5"/>
+        <set name="baseINT" value="21"/>
+        <set name="baseMAtk" value="41"/>
+        <set name="baseMAtkSpd" value="500"/>
+        <set name="baseMDef" value="66"/>
+        <set name="baseMEN" value="20"/>
+        <set name="baseMpMax" value="245.52"/>
+        <set name="baseMpReg" value="1.5"/>
+        <set name="basePAtk" value="60"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="basePDef" value="99"/>
+        <set name="baseRunSpd" value="165"/>
+        <set name="baseSTR" value="40"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="baseWIT" value="20"/>
+        <set name="baseWalkSpd" value="80"/>
+        <set name="collision_height" value="8.5"/>
+        <set name="collision_radius" value="8.5"/>
+        <set name="level" value="24"/>
+        <set name="isAgro" value="0"/>
+        <set name="rewardExp" value="772"/>
+        <set name="rewardRp" value="0"/>
+        <set name="rewardSp" value="38"/>
+        <set name="shots" value="NONE"/>
+        <set name="texture" value=""/>
+        <set name="type" value="Monster"/>
+        <ai_params>
+            <set name="noRandomWalk" value="true"/>
+        </ai_params>
+        <skills>
+            <skill id="4416" level="2"/>
+            <skill id="4408" level="1"/>
+            <skill id="4409" level="1"/>
+            <skill id="4410" level="11"/>
+            <skill id="4411" level="11"/>
+            <skill id="4412" level="11"/>
+            <skill id="4045" level="1"/>
+            <skill id="4413" level="11"/>
+            <skill id="4414" level="2"/>
+            <skill id="4415" level="5"/>
+        </skills>
+        <rewardlist type="RATED_GROUPED">
+            <group chance="70">
+                <reward chance="100" item_id="57" max="225" min="122"/>
+            </group>
+            <group chance="0.2781">
+                <reward chance="58.9212" item_id="625" max="1" min="1"/>
+                <reward chance="41.0788" item_id="1148" max="1" min="1"/>
+            </group>
+            <group chance="10.728">
+                <reward chance="37.8052" item_id="1865" max="1" min="1"/>
+                <reward chance="37.8052" item_id="1870" max="1" min="1"/>
+                <reward chance="6.3009" item_id="1879" max="1" min="1"/>
+                <reward chance="18.0887" item_id="2176" max="1" min="1"/>
+            </group>
+        </rewardlist>
+        <rewardlist type="SWEEP">
+            <reward chance="7.6492" item_id="2151" max="1" min="1"/>
+            <reward chance="4.0001" item_id="1928" max="1" min="1"/>
+            <reward chance="13.1391" item_id="2176" max="1" min="1"/>
+        </rewardlist>
+        <attributes>
+            <defence attribute="fire" value="20"/>
+            <defence attribute="water" value="20"/>
+            <defence attribute="wind" value="20"/>
+            <defence attribute="earth" value="20"/>
+            <defence attribute="holy" value="20"/>
+            <defence attribute="unholy" value="20"/>
+        </attributes>
+    </npc>
+    <npc id="21803" name="Treasure Chest" title="">
+        <set name="aggroRange" value="300"/>
+        <set name="ai_type" value="Fighter"/>
+        <set name="baseAtkRange" value="40"/>
+        <set name="baseCON" value="43"/>
+        <set name="baseCritRate" value="1"/>
+        <set name="baseDEX" value="30"/>
+        <set name="baseHpMax" value="515.17856"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="3.5"/>
+        <set name="baseINT" value="21"/>
+        <set name="baseMAtk" value="51"/>
+        <set name="baseMAtkSpd" value="500"/>
+        <set name="baseMDef" value="72"/>
+        <set name="baseMEN" value="20"/>
+        <set name="baseMpMax" value="286.92"/>
+        <set name="baseMpReg" value="1.5"/>
+        <set name="basePAtk" value="75"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="basePDef" value="108"/>
+        <set name="baseRunSpd" value="165"/>
+        <set name="baseSTR" value="40"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="baseWIT" value="20"/>
+        <set name="baseWalkSpd" value="80"/>
+        <set name="collision_height" value="8.5"/>
+        <set name="collision_radius" value="8.5"/>
+        <set name="level" value="27"/>
+        <set name="isAgro" value="0"/>
+        <set name="rewardExp" value="919"/>
+        <set name="rewardRp" value="0"/>
+        <set name="rewardSp" value="47"/>
+        <set name="shots" value="NONE"/>
+        <set name="texture" value=""/>
+        <set name="type" value="Monster"/>
+        <ai_params>
+            <set name="noRandomWalk" value="true"/>
+        </ai_params>
+        <skills>
+            <skill id="4416" level="2"/>
+            <skill id="4408" level="1"/>
+            <skill id="4409" level="1"/>
+            <skill id="4410" level="11"/>
+            <skill id="4411" level="11"/>
+            <skill id="4412" level="11"/>
+            <skill id="4045" level="1"/>
+            <skill id="4413" level="11"/>
+            <skill id="4414" level="2"/>
+            <skill id="4415" level="5"/>
+        </skills>
+        <rewardlist type="RATED_GROUPED">
+            <group chance="70">
+                <reward chance="100" item_id="57" max="264" min="137"/>
+            </group>
+            <group chance="1.2748">
+                <reward chance="4.3392" item_id="40" max="1" min="1"/>
+                <reward chance="45.6608" item_id="1931" max="1" min="1"/>
+                <reward chance="4.3392" item_id="604" max="1" min="1"/>
+                <reward chance="45.6608" item_id="1934" max="1" min="1"/>
+            </group>
+            <group chance="7.0036">
+                <reward chance="33.9088" item_id="1866" max="1" min="1"/>
+                <reward chance="50.8632" item_id="1871" max="1" min="1"/>
+                <reward chance="2.0345" item_id="5220" max="1" min="1"/>
+                <reward chance="4.2386" item_id="1885" max="1" min="1"/>
+                <reward chance="8.9549" item_id="2152" max="1" min="1"/>
+            </group>
+        </rewardlist>
+        <rewardlist type="SWEEP">
+            <reward chance="4.9588" item_id="1899" max="1" min="1"/>
+            <reward chance="31.7362" item_id="1871" max="1" min="1"/>
+            <reward chance="1.2695" item_id="5220" max="1" min="1"/>
+        </rewardlist>
+        <attributes>
+            <defence attribute="fire" value="20"/>
+            <defence attribute="water" value="20"/>
+            <defence attribute="wind" value="20"/>
+            <defence attribute="earth" value="20"/>
+            <defence attribute="holy" value="20"/>
+            <defence attribute="unholy" value="20"/>
+        </attributes>
+    </npc>
+    <npc id="21804" name="Treasure Chest" title="">
+        <set name="aggroRange" value="300"/>
+        <set name="ai_type" value="Fighter"/>
+        <set name="baseAtkRange" value="40"/>
+        <set name="baseCON" value="43"/>
+        <set name="baseCritRate" value="1"/>
+        <set name="baseDEX" value="30"/>
+        <set name="baseHpMax" value="604.08419"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="3.5"/>
+        <set name="baseINT" value="21"/>
+        <set name="baseMAtk" value="63"/>
+        <set name="baseMAtkSpd" value="500"/>
+        <set name="baseMDef" value="79"/>
+        <set name="baseMEN" value="20"/>
+        <set name="baseMpMax" value="329.4"/>
+        <set name="baseMpReg" value="1.5"/>
+        <set name="basePAtk" value="93"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="basePDef" value="118"/>
+        <set name="baseRunSpd" value="165"/>
+        <set name="baseSTR" value="40"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="baseWIT" value="20"/>
+        <set name="baseWalkSpd" value="80"/>
+        <set name="collision_height" value="8.5"/>
+        <set name="collision_radius" value="8.5"/>
+        <set name="level" value="30"/>
+        <set name="isAgro" value="0"/>
+        <set name="rewardExp" value="1080"/>
+        <set name="rewardRp" value="0"/>
+        <set name="rewardSp" value="59"/>
+        <set name="shots" value="NONE"/>
+        <set name="texture" value=""/>
+        <set name="type" value="Monster"/>
+        <ai_params>
+            <set name="noRandomWalk" value="true"/>
+        </ai_params>
+        <skills>
+            <skill id="4416" level="2"/>
+            <skill id="4408" level="1"/>
+            <skill id="4409" level="1"/>
+            <skill id="4410" level="11"/>
+            <skill id="4411" level="11"/>
+            <skill id="4412" level="11"/>
+            <skill id="4045" level="1"/>
+            <skill id="4413" level="11"/>
+            <skill id="4414" level="2"/>
+            <skill id="4415" level="5"/>
+        </skills>
+        <rewardlist type="RATED_GROUPED">
+            <group chance="70">
+                <reward chance="100" item_id="57" max="308" min="154"/>
+            </group>
+            <group chance="0.1261">
+                <reward chance="58.8055" item_id="627" max="1" min="1"/>
+                <reward chance="41.1945" item_id="46" max="1" min="1"/>
+            </group>
+            <group chance="15.6555">
+                <reward chance="42.4779" item_id="1867" max="1" min="1"/>
+                <reward chance="42.4779" item_id="1872" max="1" min="1"/>
+                <reward chance="7.0796" item_id="1882" max="1" min="1"/>
+                <reward chance="7.9646" item_id="2250" max="1" min="1"/>
+            </group>
+        </rewardlist>
+        <rewardlist type="SWEEP">
+            <reward chance="22.1263" item_id="1061" max="1" min="1"/>
+            <reward chance="3.9943" item_id="1900" max="1" min="1"/>
+            <reward chance="9.1271" item_id="2250" max="1" min="1"/>
+        </rewardlist>
+        <attributes>
+            <defence attribute="fire" value="20"/>
+            <defence attribute="water" value="20"/>
+            <defence attribute="wind" value="20"/>
+            <defence attribute="earth" value="20"/>
+            <defence attribute="holy" value="20"/>
+            <defence attribute="unholy" value="20"/>
+        </attributes>
+    </npc>
+    <npc id="21805" name="Treasure Chest" title="">
+        <set name="aggroRange" value="300"/>
+        <set name="ai_type" value="Fighter"/>
+        <set name="baseAtkRange" value="40"/>
+        <set name="baseCON" value="43"/>
+        <set name="baseCritRate" value="1"/>
+        <set name="baseDEX" value="30"/>
+        <set name="baseHpMax" value="702.20463"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="4.5"/>
+        <set name="baseINT" value="21"/>
+        <set name="baseMAtk" value="77"/>
+        <set name="baseMAtkSpd" value="500"/>
+        <set name="baseMDef" value="86"/>
+        <set name="baseMEN" value="20"/>
+        <set name="baseMpMax" value="372.96"/>
+        <set name="baseMpReg" value="1.8"/>
+        <set name="basePAtk" value="113"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="basePDef" value="129"/>
+        <set name="baseRunSpd" value="165"/>
+        <set name="baseSTR" value="40"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="baseWIT" value="20"/>
+        <set name="baseWalkSpd" value="80"/>
+        <set name="collision_height" value="8.5"/>
+        <set name="collision_radius" value="8.5"/>
+        <set name="level" value="33"/>
+        <set name="isAgro" value="0"/>
+        <set name="rewardExp" value="1307"/>
+        <set name="rewardRp" value="0"/>
+        <set name="rewardSp" value="75"/>
+        <set name="shots" value="NONE"/>
+        <set name="texture" value=""/>
+        <set name="type" value="Monster"/>
+        <ai_params>
+            <set name="noRandomWalk" value="true"/>
+        </ai_params>
+        <skills>
+            <skill id="4416" level="2"/>
+            <skill id="4408" level="1"/>
+            <skill id="4409" level="1"/>
+            <skill id="4410" level="11"/>
+            <skill id="4411" level="11"/>
+            <skill id="4412" level="11"/>
+            <skill id="4045" level="1"/>
+            <skill id="4413" level="11"/>
+            <skill id="4414" level="2"/>
+            <skill id="4415" level="5"/>
+        </skills>
+        <rewardlist type="RATED_GROUPED">
+            <group chance="70">
+                <reward chance="100" item_id="57" max="368" min="184"/>
+            </group>
+            <group chance="0.5952">
+                <reward chance="2.8426" item_id="553" max="1" min="1"/>
+                <reward chance="82.9444" item_id="1940" max="1" min="1"/>
+                <reward chance="2.8426" item_id="2422" max="1" min="1"/>
+                <reward chance="2.8426" item_id="2423" max="1" min="1"/>
+                <reward chance="2.8426" item_id="63" max="1" min="1"/>
+                <reward chance="2.8426" item_id="2446" max="1" min="1"/>
+                <reward chance="2.8426" item_id="2447" max="1" min="1"/>
+            </group>
+            <group chance="12.3822">
+                <reward chance="74.8018" item_id="1868" max="1" min="1"/>
+                <reward chance="14.9604" item_id="1873" max="1" min="1"/>
+                <reward chance="3.7401" item_id="5549" max="1" min="1"/>
+                <reward chance="2.4934" item_id="1889" max="1" min="1"/>
+                <reward chance="4.0043" item_id="2154" max="1" min="1"/>
+            </group>
+        </rewardlist>
+        <rewardlist type="SWEEP">
+            <reward chance="6.0152" item_id="1901" max="1" min="1"/>
+            <reward chance="4.6627" item_id="2154" max="1" min="1"/>
+            <reward chance="2.9277" item_id="1938" max="1" min="1"/>
+        </rewardlist>
+        <attributes>
+            <defence attribute="fire" value="20"/>
+            <defence attribute="water" value="20"/>
+            <defence attribute="wind" value="20"/>
+            <defence attribute="earth" value="20"/>
+            <defence attribute="holy" value="20"/>
+            <defence attribute="unholy" value="20"/>
+        </attributes>
+    </npc>
+    <npc id="21806" name="Treasure Chest" title="">
+        <set name="aggroRange" value="300"/>
+        <set name="ai_type" value="Fighter"/>
+        <set name="baseAtkRange" value="40"/>
+        <set name="baseCON" value="43"/>
+        <set name="baseCritRate" value="1"/>
+        <set name="baseDEX" value="30"/>
+        <set name="baseHpMax" value="809.52639"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="4.5"/>
+        <set name="baseINT" value="21"/>
+        <set name="baseMAtk" value="94"/>
+        <set name="baseMAtkSpd" value="500"/>
+        <set name="baseMDef" value="94"/>
+        <set name="baseMEN" value="20"/>
+        <set name="baseMpMax" value="417.6"/>
+        <set name="baseMpReg" value="1.8"/>
+        <set name="basePAtk" value="138"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="basePDef" value="141"/>
+        <set name="baseRunSpd" value="165"/>
+        <set name="baseSTR" value="40"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="baseWIT" value="20"/>
+        <set name="baseWalkSpd" value="80"/>
+        <set name="collision_height" value="8.5"/>
+        <set name="collision_radius" value="8.5"/>
+        <set name="level" value="36"/>
+        <set name="isAgro" value="0"/>
+        <set name="rewardExp" value="1555"/>
+        <set name="rewardRp" value="0"/>
+        <set name="rewardSp" value="94"/>
+        <set name="shots" value="NONE"/>
+        <set name="texture" value=""/>
+        <set name="type" value="Monster"/>
+        <ai_params>
+            <set name="noRandomWalk" value="true"/>
+        </ai_params>
+        <skills>
+            <skill id="4416" level="2"/>
+            <skill id="4408" level="1"/>
+            <skill id="4409" level="1"/>
+            <skill id="4410" level="11"/>
+            <skill id="4411" level="11"/>
+            <skill id="4412" level="11"/>
+            <skill id="4045" level="1"/>
+            <skill id="4413" level="11"/>
+            <skill id="4414" level="2"/>
+            <skill id="4415" level="5"/>
+        </skills>
+        <rewardlist type="RATED_GROUPED">
+            <group chance="70">
+                <reward chance="100" item_id="57" max="433" min="216"/>
+            </group>
+            <group chance="0.1129">
+                <reward chance="58.8353" item_id="628" max="1" min="1"/>
+                <reward chance="41.1647" item_id="47" max="1" min="1"/>
+            </group>
+            <group chance="17.8391">
+                <reward chance="30.5451" item_id="1869" max="1" min="1"/>
+                <reward chance="61.0902" item_id="1864" max="1" min="1"/>
+                <reward chance="3.0545" item_id="1880" max="1" min="1"/>
+                <reward chance="0.4073" item_id="5550" max="1" min="1"/>
+                <reward chance="4.9029" item_id="2155" max="1" min="1"/>
+            </group>
+        </rewardlist>
+        <rewardlist type="SWEEP">
+            <reward chance="51.2417" item_id="1864" max="3" min="1"/>
+            <reward chance="5.1242" item_id="1880" max="1" min="1"/>
+            <reward chance="4.5008" item_id="1939" max="1" min="1"/>
+        </rewardlist>
+        <attributes>
+            <defence attribute="fire" value="20"/>
+            <defence attribute="water" value="20"/>
+            <defence attribute="wind" value="20"/>
+            <defence attribute="earth" value="20"/>
+            <defence attribute="holy" value="20"/>
+            <defence attribute="unholy" value="20"/>
+        </attributes>
+    </npc>
+    <npc id="21807" name="Treasure Chest" title="">
+        <set name="aggroRange" value="300"/>
+        <set name="ai_type" value="Fighter"/>
+        <set name="baseAtkRange" value="40"/>
+        <set name="baseCON" value="43"/>
+        <set name="baseCritRate" value="1"/>
+        <set name="baseDEX" value="30"/>
+        <set name="baseHpMax" value="925.85879"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="4.5"/>
+        <set name="baseINT" value="21"/>
+        <set name="baseMAtk" value="113"/>
+        <set name="baseMAtkSpd" value="500"/>
+        <set name="baseMDef" value="102"/>
+        <set name="baseMEN" value="20"/>
+        <set name="baseMpMax" value="463.32"/>
+        <set name="baseMpReg" value="1.8"/>
+        <set name="basePAtk" value="166"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="basePDef" value="152"/>
+        <set name="baseRunSpd" value="165"/>
+        <set name="baseSTR" value="40"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="baseWIT" value="20"/>
+        <set name="baseWalkSpd" value="80"/>
+        <set name="collision_height" value="8.5"/>
+        <set name="collision_radius" value="8.5"/>
+        <set name="level" value="39"/>
+        <set name="isAgro" value="0"/>
+        <set name="rewardExp" value="1825"/>
+        <set name="rewardRp" value="0"/>
+        <set name="rewardSp" value="116"/>
+        <set name="shots" value="NONE"/>
+        <set name="texture" value=""/>
+        <set name="type" value="Monster"/>
+        <ai_params>
+            <set name="noRandomWalk" value="true"/>
+        </ai_params>
+        <skills>
+            <skill id="4416" level="2"/>
+            <skill id="4408" level="1"/>
+            <skill id="4409" level="1"/>
+            <skill id="4410" level="11"/>
+            <skill id="4411" level="11"/>
+            <skill id="4412" level="11"/>
+            <skill id="4045" level="1"/>
+            <skill id="4413" level="11"/>
+            <skill id="4414" level="2"/>
+            <skill id="4415" level="5"/>
+        </skills>
+        <rewardlist type="RATED_GROUPED">
+            <group chance="70">
+                <reward chance="100" item_id="57" max="504" min="253"/>
+            </group>
+            <group chance="2.1425">
+                <reward chance="0.3142" item_id="1124" max="1" min="1"/>
+                <reward chance="12.1858" item_id="1948" max="1" min="1"/>
+                <reward chance="0.3142" item_id="2424" max="1" min="1"/>
+                <reward chance="12.1858" item_id="2923" max="1" min="1"/>
+                <reward chance="0.3142" item_id="2425" max="1" min="1"/>
+                <reward chance="12.1858" item_id="2924" max="1" min="1"/>
+                <reward chance="0.3142" item_id="2426" max="1" min="1"/>
+                <reward chance="12.1858" item_id="2925" max="1" min="1"/>
+                <reward chance="0.3142" item_id="606" max="1" min="1"/>
+                <reward chance="12.1858" item_id="1946" max="1" min="1"/>
+                <reward chance="0.3142" item_id="2448" max="1" min="1"/>
+                <reward chance="12.1858" item_id="2926" max="1" min="1"/>
+                <reward chance="0.3142" item_id="2449" max="1" min="1"/>
+                <reward chance="12.1858" item_id="2927" max="1" min="1"/>
+                <reward chance="0.3142" item_id="2450" max="1" min="1"/>
+                <reward chance="12.1858" item_id="2928" max="1" min="1"/>
+            </group>
+            <group chance="16.6099">
+                <reward chance="46.5265" item_id="1870" max="1" min="1"/>
+                <reward chance="46.5265" item_id="1865" max="1" min="1"/>
+                <reward chance="3.1018" item_id="1874" max="1" min="1"/>
+                <reward chance="3.8452" item_id="2157" max="1" min="1"/>
+            </group>
+        </rewardlist>
+        <rewardlist type="SWEEP">
+            <reward chance="4.9421" item_id="2157" max="1" min="1"/>
+            <reward chance="6.0588" item_id="1902" max="1" min="1"/>
+            <reward chance="7.401" item_id="2158" max="1" min="1"/>
+        </rewardlist>
+        <attributes>
+            <defence attribute="fire" value="20"/>
+            <defence attribute="water" value="20"/>
+            <defence attribute="wind" value="20"/>
+            <defence attribute="earth" value="20"/>
+            <defence attribute="holy" value="20"/>
+            <defence attribute="unholy" value="20"/>
+        </attributes>
+    </npc>
+    <npc id="21808" name="Treasure Chest" title="">
+        <set name="aggroRange" value="300"/>
+        <set name="ai_type" value="Fighter"/>
+        <set name="baseAtkRange" value="40"/>
+        <set name="baseCON" value="43"/>
+        <set name="baseCritRate" value="1"/>
+        <set name="baseDEX" value="30"/>
+        <set name="baseHpMax" value="1050.81652"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="5.5"/>
+        <set name="baseINT" value="21"/>
+        <set name="baseMAtk" value="135"/>
+        <set name="baseMAtkSpd" value="500"/>
+        <set name="baseMDef" value="110"/>
+        <set name="baseMEN" value="20"/>
+        <set name="baseMpMax" value="531"/>
+        <set name="baseMpReg" value="2.1"/>
+        <set name="basePAtk" value="198"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="basePDef" value="165"/>
+        <set name="baseRunSpd" value="165"/>
+        <set name="baseSTR" value="40"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="baseWIT" value="20"/>
+        <set name="baseWalkSpd" value="80"/>
+        <set name="collision_height" value="8.5"/>
+        <set name="collision_radius" value="8.5"/>
+        <set name="level" value="42"/>
+        <set name="isAgro" value="0"/>
+        <set name="rewardExp" value="2117"/>
+        <set name="rewardRp" value="0"/>
+        <set name="rewardSp" value="141"/>
+        <set name="shots" value="NONE"/>
+        <set name="texture" value=""/>
+        <set name="type" value="Monster"/>
+        <ai_params>
+            <set name="noRandomWalk" value="true"/>
+        </ai_params>
+        <skills>
+            <skill id="4416" level="2"/>
+            <skill id="4408" level="1"/>
+            <skill id="4409" level="1"/>
+            <skill id="4410" level="11"/>
+            <skill id="4411" level="11"/>
+            <skill id="4412" level="11"/>
+            <skill id="4045" level="1"/>
+            <skill id="4413" level="11"/>
+            <skill id="4414" level="2"/>
+            <skill id="4415" level="5"/>
+        </skills>
+        <rewardlist type="RATED_GROUPED">
+            <group chance="70">
+                <reward chance="100" item_id="57" max="570" min="282"/>
+            </group>
+            <group chance="1.843">
+                <reward chance="0.8051" item_id="630" max="1" min="1"/>
+                <reward chance="36.0955" item_id="1956" max="1" min="1"/>
+                <reward chance="0.8051" item_id="2494" max="1" min="1"/>
+                <reward chance="36.0955" item_id="2934" max="1" min="1"/>
+                <reward chance="0.5638" item_id="2412" max="1" min="1"/>
+                <reward chance="25.635" item_id="2930" max="1" min="1"/>
+            </group>
+            <group chance="15.5718">
+                <reward chance="56.4594" item_id="1871" max="1" min="1"/>
+                <reward chance="37.6396" item_id="1866" max="1" min="1"/>
+                <reward chance="2.2584" item_id="1877" max="1" min="1"/>
+                <reward chance="3.6426" item_id="2160" max="1" min="1"/>
+            </group>
+        </rewardlist>
+        <rewardlist type="SWEEP">
+            <reward chance="6.8125" item_id="1905" max="1" min="1"/>
+            <reward chance="70.0321" item_id="1871" max="1" min="1"/>
+            <reward chance="46.6881" item_id="1866" max="1" min="1"/>
+        </rewardlist>
+        <attributes>
+            <defence attribute="fire" value="20"/>
+            <defence attribute="water" value="20"/>
+            <defence attribute="wind" value="20"/>
+            <defence attribute="earth" value="20"/>
+            <defence attribute="holy" value="20"/>
+            <defence attribute="unholy" value="20"/>
+        </attributes>
+    </npc>
+    <npc id="21809" name="Treasure Chest" title="">
+        <set name="aggroRange" value="300"/>
+        <set name="ai_type" value="Fighter"/>
+        <set name="baseAtkRange" value="40"/>
+        <set name="baseCON" value="43"/>
+        <set name="baseCritRate" value="1"/>
+        <set name="baseDEX" value="30"/>
+        <set name="baseHpMax" value="1183.80594"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="5.5"/>
+        <set name="baseINT" value="21"/>
+        <set name="baseMAtk" value="160"/>
+        <set name="baseMAtkSpd" value="500"/>
+        <set name="baseMDef" value="118"/>
+        <set name="baseMEN" value="20"/>
+        <set name="baseMpMax" value="610.8"/>
+        <set name="baseMpReg" value="2.1"/>
+        <set name="basePAtk" value="235"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="basePDef" value="178"/>
+        <set name="baseRunSpd" value="165"/>
+        <set name="baseSTR" value="40"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="baseWIT" value="20"/>
+        <set name="baseWalkSpd" value="80"/>
+        <set name="collision_height" value="8.5"/>
+        <set name="collision_radius" value="8.5"/>
+        <set name="level" value="45"/>
+        <set name="isAgro" value="0"/>
+        <set name="rewardExp" value="2430"/>
+        <set name="rewardRp" value="0"/>
+        <set name="rewardSp" value="169"/>
+        <set name="shots" value="NONE"/>
+        <set name="texture" value=""/>
+        <set name="type" value="Monster"/>
+        <ai_params>
+            <set name="noRandomWalk" value="true"/>
+        </ai_params>
+        <skills>
+            <skill id="4416" level="2"/>
+            <skill id="4408" level="1"/>
+            <skill id="4409" level="1"/>
+            <skill id="4410" level="11"/>
+            <skill id="4411" level="11"/>
+            <skill id="4412" level="11"/>
+            <skill id="4045" level="1"/>
+            <skill id="4413" level="11"/>
+            <skill id="4414" level="2"/>
+            <skill id="4415" level="5"/>
+        </skills>
+        <rewardlist type="RATED_GROUPED">
+            <group chance="70">
+                <reward chance="100" item_id="57" max="650" min="320"/>
+            </group>
+            <group chance="1.7579">
+                <reward chance="0.2489" item_id="62" max="1" min="1"/>
+                <reward chance="10.8622" item_id="1958" max="1" min="1"/>
+                <reward chance="0.2489" item_id="2429" max="1" min="1"/>
+                <reward chance="10.8622" item_id="2937" max="1" min="1"/>
+                <reward chance="0.2489" item_id="2430" max="1" min="1"/>
+                <reward chance="10.8622" item_id="2938" max="1" min="1"/>
+                <reward chance="0.2489" item_id="2431" max="1" min="1"/>
+                <reward chance="10.8622" item_id="2939" max="1" min="1"/>
+                <reward chance="0.2489" item_id="2432" max="1" min="1"/>
+                <reward chance="10.8622" item_id="2940" max="1" min="1"/>
+                <reward chance="0.2489" item_id="2433" max="1" min="1"/>
+                <reward chance="10.8622" item_id="2941" max="1" min="1"/>
+                <reward chance="0.2489" item_id="2452" max="1" min="1"/>
+                <reward chance="10.8622" item_id="2942" max="1" min="1"/>
+                <reward chance="0.2489" item_id="2453" max="1" min="1"/>
+                <reward chance="10.8622" item_id="2943" max="1" min="1"/>
+                <reward chance="0.2489" item_id="2454" max="1" min="1"/>
+                <reward chance="10.8623" item_id="2944" max="1" min="1"/>
+            </group>
+            <group chance="11.3855">
+                <reward chance="44.7791" item_id="1872" max="1" min="1"/>
+                <reward chance="44.7791" item_id="1867" max="1" min="1"/>
+                <reward chance="4.4779" item_id="1881" max="1" min="1"/>
+                <reward chance="2.239" item_id="1875" max="1" min="1"/>
+                <reward chance="0.292" item_id="4041" max="1" min="1"/>
+                <reward chance="1.7135" item_id="2163" max="1" min="1"/>
+                <reward chance="1.3434" item_id="8723" max="1" min="1"/>
+                <reward chance="0.3358" item_id="8733" max="1" min="1"/>
+                <reward chance="0.0336" item_id="8743" max="1" min="1"/>
+                <reward chance="0.0066" item_id="8753" max="1" min="1"/>
+            </group>
+        </rewardlist>
+        <rewardlist type="SWEEP">
+            <reward chance="0.3236" item_id="4553" max="1" min="1"/>
+            <reward chance="7.6616" item_id="1908" max="1" min="1"/>
+            <reward chance="4.1279" item_id="2163" max="1" min="1"/>
+        </rewardlist>
+        <attributes>
+            <defence attribute="fire" value="20"/>
+            <defence attribute="water" value="20"/>
+            <defence attribute="wind" value="20"/>
+            <defence attribute="earth" value="20"/>
+            <defence attribute="holy" value="20"/>
+            <defence attribute="unholy" value="20"/>
+        </attributes>
+    </npc>
+    <npc id="21810" name="Treasure Chest" title="">
+        <set name="aggroRange" value="300"/>
+        <set name="ai_type" value="Fighter"/>
+        <set name="baseAtkRange" value="40"/>
+        <set name="baseCON" value="43"/>
+        <set name="baseCritRate" value="1"/>
+        <set name="baseDEX" value="30"/>
+        <set name="baseHpMax" value="1324.01623"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="5.5"/>
+        <set name="baseINT" value="21"/>
+        <set name="baseMAtk" value="188"/>
+        <set name="baseMAtkSpd" value="333"/>
+        <set name="baseMDef" value="127"/>
+        <set name="baseMEN" value="20"/>
+        <set name="baseMpMax" value="692.4"/>
+        <set name="baseMpReg" value="2.1"/>
+        <set name="basePAtk" value="276"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="basePDef" value="191"/>
+        <set name="baseRunSpd" value="165"/>
+        <set name="baseSTR" value="40"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="baseWIT" value="20"/>
+        <set name="baseWalkSpd" value="80"/>
+        <set name="collision_height" value="8.5"/>
+        <set name="collision_radius" value="8.5"/>
+        <set name="level" value="48"/>
+        <set name="isAgro" value="0"/>
+        <set name="rewardExp" value="2765"/>
+        <set name="rewardRp" value="0"/>
+        <set name="rewardSp" value="202"/>
+        <set name="shots" value="NONE"/>
+        <set name="texture" value=""/>
+        <set name="type" value="Monster"/>
+        <ai_params>
+            <set name="noRandomWalk" value="true"/>
+        </ai_params>
+        <skills>
+            <skill id="4416" level="2"/>
+            <skill id="4408" level="1"/>
+            <skill id="4409" level="1"/>
+            <skill id="4410" level="11"/>
+            <skill id="4411" level="11"/>
+            <skill id="4412" level="11"/>
+            <skill id="4045" level="1"/>
+            <skill id="4413" level="11"/>
+            <skill id="4414" level="2"/>
+            <skill id="4415" level="5"/>
+        </skills>
+        <rewardlist type="RATED_GROUPED">
+            <group chance="70">
+                <reward chance="100" item_id="57" max="740" min="364"/>
+            </group>
+            <group chance="1.4747">
+                <reward chance="0.7677" item_id="2496" max="1" min="1"/>
+                <reward chance="32.9277" item_id="2947" max="1" min="1"/>
+                <reward chance="0.7087" item_id="632" max="1" min="1"/>
+                <reward chance="36.879" item_id="1972" max="1" min="1"/>
+                <reward chance="0.4962" item_id="500" max="1" min="1"/>
+                <reward chance="28.2207" item_id="1971" max="1" min="1"/>
+            </group>
+            <group chance="12.1512">
+                <reward chance="13.4276" item_id="1873" max="1" min="1"/>
+                <reward chance="67.1378" item_id="1868" max="1" min="1"/>
+                <reward chance="6.7138" item_id="1876" max="1" min="1"/>
+                <reward chance="9.5911" item_id="1895" max="1" min="1"/>
+                <reward chance="0.5595" item_id="4042" max="1" min="1"/>
+                <reward chance="1.1379" item_id="2166" max="1" min="1"/>
+                <reward chance="1.119" item_id="8724" max="1" min="1"/>
+                <reward chance="0.2797" item_id="8734" max="1" min="1"/>
+                <reward chance="0.028" item_id="8744" max="1" min="1"/>
+                <reward chance="0.0056" item_id="8754" max="1" min="1"/>
+            </group>
+        </rewardlist>
+        <rewardlist type="SWEEP">
+            <reward chance="3.3611" item_id="1966" max="1" min="1"/>
+            <reward chance="3.1207" item_id="2166" max="1" min="1"/>
+            <reward chance="5.0211" item_id="1967" max="1" min="1"/>
+        </rewardlist>
+        <attributes>
+            <defence attribute="fire" value="20"/>
+            <defence attribute="water" value="20"/>
+            <defence attribute="wind" value="20"/>
+            <defence attribute="earth" value="20"/>
+            <defence attribute="holy" value="20"/>
+            <defence attribute="unholy" value="20"/>
+        </attributes>
+    </npc>
+    <npc id="21811" name="Treasure Chest" title="">
+        <set name="aggroRange" value="300"/>
+        <set name="ai_type" value="Fighter"/>
+        <set name="baseAtkRange" value="40"/>
+        <set name="baseCON" value="43"/>
+        <set name="baseCritRate" value="1"/>
+        <set name="baseDEX" value="30"/>
+        <set name="baseHpMax" value="1470.41596"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="6.5"/>
+        <set name="baseINT" value="21"/>
+        <set name="baseMAtk" value="219"/>
+        <set name="baseMAtkSpd" value="333"/>
+        <set name="baseMDef" value="136"/>
+        <set name="baseMEN" value="20"/>
+        <set name="baseMpMax" value="775.8"/>
+        <set name="baseMpReg" value="2.4"/>
+        <set name="basePAtk" value="321"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="basePDef" value="205"/>
+        <set name="baseRunSpd" value="165"/>
+        <set name="baseSTR" value="40"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="baseWIT" value="20"/>
+        <set name="baseWalkSpd" value="80"/>
+        <set name="collision_height" value="8.5"/>
+        <set name="collision_radius" value="8.5"/>
+        <set name="level" value="51"/>
+        <set name="isAgro" value="0"/>
+        <set name="rewardExp" value="3121"/>
+        <set name="rewardRp" value="0"/>
+        <set name="rewardSp" value="238"/>
+        <set name="shots" value="NONE"/>
+        <set name="texture" value=""/>
+        <set name="type" value="Monster"/>
+        <ai_params>
+            <set name="noRandomWalk" value="true"/>
+        </ai_params>
+        <skills>
+            <skill id="4416" level="2"/>
+            <skill id="4408" level="1"/>
+            <skill id="4409" level="1"/>
+            <skill id="4410" level="11"/>
+            <skill id="4411" level="11"/>
+            <skill id="4412" level="11"/>
+            <skill id="4045" level="1"/>
+            <skill id="4413" level="11"/>
+            <skill id="4414" level="2"/>
+            <skill id="4415" level="5"/>
+        </skills>
+        <rewardlist type="RATED_GROUPED">
+            <group chance="70">
+                <reward chance="100" item_id="57" max="839" min="413"/>
+            </group>
+            <group chance="1.2913">
+                <reward chance="0.8845" item_id="64" max="1" min="1"/>
+                <reward chance="49.1155" item_id="2956" max="1" min="1"/>
+                <reward chance="0.8845" item_id="608" max="1" min="1"/>
+                <reward chance="49.1155" item_id="1981" max="1" min="1"/>
+            </group>
+            <group chance="17.6905">
+                <reward chance="48.757" item_id="1864" max="1" min="1"/>
+                <reward chance="24.3785" item_id="1869" max="1" min="1"/>
+                <reward chance="9.7514" item_id="1878" max="1" min="1"/>
+                <reward chance="15.0022" item_id="1884" max="1" min="1"/>
+                <reward chance="0.8126" item_id="4039" max="1" min="1"/>
+                <reward chance="0.4315" item_id="2169" max="1" min="1"/>
+                <reward chance="0.6772" item_id="8725" max="1" min="1"/>
+                <reward chance="0.1693" item_id="8735" max="1" min="1"/>
+                <reward chance="0.0169" item_id="8745" max="1" min="1"/>
+                <reward chance="0.0034" item_id="8755" max="1" min="1"/>
+            </group>
+        </rewardlist>
+        <rewardlist type="SWEEP">
+            <reward chance="41.7148" item_id="1878" max="1" min="1"/>
+            <reward chance="64.1767" item_id="1884" max="1" min="1"/>
+            <reward chance="0.2317" item_id="4601" max="1" min="1"/>
+        </rewardlist>
+        <attributes>
+            <defence attribute="fire" value="20"/>
+            <defence attribute="water" value="20"/>
+            <defence attribute="wind" value="20"/>
+            <defence attribute="earth" value="20"/>
+            <defence attribute="holy" value="20"/>
+            <defence attribute="unholy" value="20"/>
+        </attributes>
+    </npc>
+    <npc id="21812" name="Treasure Chest" title="">
+        <set name="aggroRange" value="300"/>
+        <set name="ai_type" value="Fighter"/>
+        <set name="baseAtkRange" value="40"/>
+        <set name="baseCON" value="43"/>
+        <set name="baseCritRate" value="1"/>
+        <set name="baseDEX" value="30"/>
+        <set name="baseHpMax" value="1621.75618"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="6.5"/>
+        <set name="baseINT" value="21"/>
+        <set name="baseMAtk" value="253"/>
+        <set name="baseMAtkSpd" value="500"/>
+        <set name="baseMDef" value="146"/>
+        <set name="baseMEN" value="20"/>
+        <set name="baseMpMax" value="861"/>
+        <set name="baseMpReg" value="2.4"/>
+        <set name="basePAtk" value="371"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="basePDef" value="219"/>
+        <set name="baseRunSpd" value="165"/>
+        <set name="baseSTR" value="40"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="baseWIT" value="20"/>
+        <set name="baseWalkSpd" value="80"/>
+        <set name="collision_height" value="8.5"/>
+        <set name="collision_radius" value="8.5"/>
+        <set name="level" value="54"/>
+        <set name="isAgro" value="0"/>
+        <set name="rewardExp" value="3499"/>
+        <set name="rewardRp" value="0"/>
+        <set name="rewardSp" value="279"/>
+        <set name="shots" value="NONE"/>
+        <set name="texture" value=""/>
+        <set name="type" value="Monster"/>
+        <ai_params>
+            <set name="noRandomWalk" value="true"/>
+        </ai_params>
+        <skills>
+            <skill id="4416" level="2"/>
+            <skill id="4408" level="1"/>
+            <skill id="4409" level="1"/>
+            <skill id="4410" level="11"/>
+            <skill id="4411" level="11"/>
+            <skill id="4412" level="11"/>
+            <skill id="4045" level="1"/>
+            <skill id="4413" level="11"/>
+            <skill id="4414" level="2"/>
+            <skill id="4415" level="5"/>
+        </skills>
+        <rewardlist type="RATED_GROUPED">
+            <group chance="70">
+                <reward chance="100" item_id="57" max="945" min="464"/>
+            </group>
+            <group chance="0.9812">
+                <reward chance="0.7653" item_id="2497" max="1" min="1"/>
+                <reward chance="60.4723" item_id="2966" max="1" min="1"/>
+                <reward chance="0.5357" item_id="2414" max="1" min="1"/>
+                <reward chance="38.2267" item_id="2959" max="1" min="1"/>
+            </group>
+            <group chance="9.9738">
+                <reward chance="43.4884" item_id="1865" max="1" min="1"/>
+                <reward chance="43.4884" item_id="1870" max="1" min="1"/>
+                <reward chance="7.2481" item_id="1879" max="1" min="1"/>
+                <reward chance="2.8992" item_id="1875" max="1" min="1"/>
+                <reward chance="0.8698" item_id="4040" max="1" min="1"/>
+                <reward chance="0.7176" item_id="4126" max="1" min="1"/>
+                <reward chance="1.0067" item_id="8726" max="1" min="1"/>
+                <reward chance="0.2517" item_id="8736" max="1" min="1"/>
+                <reward chance="0.0252" item_id="8746" max="1" min="1"/>
+                <reward chance="0.0049" item_id="8756" max="1" min="1"/>
+            </group>
+        </rewardlist>
+        <rewardlist type="SWEEP">
+            <reward chance="2.5182" item_id="1984" max="1" min="1"/>
+            <reward chance="1.9385" item_id="4126" max="1" min="1"/>
+            <reward chance="4.0508" item_id="1985" max="1" min="1"/>
+        </rewardlist>
+        <attributes>
+            <defence attribute="fire" value="20"/>
+            <defence attribute="water" value="20"/>
+            <defence attribute="wind" value="20"/>
+            <defence attribute="earth" value="20"/>
+            <defence attribute="holy" value="20"/>
+            <defence attribute="unholy" value="20"/>
+        </attributes>
+    </npc>
+    <npc id="21813" name="Treasure Chest" title="">
+        <set name="aggroRange" value="300"/>
+        <set name="ai_type" value="Fighter"/>
+        <set name="baseAtkRange" value="40"/>
+        <set name="baseCON" value="43"/>
+        <set name="baseCritRate" value="1"/>
+        <set name="baseDEX" value="30"/>
+        <set name="baseHpMax" value="1776.58018"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="6.5"/>
+        <set name="baseINT" value="21"/>
+        <set name="baseMAtk" value="290"/>
+        <set name="baseMAtkSpd" value="500"/>
+        <set name="baseMDef" value="155"/>
+        <set name="baseMEN" value="20"/>
+        <set name="baseMpMax" value="948"/>
+        <set name="baseMpReg" value="2.4"/>
+        <set name="basePAtk" value="424"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="basePDef" value="233"/>
+        <set name="baseRunSpd" value="165"/>
+        <set name="baseSTR" value="40"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="baseWIT" value="20"/>
+        <set name="baseWalkSpd" value="80"/>
+        <set name="collision_height" value="8.5"/>
+        <set name="collision_radius" value="8.5"/>
+        <set name="level" value="57"/>
+        <set name="isAgro" value="0"/>
+        <set name="rewardExp" value="3899"/>
+        <set name="rewardRp" value="0"/>
+        <set name="rewardSp" value="324"/>
+        <set name="shots" value="NONE"/>
+        <set name="texture" value=""/>
+        <set name="type" value="Monster"/>
+        <ai_params>
+            <set name="noRandomWalk" value="true"/>
+        </ai_params>
+        <skills>
+            <skill id="4416" level="2"/>
+            <skill id="4408" level="1"/>
+            <skill id="4409" level="1"/>
+            <skill id="4410" level="11"/>
+            <skill id="4411" level="11"/>
+            <skill id="4412" level="11"/>
+            <skill id="4045" level="1"/>
+            <skill id="4413" level="11"/>
+            <skill id="4414" level="2"/>
+            <skill id="4415" level="5"/>
+        </skills>
+        <rewardlist type="RATED_GROUPED">
+            <group chance="70">
+                <reward chance="100" item_id="57" max="1060" min="519"/>
+            </group>
+            <group chance="1.1975">
+                <reward chance="3.8829" item_id="12147" max="1" min="1"/>
+                <reward chance="21.1171" item_id="4097" max="1" min="1"/>
+                <reward chance="3.8829" item_id="12149" max="1" min="1"/>
+                <reward chance="21.1171" item_id="4098" max="1" min="1"/>
+                <reward chance="3.8829" item_id="12146" max="1" min="1"/>
+                <reward chance="21.1171" item_id="4100" max="1" min="1"/>
+                <reward chance="3.8829" item_id="12148" max="1" min="1"/>
+                <reward chance="21.1171" item_id="4073" max="1" min="1"/>
+            </group>
+            <group chance="7.1337">
+                <reward chance="36.3283" item_id="1866" max="1" min="1"/>
+                <reward chance="54.4924" item_id="1871" max="1" min="1"/>
+                <reward chance="2.1797" item_id="5220" max="1" min="1"/>
+                <reward chance="4.541" item_id="1885" max="1" min="1"/>
+                <reward chance="0.4738" item_id="4041" max="1" min="1"/>
+                <reward chance="0.5897" item_id="4129" max="1" min="1"/>
+                <reward chance="1.0898" item_id="8727" max="1" min="1"/>
+                <reward chance="0.2725" item_id="8737" max="1" min="1"/>
+                <reward chance="0.0272" item_id="8747" max="1" min="1"/>
+                <reward chance="0.0056" item_id="8757" max="1" min="1"/>
+            </group>
+        </rewardlist>
+        <rewardlist type="SWEEP">
+            <reward chance="1.4243" item_id="4129" max="1" min="1"/>
+            <reward chance="6.9028" item_id="4049" max="1" min="1"/>
+            <reward chance="0.0526" item_id="947" max="1" min="1"/>
+        </rewardlist>
+        <attributes>
+            <defence attribute="fire" value="20"/>
+            <defence attribute="water" value="20"/>
+            <defence attribute="wind" value="20"/>
+            <defence attribute="earth" value="20"/>
+            <defence attribute="holy" value="20"/>
+            <defence attribute="unholy" value="20"/>
+        </attributes>
+    </npc>
+    <npc id="21814" name="Treasure Chest" title="">
+        <set name="aggroRange" value="300"/>
+        <set name="ai_type" value="Fighter"/>
+        <set name="baseAtkRange" value="40"/>
+        <set name="baseCON" value="43"/>
+        <set name="baseCritRate" value="1"/>
+        <set name="baseDEX" value="30"/>
+        <set name="baseHpMax" value="1933.24044"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="6.5"/>
+        <set name="baseINT" value="21"/>
+        <set name="baseMAtk" value="329"/>
+        <set name="baseMAtkSpd" value="333"/>
+        <set name="baseMDef" value="165"/>
+        <set name="baseMEN" value="20"/>
+        <set name="baseMpMax" value="1036.8"/>
+        <set name="baseMpReg" value="2.4"/>
+        <set name="basePAtk" value="481"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="basePDef" value="248"/>
+        <set name="baseRunSpd" value="165"/>
+        <set name="baseSTR" value="40"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="baseWIT" value="20"/>
+        <set name="baseWalkSpd" value="80"/>
+        <set name="collision_height" value="8.5"/>
+        <set name="collision_radius" value="8.5"/>
+        <set name="level" value="60"/>
+        <set name="isAgro" value="0"/>
+        <set name="rewardExp" value="4320"/>
+        <set name="rewardRp" value="0"/>
+        <set name="rewardSp" value="375"/>
+        <set name="shots" value="NONE"/>
+        <set name="texture" value=""/>
+        <set name="type" value="Monster"/>
+        <ai_params>
+            <set name="noRandomWalk" value="true"/>
+        </ai_params>
+        <skills>
+            <skill id="4416" level="2"/>
+            <skill id="4408" level="1"/>
+            <skill id="4409" level="1"/>
+            <skill id="4410" level="11"/>
+            <skill id="4411" level="11"/>
+            <skill id="4412" level="11"/>
+            <skill id="4045" level="1"/>
+            <skill id="4413" level="11"/>
+            <skill id="4414" level="2"/>
+            <skill id="4415" level="5"/>
+        </skills>
+        <rewardlist type="RATED_GROUPED">
+            <group chance="70">
+                <reward chance="100" item_id="57" max="1179" min="580"/>
+            </group>
+            <group chance="1.3418">
+                <reward chance="3.6853" item_id="12159" max="1" min="1"/>
+                <reward chance="23.3935" item_id="4101" max="1" min="1"/>
+                <reward chance="3.6853" item_id="12171" max="1" min="1"/>
+                <reward chance="27.8302" item_id="4439" max="1" min="1"/>
+                <reward chance="2.5785" item_id="12160" max="1" min="1"/>
+                <reward chance="18.1243" item_id="4102" max="1" min="1"/>
+                <reward chance="2.5785" item_id="12170" max="1" min="1"/>
+                <reward chance="18.1244" item_id="4072" max="1" min="1"/>
+            </group>
+            <group chance="12.9005">
+                <reward chance="44.7696" item_id="1867" max="1" min="1"/>
+                <reward chance="44.7696" item_id="1872" max="1" min="1"/>
+                <reward chance="7.4616" item_id="1882" max="1" min="1"/>
+                <reward chance="1.1781" item_id="1894" max="1" min="1"/>
+                <reward chance="0.5596" item_id="4042" max="1" min="1"/>
+                <reward chance="0.5451" item_id="4130" max="1" min="1"/>
+                <reward chance="0.5596" item_id="8728" max="1" min="1"/>
+                <reward chance="0.1399" item_id="8738" max="1" min="1"/>
+                <reward chance="0.014" item_id="8748" max="1" min="1"/>
+                <reward chance="0.0029" item_id="8758" max="1" min="1"/>
+            </group>
+        </rewardlist>
+        <rewardlist type="SWEEP">
+            <reward chance="65.1751" item_id="1867" max="5" min="1"/>
+            <reward chance="65.1751" item_id="1872" max="5" min="1"/>
+            <reward chance="0.2023" item_id="4613" max="1" min="1"/>
+        </rewardlist>
+        <attributes>
+            <defence attribute="fire" value="20"/>
+            <defence attribute="water" value="20"/>
+            <defence attribute="wind" value="20"/>
+            <defence attribute="earth" value="20"/>
+            <defence attribute="holy" value="20"/>
+            <defence attribute="unholy" value="20"/>
+        </attributes>
+    </npc>
+    <npc id="21815" name="Treasure Chest" title="">
+        <set name="aggroRange" value="300"/>
+        <set name="ai_type" value="Fighter"/>
+        <set name="baseAtkRange" value="40"/>
+        <set name="baseCON" value="43"/>
+        <set name="baseCritRate" value="1"/>
+        <set name="baseDEX" value="30"/>
+        <set name="baseHpMax" value="2089.92274"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="7.5"/>
+        <set name="baseINT" value="21"/>
+        <set name="baseMAtk" value="370"/>
+        <set name="baseMAtkSpd" value="500"/>
+        <set name="baseMDef" value="175"/>
+        <set name="baseMEN" value="20"/>
+        <set name="baseMpMax" value="1127.4"/>
+        <set name="baseMpReg" value="2.7"/>
+        <set name="basePAtk" value="541"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="basePDef" value="262"/>
+        <set name="baseRunSpd" value="165"/>
+        <set name="baseSTR" value="40"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="baseWIT" value="20"/>
+        <set name="baseWalkSpd" value="80"/>
+        <set name="collision_height" value="8.5"/>
+        <set name="collision_radius" value="8.5"/>
+        <set name="level" value="63"/>
+        <set name="isAgro" value="0"/>
+        <set name="rewardExp" value="4763"/>
+        <set name="rewardRp" value="0"/>
+        <set name="rewardSp" value="430"/>
+        <set name="shots" value="NONE"/>
+        <set name="texture" value=""/>
+        <set name="type" value="Monster"/>
+        <ai_params>
+            <set name="noRandomWalk" value="true"/>
+        </ai_params>
+        <skills>
+            <skill id="4416" level="2"/>
+            <skill id="4408" level="1"/>
+            <skill id="4409" level="1"/>
+            <skill id="4410" level="11"/>
+            <skill id="4411" level="11"/>
+            <skill id="4412" level="11"/>
+            <skill id="4045" level="1"/>
+            <skill id="4413" level="11"/>
+            <skill id="4414" level="2"/>
+            <skill id="4415" level="5"/>
+        </skills>
+        <rewardlist type="RATED_GROUPED">
+            <group chance="70">
+                <reward chance="100" item_id="57" max="1308" min="646"/>
+            </group>
+            <group chance="1.2079">
+                <reward chance="2.6483" item_id="12188" max="1" min="1"/>
+                <reward chance="22.3517" item_id="4099" max="1" min="1"/>
+                <reward chance="2.6483" item_id="12189" max="1" min="1"/>
+                <reward chance="22.3517" item_id="4090" max="1" min="1"/>
+                <reward chance="2.6483" item_id="12187" max="1" min="1"/>
+                <reward chance="22.3517" item_id="4091" max="1" min="1"/>
+                <reward chance="2.6483" item_id="12190" max="1" min="1"/>
+                <reward chance="22.3517" item_id="4096" max="1" min="1"/>
+            </group>
+            <group chance="12.5979">
+                <reward chance="76.3825" item_id="1868" max="1" min="1"/>
+                <reward chance="15.2765" item_id="1873" max="1" min="1"/>
+                <reward chance="3.8191" item_id="5549" max="1" min="1"/>
+                <reward chance="2.5461" item_id="1889" max="1" min="1"/>
+                <reward chance="1.273" item_id="4044" max="1" min="1"/>
+                <reward chance="0.0509" item_id="5230" max="1" min="1"/>
+                <reward chance="0.5092" item_id="8729" max="1" min="1"/>
+                <reward chance="0.1273" item_id="8739" max="1" min="1"/>
+                <reward chance="0.0127" item_id="8749" max="1" min="1"/>
+                <reward chance="0.0027" item_id="8759" max="1" min="1"/>
+            </group>
+        </rewardlist>
+        <rewardlist type="SWEEP">
+            <reward chance="5.7668" item_id="4052" max="1" min="1"/>
+            <reward chance="0.2172" item_id="5230" max="1" min="1"/>
+            <reward chance="6.9816" item_id="4053" max="1" min="1"/>
+        </rewardlist>
+        <attributes>
+            <defence attribute="fire" value="20"/>
+            <defence attribute="water" value="20"/>
+            <defence attribute="wind" value="20"/>
+            <defence attribute="earth" value="20"/>
+            <defence attribute="holy" value="20"/>
+            <defence attribute="unholy" value="20"/>
+        </attributes>
+    </npc>
+    <npc id="21816" name="Treasure Chest" title="">
+        <set name="aggroRange" value="300"/>
+        <set name="ai_type" value="Fighter"/>
+        <set name="baseAtkRange" value="40"/>
+        <set name="baseCON" value="43"/>
+        <set name="baseCritRate" value="1"/>
+        <set name="baseDEX" value="30"/>
+        <set name="baseHpMax" value="2244.67715"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="7.5"/>
+        <set name="baseINT" value="21"/>
+        <set name="baseMAtk" value="412"/>
+        <set name="baseMAtkSpd" value="500"/>
+        <set name="baseMDef" value="184"/>
+        <set name="baseMEN" value="20"/>
+        <set name="baseMpMax" value="1219.8"/>
+        <set name="baseMpReg" value="2.7"/>
+        <set name="basePAtk" value="604"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="basePDef" value="277"/>
+        <set name="baseRunSpd" value="165"/>
+        <set name="baseSTR" value="40"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="baseWIT" value="20"/>
+        <set name="baseWalkSpd" value="80"/>
+        <set name="collision_height" value="8.5"/>
+        <set name="collision_radius" value="8.5"/>
+        <set name="level" value="66"/>
+        <set name="isAgro" value="0"/>
+        <set name="rewardExp" value="5227"/>
+        <set name="rewardRp" value="0"/>
+        <set name="rewardSp" value="492"/>
+        <set name="shots" value="NONE"/>
+        <set name="texture" value=""/>
+        <set name="type" value="Monster"/>
+        <ai_params>
+            <set name="noRandomWalk" value="true"/>
+        </ai_params>
+        <skills>
+            <skill id="4416" level="2"/>
+            <skill id="4408" level="1"/>
+            <skill id="4409" level="1"/>
+            <skill id="4410" level="11"/>
+            <skill id="4411" level="11"/>
+            <skill id="4412" level="11"/>
+            <skill id="4045" level="1"/>
+            <skill id="4413" level="11"/>
+            <skill id="4414" level="2"/>
+            <skill id="4415" level="5"/>
+        </skills>
+        <rewardlist type="RATED_GROUPED">
+            <group chance="70">
+                <reward chance="100" item_id="57" max="1448" min="714"/>
+            </group>
+            <group chance="1.1779">
+                <reward chance="3.8238" item_id="12183" max="1" min="1"/>
+                <reward chance="33.8862" item_id="4077" max="1" min="1"/>
+                <reward chance="2.676" item_id="12202" max="1" min="1"/>
+                <reward chance="28.469" item_id="4088" max="1" min="1"/>
+                <reward chance="2.676" item_id="12185" max="1" min="1"/>
+                <reward chance="28.469" item_id="4089" max="1" min="1"/>
+            </group>
+            <group chance="16.8454">
+                <reward chance="31.6045" item_id="1869" max="1" min="1"/>
+                <reward chance="63.2091" item_id="1864" max="1" min="1"/>
+                <reward chance="3.1605" item_id="1880" max="1" min="1"/>
+                <reward chance="0.4214" item_id="5550" max="1" min="1"/>
+                <reward chance="1.0535" item_id="4043" max="1" min="1"/>
+                <reward chance="0.0117" item_id="5434" max="1" min="1"/>
+                <reward chance="0.4214" item_id="8729" max="1" min="1"/>
+                <reward chance="0.1053" item_id="8739" max="1" min="1"/>
+                <reward chance="0.0105" item_id="8749" max="1" min="1"/>
+                <reward chance="0.0021" item_id="8759" max="1" min="1"/>
+            </group>
+        </rewardlist>
+        <rewardlist type="SWEEP">
+            <reward chance="0.0985" item_id="5438" max="1" min="1"/>
+            <reward chance="3.5501" item_id="4054" max="1" min="1"/>
+            <reward chance="2.4032" item_id="5550" max="1" min="1"/>
+        </rewardlist>
+        <attributes>
+            <defence attribute="fire" value="20"/>
+            <defence attribute="water" value="20"/>
+            <defence attribute="wind" value="20"/>
+            <defence attribute="earth" value="20"/>
+            <defence attribute="holy" value="20"/>
+            <defence attribute="unholy" value="20"/>
+        </attributes>
+    </npc>
+    <npc id="21817" name="Treasure Chest" title="">
+        <set name="aggroRange" value="300"/>
+        <set name="ai_type" value="Fighter"/>
+        <set name="baseAtkRange" value="40"/>
+        <set name="baseCON" value="43"/>
+        <set name="baseCritRate" value="1"/>
+        <set name="baseDEX" value="30"/>
+        <set name="baseHpMax" value="2395.45533"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="7.5"/>
+        <set name="baseINT" value="21"/>
+        <set name="baseMAtk" value="456"/>
+        <set name="baseMAtkSpd" value="500"/>
+        <set name="baseMDef" value="194"/>
+        <set name="baseMEN" value="20"/>
+        <set name="baseMpMax" value="1314"/>
+        <set name="baseMpReg" value="2.7"/>
+        <set name="basePAtk" value="668"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="basePDef" value="291"/>
+        <set name="baseRunSpd" value="165"/>
+        <set name="baseSTR" value="40"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="baseWIT" value="20"/>
+        <set name="baseWalkSpd" value="80"/>
+        <set name="collision_height" value="8.5"/>
+        <set name="collision_radius" value="8.5"/>
+        <set name="level" value="69"/>
+        <set name="isAgro" value="0"/>
+        <set name="rewardExp" value="5713"/>
+        <set name="rewardRp" value="0"/>
+        <set name="rewardSp" value="559"/>
+        <set name="shots" value="NONE"/>
+        <set name="texture" value=""/>
+        <set name="type" value="Monster"/>
+        <ai_params>
+            <set name="noRandomWalk" value="true"/>
+        </ai_params>
+        <skills>
+            <skill id="4416" level="2"/>
+            <skill id="4408" level="1"/>
+            <skill id="4409" level="1"/>
+            <skill id="4410" level="11"/>
+            <skill id="4411" level="11"/>
+            <skill id="4412" level="11"/>
+            <skill id="4045" level="1"/>
+            <skill id="4413" level="11"/>
+            <skill id="4414" level="2"/>
+            <skill id="4415" level="5"/>
+        </skills>
+        <rewardlist type="RATED_GROUPED">
+            <group chance="70">
+                <reward chance="100" item_id="57" max="1596" min="786"/>
+            </group>
+            <group chance="0.8155">
+                <reward chance="3.9179" item_id="12224" max="1" min="1"/>
+                <reward chance="21.0821" item_id="5496" max="1" min="1"/>
+                <reward chance="3.9179" item_id="12231" max="1" min="1"/>
+                <reward chance="21.0821" item_id="5497" max="1" min="1"/>
+                <reward chance="3.9179" item_id="12221" max="1" min="1"/>
+                <reward chance="21.0821" item_id="5508" max="1" min="1"/>
+                <reward chance="3.9179" item_id="12229" max="1" min="1"/>
+                <reward chance="21.0821" item_id="5509" max="1" min="1"/>
+            </group>
+            <group chance="12.5994">
+                <reward chance="46.5565" item_id="1870" max="1" min="1"/>
+                <reward chance="46.5565" item_id="1865" max="1" min="1"/>
+                <reward chance="3.1038" item_id="1874" max="1" min="1"/>
+                <reward chance="1.5519" item_id="4043" max="1" min="1"/>
+                <reward chance="1.5519" item_id="4039" max="1" min="1"/>
+                <reward chance="0.0172" item_id="5440" max="1" min="1"/>
+                <reward chance="0.5173" item_id="8730" max="1" min="1"/>
+                <reward chance="0.1293" item_id="8740" max="1" min="1"/>
+                <reward chance="0.0129" item_id="8750" max="1" min="1"/>
+                <reward chance="0.0027" item_id="8760" max="1" min="1"/>
+            </group>
+        </rewardlist>
+        <rewardlist type="SWEEP">
+            <reward chance="13.2389" item_id="1874" max="1" min="1"/>
+            <reward chance="1.6699" item_id="5478" max="1" min="1"/>
+            <reward chance="0.0735" item_id="5434" max="1" min="1"/>
+        </rewardlist>
+        <attributes>
+            <defence attribute="fire" value="20"/>
+            <defence attribute="water" value="20"/>
+            <defence attribute="wind" value="20"/>
+            <defence attribute="earth" value="20"/>
+            <defence attribute="holy" value="20"/>
+            <defence attribute="unholy" value="20"/>
+        </attributes>
+    </npc>
+    <npc id="21818" name="Treasure Chest" title="">
+        <set name="aggroRange" value="300"/>
+        <set name="ai_type" value="Fighter"/>
+        <set name="baseAtkRange" value="40"/>
+        <set name="baseCON" value="43"/>
+        <set name="baseCritRate" value="1"/>
+        <set name="baseDEX" value="30"/>
+        <set name="baseHpMax" value="2540.15331"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="8.5"/>
+        <set name="baseINT" value="21"/>
+        <set name="baseMAtk" value="500"/>
+        <set name="baseMAtkSpd" value="500"/>
+        <set name="baseMDef" value="203"/>
+        <set name="baseMEN" value="20"/>
+        <set name="baseMpMax" value="1410"/>
+        <set name="baseMpReg" value="3"/>
+        <set name="basePAtk" value="732"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="basePDef" value="305"/>
+        <set name="baseRunSpd" value="165"/>
+        <set name="baseSTR" value="40"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="baseWIT" value="20"/>
+        <set name="baseWalkSpd" value="80"/>
+        <set name="collision_height" value="8.5"/>
+        <set name="collision_radius" value="8.5"/>
+        <set name="level" value="72"/>
+        <set name="isAgro" value="0"/>
+        <set name="rewardExp" value="6221"/>
+        <set name="rewardRp" value="0"/>
+        <set name="rewardSp" value="632"/>
+        <set name="shots" value="NONE"/>
+        <set name="texture" value=""/>
+        <set name="type" value="Monster"/>
+        <ai_params>
+            <set name="noRandomWalk" value="true"/>
+        </ai_params>
+        <skills>
+            <skill id="4416" level="2"/>
+            <skill id="4789" level="2"/>
+            <skill id="4408" level="1"/>
+            <skill id="4409" level="1"/>
+            <skill id="4410" level="11"/>
+            <skill id="4411" level="11"/>
+            <skill id="4412" level="11"/>
+            <skill id="4045" level="1"/>
+            <skill id="4413" level="11"/>
+            <skill id="4414" level="2"/>
+            <skill id="4415" level="5"/>
+        </skills>
+        <rewardlist type="RATED_GROUPED">
+            <group chance="70">
+                <reward chance="100" item_id="57" max="1756" min="860"/>
+            </group>
+            <group chance="0.6641">
+                <reward chance="6.7053" item_id="12225" max="1" min="1"/>
+                <reward chance="33.9386" item_id="5494" max="1" min="1"/>
+                <reward chance="4.6976" item_id="12226" max="1" min="1"/>
+                <reward chance="24.9804" item_id="5525" max="1" min="1"/>
+                <reward chance="4.6976" item_id="12234" max="1" min="1"/>
+                <reward chance="24.9805" item_id="5526" max="1" min="1"/>
+            </group>
+            <group chance="11.2726">
+                <reward chance="57.1238" item_id="1871" max="1" min="1"/>
+                <reward chance="38.0825" item_id="1866" max="1" min="1"/>
+                <reward chance="2.285" item_id="1877" max="1" min="1"/>
+                <reward chance="0.4967" item_id="4041" max="1" min="1"/>
+                <reward chance="1.1425" item_id="4040" max="1" min="1"/>
+                <reward chance="0.0571" item_id="6901" max="1" min="1"/>
+                <reward chance="0.6347" item_id="8730" max="1" min="1"/>
+                <reward chance="0.1587" item_id="8740" max="1" min="1"/>
+                <reward chance="0.0159" item_id="8750" max="1" min="1"/>
+                <reward chance="0.0031" item_id="8760" max="1" min="1"/>
+            </group>
+        </rewardlist>
+        <rewardlist type="SWEEP">
+            <reward chance="1.0319" item_id="5479" max="1" min="1"/>
+            <reward chance="0.0646" item_id="5440" max="1" min="1"/>
+            <reward chance="2.3018" item_id="5482" max="1" min="1"/>
+        </rewardlist>
+        <attributes>
+            <defence attribute="fire" value="20"/>
+            <defence attribute="water" value="20"/>
+            <defence attribute="wind" value="20"/>
+            <defence attribute="earth" value="20"/>
+            <defence attribute="holy" value="20"/>
+            <defence attribute="unholy" value="20"/>
+        </attributes>
+    </npc>
+    <npc id="21819" name="Treasure Chest" title="">
+        <set name="aggroRange" value="300"/>
+        <set name="ai_type" value="Fighter"/>
+        <set name="baseAtkRange" value="40"/>
+        <set name="baseCON" value="43"/>
+        <set name="baseCritRate" value="1"/>
+        <set name="baseDEX" value="30"/>
+        <set name="baseHpMax" value="2676.65854"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="8.5"/>
+        <set name="baseINT" value="21"/>
+        <set name="baseMAtk" value="543"/>
+        <set name="baseMAtkSpd" value="500"/>
+        <set name="baseMDef" value="213"/>
+        <set name="baseMEN" value="20"/>
+        <set name="baseMpMax" value="1507.8"/>
+        <set name="baseMpReg" value="3"/>
+        <set name="basePAtk" value="795"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="basePDef" value="319"/>
+        <set name="baseRunSpd" value="165"/>
+        <set name="baseSTR" value="40"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="baseWIT" value="20"/>
+        <set name="baseWalkSpd" value="80"/>
+        <set name="collision_height" value="8.5"/>
+        <set name="collision_radius" value="8.5"/>
+        <set name="level" value="75"/>
+        <set name="isAgro" value="0"/>
+        <set name="rewardExp" value="6750"/>
+        <set name="rewardRp" value="0"/>
+        <set name="rewardSp" value="712"/>
+        <set name="shots" value="NONE"/>
+        <set name="texture" value=""/>
+        <set name="type" value="Monster"/>
+        <ai_params>
+            <set name="noRandomWalk" value="true"/>
+        </ai_params>
+        <skills>
+            <skill id="4416" level="2"/>
+            <skill id="4789" level="4"/>
+            <skill id="4408" level="1"/>
+            <skill id="4409" level="1"/>
+            <skill id="4410" level="11"/>
+            <skill id="4411" level="11"/>
+            <skill id="4412" level="11"/>
+            <skill id="4045" level="1"/>
+            <skill id="4413" level="11"/>
+            <skill id="4414" level="2"/>
+            <skill id="4415" level="5"/>
+        </skills>
+        <rewardlist type="RATED_GROUPED">
+            <group chance="70">
+                <reward chance="100" item_id="57" max="1920" min="941"/>
+            </group>
+            <group chance="0.9792">
+                <reward chance="3.9179" item_id="12224" max="1" min="1"/>
+                <reward chance="21.0821" item_id="5496" max="1" min="1"/>
+                <reward chance="3.9179" item_id="12231" max="1" min="1"/>
+                <reward chance="21.0821" item_id="5497" max="1" min="1"/>
+                <reward chance="3.9179" item_id="12221" max="1" min="1"/>
+                <reward chance="21.0821" item_id="5508" max="1" min="1"/>
+                <reward chance="3.9179" item_id="12229" max="1" min="1"/>
+                <reward chance="21.0821" item_id="5509" max="1" min="1"/>
+            </group>
+            <group chance="20.3394">
+                <reward chance="46.1735" item_id="1872" max="1" min="1"/>
+                <reward chance="46.1735" item_id="1867" max="1" min="1"/>
+                <reward chance="4.6174" item_id="1881" max="1" min="1"/>
+                <reward chance="2.3087" item_id="1875" max="1" min="1"/>
+                <reward chance="0.3011" item_id="4041" max="1" min="1"/>
+                <reward chance="0.0154" item_id="1808" max="1" min="1"/>
+                <reward chance="0.3206" item_id="8731" max="1" min="1"/>
+                <reward chance="0.0802" item_id="8741" max="1" min="1"/>
+                <reward chance="0.008" item_id="8751" max="1" min="1"/>
+                <reward chance="0.0016" item_id="8761" max="1" min="1"/>
+            </group>
+        </rewardlist>
+        <rewardlist type="SWEEP">
+            <reward chance="12.7175" item_id="1875" max="1" min="1"/>
+            <reward chance="1.6588" item_id="4041" max="1" min="1"/>
+            <reward chance="0.856" item_id="5480" max="1" min="1"/>
+        </rewardlist>
+        <attributes>
+            <defence attribute="fire" value="20"/>
+            <defence attribute="water" value="20"/>
+            <defence attribute="wind" value="20"/>
+            <defence attribute="earth" value="20"/>
+            <defence attribute="holy" value="20"/>
+            <defence attribute="unholy" value="20"/>
+        </attributes>
+    </npc>
+    <npc id="21820" name="Treasure Chest" title="">
+        <set name="aggroRange" value="300"/>
+        <set name="ai_type" value="Fighter"/>
+        <set name="baseAtkRange" value="40"/>
+        <set name="baseCON" value="43"/>
+        <set name="baseCritRate" value="1"/>
+        <set name="baseDEX" value="30"/>
+        <set name="baseHpMax" value="2802.89989"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="8.5"/>
+        <set name="baseINT" value="21"/>
+        <set name="baseMAtk" value="584"/>
+        <set name="baseMAtkSpd" value="500"/>
+        <set name="baseMDef" value="222"/>
+        <set name="baseMEN" value="20"/>
+        <set name="baseMpMax" value="1607.4"/>
+        <set name="baseMpReg" value="3"/>
+        <set name="basePAtk" value="856"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="basePDef" value="333"/>
+        <set name="baseRunSpd" value="165"/>
+        <set name="baseSTR" value="40"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="baseWIT" value="20"/>
+        <set name="baseWalkSpd" value="80"/>
+        <set name="collision_height" value="8.5"/>
+        <set name="collision_radius" value="8.5"/>
+        <set name="level" value="78"/>
+        <set name="isAgro" value="0"/>
+        <set name="rewardExp" value="7301"/>
+        <set name="rewardRp" value="0"/>
+        <set name="rewardSp" value="799"/>
+        <set name="shots" value="NONE"/>
+        <set name="texture" value=""/>
+        <set name="type" value="Monster"/>
+        <ai_params>
+            <set name="noRandomWalk" value="true"/>
+        </ai_params>
+        <skills>
+            <skill id="4416" level="2"/>
+            <skill id="4789" level="5"/>
+            <skill id="4408" level="1"/>
+            <skill id="4409" level="1"/>
+            <skill id="4410" level="11"/>
+            <skill id="4411" level="11"/>
+            <skill id="4412" level="11"/>
+            <skill id="4045" level="1"/>
+            <skill id="4413" level="11"/>
+            <skill id="4414" level="2"/>
+            <skill id="4415" level="5"/>
+        </skills>
+        <rewardlist type="RATED_GROUPED">
+            <group chance="70">
+                <reward chance="100" item_id="57" max="2092" min="1025"/>
+            </group>
+            <group chance="0.7914">
+                <reward chance="6.7053" item_id="12225" max="1" min="1"/>
+                <reward chance="33.9386" item_id="5494" max="1" min="1"/>
+                <reward chance="4.6976" item_id="12226" max="1" min="1"/>
+                <reward chance="24.9804" item_id="5525" max="1" min="1"/>
+                <reward chance="4.6976" item_id="12234" max="1" min="1"/>
+                <reward chance="24.9805" item_id="5526" max="1" min="1"/>
+            </group>
+            <group chance="31.9475">
+                <reward chance="9.6074" item_id="1873" max="1" min="1"/>
+                <reward chance="48.0371" item_id="1868" max="1" min="1"/>
+                <reward chance="4.8037" item_id="1876" max="1" min="1"/>
+                <reward chance="6.8624" item_id="1895" max="1" min="1"/>
+                <reward chance="0.4003" item_id="4042" max="1" min="1"/>
+                <reward chance="0.0107" item_id="3036" max="1" min="1"/>
+                <reward chance="0.2002" item_id="8732" max="1" min="1"/>
+                <reward chance="0.05" item_id="8742" max="1" min="1"/>
+                <reward chance="0.005" item_id="8752" max="1" min="1"/>
+                <reward chance="30.0232" item_id="1344" max="30" min="10"/>
+            </group>
+        </rewardlist>
+        <rewardlist type="SWEEP">
+            <reward chance="0.2078" item_id="6901" max="1" min="1"/>
+            <reward chance="0.9325" item_id="5481" max="1" min="1"/>
+            <reward chance="0.0924" item_id="1808" max="1" min="1"/>
+        </rewardlist>
+        <attributes>
+            <defence attribute="fire" value="20"/>
+            <defence attribute="water" value="20"/>
+            <defence attribute="wind" value="20"/>
+            <defence attribute="earth" value="20"/>
+            <defence attribute="holy" value="20"/>
+            <defence attribute="unholy" value="20"/>
+        </attributes>
+    </npc>
+    <npc id="21821" name="Treasure Chest" title="">
+        <set name="aggroRange" value="300"/>
+        <set name="ai_type" value="Fighter"/>
+        <set name="baseAtkRange" value="40"/>
+        <set name="baseCON" value="43"/>
+        <set name="baseCritRate" value="1"/>
+        <set name="baseDEX" value="30"/>
+        <set name="baseHpMax" value="3004.4059082"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="8.755"/>
+        <set name="baseINT" value="21"/>
+        <set name="baseMAtk" value="662"/>
+        <set name="baseMAtkSpd" value="500"/>
+        <set name="baseMDef" value="237"/>
+        <set name="baseMEN" value="20"/>
+        <set name="baseMpMax" value="1760.064"/>
+        <set name="baseMpReg" value="3.09"/>
+        <set name="basePAtk" value="941"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="basePDef" value="356"/>
+        <set name="baseRunSpd" value="165"/>
+        <set name="baseSTR" value="40"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="baseWIT" value="20"/>
+        <set name="baseWalkSpd" value="80"/>
+        <set name="collision_height" value="8.5"/>
+        <set name="collision_radius" value="8.5"/>
+        <set name="level" value="78"/>
+        <set name="isAgro" value="0"/>
+        <set name="rewardExp" value="7873"/>
+        <set name="rewardRp" value="0"/>
+        <set name="rewardSp" value="894"/>
+        <set name="shots" value="NONE"/>
+        <set name="texture" value=""/>
+        <set name="type" value="Monster"/>
+        <ai_params>
+            <set name="noRandomWalk" value="true"/>
+        </ai_params>
+        <skills>
+            <skill id="4416" level="2"/>
+            <skill id="4789" level="7"/>
+            <skill id="4408" level="1"/>
+            <skill id="4409" level="1"/>
+            <skill id="4410" level="11"/>
+            <skill id="4411" level="11"/>
+            <skill id="4412" level="11"/>
+            <skill id="4045" level="1"/>
+            <skill id="4413" level="11"/>
+            <skill id="4414" level="2"/>
+            <skill id="4415" level="5"/>
+        </skills>
+        <rewardlist type="RATED_GROUPED">
+            <group chance="70">
+                <reward chance="100" item_id="57" max="2273" min="1110"/>
+            </group>
+            <group chance="0.8168">
+                <reward chance="3.469" item_id="12267" max="1" min="1"/>
+                <reward chance="21.531" item_id="5502" max="1" min="1"/>
+                <reward chance="3.469" item_id="12260" max="1" min="1"/>
+                <reward chance="21.531" item_id="5503" max="1" min="1"/>
+                <reward chance="3.469" item_id="12264" max="1" min="1"/>
+                <reward chance="21.531" item_id="5514" max="1" min="1"/>
+                <reward chance="3.469" item_id="12257" max="1" min="1"/>
+                <reward chance="21.531" item_id="5515" max="1" min="1"/>
+            </group>
+            <group chance="1.2611">
+                <reward chance="28.9706" item_id="1894" max="1" min="1"/>
+                <reward chance="27.522" item_id="4039" max="1" min="1"/>
+                <reward chance="7.1797" item_id="4041" max="1" min="1"/>
+                <reward chance="27.522" item_id="4044" max="1" min="1"/>
+                <reward chance="0.033" item_id="959" max="1" min="1"/>
+                <reward chance="6.8805" item_id="8732" max="1" min="1"/>
+                <reward chance="1.7201" item_id="8742" max="1" min="1"/>
+                <reward chance="0.1721" item_id="8752" max="1" min="1"/>
+            </group>
+        </rewardlist>
+        <rewardlist type="SWEEP">
+            <reward chance="1.0159" item_id="5487" max="1" min="1"/>
+            <reward chance="7.5202" item_id="4039" max="1" min="1"/>
+            <reward chance="1.9618" item_id="4041" max="1" min="1"/>
+        </rewardlist>
+        <attributes>
+            <defence attribute="fire" value="20"/>
+            <defence attribute="water" value="20"/>
+            <defence attribute="wind" value="20"/>
+            <defence attribute="earth" value="20"/>
+            <defence attribute="holy" value="20"/>
+            <defence attribute="unholy" value="20"/>
+        </attributes>
+    </npc>
+    <npc id="21822" name="Treasure Chest" title="">
+        <set name="aggroRange" value="300"/>
+        <set name="ai_type" value="Fighter"/>
+        <set name="baseAtkRange" value="40"/>
+        <set name="baseCON" value="43"/>
+        <set name="baseCritRate" value="1"/>
+        <set name="baseDEX" value="30"/>
+        <set name="baseHpMax" value="3137.4936216"/>
+        <set name="baseHpRate" value="1"/>
+        <set name="baseHpReg" value="8.84"/>
+        <set name="baseINT" value="21"/>
+        <set name="baseMAtk" value="714"/>
+        <set name="baseMAtkSpd" value="500"/>
+        <set name="baseMDef" value="248"/>
+        <set name="baseMEN" value="20"/>
+        <set name="baseMpMax" value="1884.48"/>
+        <set name="baseMpReg" value="3.12"/>
+        <set name="basePAtk" value="1005"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="basePDef" value="372"/>
+        <set name="baseRunSpd" value="165"/>
+        <set name="baseSTR" value="40"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="baseWIT" value="20"/>
+        <set name="baseWalkSpd" value="80"/>
+        <set name="collision_height" value="8.5"/>
+        <set name="collision_radius" value="8.5"/>
+        <set name="level" value="80"/>
+        <set name="isAgro" value="0"/>
+        <set name="rewardExp" value="8467"/>
+        <set name="rewardRp" value="0"/>
+        <set name="rewardSp" value="996"/>
+        <set name="shots" value="NONE"/>
+        <set name="texture" value=""/>
+        <set name="type" value="Monster"/>
+        <ai_params>
+            <set name="noRandomWalk" value="true"/>
+        </ai_params>
+        <skills>
+            <skill id="4416" level="2"/>
+            <skill id="4789" level="8"/>
+            <skill id="4408" level="1"/>
+            <skill id="4409" level="1"/>
+            <skill id="4410" level="11"/>
+            <skill id="4411" level="11"/>
+            <skill id="4412" level="11"/>
+            <skill id="4045" level="1"/>
+            <skill id="4413" level="11"/>
+            <skill id="4414" level="2"/>
+            <skill id="4415" level="5"/>
+        </skills>
+        <rewardlist type="RATED_GROUPED">
+            <group chance="70">
+                <reward chance="100" item_id="57" max="2449" min="1200"/>
+            </group>
+            <group chance="0.6788">
+                <reward chance="5.7237" item_id="12268" max="1" min="1"/>
+                <reward chance="33.5054" item_id="5495" max="1" min="1"/>
+                <reward chance="4.0045" item_id="12269" max="1" min="1"/>
+                <reward chance="26.3809" item_id="5527" max="1" min="1"/>
+                <reward chance="4.0045" item_id="12261" max="1" min="1"/>
+                <reward chance="26.381" item_id="5528" max="1" min="1"/>
+            </group>
+            <group chance="4.1197">
+                <reward chance="77.9066" item_id="1895" max="1" min="1"/>
+                <reward chance="5.4535" item_id="4040" max="1" min="1"/>
+                <reward chance="4.5446" item_id="4042" max="1" min="1"/>
+                <reward chance="9.0891" item_id="4043" max="1" min="1"/>
+                <reward chance="0.1091" item_id="960" max="1" min="1"/>
+                <reward chance="2.2723" item_id="8732" max="1" min="1"/>
+                <reward chance="0.5681" item_id="8742" max="1" min="1"/>
+                <reward chance="0.0567" item_id="8752" max="1" min="1"/>
+            </group>
+        </rewardlist>
+        <rewardlist type="SWEEP">
+            <reward chance="0.5261" item_id="6688" max="1" min="1"/>
+            <reward chance="0.5162" item_id="6689" max="1" min="1"/>
+            <reward chance="0.5271" item_id="6690" max="1" min="1"/>
+        </rewardlist>
+        <attributes>
+            <defence attribute="fire" value="20"/>
+            <defence attribute="water" value="20"/>
+            <defence attribute="wind" value="20"/>
+            <defence attribute="earth" value="20"/>
+            <defence attribute="holy" value="20"/>
+            <defence attribute="unholy" value="20"/>
+        </attributes>
+    </npc>
+    <npc id="21823" name="Executor of Sacrificial Offerings" title="">
+        <set name="aggroRange" value="0"/>
+        <set name="ai_type" value="Fighter"/>
+        <set name="baseAtkRange" value="40"/>
+        <set name="baseCON" value="43"/>
+        <set name="baseCritRate" value="4"/>
+        <set name="baseDEX" value="30"/>
+        <set name="baseHpMax" value="2937.9838056"/>
+        <set name="baseHpRate" value="6"/>
+        <set name="baseHpReg" value="8.67"/>
+        <set name="baseINT" value="21"/>
+        <set name="baseMAtk" value="636"/>
+        <set name="baseMAtkSpd" value="500"/>
+        <set name="baseMDef" value="232"/>
+        <set name="baseMEN" value="20"/>
+        <set name="baseMpMax" value="1708.296"/>
+        <set name="baseMpReg" value="3.06"/>
+        <set name="basePAtk" value="913"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="basePDef" value="348"/>
+        <set name="baseRunSpd" value="190"/>
+        <set name="baseSTR" value="40"/>
+        <set name="baseShldDef" value="171"/>
+        <set name="baseShldRate" value="20"/>
+        <set name="baseWIT" value="20"/>
+        <set name="baseWalkSpd" value="39"/>
+        <set name="collision_height" value="30"/>
+        <set name="collision_radius" value="7"/>
+        <set name="level" value="78"/>
+        <set name="isAgro" value="0"/>
+        <set name="rewardExp" value="72252"/>
+        <set name="rewardRp" value="0"/>
+        <set name="rewardSp" value="8110"/>
+        <set name="shots" value="NONE"/>
+        <set name="texture" value=""/>
+        <set name="type" value="Monster"/>
+        <faction name="tomb_clan" range="300"/>
+        <equip>
+            <rhand item_id="134"/>
+            <lhand item_id="6721"/>
+        </equip>
+        <skills>
+            <skill id="4416" level="1"/>
+            <skill id="4613" level="9"/>
+            <skill id="4077" level="9"/>
+            <skill id="4078" level="9"/>
+            <skill id="4789" level="6"/>
+            <skill id="4408" level="14"/>
+            <skill id="4409" level="1"/>
+            <skill id="4410" level="11"/>
+            <skill id="4411" level="11"/>
+            <skill id="4412" level="11"/>
+            <skill id="4285" level="5"/>
+            <skill id="4413" level="11"/>
+            <skill id="4414" level="2"/>
+            <skill id="4287" level="5"/>
+            <skill id="4415" level="3"/>
+        </skills>
+        <rewardlist type="RATED_GROUPED">
+            <group chance="70">
+                <reward chance="100" item_id="57" max="20801" min="10189"/>
+            </group>
+            <group chance="1.1154">
+                <reward chance="6.0817" item_id="11975" max="1" min="1"/>
+                <reward chance="93.9183" item_id="5534" max="1" min="1"/>
+            </group>
+            <group chance="11.5533">
+                <reward chance="28.9706" item_id="1894" max="1" min="1"/>
+                <reward chance="27.522" item_id="4039" max="1" min="1"/>
+                <reward chance="7.1797" item_id="4041" max="1" min="1"/>
+                <reward chance="27.522" item_id="4044" max="1" min="1"/>
+                <reward chance="0.033" item_id="959" max="1" min="1"/>
+                <reward chance="6.8805" item_id="8732" max="1" min="1"/>
+                <reward chance="1.7201" item_id="8742" max="1" min="1"/>
+                <reward chance="0.1721" item_id="8752" max="1" min="1"/>
+            </group>
+        </rewardlist>
+        <rewardlist type="SWEEP">
+            <reward chance="72.5194" item_id="1894" max="1" min="1"/>
+            <reward chance="68.8934" item_id="4039" max="1" min="1"/>
+            <reward chance="9.2742" item_id="5480" max="1" min="1"/>
+        </rewardlist>
+        <attributes>
+            <attack attribute="unholy" value="20"/>
+            <defence attribute="fire" value="20"/>
+            <defence attribute="water" value="20"/>
+            <defence attribute="wind" value="20"/>
+            <defence attribute="earth" value="20"/>
+            <defence attribute="holy" value="-32"/>
+            <defence attribute="unholy" value="53"/>
+        </attributes>
+    </npc>
+    <npc id="21824" name="Alpen Kookaburra" title="">
+        <set name="aggroRange" value="300"/>
+        <set name="ai_type" value="Fighter"/>
+        <set name="baseAtkRange" value="40"/>
+        <set name="baseCON" value="43"/>
+        <set name="baseCritRate" value="4"/>
+        <set name="baseDEX" value="30"/>
+        <set name="baseHpMax" value="2193.43142"/>
+        <set name="baseHpRate" value="4"/>
+        <set name="baseHpReg" value="7.5"/>
+        <set name="baseINT" value="21"/>
+        <set name="baseMAtk" value="398"/>
+        <set name="baseMAtkSpd" value="500"/>
+        <set name="baseMDef" value="181"/>
+        <set name="baseMEN" value="20"/>
+        <set name="baseMpMax" value="1188.8"/>
+        <set name="baseMpReg" value="2.7"/>
+        <set name="basePAtk" value="583"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="basePDef" value="272"/>
+        <set name="baseRunSpd" value="210"/>
+        <set name="baseSTR" value="40"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="baseWIT" value="20"/>
+        <set name="baseWalkSpd" value="23"/>
+        <set name="collision_height" value="33"/>
+        <set name="collision_radius" value="10"/>
+        <set name="level" value="65"/>
+        <set name="isAgro" value="1"/>
+        <set name="rewardExp" value="30997"/>
+        <set name="rewardRp" value="0"/>
+        <set name="rewardSp" value="2880"/>
+        <set name="shots" value="NONE"/>
+        <set name="texture" value=""/>
+        <set name="type" value="FeedableBeast"/>
+        <faction name="pet_clan" range="300"/>
+        <skills>
+            <skill id="4416" level="3"/>
+            <skill id="4589" level="6"/>
+            <skill id="4438" level="2"/>
+            <skill id="4408" level="12"/>
+            <skill id="4600" level="6"/>
+            <skill id="4409" level="1"/>
+            <skill id="4410" level="14"/>
+            <skill id="4411" level="14"/>
+            <skill id="4412" level="8"/>
+            <skill id="4413" level="8"/>
+            <skill id="4318" level="1"/>
+            <skill id="4414" level="2"/>
+            <skill id="4415" level="3"/>
+        </skills>
+        <rewardlist type="RATED_GROUPED">
+            <group chance="0.6835">
+                <reward chance="0.0913" item_id="171" max="1" min="1"/>
+                <reward chance="20.127" item_id="4116" max="1" min="1"/>
+                <reward chance="0.0913" item_id="175" max="1" min="1"/>
+                <reward chance="20.127" item_id="4117" max="1" min="1"/>
+                <reward chance="0.0913" item_id="210" max="1" min="1"/>
+                <reward chance="19.0692" item_id="4118" max="1" min="1"/>
+                <reward chance="0.0913" item_id="7893" max="1" min="1"/>
+                <reward chance="20.127" item_id="8340" max="1" min="1"/>
+                <reward chance="0.0913" item_id="7901" max="1" min="1"/>
+                <reward chance="20.0933" item_id="8348" max="1" min="1"/>
+            </group>
+            <group chance="4.4655">
+                <reward chance="27.4922" item_id="1894" max="1" min="1"/>
+                <reward chance="26.1176" item_id="4039" max="1" min="1"/>
+                <reward chance="6.8133" item_id="4041" max="1" min="1"/>
+                <reward chance="26.1176" item_id="4044" max="1" min="1"/>
+                <reward chance="0.0871" item_id="729" max="1" min="1"/>
+                <reward chance="10.447" item_id="8729" max="1" min="1"/>
+                <reward chance="2.6118" item_id="8739" max="1" min="1"/>
+                <reward chance="0.2612" item_id="8749" max="1" min="1"/>
+                <reward chance="0.0522" item_id="8759" max="1" min="1"/>
+            </group>
+        </rewardlist>
+        <rewardlist type="SWEEP">
+            <reward chance="37.405" item_id="1894" max="1" min="1"/>
+            <reward chance="37.7427" item_id="4052" max="1" min="1"/>
+            <reward chance="1.4214" item_id="1807" max="1" min="1"/>
+        </rewardlist>
+        <attributes>
+            <defence attribute="fire" value="20"/>
+            <defence attribute="water" value="20"/>
+            <defence attribute="wind" value="20"/>
+            <defence attribute="earth" value="20"/>
+            <defence attribute="holy" value="20"/>
+            <defence attribute="unholy" value="20"/>
+        </attributes>
+    </npc>
+    <npc id="21825" name="Alpen Kookaburra" title="">
+        <set name="aggroRange" value="300"/>
+        <set name="ai_type" value="Fighter"/>
+        <set name="baseAtkRange" value="40"/>
+        <set name="baseCON" value="43"/>
+        <set name="baseCritRate" value="4"/>
+        <set name="baseDEX" value="30"/>
+        <set name="baseHpMax" value="2193.43142"/>
+        <set name="baseHpRate" value="4"/>
+        <set name="baseHpReg" value="7.5"/>
+        <set name="baseINT" value="21"/>
+        <set name="baseMAtk" value="398"/>
+        <set name="baseMAtkSpd" value="500"/>
+        <set name="baseMDef" value="181"/>
+        <set name="baseMEN" value="20"/>
+        <set name="baseMpMax" value="1188.8"/>
+        <set name="baseMpReg" value="2.7"/>
+        <set name="basePAtk" value="583"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="basePDef" value="272"/>
+        <set name="baseRunSpd" value="210"/>
+        <set name="baseSTR" value="40"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="baseWIT" value="20"/>
+        <set name="baseWalkSpd" value="23"/>
+        <set name="collision_height" value="33"/>
+        <set name="collision_radius" value="10"/>
+        <set name="level" value="65"/>
+        <set name="isAgro" value="1"/>
+        <set name="rewardExp" value="29568"/>
+        <set name="rewardRp" value="0"/>
+        <set name="rewardSp" value="2747"/>
+        <set name="shots" value="NONE"/>
+        <set name="texture" value=""/>
+        <set name="type" value="FeedableBeast"/>
+        <faction name="pet_clan" range="300"/>
+        <skills>
+            <skill id="4160" level="6"/>
+            <skill id="4416" level="3"/>
+            <skill id="4657" level="6"/>
+            <skill id="4438" level="2"/>
+            <skill id="4566" level="6"/>
+            <skill id="4408" level="12"/>
+            <skill id="4409" level="1"/>
+            <skill id="4410" level="14"/>
+            <skill id="4411" level="14"/>
+            <skill id="4571" level="6"/>
+            <skill id="4412" level="8"/>
+            <skill id="4413" level="8"/>
+            <skill id="4318" level="1"/>
+            <skill id="4414" level="2"/>
+            <skill id="4415" level="3"/>
+        </skills>
+        <rewardlist type="RATED_GROUPED">
+            <group chance="2.2676">
+                <reward chance="0.1784" item_id="358" max="1" min="1"/>
+                <reward chance="32.2503" item_id="4078" max="1" min="1"/>
+                <reward chance="0.2854" item_id="2380" max="1" min="1"/>
+                <reward chance="45.4152" item_id="4080" max="1" min="1"/>
+                <reward chance="0.1098" item_id="2381" max="1" min="1"/>
+                <reward chance="21.7609" item_id="4081" max="1" min="1"/>
+            </group>
+            <group chance="29.785">
+                <reward chance="22.9199" item_id="1869" max="6" min="2"/>
+                <reward chance="18.3359" item_id="1864" max="15" min="5"/>
+                <reward chance="9.1679" item_id="1880" max="1" min="1"/>
+                <reward chance="1.2224" item_id="5550" max="1" min="1"/>
+                <reward chance="3.056" item_id="4043" max="1" min="1"/>
+                <reward chance="0.0764" item_id="730" max="1" min="1"/>
+                <reward chance="1.2224" item_id="8729" max="1" min="1"/>
+                <reward chance="0.3056" item_id="8739" max="1" min="1"/>
+                <reward chance="0.0306" item_id="8749" max="1" min="1"/>
+                <reward chance="0.0061" item_id="8759" max="1" min="1"/>
+                <reward chance="43.6568" item_id="1343" max="90" min="30"/>
+            </group>
+        </rewardlist>
+        <rewardlist type="SWEEP">
+            <reward chance="43.5874" item_id="4053" max="1" min="1"/>
+            <reward chance="1.3559" item_id="3035" max="1" min="1"/>
+            <reward chance="20.0294" item_id="4054" max="1" min="1"/>
+        </rewardlist>
+        <attributes>
+            <defence attribute="fire" value="20"/>
+            <defence attribute="water" value="20"/>
+            <defence attribute="wind" value="20"/>
+            <defence attribute="earth" value="20"/>
+            <defence attribute="holy" value="20"/>
+            <defence attribute="unholy" value="20"/>
+        </attributes>
+    </npc>
+    <npc id="21826" name="Alpen Buffalo" title="">
+        <set name="aggroRange" value="300"/>
+        <set name="ai_type" value="Fighter"/>
+        <set name="baseAtkRange" value="40"/>
+        <set name="baseCON" value="43"/>
+        <set name="baseCritRate" value="1"/>
+        <set name="baseDEX" value="30"/>
+        <set name="baseHpMax" value="2295.48154"/>
+        <set name="baseHpRate" value="4"/>
+        <set name="baseHpReg" value="7.5"/>
+        <set name="baseINT" value="21"/>
+        <set name="baseMAtk" value="427"/>
+        <set name="baseMAtkSpd" value="500"/>
+        <set name="baseMDef" value="187"/>
+        <set name="baseMEN" value="20"/>
+        <set name="baseMpMax" value="1251"/>
+        <set name="baseMpReg" value="2.7"/>
+        <set name="basePAtk" value="625"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="basePDef" value="282"/>
+        <set name="baseRunSpd" value="170"/>
+        <set name="baseSTR" value="40"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="baseWIT" value="20"/>
+        <set name="baseWalkSpd" value="20"/>
+        <set name="collision_height" value="31"/>
+        <set name="collision_radius" value="22"/>
+        <set name="level" value="67"/>
+        <set name="isAgro" value="1"/>
+        <set name="rewardExp" value="32934"/>
+        <set name="rewardRp" value="0"/>
+        <set name="rewardSp" value="3137"/>
+        <set name="shots" value="NONE"/>
+        <set name="texture" value=""/>
+        <set name="type" value="FeedableBeast"/>
+        <faction name="pet_clan" range="300"/>
+        <skills>
+            <skill id="4416" level="3"/>
+            <skill id="4589" level="6"/>
+            <skill id="4438" level="2"/>
+            <skill id="4408" level="12"/>
+            <skill id="4600" level="6"/>
+            <skill id="4409" level="1"/>
+            <skill id="4410" level="14"/>
+            <skill id="4411" level="14"/>
+            <skill id="4412" level="8"/>
+            <skill id="4413" level="8"/>
+            <skill id="4318" level="1"/>
+            <skill id="4414" level="2"/>
+            <skill id="4415" level="6"/>
+        </skills>
+        <rewardlist type="RATED_GROUPED">
+            <group chance="2.5383">
+                <reward chance="0.1784" item_id="358" max="1" min="1"/>
+                <reward chance="32.2503" item_id="4078" max="1" min="1"/>
+                <reward chance="0.2854" item_id="2380" max="1" min="1"/>
+                <reward chance="45.4152" item_id="4080" max="1" min="1"/>
+                <reward chance="0.1098" item_id="2381" max="1" min="1"/>
+                <reward chance="21.7609" item_id="4081" max="1" min="1"/>
+            </group>
+            <group chance="33.2393">
+                <reward chance="50.5775" item_id="1870" max="3" min="1"/>
+                <reward chance="33.7184" item_id="1865" max="3" min="1"/>
+                <reward chance="6.7437" item_id="1874" max="1" min="1"/>
+                <reward chance="3.3718" item_id="4043" max="1" min="1"/>
+                <reward chance="3.3718" item_id="4039" max="1" min="1"/>
+                <reward chance="0.7781" item_id="6339" max="1" min="1"/>
+                <reward chance="1.1239" item_id="8730" max="1" min="1"/>
+                <reward chance="0.281" item_id="8740" max="1" min="1"/>
+                <reward chance="0.0281" item_id="8750" max="1" min="1"/>
+                <reward chance="0.0057" item_id="8760" max="1" min="1"/>
+            </group>
+        </rewardlist>
+        <rewardlist type="SWEEP">
+            <reward chance="75.8857" item_id="1874" max="1" min="1"/>
+            <reward chance="37.9428" item_id="4043" max="1" min="1"/>
+            <reward chance="51.2049" item_id="4077" max="1" min="1"/>
+        </rewardlist>
+        <attributes>
+            <defence attribute="fire" value="20"/>
+            <defence attribute="water" value="20"/>
+            <defence attribute="wind" value="20"/>
+            <defence attribute="earth" value="20"/>
+            <defence attribute="holy" value="20"/>
+            <defence attribute="unholy" value="20"/>
+        </attributes>
+    </npc>
+    <npc id="21827" name="Alpen Buffalo" title="">
+        <set name="aggroRange" value="300"/>
+        <set name="ai_type" value="Fighter"/>
+        <set name="baseAtkRange" value="40"/>
+        <set name="baseCON" value="43"/>
+        <set name="baseCritRate" value="1"/>
+        <set name="baseDEX" value="30"/>
+        <set name="baseHpMax" value="2295.48154"/>
+        <set name="baseHpRate" value="4"/>
+        <set name="baseHpReg" value="7.5"/>
+        <set name="baseINT" value="21"/>
+        <set name="baseMAtk" value="427"/>
+        <set name="baseMAtkSpd" value="500"/>
+        <set name="baseMDef" value="187"/>
+        <set name="baseMEN" value="20"/>
+        <set name="baseMpMax" value="1251"/>
+        <set name="baseMpReg" value="2.7"/>
+        <set name="basePAtk" value="625"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="basePDef" value="282"/>
+        <set name="baseRunSpd" value="170"/>
+        <set name="baseSTR" value="40"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="baseWIT" value="20"/>
+        <set name="baseWalkSpd" value="20"/>
+        <set name="collision_height" value="31"/>
+        <set name="collision_radius" value="22"/>
+        <set name="level" value="67"/>
+        <set name="isAgro" value="1"/>
+        <set name="rewardExp" value="31415"/>
+        <set name="rewardRp" value="0"/>
+        <set name="rewardSp" value="2992"/>
+        <set name="shots" value="NONE"/>
+        <set name="texture" value=""/>
+        <set name="type" value="FeedableBeast"/>
+        <faction name="pet_clan" range="300"/>
+        <skills>
+            <skill id="4160" level="6"/>
+            <skill id="4416" level="3"/>
+            <skill id="4657" level="6"/>
+            <skill id="4438" level="2"/>
+            <skill id="4566" level="6"/>
+            <skill id="4408" level="12"/>
+            <skill id="4409" level="1"/>
+            <skill id="4410" level="14"/>
+            <skill id="4411" level="14"/>
+            <skill id="4571" level="6"/>
+            <skill id="4412" level="8"/>
+            <skill id="4413" level="8"/>
+            <skill id="4318" level="1"/>
+            <skill id="4414" level="2"/>
+            <skill id="4415" level="6"/>
+        </skills>
+        <rewardlist type="RATED_GROUPED">
+            <group chance="0.7049">
+                <reward chance="0.1503" item_id="79" max="1" min="1"/>
+                <reward chance="33.2016" item_id="4114" max="1" min="1"/>
+                <reward chance="0.1503" item_id="7883" max="1" min="1"/>
+                <reward chance="33.1458" item_id="8330" max="1" min="1"/>
+                <reward chance="0.1503" item_id="7889" max="1" min="1"/>
+                <reward chance="33.2017" item_id="8336" max="1" min="1"/>
+            </group>
+            <group chance="36.7925">
+                <reward chance="26.416" item_id="1871" max="3" min="1"/>
+                <reward chance="52.8321" item_id="1866" max="1" min="1"/>
+                <reward chance="3.1699" item_id="1877" max="1" min="1"/>
+                <reward chance="0.6891" item_id="4041" max="1" min="1"/>
+                <reward chance="1.585" item_id="4040" max="1" min="1"/>
+                <reward chance="0.0294" item_id="5456" max="1" min="1"/>
+                <reward chance="0.8805" item_id="8730" max="1" min="1"/>
+                <reward chance="0.2201" item_id="8740" max="1" min="1"/>
+                <reward chance="0.022" item_id="8750" max="1" min="1"/>
+                <reward chance="0.0044" item_id="8760" max="1" min="1"/>
+                <reward chance="14.1515" item_id="1343" max="240" min="80"/>
+            </group>
+        </rewardlist>
+        <rewardlist type="SWEEP">
+            <reward chance="1.4477" item_id="3956" max="1" min="1"/>
+            <reward chance="15.8605" item_id="4078" max="1" min="1"/>
+            <reward chance="1.4477" item_id="5156" max="1" min="1"/>
+        </rewardlist>
+        <attributes>
+            <defence attribute="fire" value="20"/>
+            <defence attribute="water" value="20"/>
+            <defence attribute="wind" value="20"/>
+            <defence attribute="earth" value="20"/>
+            <defence attribute="holy" value="20"/>
+            <defence attribute="unholy" value="20"/>
+        </attributes>
+    </npc>
+    <npc id="21828" name="Alpen Cougar" title="">
+        <set name="aggroRange" value="300"/>
+        <set name="ai_type" value="Fighter"/>
+        <set name="baseAtkRange" value="40"/>
+        <set name="baseCON" value="43"/>
+        <set name="baseCritRate" value="4"/>
+        <set name="baseDEX" value="30"/>
+        <set name="baseHpMax" value="2395.45533"/>
+        <set name="baseHpRate" value="4"/>
+        <set name="baseHpReg" value="7.5"/>
+        <set name="baseINT" value="21"/>
+        <set name="baseMAtk" value="456"/>
+        <set name="baseMAtkSpd" value="500"/>
+        <set name="baseMDef" value="194"/>
+        <set name="baseMEN" value="20"/>
+        <set name="baseMpMax" value="1314"/>
+        <set name="baseMpReg" value="2.7"/>
+        <set name="basePAtk" value="668"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="basePDef" value="291"/>
+        <set name="baseRunSpd" value="200"/>
+        <set name="baseSTR" value="40"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="baseWIT" value="20"/>
+        <set name="baseWalkSpd" value="60"/>
+        <set name="collision_height" value="28"/>
+        <set name="collision_radius" value="34"/>
+        <set name="level" value="69"/>
+        <set name="isAgro" value="1"/>
+        <set name="rewardExp" value="34929"/>
+        <set name="rewardRp" value="0"/>
+        <set name="rewardSp" value="3418"/>
+        <set name="shots" value="NONE"/>
+        <set name="texture" value=""/>
+        <set name="type" value="FeedableBeast"/>
+        <faction name="pet_clan" range="300"/>
+        <skills>
+            <skill id="4416" level="3"/>
+            <skill id="4589" level="6"/>
+            <skill id="4438" level="2"/>
+            <skill id="4408" level="12"/>
+            <skill id="4600" level="6"/>
+            <skill id="4409" level="1"/>
+            <skill id="4410" level="14"/>
+            <skill id="4411" level="14"/>
+            <skill id="4412" level="8"/>
+            <skill id="4413" level="8"/>
+            <skill id="4318" level="1"/>
+            <skill id="4414" level="2"/>
+            <skill id="4415" level="3"/>
+        </skills>
+        <rewardlist type="RATED_GROUPED">
+            <group chance="0.6086">
+                <reward chance="0.1045" item_id="212" max="1" min="1"/>
+                <reward chance="25.0791" item_id="5543" max="1" min="1"/>
+                <reward chance="0.1045" item_id="2504" max="1" min="1"/>
+                <reward chance="24.8449" item_id="5532" max="1" min="1"/>
+                <reward chance="0.1045" item_id="7894" max="1" min="1"/>
+                <reward chance="24.8131" item_id="8341" max="1" min="1"/>
+                <reward chance="0.1045" item_id="7899" max="1" min="1"/>
+                <reward chance="24.8449" item_id="8346" max="1" min="1"/>
+            </group>
+            <group chance="39.4936">
+                <reward chance="45.4026" item_id="1865" max="3" min="1"/>
+                <reward chance="30.2684" item_id="1870" max="3" min="1"/>
+                <reward chance="15.1342" item_id="1879" max="1" min="1"/>
+                <reward chance="6.0537" item_id="1875" max="1" min="1"/>
+                <reward chance="1.8161" item_id="4040" max="1" min="1"/>
+                <reward chance="0.0336" item_id="5450" max="1" min="1"/>
+                <reward chance="1.0089" item_id="8730" max="1" min="1"/>
+                <reward chance="0.2522" item_id="8740" max="1" min="1"/>
+                <reward chance="0.0252" item_id="8750" max="1" min="1"/>
+                <reward chance="0.0051" item_id="8760" max="1" min="1"/>
+            </group>
+        </rewardlist>
+        <rewardlist type="SWEEP">
+            <reward chance="10.2093" item_id="5478" max="1" min="1"/>
+            <reward chance="0.1349" item_id="729" max="1" min="1"/>
+            <reward chance="80.9392" item_id="1875" max="1" min="1"/>
+        </rewardlist>
+        <attributes>
+            <defence attribute="fire" value="20"/>
+            <defence attribute="water" value="20"/>
+            <defence attribute="wind" value="20"/>
+            <defence attribute="earth" value="20"/>
+            <defence attribute="holy" value="20"/>
+            <defence attribute="unholy" value="20"/>
+        </attributes>
+    </npc>
+    <npc id="21829" name="Alpen Cougar" title="">
+        <set name="aggroRange" value="300"/>
+        <set name="ai_type" value="Fighter"/>
+        <set name="baseAtkRange" value="40"/>
+        <set name="baseCON" value="43"/>
+        <set name="baseCritRate" value="4"/>
+        <set name="baseDEX" value="30"/>
+        <set name="baseHpMax" value="2395.45533"/>
+        <set name="baseHpRate" value="4"/>
+        <set name="baseHpReg" value="7.5"/>
+        <set name="baseINT" value="21"/>
+        <set name="baseMAtk" value="456"/>
+        <set name="baseMAtkSpd" value="500"/>
+        <set name="baseMDef" value="194"/>
+        <set name="baseMEN" value="20"/>
+        <set name="baseMpMax" value="1314"/>
+        <set name="baseMpReg" value="2.7"/>
+        <set name="basePAtk" value="668"/>
+        <set name="basePAtkSpd" value="253"/>
+        <set name="basePDef" value="291"/>
+        <set name="baseRunSpd" value="200"/>
+        <set name="baseSTR" value="40"/>
+        <set name="baseShldDef" value="0"/>
+        <set name="baseShldRate" value="0"/>
+        <set name="baseWIT" value="20"/>
+        <set name="baseWalkSpd" value="60"/>
+        <set name="collision_height" value="28"/>
+        <set name="collision_radius" value="34"/>
+        <set name="level" value="69"/>
+        <set name="isAgro" value="1"/>
+        <set name="rewardExp" value="33319"/>
+        <set name="rewardRp" value="0"/>
+        <set name="rewardSp" value="3260"/>
+        <set name="shots" value="NONE"/>
+        <set name="texture" value=""/>
+        <set name="type" value="FeedableBeast"/>
+        <faction name="pet_clan" range="300"/>
+        <skills>
+            <skill id="4160" level="6"/>
+            <skill id="4416" level="3"/>
+            <skill id="4657" level="6"/>
+            <skill id="4438" level="2"/>
+            <skill id="4566" level="6"/>
+            <skill id="4408" level="12"/>
+            <skill id="4409" level="1"/>
+            <skill id="4410" level="14"/>
+            <skill id="4411" level="14"/>
+            <skill id="4571" level="6"/>
+            <skill id="4412" level="8"/>
+            <skill id="4413" level="8"/>
+            <skill id="4318" level="1"/>
+            <skill id="4414" level="2"/>
+            <skill id="4415" level="3"/>
+        </skills>
+        <rewardlist type="RATED_GROUPED">
+            <group chance="1.5829">
+                <reward chance="0.2697" item_id="5304" max="1" min="1"/>
+                <reward chance="30.2857" item_id="5485" max="1" min="1"/>
+                <reward chance="0.4313" item_id="5305" max="1" min="1"/>
+                <reward chance="47.5362" item_id="5489" max="1" min="1"/>
+                <reward chance="0.1659" item_id="5308" max="1" min="1"/>
+                <reward chance="21.3112" item_id="5486" max="1" min="1"/>
+            </group>
+            <group chance="33.8186">
+                <reward chance="22.9896" item_id="1869" max="6" min="2"/>
+                <reward chance="18.3917" item_id="1864" max="15" min="5"/>
+                <reward chance="9.1958" item_id="1880" max="1" min="1"/>
+                <reward chance="1.2261" item_id="5550" max="1" min="1"/>
+                <reward chance="3.0653" item_id="4043" max="1" min="1"/>
+                <reward chance="0.0341" item_id="5448" max="1" min="1"/>
+                <reward chance="1.0218" item_id="8730" max="1" min="1"/>
+                <reward chance="0.2554" item_id="8740" max="1" min="1"/>
+                <reward chance="0.0255" item_id="8750" max="1" min="1"/>
+                <reward chance="0.0051" item_id="8760" max="1" min="1"/>
+                <reward chance="43.7896" item_id="1343" max="90" min="30"/>
+            </group>
+        </rewardlist>
+        <rewardlist type="SWEEP">
+            <reward chance="49.6406" item_id="4053" max="1" min="1"/>
+            <reward chance="1.5442" item_id="3035" max="1" min="1"/>
+            <reward chance="22.811" item_id="4054" max="1" min="1"/>
+        </rewardlist>
+        <attributes>
+            <defence attribute="fire" value="20"/>
+            <defence attribute="water" value="20"/>
+            <defence attribute="wind" value="20"/>
+            <defence attribute="earth" value="20"/>
+            <defence attribute="holy" value="20"/>
+            <defence attribute="unholy" value="20"/>
+        </attributes>
+    </npc>
+</list>

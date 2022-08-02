@@ -1,0 +1,185 @@
+<html><html><body>
+<center>
+<table width=600>
+<tr>
+<td height=10></td>
+</tr>
+<tr>
+<td valign="top" align="center">
+<font color="LEVEL">Личный кабинет</font>
+</td>
+</tr>
+<tr></tr>
+<tr></tr>
+</table>
+<img src=L2UI.SquareWhite width=647 height=1>			
+<table width=647 bgcolor=CCCCCC>
+<tr>
+<td align="center" width=647>Информация Вашего персонажа</td>
+</tr>
+</table>
+<img src=L2UI.SquareWhite width=647 height=1>
+<table width=647 >
+<tr>
+<td width=100>Статус аккаунта</td><td width=50>%prem%</td><td width=100>EXP</td><td width=60>x%exp%</td>
+</tr>
+<tr>
+<td width=100>Имя персонажа</td><td width=10>%name%</td><td width=100>SP</td><td width=60>x%sp%</td>
+</tr>
+<tr>
+<td width=100>Титул персонажа</td><td width=10>%title%</td><td width=100>Items</td><td width=60>x%items%</td>
+</tr>
+<tr>
+<td width=100>Наименование клана</td><td width=10>%clan%</td><td width=100>Adena</td><td width=60>x%adena%</td>
+</tr>
+<tr>
+<td width=100>Наименование альянса</td><td width=10>%aly%</td><td width=100>Spoil</td><td width=60>x%spoil%</td>
+</tr>
+<tr>
+<td width=100>Пол</td><td width=10>%sex%</td><td width=100>Quest Reward</td><td width=60>x%reward%</td>
+</tr>
+<tr>
+<td width=100>Количество сабов</td><td width=10>%sub%</td><td width=100>Quest</td><td width=60>x%qrate%</td>
+</tr>
+<tr></tr>
+<tr></tr>
+</table>
+<table width=640>						
+<tr>
+<td width=320 align=center><table width=320 bgcolor=CCCCCC>
+<tr>
+<td width=320 align=center>Личные настройки Вашего персонажа</td>
+</tr>
+</table>
+<table width=320 height=249 bgcolor=4F4F4F>
+<tr>
+<td width=320 align=center>
+<table>
+<tr>
+<td width=120 align=left>Автолут:</td>
+<td width=80 align=left>%autoloot%</td>
+<td width=100 align=left><button value="%vautoloot%" action="bypass _bbssetfav_autoloot" width=85 height=25 back="L2UI_ct1.button_df" fore="L2UI_CT1.button_df"></td>
+</tr>
+<tr>
+<td width=120 align=left>Язык:</td>
+<td width=80 align=left>%lang%</td>
+<td width=100 align=left><button value="%vlang%" action="bypass _bbssetfav_lang" width=85 height=25 back="L2UI_ct1.button_df" fore="L2UI_CT1.button_df"></td>
+</tr>
+<tr>
+<td width=120 align=left>Блокировка опыта:</td>
+<td width=80 align=left>%noe%</td>
+<td width=100 align=left><button value="%vnoe%" action="bypass _bbssetfav_noe" width=85 height=25 back="L2UI_ct1.button_df" fore="L2UI_CT1.button_df"></td>
+</tr>
+<tr>
+<td width=120 align=left>Показ торговцев:</td>
+<td width=80 align=left>%notraders%</td>
+<td width=100 align=left><button value="%vnotraders%" action="bypass _bbssetfav_notraders" width=85 height=25 back="L2UI_ct1.button_df" fore="L2UI_CT1.button_df"></td>
+</tr>
+<tr>
+<td width=120 align=left>Показ анимации бафов:</td>
+<td width=80 align=left>%notShowBuffAnim%</td>
+<td width=100 align=left><button value="%vnotShowBuffAnim%" action="bypass _bbssetfav_notShowBuffAnim" width=85 height=25 back="L2UI_ct1.button_df" fore="L2UI_CT1.button_df"></td>
+</tr>
+<tr>
+<td width=120 align=left>Дроп лист по shift+click:</td>
+<td width=80 align=left>%noShift%</td>
+<td width=100 align=left><button value="%vnoShift%" action="bypass _bbssetfav_noShift" width=85 height=25 back="L2UI_ct1.button_df" fore="L2UI_CT1.button_df"></td>
+</tr>
+<tr>
+<td width=120 align=left>Шанс скилов:</td>
+<td width=80 align=left>%sch%</td>
+<td width=100 align=left><button value="%vsch%" action="bypass _bbssetfav_sch" width=85 height=25 back="L2UI_ct1.button_df" fore="L2UI_CT1.button_df"></td>
+</tr>
+<tr>
+<td width=120 align=left>Шанс скилов на монстров:</td>
+<td width=80 align=left>Выключено</td>
+<td width=100 align=left><button value="Включить" action="bypass _bbssetfav_schMob" width=85 height=25 back="L2UI_ct1.button_df" fore="L2UI_CT1.button_df"></td>
+</tr>
+</table>
+
+</td>
+</tr>
+</table>
+</td>
+<td width=5 align=center ></td>
+<td width=320 align=center ><table width=320 bgcolor=CCCCCC>
+<tr>
+<td width=320 align=center>Статистика Вашего персонажа</td>
+</tr>
+</table>
+<table width=320 height=249 bgcolor=4F4F4F>
+<tr>
+<td width=320 align=center>
+<table>
+<tr>
+<td width=160 height=19 align=left>Реген CP/HP/MP</td>
+<td width=160 height=19 align=left>%regcp%&nbsp;%reghp%&nbsp;%regmp%</td>
+</tr>
+<tr>
+<td width=160 height=19 align=left>Сила крит.удара</td>
+<td width=100 height=19 align=left>%crit%% + %critStat%</td>
+</tr>
+<tr>
+<td width=160 height=19 align=left>Шанс маг. крита</td>
+<td width=100 height=19 align=left>%mcrit%%</td>
+</tr>
+<tr>
+<td width=160 height=19 align=left>Вампирика</td>
+<td width=100 height=19 align=left>%vapm%%</td>
+</tr>
+<tr>
+<td width=160 height=19 align=left>Дпс</td>
+<td width=100 height=19 align=left>%dps%</td>
+</tr>
+<tr>
+<td width=160 height=19 align=left>Кровотечение</td>
+<td width=100 height=19 align=left>%bleed%</td>
+</tr>
+
+</table>
+<img src=L2UI.SquareWhite width=310 height=1>
+<table>
+
+
+<tr>
+<td width=160 height=19 align=left>Отравление</td>
+<td width=160 height=19 align=left>%poison%</td>
+</tr>
+<tr>
+<td width=160 height=19 align=left>Оглушение</td>
+<td width=100 height=19 align=left>%stun%</td>
+</tr>
+<tr>
+<td width=160 height=19 align=left>Удержание</td>
+<td width=100 height=19 align=left>%deten%</td>
+</tr>
+<tr>
+<td width=160 height=19 align=left>Паралич</td>
+<td width=100 height=19 align=left>%paralys%</td>
+</tr>
+<tr>
+<td width=160 height=19 align=left>Сон</td>
+<td width=100 height=19 align=left>%dream%</td>
+</tr>
+<tr>
+<td width=160 height=19 align=left>Ментал</td>
+<td width=100 height=19 align=left>%mental%</td>
+</tr>
+<tr>
+<td width=160 height=19 align=left>Дебаф</td>
+<td width=100 height=19 align=left>%debaf%</td>
+</tr>
+</table>
+
+</td>
+</tr>
+</table>
+
+
+</td>
+</tr>
+</table>
+<br>	
+
+</center>
+</body></html>

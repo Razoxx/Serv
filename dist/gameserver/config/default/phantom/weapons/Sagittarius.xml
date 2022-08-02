@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE list SYSTEM "phantomWeapon.dtd">
+<list>
+	<BotWeaponObject classId="92" className="Sagittarius">
+		<weapon id="14509" enchant="10" is_random="false" augment_chance="40" attribute_min="300" attribute_max="300" attribute="holy" is_att_random="false"/>
+	</BotWeaponObject>
+	<BotWeaponObject classId="92" className="Sagittarius">
+		<weapon id="15971" enchant="10" is_random="false" augment_chance="40" attribute_min="300" attribute_max="300" attribute="dark" is_att_random="false"/>
+	</BotWeaponObject>
+	<BotWeaponObject classId="92" className="Sagittarius">
+		<weapon id="16015" enchant="10" is_random="false" augment_chance="40" attribute_min="300" attribute_max="300" attribute="fire" is_att_random="false"/>
+	</BotWeaponObject>
+	<BotWeaponObject classId="92" className="Sagittarius">
+		<weapon id="32106" enchant="10" is_random="false" augment_chance="40" attribute_min="300" attribute_max="300" attribute="water" is_att_random="false"/>
+	</BotWeaponObject>
+	<BotWeaponObject classId="92" className="Sagittarius">
+		<weapon id="32252" enchant="10" is_random="false" augment_chance="40" attribute_min="300" attribute_max="300" attribute="wind" is_att_random="false"/>
+	</BotWeaponObject>
+	<BotWeaponObject classId="92" className="Sagittarius">
+		<weapon id="32266" enchant="10" is_random="false" augment_chance="40" attribute_min="300" attribute_max="300" attribute="earth" is_att_random="false"/>
+	</BotWeaponObject>
+	<BotWeaponObject classId="92" className="Sagittarius">
+		<weapon id="32280" enchant="10" is_random="false" augment_chance="40" attribute_min="300" attribute_max="300" attribute="holy" is_att_random="false"/>
+	</BotWeaponObject>
+	
+ </list>

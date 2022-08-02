@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE list SYSTEM "phantomJewels.dtd">
+<list>
+	<BotJewelObject classId="91" className="Hell Knight">
+		<earring_left id="22175" enchant="6" is_random="false"/>
+		<earring_right id="6656" enchant="6" is_random="false"/>
+		<ring_left id="6658" enchant="6" is_random="false"/>
+		<ring_right id="6660" enchant="6" is_random="false"/>
+		<necklace id="6657" enchant="6" is_random="false"/> <!-- Valakas -->
+	</BotJewelObject>
+	<BotJewelObject classId="91" className="Hell Knight">
+		<earring_left id="22175" enchant="6" is_random="false"/>
+		<earring_right id="6656" enchant="6" is_random="false"/>
+		<ring_left id="6658" enchant="6" is_random="false"/>
+		<ring_right id="6660" enchant="6" is_random="false"/>
+		<necklace id="8191" enchant="6" is_random="false"/> <!-- Frintezza -->
+	</BotJewelObject>
+	<BotJewelObject classId="91" className="Hell Knight">
+		<earring_left id="22175" enchant="6" is_random="false"/>
+		<earring_right id="6656" enchant="6" is_random="false"/>
+		<ring_left id="22173" enchant="6" is_random="false"/> <!-- Усиленный Баюм -->
+		<ring_right id="6660" enchant="6" is_random="false"/>
+		<necklace id="8191" enchant="6" is_random="false"/> <!-- Frintezza -->
+	</BotJewelObject>
+	<BotJewelObject classId="91" className="Hell Knight">
+		<earring_left id="22175" enchant="6" is_random="false"/>
+		<earring_right id="6656" enchant="6" is_random="false"/>
+		<ring_left id="22173" enchant="6" is_random="false"/> <!-- Усиленный Баюм -->
+		<ring_right id="6660" enchant="6" is_random="false"/>
+		<necklace id="6657" enchant="6" is_random="false"/> <!-- Валакас -->
+	</BotJewelObject>
+	<BotJewelObject classId="91" className="Hell Knight">
+		<earring_left id="15718" enchant="6" is_random="false"/> <!-- Серьга Элегии -->
+		<earring_right id="15718" enchant="6" is_random="false"/> <!-- Серьга Элегии -->
+		<ring_left id="22173" enchant="6" is_random="false"/> <!-- Усиленный Баюм -->
+		<ring_right id="6660" enchant="6" is_random="false"/>
+		<necklace id="6657" enchant="6" is_random="false"/> <!-- Валакас -->
+	</BotJewelObject>
+ </list>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE list SYSTEM "phantomSets.dtd">
+<list>
+	<BotSetObject classId="115" className="Dominator"> <!-- Роба Нубл Веспера -->
+		<helm id="13142" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<chest id="14525" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<gaiter id="13454" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<gloves id="13455" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<boots id="13456" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<shirt id="10512" enchant="6" is_random="false"/>
+		<belt id="14961" enchant="6" is_random="false"/>
+        <shield id="12813" enchant="6" is_random="false"/>		
+		<male_hat id="8660" chance="30"/> <!-- Шапка для Мужчин -->
+		<female_hat id="7683" chance="30"/> <!-- Шапка для Женщин -->
+		<cloak id="21718" chance="100"/>		
+	</BotSetObject>
+	<BotSetObject classId="115" className="Dominator"> <!-- Роба Дестино -->
+		<helm id="15608" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<chest id="16176" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<gaiter id="15614" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<gloves id="15617" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<boots id="15620" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<shirt id="10512" enchant="6" is_random="false"/>
+		<belt id="14961" enchant="6" is_random="false"/>
+        <shield id="15622" enchant="6" is_random="false"/>		
+		<male_hat id="8660" chance="30"/> <!-- Шапка для Мужчин -->
+		<female_hat id="7683" chance="30"/> <!-- Шапка для Женщин -->
+		<cloak id="21717" chance="100"/>		
+	</BotSetObject>
+	<BotSetObject classId="115" className="Dominator"> <!-- Роба Верпеса -->
+		<helm id="15591" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<chest id="16173" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<gaiter id="15597" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<gloves id="15600" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<boots id="15603" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<shirt id="10512" enchant="6" is_random="false"/>
+		<belt id="14961" enchant="6" is_random="false"/>
+        <shield id="15605" enchant="6" is_random="false"/>		
+		<male_hat id="8660" chance="30"/> <!-- Шапка для Мужчин -->
+		<female_hat id="7683" chance="30"/> <!-- Шапка для Женщин -->
+		<cloak id="21716" chance="100"/>		
+	</BotSetObject>
+ </list>

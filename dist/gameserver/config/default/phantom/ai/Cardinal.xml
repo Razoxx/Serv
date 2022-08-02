@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE list SYSTEM "phantomAI.dtd">
+<list>
+
+     <!-- Биш -->
+	 
+	<ClassObject classId="97" className="Cardinal" sex="1">
+		<ai_type type="b_mystic" sub_type="stupid" />
+		<henna id1="180" id2="171"/>
+		<heal_skills>
+			<skill id="1218" level="33" is_enchantable="true" is_random="false" ench_max_value="30" ench_route="1"/> <!-- Greater Battle Heal -->
+		</heal_skills>
+		<percent_heal_skills>
+			<skill id="1553" level="1" /> <!-- Chain Heal -->
+		</percent_heal_skills>
+		<self_buff_skills>
+			<!-- Нету -->
+		</self_buff_skills>
+		<ultimate_self_buff_skills>
+			<skill id="1418" level="1" /> <!-- Celestial Shield -->
+		</ultimate_self_buff_skills>
+		<debuff_skills>
+			<skill id="1394" level="10" is_enchantable="true" is_random="false" ench_max_value="30" ench_route="2"/><!-- Trance -->
+		</debuff_skills>
+		<rare_debuff_skills>
+			<skill id="1398" level="10" is_enchantable="true" is_random="false" ench_max_value="30" ench_route="1"/>  <!-- Mana Burn -->
+		</rare_debuff_skills>
+		<passive_skills>
+			<skill id="632" level="6" /> <!-- Emergent Ability - Defence -->
+			<skill id="652" level="1" /> <!-- Knight Ability - Defense -->
+			<skill id="655" level="1" /> <!-- Enchanter Ability - Barrier -->
+			<skill id="1491" level="1" /> <!-- Summoner Ability - Spirit -->
+		</passive_skills>
+    <resurrect_skills>
+      <skill id="1016" level="9"/> <!-- Resurrection -->
+    </resurrect_skills>
+		<consumble_skills>
+			<skill id="6439" level="1" target="self" cond="MP;50;0"/> <!-- MP Potion, бот использует когда MP меньше 50% один раз -->
+			<skill id="2166" level="1" target="self" cond="CP;90;0"/> <!-- CP Potion Low, бот использует когда CP меньше 90% -->
+		</consumble_skills>
+	</ClassObject>
+ </list>

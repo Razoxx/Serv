@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT list (BotSetObject)*>
+<!ELEMENT BotSetObject (helm|chest|gaiter|gloves|boots|shirt|belt|shield|male_hat|female_hat|cloak)*>
+<!ATTLIST BotSetObject
+	classId CDATA #REQUIRED
+	className CDATA #REQUIRED>
+<!ELEMENT helm (#PCDATA)>
+<!ATTLIST helm
+	id CDATA #REQUIRED
+	enchant CDATA #REQUIRED
+	is_random CDATA #IMPLIED
+	attribute_min CDATA #REQUIRED
+	attribute_max CDATA #REQUIRED
+	is_att_random CDATA #IMPLIED>
+<!ELEMENT chest (#PCDATA)>
+<!ATTLIST chest
+	id CDATA #REQUIRED
+	enchant CDATA #REQUIRED
+	is_random CDATA #IMPLIED
+	attribute_min CDATA #REQUIRED
+	attribute_max CDATA #REQUIRED
+	is_att_random CDATA #IMPLIED>
+<!ELEMENT gaiter (#PCDATA)>
+<!ATTLIST gaiter
+	id CDATA #REQUIRED
+	enchant CDATA #REQUIRED
+	is_random CDATA #IMPLIED
+	attribute_min CDATA #REQUIRED
+	attribute_max CDATA #REQUIRED
+	is_att_random CDATA #IMPLIED>
+<!ELEMENT gloves (#PCDATA)>
+<!ATTLIST gloves
+	id CDATA #REQUIRED
+	enchant CDATA #REQUIRED
+	is_random CDATA #IMPLIED
+	attribute_min CDATA #REQUIRED
+	attribute_max CDATA #REQUIRED
+	is_att_random CDATA #IMPLIED>
+<!ELEMENT boots (#PCDATA)>
+<!ATTLIST boots
+	id CDATA #REQUIRED
+	enchant CDATA #REQUIRED
+	is_random CDATA #IMPLIED
+	attribute_min CDATA #REQUIRED
+	attribute_max CDATA #REQUIRED
+	is_att_random CDATA #IMPLIED>
+<!ELEMENT shirt (#PCDATA)>
+<!ATTLIST shirt
+	id CDATA #REQUIRED
+	enchant CDATA #REQUIRED
+	is_random CDATA #IMPLIED>
+<!ELEMENT belt (#PCDATA)>
+<!ATTLIST belt
+	id CDATA #REQUIRED
+	enchant CDATA #REQUIRED
+	is_random CDATA #IMPLIED>
+<!ELEMENT shield (#PCDATA)>
+<!ATTLIST shield
+	id CDATA #REQUIRED
+	enchant CDATA #REQUIRED
+	is_random CDATA #IMPLIED>
+<!ELEMENT male_hat (#PCDATA)>
+<!ATTLIST male_hat
+	id CDATA #REQUIRED
+	chance CDATA #REQUIRED>
+<!ELEMENT female_hat (#PCDATA)>
+<!ATTLIST female_hat
+	id CDATA #REQUIRED
+	chance CDATA #REQUIRED>
+<!ELEMENT cloak (#PCDATA)>
+<!ATTLIST cloak
+	id CDATA #REQUIRED
+	chance CDATA #REQUIRED>

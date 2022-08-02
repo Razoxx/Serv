@@ -1,0 +1,841 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE list SYSTEM "phantomSets.dtd">
+<list>
+	<BotSetObject classId="111" className="Spectral Master"> <!-- Роба Бессмертия -->
+		<helm id="43064" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<chest id="43060" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<gaiter id="43061" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<gloves id="43062" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<boots id="43063" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<shirt id="10512" enchant="6" is_random="false"/>
+		<belt id="14961" enchant="6" is_random="false"/>
+        <shield id="43118" enchant="6" is_random="false"/>		
+		<male_hat id="20021" chance="20"/>
+		<female_hat id="21541" chance="20"/>
+		<cloak id="43128" chance="95"/>		
+	</BotSetObject>
+	<BotSetObject classId="111" className="Spectral Master"> <!-- Роба Бессмертия -->
+		<helm id="43064" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<chest id="43060" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<gaiter id="43061" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<gloves id="43062" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<boots id="43063" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<shirt id="10512" enchant="6" is_random="false"/>
+		<belt id="14961" enchant="6" is_random="false"/>
+        <shield id="43121" enchant="6" is_random="false"/>		
+		<male_hat id="20024" chance="20"/>
+		<female_hat id="8921" chance="20"/>
+		<cloak id="43125" chance="95"/>		
+	</BotSetObject>
+	<BotSetObject classId="111" className="Spectral Master"> <!-- Роба Бессмертия -->
+		<helm id="43064" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<chest id="43060" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<gaiter id="43061" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<gloves id="43062" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<boots id="43063" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<shirt id="10512" enchant="6" is_random="false"/>
+		<belt id="14961" enchant="6" is_random="false"/>
+        <shield id="43122" enchant="6" is_random="false"/>		
+		<male_hat id="20678" chance="20"/>
+		<female_hat id="21565" chance="20"/>
+		<cloak id="43129" chance="95"/>		
+	</BotSetObject>
+	<BotSetObject classId="111" className="Spectral Master"> <!-- Роба Бессмертия -->
+		<helm id="43064" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<chest id="43060" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<gaiter id="43061" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<gloves id="43062" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<boots id="43063" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<shirt id="10512" enchant="6" is_random="false"/>
+		<belt id="14961" enchant="6" is_random="false"/>
+        <shield id="43119" enchant="6" is_random="false"/>		
+		<male_hat id="22172" chance="20"/>
+		<female_hat id="13238" chance="20"/>
+		<cloak id="43127" chance="95"/>		
+	</BotSetObject>
+	<BotSetObject classId="111" className="Spectral Master"> <!-- Роба Бессмертия -->
+		<helm id="43064" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<chest id="43060" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<gaiter id="43061" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<gloves id="43062" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<boots id="43063" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<shirt id="10512" enchant="6" is_random="false"/>
+		<belt id="14961" enchant="6" is_random="false"/>
+        <shield id="43121" enchant="6" is_random="false"/>		
+		<male_hat id="20723" chance="20"/>
+		<female_hat id="20723" chance="20"/>
+		<cloak id="43130" chance="95"/>		
+	</BotSetObject>
+	<BotSetObject classId="111" className="Spectral Master"> <!-- Роба Бессмертия -->
+		<helm id="43064" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<chest id="43060" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<gaiter id="43061" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<gloves id="43062" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<boots id="43063" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<shirt id="10512" enchant="6" is_random="false"/>
+		<belt id="14961" enchant="6" is_random="false"/>
+        <shield id="43112" enchant="6" is_random="false"/>		
+		<male_hat id="14747" chance="20"/>
+		<female_hat id="13492" chance="20"/>
+		<cloak id="21718" chance="95"/>		
+	</BotSetObject>
+	<BotSetObject classId="111" className="Spectral Master"> <!-- Роба Бессмертия -->
+		<helm id="43064" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<chest id="43060" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<gaiter id="43061" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<gloves id="43062" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<boots id="43063" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<shirt id="10512" enchant="6" is_random="false"/>
+		<belt id="14961" enchant="6" is_random="false"/>
+        <shield id="43113" enchant="6" is_random="false"/>		
+		<male_hat id="20791" chance="20"/>
+		<female_hat id="21594" chance="20"/>
+		<cloak id="21719" chance="95"/>		
+	</BotSetObject>
+	<BotSetObject classId="111" className="Spectral Master"> <!-- Роба Бессмертия -->
+		<helm id="43064" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<chest id="43060" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<gaiter id="43061" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<gloves id="43062" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<boots id="43063" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<shirt id="10512" enchant="6" is_random="false"/>
+		<belt id="14961" enchant="6" is_random="false"/>
+		<shield id="43116" enchant="6" is_random="false"/>	
+		<male_hat id="14964" chance="20"/>
+		<female_hat id="15444" chance="20"/>
+		<cloak id="21587" chance="95"/>		
+	</BotSetObject>
+	<BotSetObject classId="111" className="Spectral Master"> <!-- Роба Бессмертия -->
+		<helm id="43064" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<chest id="43060" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<gaiter id="43061" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<gloves id="43062" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<boots id="43063" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<shirt id="10512" enchant="6" is_random="false"/>
+		<belt id="14961" enchant="6" is_random="false"/>
+		<male_hat id="14964" chance="20"/>
+		<female_hat id="15444" chance="20"/>
+		<cloak id="70142" chance="100"/> <!-- рюкзак -->		
+	</BotSetObject>
+	<BotSetObject classId="111" className="Spectral Master"> <!-- Роба Ада -->
+		<helm id="43079" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<chest id="43075" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<gaiter id="43076" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<gloves id="43077" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<boots id="43078" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<shirt id="10512" enchant="6" is_random="false"/>
+		<belt id="14961" enchant="6" is_random="false"/>
+		<shield id="43121" enchant="6" is_random="false"/>	
+		<male_hat id="13415" chance="20"/>
+		<female_hat id="13415" chance="20"/>
+		<cloak id="43124" chance="95"/>		
+	</BotSetObject>
+	<BotSetObject classId="111" className="Spectral Master"> <!-- Роба Ада -->
+		<helm id="43079" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<chest id="43075" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<gaiter id="43076" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<gloves id="43077" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<boots id="43078" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<shirt id="10512" enchant="6" is_random="false"/>
+		<belt id="14961" enchant="6" is_random="false"/>
+		<shield id="43118" enchant="6" is_random="false"/>	
+		<male_hat id="8564" chance="20"/>
+		<female_hat id="8936" chance="20"/>
+		<cloak id="43128" chance="95"/>		
+	</BotSetObject>
+	<BotSetObject classId="111" className="Spectral Master"> <!-- Роба Ада -->
+		<helm id="43079" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<chest id="43075" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<gaiter id="43076" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<gloves id="43077" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<boots id="43078" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<shirt id="10512" enchant="6" is_random="false"/>
+		<belt id="14961" enchant="6" is_random="false"/>
+		<shield id="43119" enchant="6" is_random="false"/>	
+		<male_hat id="10251" chance="20"/>
+		<female_hat id="10248" chance="20"/>
+		<cloak id="43129" chance="95"/>		
+	</BotSetObject>
+	<BotSetObject classId="111" className="Spectral Master"> <!-- Роба Ада -->
+		<helm id="43079" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<chest id="43075" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<gaiter id="43076" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<gloves id="43077" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<boots id="43078" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<shirt id="10512" enchant="6" is_random="false"/>
+		<belt id="14961" enchant="6" is_random="false"/>
+		<shield id="43121" enchant="6" is_random="false"/>	
+		<male_hat id="10315" chance="20"/>
+		<female_hat id="13074" chance="20"/>
+		<cloak id="43130" chance="95"/>		
+	</BotSetObject>
+	<BotSetObject classId="111" className="Spectral Master"> <!-- Роба Ада -->
+		<helm id="43079" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<chest id="43075" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<gaiter id="43076" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<gloves id="43077" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<boots id="43078" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<shirt id="10512" enchant="6" is_random="false"/>
+		<belt id="14961" enchant="6" is_random="false"/>
+		<shield id="43122" enchant="6" is_random="false"/>	
+		<male_hat id="8185" chance="20"/>
+		<female_hat id="21445" chance="20"/>
+		<cloak id="43123" chance="95"/>		
+	</BotSetObject>
+	<BotSetObject classId="111" className="Spectral Master"> <!-- Роба Ада -->
+		<helm id="43079" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<chest id="43075" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<gaiter id="43076" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<gloves id="43077" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<boots id="43078" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<shirt id="10512" enchant="6" is_random="false"/>
+		<belt id="14961" enchant="6" is_random="false"/>
+		<shield id="43115" enchant="6" is_random="false"/>	
+		<male_hat id="14965" chance="20"/>
+		<female_hat id="17157" chance="20"/>
+		<cloak id="43124" chance="95"/>		
+	</BotSetObject>
+	<BotSetObject classId="111" className="Spectral Master"> <!-- Роба Ада -->
+		<helm id="43079" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<chest id="43075" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<gaiter id="43076" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<gloves id="43077" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<boots id="43078" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<shirt id="10512" enchant="6" is_random="false"/>
+		<belt id="14961" enchant="6" is_random="false"/>
+		<shield id="43117" enchant="6" is_random="false"/>	
+		<male_hat id="20634" chance="20"/>
+		<female_hat id="21494" chance="20"/>
+		<cloak id="21717" chance="95"/>		
+	</BotSetObject>
+	<BotSetObject classId="111" className="Spectral Master"> <!-- Роба Ада -->
+		<helm id="43079" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<chest id="43075" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<gaiter id="43076" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<gloves id="43077" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<boots id="43078" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<shirt id="10512" enchant="6" is_random="false"/>
+		<belt id="14961" enchant="6" is_random="false"/>
+		<shield id="43116" enchant="6" is_random="false"/>	
+		<male_hat id="21984" chance="20"/>
+		<female_hat id="21983" chance="20"/>
+		<cloak id="21583" chance="95"/>		
+	</BotSetObject>
+	<BotSetObject classId="111" className="Spectral Master"> <!-- Роба Ада -->
+		<helm id="43079" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<chest id="43075" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<gaiter id="43076" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<gloves id="43077" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<boots id="43078" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<shirt id="10512" enchant="6" is_random="false"/>
+		<belt id="14961" enchant="6" is_random="false"/>
+		<shield id="43113" enchant="6" is_random="false"/>	
+		<male_hat id="20944" chance="20"/>
+		<female_hat id="10250" chance="20"/>
+		<cloak id="43123" chance="95"/>		
+	</BotSetObject>
+	<BotSetObject classId="111" className="Spectral Master"> <!-- Роба Кадейры -->
+		<helm id="43079" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<chest id="43075" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<gaiter id="43076" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<gloves id="43077" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<boots id="43078" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<shirt id="10512" enchant="6" is_random="false"/>
+		<belt id="14961" enchant="6" is_random="false"/>
+		<shield id="43119" enchant="6" is_random="false"/>	
+		<male_hat id="9201" chance="20"/>
+		<female_hat id="13431" chance="20"/>
+		<cloak id="43130" chance="95"/>		
+	</BotSetObject>
+	<BotSetObject classId="111" className="Spectral Master"> <!-- Роба Кадейры -->
+		<helm id="43079" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<chest id="43075" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<gaiter id="43076" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<gloves id="43077" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<boots id="43078" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<shirt id="10512" enchant="6" is_random="false"/>
+		<belt id="14961" enchant="6" is_random="false"/>
+		<shield id="43118" enchant="6" is_random="false"/>	
+		<male_hat id="16101" chance="20"/>
+		<female_hat id="13493" chance="20"/>
+		<cloak id="43124" chance="95"/>		
+	</BotSetObject>
+	<BotSetObject classId="111" className="Spectral Master"> <!-- Роба Кадейры -->
+		<helm id="43079" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<chest id="43075" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<gaiter id="43076" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<gloves id="43077" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<boots id="43078" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<shirt id="10512" enchant="6" is_random="false"/>
+		<belt id="14961" enchant="6" is_random="false"/>
+		<shield id="43121" enchant="6" is_random="false"/>	
+		<male_hat id="21554" chance="20"/>
+		<female_hat id="16102" chance="20"/>
+		<cloak id="43129" chance="95"/>		
+	</BotSetObject>
+	<BotSetObject classId="111" className="Spectral Master"> <!-- Роба Кадейры -->
+		<helm id="43079" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<chest id="43075" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<gaiter id="43076" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<gloves id="43077" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<boots id="43078" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<shirt id="10512" enchant="6" is_random="false"/>
+		<belt id="14961" enchant="6" is_random="false"/>
+		<shield id="43122" enchant="6" is_random="false"/>	
+		<male_hat id="16103" chance="20"/>
+		<female_hat id="16104" chance="20"/>
+		<cloak id="43123" chance="95"/>		
+	</BotSetObject>
+	<BotSetObject classId="111" className="Spectral Master"> <!-- Роба Кадейры -->
+		<helm id="43079" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<chest id="43075" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<gaiter id="43076" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<gloves id="43077" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<boots id="43078" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<shirt id="10512" enchant="6" is_random="false"/>
+		<belt id="14961" enchant="6" is_random="false"/>
+		<shield id="43113" enchant="6" is_random="false"/>	
+		<male_hat id="16107" chance="20"/>
+		<female_hat id="17143" chance="20"/>
+		<cloak id="21717" chance="95"/>		
+	</BotSetObject>
+	<BotSetObject classId="111" className="Spectral Master"> <!-- Роба Айдиоса -->
+		<helm id="43109" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<chest id="43105" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<gaiter id="43106" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<gloves id="43107" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<boots id="43108" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<shirt id="10512" enchant="6" is_random="false"/>
+		<belt id="14961" enchant="6" is_random="false"/>
+		<shield id="43120" enchant="6" is_random="false"/>	
+		<male_hat id="30022" chance="20"/>
+		<female_hat id="30022" chance="20"/>
+		<cloak id="21587" chance="95"/>		
+	</BotSetObject>
+	<BotSetObject classId="111" className="Spectral Master"> <!-- Роба Айдиоса -->
+		<helm id="43109" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<chest id="43105" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<gaiter id="43106" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<gloves id="43107" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<boots id="43108" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<shirt id="10512" enchant="6" is_random="false"/>
+		<belt id="14961" enchant="6" is_random="false"/>
+		<shield id="43122" enchant="6" is_random="false"/>	
+		<male_hat id="30042" chance="20"/>
+		<female_hat id="30129" chance="20"/>
+		<cloak id="43127" chance="95"/>		
+	</BotSetObject>
+	<BotSetObject classId="111" className="Spectral Master"> <!-- Роба Айдиоса -->
+		<helm id="43109" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<chest id="43105" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<gaiter id="43106" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<gloves id="43107" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<boots id="43108" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<shirt id="10512" enchant="6" is_random="false"/>
+		<belt id="14961" enchant="6" is_random="false"/>
+		<shield id="43121" enchant="6" is_random="false"/>	
+		<male_hat id="60238" chance="30"/>
+		<female_hat id="60238" chance="30"/>
+		<cloak id="43125" chance="95"/>		
+	</BotSetObject>
+	<BotSetObject classId="111" className="Spectral Master"> <!-- Роба Айдиоса -->
+		<helm id="43109" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<chest id="43105" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<gaiter id="43106" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<gloves id="43107" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<boots id="43108" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<shirt id="10512" enchant="6" is_random="false"/>
+		<belt id="14961" enchant="6" is_random="false"/>
+		<shield id="43121" enchant="6" is_random="false"/>	
+		<male_hat id="70065" chance="20"/>
+		<female_hat id="76051" chance="7"/>
+		<cloak id="43125" chance="95"/>		
+	</BotSetObject>
+	<BotSetObject classId="111" className="Spectral Master"> <!-- Роба Айдиоса -->
+		<helm id="43109" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<chest id="43105" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<gaiter id="43106" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<gloves id="43107" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<boots id="43108" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<shirt id="10512" enchant="6" is_random="false"/>
+		<belt id="14961" enchant="6" is_random="false"/>
+		<shield id="43119" enchant="6" is_random="false"/>	
+		<male_hat id="8660" chance="20"/>
+		<female_hat id="8947" chance="7"/>
+		<cloak id="43123" chance="95"/>		
+	</BotSetObject>
+	<BotSetObject classId="111" className="Spectral Master"> <!-- Роба Айдиоса -->
+		<helm id="43109" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<chest id="43105" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<gaiter id="43106" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<gloves id="43107" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<boots id="43108" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<shirt id="10512" enchant="6" is_random="false"/>
+		<belt id="14961" enchant="6" is_random="false"/>
+		<shield id="43110" enchant="6" is_random="false"/>	
+		<male_hat id="8567" chance="20"/>
+		<female_hat id="8661" chance="20"/>
+		<cloak id="43127" chance="95"/>		
+	</BotSetObject>
+	<BotSetObject classId="111" className="Spectral Master"> <!-- Роба Айдиоса -->
+		<helm id="43109" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<chest id="43105" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<gaiter id="43106" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<gloves id="43107" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<boots id="43108" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<shirt id="10512" enchant="6" is_random="false"/>
+		<belt id="14961" enchant="6" is_random="false"/>
+		<shield id="43112" enchant="6" is_random="false"/>	
+		<male_hat id="20322" chance="20"/>
+		<female_hat id="20897" chance="20"/>
+		<cloak id="43128" chance="95"/>		
+	</BotSetObject>
+	<BotSetObject classId="111" className="Spectral Master"> <!-- Роба Элегия Дестино -->
+		<helm id="43202" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<chest id="43205" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<gaiter id="43208" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<gloves id="43211" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<boots id="43214" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<shirt id="10512" enchant="6" is_random="false"/>
+		<belt id="14961" enchant="6" is_random="false"/>
+		<shield id="15622" enchant="6" is_random="false"/>	
+		<male_hat id="8950" chance="20"/>
+		<female_hat id="20024" chance="20"/>
+		<cloak id="21583" chance="95"/>		
+	</BotSetObject>
+	<BotSetObject classId="111" className="Spectral Master"> <!-- Роба Элегия Дестино -->
+		<helm id="43202" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<chest id="43205" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<gaiter id="43208" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<gloves id="43211" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<boots id="43214" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<shirt id="10512" enchant="6" is_random="false"/>
+		<belt id="14961" enchant="6" is_random="false"/>
+		<shield id="15621" enchant="6" is_random="false"/>	
+		<male_hat id="13497" chance="20"/>
+		<female_hat id="12766" chance="20"/>
+		<cloak id="21721" chance="95"/>		
+	</BotSetObject>
+	<BotSetObject classId="111" className="Spectral Master"> <!-- Роба Элегия Дестино -->
+		<helm id="43202" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<chest id="43205" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<gaiter id="43208" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<gloves id="43211" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<boots id="43214" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<shirt id="10512" enchant="6" is_random="false"/>
+		<belt id="14961" enchant="6" is_random="false"/>
+		<shield id="43119" enchant="6" is_random="false"/>	
+		<male_hat id="20723" chance="20"/>
+		<female_hat id="13518" chance="20"/>
+		<cloak id="43128" chance="95"/>		
+	</BotSetObject>
+	<BotSetObject classId="111" className="Spectral Master"> <!-- Роба Элегия Дестино -->
+		<helm id="43202" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<chest id="43205" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<gaiter id="43208" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<gloves id="43211" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<boots id="43214" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<shirt id="10512" enchant="6" is_random="false"/>
+		<belt id="14961" enchant="6" is_random="false"/>
+		<shield id="43122" enchant="6" is_random="false"/>	
+		<male_hat id="13518" chance="20"/>
+		<female_hat id="13521" chance="20"/>
+		<cloak id="43129" chance="95"/>		
+	</BotSetObject>
+	<BotSetObject classId="111" className="Spectral Master"> <!-- Роба Элегия Дестино -->
+		<helm id="43202" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<chest id="43205" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<gaiter id="43208" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<gloves id="43211" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<boots id="43214" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<shirt id="10512" enchant="6" is_random="false"/>
+		<belt id="14961" enchant="6" is_random="false"/>
+		<shield id="43120" enchant="6" is_random="false"/>	
+		<male_hat id="13499" chance="20"/>
+		<female_hat id="13499" chance="20"/>
+		<cloak id="43125" chance="95"/>		
+	</BotSetObject>
+	<BotSetObject classId="111" className="Spectral Master"> <!-- Роба Элегия Дестино -->
+		<helm id="43202" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<chest id="43205" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<gaiter id="43208" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<gloves id="43211" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<boots id="43214" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<shirt id="10512" enchant="6" is_random="false"/>
+		<belt id="14961" enchant="6" is_random="false"/>
+		<shield id="43118" enchant="6" is_random="false"/>	
+		<male_hat id="16106" chance="20"/>
+		<female_hat id="13498" chance="20"/>
+		<cloak id="43123" chance="95"/>		
+	</BotSetObject>
+	<BotSetObject classId="111" className="Spectral Master"> <!-- Роба Элегия Династия -->
+		<helm id="43217" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<chest id="43220" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<gaiter id="43223" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<gloves id="43226" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<boots id="43229" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<shirt id="10512" enchant="6" is_random="false"/>
+		<belt id="14961" enchant="6" is_random="false"/>
+		<shield id="12812" enchant="6" is_random="false"/>	
+		<male_hat id="13499" chance="20"/>
+		<female_hat id="21983" chance="20"/>
+		<cloak id="30103" chance="95"/>		
+	</BotSetObject>
+	<BotSetObject classId="111" className="Spectral Master"> <!-- Роба Элегия Династия -->
+		<helm id="43217" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<chest id="43220" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<gaiter id="43223" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<gloves id="43226" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<boots id="43229" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<shirt id="10512" enchant="6" is_random="false"/>
+		<belt id="14961" enchant="6" is_random="false"/>
+		<shield id="9441" enchant="6" is_random="false"/>	
+		<male_hat id="13499" chance="20"/>
+		<female_hat id="21983" chance="20"/>
+		<cloak id="30103" chance="95"/>		
+	</BotSetObject>
+	<BotSetObject classId="111" className="Spectral Master"> <!-- Роба Элегия Династия -->
+		<helm id="43217" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<chest id="43220" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<gaiter id="43223" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<gloves id="43226" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<boots id="43229" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<shirt id="10512" enchant="6" is_random="false"/>
+		<belt id="14961" enchant="6" is_random="false"/>
+		<shield id="43121" enchant="6" is_random="false"/>	
+		<male_hat id="30044" chance="20"/>
+		<female_hat id="30043" chance="20"/>
+		<cloak id="43125" chance="95"/>		
+	</BotSetObject>
+	<BotSetObject classId="111" className="Spectral Master"> <!-- Роба Элегия Династия -->
+		<helm id="43217" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<chest id="43220" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<gaiter id="43223" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<gloves id="43226" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<boots id="43229" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<shirt id="10512" enchant="6" is_random="false"/>
+		<belt id="14961" enchant="6" is_random="false"/>
+		<shield id="43118" enchant="6" is_random="false"/>	
+		<male_hat id="30015" chance="20"/>
+		<female_hat id="30032" chance="20"/>
+		<cloak id="43129" chance="95"/>		
+	</BotSetObject>
+	<BotSetObject classId="111" className="Spectral Master"> <!-- Роба Элегия Династия -->
+		<helm id="43217" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<chest id="43220" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<gaiter id="43223" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<gloves id="43226" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<boots id="43229" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<shirt id="10512" enchant="6" is_random="false"/>
+		<belt id="14961" enchant="6" is_random="false"/>
+		<shield id="43120" enchant="6" is_random="false"/>	
+		<male_hat id="30022" chance="20"/>
+		<female_hat id="30042" chance="20"/>
+		<cloak id="43127" chance="95"/>		
+	</BotSetObject>
+	<BotSetObject classId="111" className="Spectral Master"> <!-- Роба Элегия Династия -->
+		<helm id="43217" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<chest id="43220" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<gaiter id="43223" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<gloves id="43226" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<boots id="43229" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<shirt id="10512" enchant="6" is_random="false"/>
+		<belt id="14961" enchant="6" is_random="false"/>
+		<shield id="15588" enchant="6" is_random="false"/>	
+		<male_hat id="8563" chance="20"/>
+		<female_hat id="13431" chance="20"/>
+		<cloak id="21717" chance="95"/>		
+	</BotSetObject>
+	<BotSetObject classId="111" className="Spectral Master"> <!-- Роба Элегия Венеры -->
+		<helm id="43232" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<chest id="43235" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<gaiter id="43238" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<gloves id="43241" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<boots id="43244" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<shirt id="10512" enchant="6" is_random="false"/>
+		<belt id="14961" enchant="6" is_random="false"/>
+		<shield id="16322" enchant="6" is_random="false"/>	
+		<male_hat id="13499" chance="20"/>
+		<female_hat id="13499" chance="20"/>
+		<cloak id="30103" chance="95"/>		
+	</BotSetObject>
+	<BotSetObject classId="111" className="Spectral Master"> <!-- Роба Элегия Венеры -->
+		<helm id="43232" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<chest id="43235" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<gaiter id="43238" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<gloves id="43241" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<boots id="43244" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<shirt id="10512" enchant="6" is_random="false"/>
+		<belt id="14961" enchant="6" is_random="false"/>
+		<shield id="13471" enchant="6" is_random="false"/>	
+		<male_hat id="16106" chance="20"/>
+		<female_hat id="21553" chance="20"/>
+		<cloak id="30103" chance="95"/>		
+	</BotSetObject>
+	<BotSetObject classId="111" className="Spectral Master"> <!-- Роба Элегия Венеры -->
+		<helm id="43232" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<chest id="43235" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<gaiter id="43238" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<gloves id="43241" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<boots id="43244" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<shirt id="10512" enchant="6" is_random="false"/>
+		<belt id="14961" enchant="6" is_random="false"/>
+		<shield id="43121" enchant="6" is_random="false"/>	
+		<male_hat id="30010" chance="20"/>
+		<female_hat id="30021" chance="20"/>
+		<cloak id="43128" chance="95"/>		
+	</BotSetObject>
+	<BotSetObject classId="111" className="Spectral Master"> <!-- Роба Элегия Венеры -->
+		<helm id="43232" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<chest id="43235" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<gaiter id="43238" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<gloves id="43241" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<boots id="43244" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<shirt id="10512" enchant="6" is_random="false"/>
+		<belt id="14961" enchant="6" is_random="false"/>
+		<shield id="43118" enchant="6" is_random="false"/>	
+		<male_hat id="30122" chance="20"/>
+		<female_hat id="60243" chance="20"/>
+		<cloak id="43129" chance="95"/>		
+	</BotSetObject>
+	<BotSetObject classId="111" className="Spectral Master"> <!-- Роба Элегия Венеры -->
+		<helm id="43232" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<chest id="43235" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<gaiter id="43238" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<gloves id="43241" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<boots id="43244" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<shirt id="10512" enchant="6" is_random="false"/>
+		<belt id="14961" enchant="6" is_random="false"/>
+		<shield id="43121" enchant="6" is_random="false"/>	
+		<male_hat id="60290" chance="20"/>
+		<female_hat id="76055" chance="20"/>
+		<cloak id="43125" chance="95"/>		
+	</BotSetObject>
+	<BotSetObject classId="111" className="Spectral Master"> <!-- Роба Элегия Венеры -->
+		<helm id="43232" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<chest id="43235" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<gaiter id="43238" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<gloves id="43241" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<boots id="43244" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<shirt id="10512" enchant="6" is_random="false"/>
+		<belt id="14961" enchant="6" is_random="false"/>
+		<shield id="43122" enchant="6" is_random="false"/>	
+		<male_hat id="21987" chance="20"/>
+		<female_hat id="22184" chance="20"/>
+		<cloak id="21718" chance="95"/>		
+	</BotSetObject>
+	<BotSetObject classId="111" className="Spectral Master"> <!-- Роба Элегия Венеры -->
+		<helm id="43232" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<chest id="43235" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<gaiter id="43238" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<gloves id="43241" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<boots id="43244" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<shirt id="10512" enchant="6" is_random="false"/>
+		<belt id="14961" enchant="6" is_random="false"/>
+		<shield id="43120" enchant="6" is_random="false"/>	
+		<male_hat id="21981" chance="20"/>
+		<female_hat id="21882" chance="20"/>
+		<cloak id="21587" chance="95"/>		
+	</BotSetObject>
+	<BotSetObject classId="111" className="Spectral Master"> <!-- Роба Элегия Дестино -->
+		<helm id="43247" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<chest id="43250" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<gaiter id="43253" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<gloves id="43256" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<boots id="43259" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<shirt id="10512" enchant="6" is_random="false"/>
+		<belt id="14961" enchant="6" is_random="false"/>
+		<shield id="15622" enchant="6" is_random="false"/>	
+		<male_hat id="8950" chance="20"/>
+		<female_hat id="20024" chance="20"/>
+		<cloak id="21583" chance="95"/>		
+	</BotSetObject>
+	<BotSetObject classId="111" className="Spectral Master"> <!-- Роба Элегия Дестино -->
+		<helm id="43247" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<chest id="43250" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<gaiter id="43253" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<gloves id="43256" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<boots id="43259" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<shirt id="10512" enchant="6" is_random="false"/>
+		<belt id="14961" enchant="6" is_random="false"/>
+		<shield id="15621" enchant="6" is_random="false"/>	
+		<male_hat id="13497" chance="20"/>
+		<female_hat id="12766" chance="20"/>
+		<cloak id="21721" chance="95"/>		
+	</BotSetObject>
+	<BotSetObject classId="111" className="Spectral Master"> <!-- Роба Элегия Дестино -->
+		<helm id="43247" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<chest id="43250" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<gaiter id="43253" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<gloves id="43256" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<boots id="43259" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<shirt id="10512" enchant="6" is_random="false"/>
+		<belt id="14961" enchant="6" is_random="false"/>
+		<shield id="43119" enchant="6" is_random="false"/>	
+		<male_hat id="20723" chance="20"/>
+		<female_hat id="13518" chance="20"/>
+		<cloak id="43128" chance="95"/>		
+	</BotSetObject>
+	<BotSetObject classId="111" className="Spectral Master"> <!-- Роба Элегия Дестино -->
+		<helm id="43247" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<chest id="43250" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<gaiter id="43253" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<gloves id="43256" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<boots id="43259" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<shirt id="10512" enchant="6" is_random="false"/>
+		<belt id="14961" enchant="6" is_random="false"/>
+		<shield id="43122" enchant="6" is_random="false"/>	
+		<male_hat id="13518" chance="20"/>
+		<female_hat id="13521" chance="20"/>
+		<cloak id="43129" chance="95"/>		
+	</BotSetObject>
+	<BotSetObject classId="111" className="Spectral Master"> <!-- Роба Элегия Дестино -->
+		<helm id="43247" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<chest id="43250" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<gaiter id="43253" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<gloves id="43256" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<boots id="43259" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<shirt id="10512" enchant="6" is_random="false"/>
+		<belt id="14961" enchant="6" is_random="false"/>
+		<shield id="43120" enchant="6" is_random="false"/>	
+		<male_hat id="13499" chance="20"/>
+		<female_hat id="13499" chance="20"/>
+		<cloak id="43125" chance="95"/>		
+	</BotSetObject>
+	<BotSetObject classId="111" className="Spectral Master"> <!-- Роба Элегия Дестино -->
+		<helm id="43247" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<chest id="43250" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<gaiter id="43253" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<gloves id="43256" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<boots id="43259" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<shirt id="10512" enchant="6" is_random="false"/>
+		<belt id="14961" enchant="6" is_random="false"/>
+		<shield id="43118" enchant="6" is_random="false"/>	
+		<male_hat id="16106" chance="20"/>
+		<female_hat id="13498" chance="20"/>
+		<cloak id="43123" chance="95"/>		
+	</BotSetObject>
+	<BotSetObject classId="111" className="Spectral Master"> <!-- Роба Элегия Мажор -->
+		<helm id="43262" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<chest id="43265" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<gloves id="43271" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<boots id="43274" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<shirt id="10512" enchant="6" is_random="false"/>
+		<belt id="14961" enchant="6" is_random="false"/>
+		<shield id="12811" enchant="6" is_random="false"/>	
+		<male_hat id="8188" chance="20"/>
+		<female_hat id="22165" chance="20"/>
+		<cloak id="70142" chance="100"/> <!-- Рюкзак -->	
+	</BotSetObject>
+	<BotSetObject classId="111" className="Spectral Master"> <!-- Роба Элегия Мажор -->
+		<helm id="43262" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<chest id="43265" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<gloves id="43271" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<boots id="43274" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<shirt id="10512" enchant="6" is_random="false"/>
+		<belt id="14961" enchant="6" is_random="false"/>
+		<shield id="6377" enchant="6" is_random="false"/>	
+		<male_hat id="7837" chance="20"/>
+		<female_hat id="20322" chance="20"/>
+		<cloak id="70142" chance="100"/> <!-- Рюкзак -->	
+	</BotSetObject>
+	<BotSetObject classId="111" className="Spectral Master"> <!-- Роба Элегия Мажор -->
+		<helm id="43262" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<chest id="43265" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<gloves id="43271" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<boots id="43274" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<shirt id="10512" enchant="6" is_random="false"/>
+		<belt id="14961" enchant="6" is_random="false"/>
+		<shield id="43118" enchant="6" is_random="false"/>	
+		<male_hat id="21984" chance="20"/>
+		<female_hat id="21518" chance="20"/>
+		<cloak id="21717" chance="95"/>
+	</BotSetObject>
+	<BotSetObject classId="111" className="Spectral Master"> <!-- Роба Элегия Мажор -->
+		<helm id="43262" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<chest id="43265" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<gloves id="43271" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<boots id="43274" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<shirt id="10512" enchant="6" is_random="false"/>
+		<belt id="14961" enchant="6" is_random="false"/>
+		<shield id="43121" enchant="6" is_random="false"/>	
+		<male_hat id="30033" chance="20"/>
+		<female_hat id="30116" chance="20"/>
+		<cloak id="43129" chance="95"/>
+	</BotSetObject>
+	<BotSetObject classId="111" className="Spectral Master"> <!-- Роба Элегия Мажор -->
+		<helm id="43262" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<chest id="43265" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<gloves id="43271" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<boots id="43274" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<shirt id="10512" enchant="6" is_random="false"/>
+		<belt id="14961" enchant="6" is_random="false"/>
+		<shield id="43119" enchant="6" is_random="false"/>	
+		<male_hat id="22170" chance="20"/>
+		<female_hat id="8568" chance="20"/>
+		<cloak id="43126" chance="95"/>
+	</BotSetObject>
+	<BotSetObject classId="111" className="Spectral Master"> <!-- Роба Элегия Мажор -->
+		<helm id="43262" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<chest id="43265" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<gloves id="43271" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<boots id="43274" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<shirt id="10512" enchant="6" is_random="false"/>
+		<belt id="14961" enchant="6" is_random="false"/>
+		<shield id="43122" enchant="6" is_random="false"/>	
+		<male_hat id="30010" chance="20"/>
+		<female_hat id="22163" chance="20"/>
+		<cloak id="43125" chance="95"/>
+	</BotSetObject>
+	<BotSetObject classId="111" className="Spectral Master"> <!-- Роба Элегия Дюрандия -->
+		<helm id="76016" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<chest id="76017" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<gaiter id="76018" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<gloves id="76019" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<boots id="76020" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<shirt id="10512" enchant="6" is_random="false"/>
+		<belt id="14961" enchant="6" is_random="false"/>
+		<shield id="76117" enchant="6" is_random="false"/>	
+		<male_hat id="21446" chance="20"/>
+		<female_hat id="21116" chance="20"/>
+		<cloak id="43128" chance="95"/>		
+	</BotSetObject>
+	<BotSetObject classId="111" className="Spectral Master"> <!-- Роба Элегия Дюрандия -->
+		<helm id="76016" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<chest id="76017" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<gaiter id="76018" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<gloves id="76019" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<boots id="76020" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<shirt id="10512" enchant="6" is_random="false"/>
+		<belt id="14961" enchant="6" is_random="false"/>
+		<shield id="43121" enchant="6" is_random="false"/>	
+		<male_hat id="76193" chance="20"/>
+		<female_hat id="76443" chance="20"/>
+		<cloak id="43123" chance="95"/>		
+	</BotSetObject>
+	<BotSetObject classId="111" className="Spectral Master"> <!-- Роба Элегия Дюрандия -->
+		<helm id="76016" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<chest id="76017" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<gaiter id="76018" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<gloves id="76019" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<boots id="76020" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<shirt id="10512" enchant="6" is_random="false"/>
+		<belt id="14961" enchant="6" is_random="false"/>
+		<shield id="43119" enchant="6" is_random="false"/>	
+		<male_hat id="20021" chance="20"/>
+		<female_hat id="15449" chance="20"/>
+		<cloak id="43125" chance="95"/>		
+	</BotSetObject>
+	<BotSetObject classId="111" className="Spectral Master"> <!-- Роба Элегия Дюрандия -->
+		<helm id="76016" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<chest id="76017" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<gaiter id="76018" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<gloves id="76019" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<boots id="76020" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<shirt id="10512" enchant="6" is_random="false"/>
+		<belt id="14961" enchant="6" is_random="false"/>
+		<shield id="43110" enchant="6" is_random="false"/>	
+		<male_hat id="8950" chance="20"/>
+		<female_hat id="20678" chance="20"/>
+		<cloak id="21718" chance="95"/>		
+	</BotSetObject>
+ </list>

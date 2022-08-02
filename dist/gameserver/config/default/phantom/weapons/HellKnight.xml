@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE list SYSTEM "phantomWeapon.dtd">
+<list>
+	<BotWeaponObject classId="91" className="Hell Knight">
+		<weapon id="15983" enchant="10" is_random="false" augment_chance="50" attribute_min="300" attribute_max="300" attribute="holy" is_att_random="false"/>
+	</BotWeaponObject>
+	<BotWeaponObject classId="91" className="Hell Knight">
+		<weapon id="14479" enchant="10" is_random="false" augment_chance="50" attribute_min="300" attribute_max="300" attribute="holy" is_att_random="false"/>
+	</BotWeaponObject>
+	<BotWeaponObject classId="91" className="Hell Knight">
+		<weapon id="14480" enchant="10" is_random="false" augment_chance="50" attribute_min="300" attribute_max="300" attribute="holy" is_att_random="false"/>
+	</BotWeaponObject>
+	<BotWeaponObject classId="91" className="Hell Knight">
+		<weapon id="15941" enchant="10" is_random="false" augment_chance="50" attribute_min="300" attribute_max="300" attribute="holy" is_att_random="false"/>
+	</BotWeaponObject>
+	<BotWeaponObject classId="91" className="Hell Knight">
+		<weapon id="15942" enchant="10" is_random="false" augment_chance="50" attribute_min="300" attribute_max="300" attribute="holy" is_att_random="false"/>
+	</BotWeaponObject>
+	<BotWeaponObject classId="91" className="Hell Knight">
+		<weapon id="15985" enchant="10" is_random="false" augment_chance="50" attribute_min="300" attribute_max="300" attribute="holy" is_att_random="false"/>
+	</BotWeaponObject>
+ </list>

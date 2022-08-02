@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE list SYSTEM "phantomWeapon.dtd">
+<list>
+	<BotWeaponObject classId="93" className="Adventurer">
+		<weapon id="14487" enchant="10" is_random="false" augment_chance="50" attribute_min="300" attribute_max="300" attribute="dark" is_att_random="false"/>
+	</BotWeaponObject>
+	<BotWeaponObject classId="93" className="Adventurer">
+		<weapon id="15946" enchant="10" is_random="false" augment_chance="50" attribute_min="300" attribute_max="300" attribute="fire" is_att_random="false"/>
+	</BotWeaponObject>
+	<BotWeaponObject classId="93" className="Adventurer">
+		<weapon id="15987" enchant="10" is_random="false" augment_chance="50" attribute_min="300" attribute_max="300" attribute="earth" is_att_random="false"/>
+	</BotWeaponObject>
+	<BotWeaponObject classId="93" className="Adventurer">
+		<weapon id="14477" enchant="10" is_random="false" augment_chance="50" attribute_min="300" attribute_max="300" attribute="holy" is_att_random="false"/>
+	</BotWeaponObject>
+	<BotWeaponObject classId="93" className="Adventurer">
+		<weapon id="16153" enchant="10" is_random="false" augment_chance="50" attribute_min="300" attribute_max="300" attribute="water" is_att_random="false"/>
+	</BotWeaponObject>
+	<BotWeaponObject classId="93" className="Adventurer">
+		<weapon id="16157" enchant="10" is_random="false" augment_chance="50" attribute_min="300" attribute_max="300" attribute="wind" is_att_random="false"/>
+	</BotWeaponObject>	
+ </list>

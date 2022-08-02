@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT list (BotWeaponObject)*>
+<!ELEMENT BotWeaponObject (weapon)*>
+<!ATTLIST BotWeaponObject
+	classId CDATA #REQUIRED
+	className CDATA #REQUIRED>
+<!ELEMENT weapon (#PCDATA)>
+<!ATTLIST weapon
+	id CDATA #REQUIRED
+	enchant CDATA #REQUIRED
+	is_random CDATA #REQUIRED
+	augment_chance  CDATA #IMPLIED
+	attribute_min CDATA #REQUIRED
+	attribute_max CDATA #REQUIRED
+	attribute CDATA #REQUIRED
+	is_att_random  CDATA #IMPLIED>

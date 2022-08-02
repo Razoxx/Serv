@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE list SYSTEM "phantomAI.dtd">
+<list>
+
+     <!-- ФС -->
+	 
+	<ClassObject classId="111" className="Spectral Master" sex="1">
+		<ai_type type="b_mystic" sub_type="stupid" />
+		<henna id1="180" id2="171"/>
+		<nuke_skills>
+			<skill id="1530" level="13" /> <!-- Death Spike FSa -->
+		</nuke_skills>
+		<rare_nuke_skills>
+			<skill id="1558" level="24" /> <!-- Dimension Spiral -->
+		</rare_nuke_skills>
+		<self_buff_skills>
+			<skill id="1547" level="3" /> <!-- Spirit Sharing -->
+		</self_buff_skills>
+		<ultimate_self_buff_skills>
+			 <!-- Нету -->
+		</ultimate_self_buff_skills>
+		<debuff_skills>
+			<skill id="1350" level="1" /> <!-- Warrior Bane -->
+			<skill id="1351" level="1" /> <!-- Mage Bane -->
+		</debuff_skills>
+		<rare_debuff_skills>
+			<skill id="1386" level="10" /> <!-- Arcane Disruption -->
+		</rare_debuff_skills>
+		<passive_skills>
+			<skill id="632" level="6" /> <!-- Emergent Ability - Defence -->
+			<skill id="652" level="1" /> <!-- Knight Ability - Defense -->
+			<skill id="655" level="1" /> <!-- Enchanter Ability - Barrier -->
+			<skill id="1491" level="1" /> <!-- Summoner Ability - Spirit -->
+		</passive_skills>
+		<consumble_skills>
+			<skill id="6439" level="1"/> <!-- MP Potion, бот использует когда MP меньше 50% один раз -->
+			<skill id="2166" level="1"/> <!-- CP Potion Low, бот использует когда CP меньше 10% пока СР не будет 50% заполнено -->
+		</consumble_skills>
+	</ClassObject>
+ </list>

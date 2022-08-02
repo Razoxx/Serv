@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE list SYSTEM "phantomAI.dtd">
+<list>
+
+     <!-- Фыр -->
+	 
+	<ClassObject classId="109" className="Ghost Sentinel" sex="1">
+		<ai_type type="b_fighter" sub_type="stupid" />
+		<henna id1="174"/>
+		<nuke_skills>
+			<skill id="990" level="1" /> <!-- Death Shot -->
+		</nuke_skills>
+		<rare_nuke_skills>
+			<skill id="987" level="1" /> <!-- Multiple Shot -->
+		</rare_nuke_skills>
+		<self_buff_skills>
+			<skill id="99" level="2" />	<!-- Rapid Shot -->
+		</self_buff_skills>
+		<situation_skills>
+			<skill id="773" level="1" target="enemy" cond="hp;20;0"/> <!-- Ghost Piercing -->
+			<skill id="111" level="1" target="self" cond="hp;50;0"/> <!-- Ultimate Evasion -->
+		</situation_skills>
+		<ultimate_self_buff_skills>
+		</ultimate_self_buff_skills>
+		<debuff_skills>
+		    <skill id="122" level="15" is_enchantable="true" is_random="false" ench_max_value="30" ench_route="2"/> <!-- Hex -->
+			<skill id="101" level="40" is_enchantable="true" is_random="false" ench_max_value="30" ench_route="1"/>	<!-- Stun Shot -->
+		</debuff_skills>
+		<rare_debuff_skills>
+			<skill id="354" level="1" /> <!-- Hamstring Shot -->
+		</rare_debuff_skills>
+		<passive_skills>
+			<skill id="631" level="6" />	<!-- Emergent Ability - Attack -->
+			<skill id="652" level="1" />	<!-- Knight Ability - Defense -->
+			<skill id="655" level="1" />	<!-- Enchanter Ability - Barrier -->
+			<skill id="651" level="1" />	<!-- Warrior Ability - Haste -->
+			<skill id="26074" level="10" />	<!-- Bot Vicious Stance -->
+		</passive_skills>
+		<consumble_skills>
+			<skill id="6439" level="1" target="self" cond="MP;50;0"/> <!-- MP Potion, бот использует когда MP меньше 50% один раз -->
+			<skill id="2166" level="1" target="self" cond="CP;90;0"/> <!-- CP Potion Low, бот использует когда CP меньше 90% -->
+		</consumble_skills>
+	</ClassObject>
+ </list>

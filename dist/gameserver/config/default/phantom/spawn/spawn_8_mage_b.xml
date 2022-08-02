@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE list SYSTEM "phantomSpawn.dtd">
+<list>
+     <!-- 
+		peace   - Мирные боты гуляющие по городу.
+		warrior - Боевые боты воины.
+		dagger  - Боевые боты дагерщики.
+		tank_a  - Боевые боты танки (забафаны полностью в атаку).
+		tank_b  - Боевые боты танки (забафаны полностью в защиту).
+		archer  - Боевые боты лучники.
+		mage_a  - Боевые боты маги (забафаны полностью в атаку).
+		mage_b  - Боевые боты маги (забафаны полностью в защиту).
+		ghost   - Невидимки для накрутки онлайна.
+	--> 
+	<!--
+		handicap_attack - в % указывается бонус атаки для этой группы ботов.
+		handicap_defence - в % указывается бонус защиты для этой группы ботов.
+		По умолчанию 100%.
+		Может принимать значения от 5% до 300%.
+		Можно не вписывать (тогда используется стандартное значение в 100%).
+	-->
+	<SpawnObject ai_type="mage_b" is_spawn_enabled="true" description="nadoznat">
+		<coord x="-15432" y="209512" z="-3664" count="5" handicap_attack="100" handicap_defence="100"/>
+    <coord x="107336" y="-88104" z="-2928" count="5" handicap_attack="100" handicap_defence="100"/>
+	</SpawnObject>
+ </list>

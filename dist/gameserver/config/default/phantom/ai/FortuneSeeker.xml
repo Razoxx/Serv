@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE list SYSTEM "phantomAI.dtd">
+<list>
+
+     <!-- Спойлер -->
+	 
+	<ClassObject classId="117" className="Fortune Seeker" sex="1">
+		<ai_type type="b_fighter" sub_type="stupid" />
+		<henna id1="169" id2="30"/>
+		<nuke_skills>
+		    <skill id="260" level="37" is_enchantable="true" is_random="false" ench_max_value="30" ench_route="6"/> <!-- Armor Crush -->
+			<skill id="995" level="1" /> <!-- Rush Impact -->
+			<skill id="947" level="1" />	<!-- Lucky Strike -->
+			<skill id="997" level="25" />	<!-- Crushing Strike -->
+		</nuke_skills>
+		<rare_nuke_skills>
+			<skill id="362" level="1" is_enchantable="true" is_random="false" ench_max_value="15" ench_route="3"/> <!-- Armor Crush -->
+		</rare_nuke_skills>
+		<self_buff_skills>
+			 <!-- Нету -->
+		</self_buff_skills>
+		<ultimate_self_buff_skills>
+			<skill id="917" level="1" /> <!-- Final Secret -->
+		</ultimate_self_buff_skills>
+		<debuff_skills>
+			<skill id="362" level="1" is_enchantable="true" is_random="false" ench_max_value="15" ench_route="3"/> <!-- Armor Crush -->
+		</debuff_skills>
+		<rare_debuff_skills>
+			<!-- Нету -->
+		</rare_debuff_skills>
+		<passive_skills>
+			<skill id="631" level="6" />	<!-- Emergent Ability - Attack -->
+			<skill id="652" level="1" />	<!-- Knight Ability - Defense -->
+			<skill id="655" level="1" />	<!-- Enchanter Ability - Barrier -->
+			<skill id="651" level="1" />	<!-- Warrior Ability - Haste -->
+		</passive_skills>
+		<consumble_skills>
+			<skill id="6439" level="1" target="self" cond="MP;50;0"/> <!-- MP Potion, бот использует когда MP меньше 50% один раз -->
+			<skill id="2166" level="1" target="self" cond="CP;90;0"/> <!-- CP Potion Low, бот использует когда CP меньше 90% -->
+		</consumble_skills>
+	</ClassObject>
+ </list>

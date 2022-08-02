@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE list SYSTEM "phantomWeapon.dtd">
+<list>
+	<BotWeaponObject classId="95" className="Soultaker">
+		<weapon id="14485" enchant="10" is_random="false" augment_chance="50" attribute_min="300" attribute_max="300" attribute="dark" is_att_random="false"/>
+	</BotWeaponObject>
+	<BotWeaponObject classId="95" className="Soultaker">
+		<weapon id="15968" enchant="10" is_random="false" augment_chance="50" attribute_min="300" attribute_max="300" attribute="dark" is_att_random="false"/>
+	</BotWeaponObject>
+	<BotWeaponObject classId="95" className="Soultaker">
+		<weapon id="16012" enchant="10" is_random="false" augment_chance="50" attribute_min="300" attribute_max="300" attribute="dark" is_att_random="false"/>
+	</BotWeaponObject>
+	<BotWeaponObject classId="95" className="Soultaker">
+		<weapon id="16005" enchant="10" is_random="false" augment_chance="50" attribute_min="300" attribute_max="300" attribute="dark" is_att_random="false"/>
+	</BotWeaponObject>
+	<BotWeaponObject classId="95" className="Soultaker">
+		<weapon id="14502" enchant="10" is_random="false" augment_chance="50" attribute_min="300" attribute_max="300" attribute="dark" is_att_random="false"/>
+	</BotWeaponObject>
+	<BotWeaponObject classId="95" className="Soultaker">
+		<weapon id="15964" enchant="10" is_random="false" augment_chance="50" attribute_min="300" attribute_max="300" attribute="dark" is_att_random="false"/>
+	</BotWeaponObject>
+ </list>

@@ -1,0 +1,17 @@
+<!ELEMENT list (pet_data)*>
+<!ELEMENT pet_data (level_data)*>
+<!ATTLIST pet_data
+	npc_id CDATA #REQUIRED
+	control_item CDATA #IMPLIED
+	sync_level CDATA #IMPLIED
+	evolve CDATA #IMPLIED>
+
+<!ELEMENT level_data (stats)*>
+<!ELEMENT stats (set)*>
+<!ATTLIST stats
+	level CDATA #REQUIRED>
+
+<!ELEMENT set (#PCDATA)>
+<!ATTLIST set
+	name CDATA #REQUIRED
+	value CDATA #REQUIRED>

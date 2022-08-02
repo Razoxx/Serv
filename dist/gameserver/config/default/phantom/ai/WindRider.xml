@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE list SYSTEM "phantomAI.dtd">
+<list>
+     <!-- ПВ -->
+	 
+	<ClassObject classId="101" className="WindRider" sex="1">
+		<ai_type type="b_fighter" sub_type="stupid" />
+		<henna id1="169"/>
+		<nuke_skills>
+			<skill id="263" level="37" is_enchantable="true" is_random="false" ench_max_value="30" ench_route="7"/> <!-- Deadly Blow -->
+			<skill id="344" level="1" is_enchantable="true" is_random="false" ench_max_value="15" ench_route="7"/> <!-- Lethal Blow -->
+			<skill id="321" level="10" is_enchantable="true" is_random="false" ench_max_value="30" ench_route="1"/>  <!-- Blinding Blow -->
+		</nuke_skills>
+		<rare_nuke_skills>
+			<skill id="321" level="10" is_enchantable="true" is_random="false" ench_max_value="30" ench_route="1"/>  <!-- Blinding Blow -->
+		</rare_nuke_skills>
+		<self_buff_skills>
+			<skill id="355" level="1" is_enchantable="true" is_random="false" ench_max_value="15" ench_route="2"/>	 <!-- Focus Death -->
+			<skill id="410" level="3" is_enchantable="true" is_random="false" ench_max_value="30" ench_route="1"/> <!-- Mortal Strike -->
+		</self_buff_skills>
+		<situation_skills>
+			<skill id="769" level="1" target="self" cond="hp;70;0"/> <!-- Wind Riding -->
+		</situation_skills>
+		<ultimate_self_buff_skills>
+			<skill id="111" level="1" is_enchantable="true" is_random="false" ench_max_value="30" ench_route="2"/> <!-- Ultimate Evasion -->
+			<skill id="922" level="1" /> <!-- Hide -->
+			<skill id="446" level="1" /> <!-- Dodge -->
+		</ultimate_self_buff_skills>
+		<debuff_skills>
+			<skill id="358" level="1" is_enchantable="true" is_random="false" ench_max_value="15" ench_route="1"/> <!-- Bluff -->
+			<skill id="531" level="1" /> <!-- Critical Wound -->
+			<skill id="821" level="1" /> <!-- Shadow Step -->
+		</debuff_skills>
+		<rare_debuff_skills>
+			<skill id="991" level="1" /> <!-- Throw Dagger -->
+			<skill id="821" level="1" />	<!-- Shadow Step -->
+		</rare_debuff_skills>
+		<passive_skills>
+			<skill id="631" level="6" />	<!-- Emergent Ability - Attack -->
+			<skill id="652" level="1" />	<!-- Knight Ability - Defense -->
+			<skill id="655" level="1" />	<!-- Enchanter Ability - Barrier -->
+			<skill id="651" level="1" />	<!-- Warrior Ability - Haste -->
+			<skill id="26074" level="10" />	<!-- Bot Vicious Stance -->
+		</passive_skills>
+		<consumble_skills>
+			<skill id="6439" level="1" target="self" cond="MP;50;0"/> <!-- MP Potion, бот использует когда MP меньше 50% один раз -->
+			<skill id="2166" level="1" target="self" cond="CP;90;0"/> <!-- CP Potion Low, бот использует когда CP меньше 90% -->
+		</consumble_skills>
+	</ClassObject>
+ </list>

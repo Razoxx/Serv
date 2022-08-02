@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE list SYSTEM "phantomWeapon.dtd">
+<list>
+	<BotWeaponObject classId="96" className="Arcana Lord">
+		<weapon id="14485" enchant="10" is_random="false" augment_chance="50" attribute_min="300" attribute_max="300" attribute="holy" is_att_random="false"/>
+	</BotWeaponObject>
+	<BotWeaponObject classId="96" className="Arcana Lord">
+		<weapon id="15968" enchant="10" is_random="false" augment_chance="50" attribute_min="300" attribute_max="300" attribute="holy" is_att_random="false"/>
+	</BotWeaponObject>
+	<BotWeaponObject classId="96" className="Arcana Lord">
+		<weapon id="16012" enchant="10" is_random="false" augment_chance="50" attribute_min="300" attribute_max="300" attribute="holy" is_att_random="false"/>
+	</BotWeaponObject>
+	<BotWeaponObject classId="96" className="Arcana Lord">
+		<weapon id="14502" enchant="10" is_random="false" augment_chance="50" attribute_min="300" attribute_max="300" attribute="holy" is_att_random="false"/>
+	</BotWeaponObject>
+	<BotWeaponObject classId="96" className="Arcana Lord">
+		<weapon id="15964" enchant="10" is_random="false" augment_chance="50" attribute_min="300" attribute_max="300" attribute="holy" is_att_random="false"/>
+	</BotWeaponObject>
+	<BotWeaponObject classId="96" className="Arcana Lord">
+		<weapon id="16005" enchant="10" is_random="false" augment_chance="50" attribute_min="300" attribute_max="300" attribute="holy" is_att_random="false"/>
+	</BotWeaponObject>
+	<BotWeaponObject classId="96" className="Arcana Lord">
+		<weapon id="21976" enchant="10" is_random="false" augment_chance="50" attribute_min="300" attribute_max="300" attribute="holy" is_att_random="false"/>
+	</BotWeaponObject>
+	<BotWeaponObject classId="96" className="Arcana Lord">
+		<weapon id="32096" enchant="10" is_random="false" augment_chance="50" attribute_min="300" attribute_max="300" attribute="holy" is_att_random="false"/>
+	</BotWeaponObject>
+	<BotWeaponObject classId="96" className="Arcana Lord">
+		<weapon id="32103" enchant="10" is_random="false" augment_chance="50" attribute_min="300" attribute_max="300" attribute="holy" is_att_random="false"/>
+	</BotWeaponObject>
+	<BotWeaponObject classId="96" className="Arcana Lord">
+		<weapon id="32249" enchant="10" is_random="false" augment_chance="50" attribute_min="300" attribute_max="300" attribute="holy" is_att_random="false"/>
+	</BotWeaponObject>
+	<BotWeaponObject classId="96" className="Arcana Lord">
+		<weapon id="32251" enchant="10" is_random="false" augment_chance="50" attribute_min="300" attribute_max="300" attribute="holy" is_att_random="false"/>
+	</BotWeaponObject>
+	<BotWeaponObject classId="96" className="Arcana Lord">
+		<weapon id="32265" enchant="10" is_random="false" augment_chance="50" attribute_min="300" attribute_max="300" attribute="holy" is_att_random="false"/>
+	</BotWeaponObject>
+	<BotWeaponObject classId="96" className="Arcana Lord">
+		<weapon id="32277" enchant="10" is_random="false" augment_chance="50" attribute_min="300" attribute_max="300" attribute="holy" is_att_random="false"/>
+	</BotWeaponObject>
+	<BotWeaponObject classId="96" className="Arcana Lord">
+		<weapon id="32279" enchant="10" is_random="false" augment_chance="50" attribute_min="300" attribute_max="300" attribute="holy" is_att_random="false"/>
+	</BotWeaponObject>
+	
+ </list>

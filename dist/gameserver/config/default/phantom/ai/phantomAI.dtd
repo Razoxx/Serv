@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT list (ClassObject)*>
+<!ELEMENT ClassObject (ai_type|henna|nuke_skills|rare_nuke_skills|self_buff_skills|situation_skills|ultimate_self_buff_skills|debuff_skills|rare_debuff_skills|passive_skills|consumble_skills)*>
+<!ATTLIST ClassObject
+	classId CDATA #REQUIRED
+	className CDATA #REQUIRED
+	sex CDATA#REQUIRED>
+<!ELEMENT ai_type (#PCDATA)>
+<!ATTLIST ai_type
+	type CDATA #REQUIRED
+	sub_type CDATA #REQUIRED>
+<!ELEMENT henna (#PCDATA)>
+<!ATTLIST henna
+	id CDATA #REQUIRED>
+<!ELEMENT nuke_skills (skill)*>
+<!ELEMENT skill (#PCDATA)>
+<!ATTLIST skill
+	id CDATA #REQUIRED
+	level CDATA #REQUIRED
+	is_enchantable CDATA #IMPLIED
+	is_random CDATA #IMPLIED
+	ench_max_value CDATA #REQUIRED
+	ench_route CDATA #REQUIRED>
+<!ELEMENT rare_nuke_skills (skill)*>
+<!ELEMENT skill (#PCDATA)>
+<!ATTLIST skill
+	id CDATA #REQUIRED
+	level CDATA #REQUIRED
+	is_enchantable CDATA #IMPLIED
+	is_random CDATA #IMPLIED
+	ench_max_value CDATA #REQUIRED
+	ench_route CDATA #REQUIRED>
+<!ELEMENT self_buff_skills (skill)*>
+<!ELEMENT skill (#PCDATA)>
+<!ATTLIST skill
+	id CDATA #REQUIRED
+	level CDATA #REQUIRED>
+<!ELEMENT situation_skills (skill)*>
+<!ELEMENT skill (#PCDATA)>
+<!ATTLIST skill
+	id CDATA #REQUIRED
+	level CDATA #REQUIRED
+	target CDATA #IMPLIED
+	cond CDATA #IMPLIED>
+<!ELEMENT ultimate_self_buff_skills (skill)*>
+<!ELEMENT skill (#PCDATA)>
+<!ATTLIST skill
+	id CDATA #REQUIRED
+	level CDATA #REQUIRED
+	is_enchantable CDATA #IMPLIED
+	is_random CDATA #IMPLIED
+	ench_max_value CDATA #REQUIRED
+	ench_route CDATA #REQUIRED>
+<!ELEMENT debuff_skills (skill)*>
+<!ELEMENT skill (#PCDATA)>
+<!ATTLIST skill
+	id CDATA #REQUIRED
+	level CDATA #REQUIRED
+	is_enchantable CDATA #IMPLIED
+	is_random CDATA #IMPLIED
+	ench_max_value CDATA #REQUIRED
+	ench_route CDATA #REQUIRED>
+<!ELEMENT rare_debuff_skills (skill)*>
+<!ELEMENT skill (#PCDATA)>
+<!ATTLIST skill
+	id CDATA #REQUIRED
+	level CDATA #REQUIRED>
+<!ELEMENT passive_skills (skill)*>
+<!ELEMENT skill (#PCDATA)>
+<!ATTLIST skill
+	id CDATA #REQUIRED
+	level CDATA #REQUIRED>
+<!ELEMENT consumble_skills (skill)*>
+<!ELEMENT skill (#PCDATA)>
+<!ATTLIST skill
+	id CDATA #REQUIRED
+	level CDATA #REQUIRED
+	target CDATA #IMPLIED
+	cond CDATA #IMPLIED>

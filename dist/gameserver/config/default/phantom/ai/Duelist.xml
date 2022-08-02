@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE list SYSTEM "phantomAI.dtd">
+<list>
+
+     <!-- Глад -->
+	 
+	<ClassObject classId="88" className="Duelist" sex="1">
+		<ai_type type="b_fighter" sub_type="stupid" />
+		<henna id1="169" id2="30"/>
+		<nuke_skills>
+			<skill id="6" level="37" is_enchantable="true" is_random="false" ench_max_value="30" ench_route="7"/> <!-- Sonic Blaster -->
+			<skill id="261" level="22" is_enchantable="true" is_random="false" ench_max_value="30" ench_route="7"/>	<!-- Triple Sonic Slash -->
+			 <skill id="995" level="1" /> <!-- Rush Impact -->
+		</nuke_skills>
+		<rare_nuke_skills>
+			<skill id="6" level="37" is_enchantable="true" is_random="false" ench_max_value="30" ench_route="7"/> <!-- Sonic Blaster -->
+			<skill id="261" level="22" is_enchantable="true" is_random="false" ench_max_value="30" ench_route="7"/> <!-- Triple Sonic Slash -->
+			<skill id="995" level="1" /> <!-- Rush Impact -->
+		</rare_nuke_skills>
+		<self_buff_skills>
+			<skill id="78" level="2" />	<!-- War Cry -->
+			<skill id="297" level="2" is_enchantable="true" is_random="false" ench_max_value="30" ench_route="1"/> <!-- Duelist Spirit -->
+		</self_buff_skills>
+		<ultimate_self_buff_skills>
+			<skill id="919" level="1" /> <!-- Maximum Focus Sonic -->
+			<skill id="451" level="2" /> <!-- Sonic Move -->
+			<skill id="442" level="1" /> <!-- Sonic Barrier -->
+			<skill id="440" level="1" is_enchantable="true" is_random="false" ench_max_value="15" ench_route="1"/> <!-- Braveheart -->
+		</ultimate_self_buff_skills>
+		<situation_skills>
+		</situation_skills>
+		<debuff_skills>
+		    <skill id="995" level="1" /> <!-- Rush Impact -->
+		</debuff_skills>
+		<rare_debuff_skills>
+			<skill id="775" level="1" />	<!-- Weapon Blockade -->
+		</rare_debuff_skills>
+		<passive_skills>
+			<skill id="631" level="6" />	<!-- Emergent Ability - Attack -->
+			<skill id="652" level="1" />	<!-- Knight Ability - Defense -->
+			<skill id="655" level="1" />	<!-- Enchanter Ability - Barrier -->
+			<skill id="651" level="1" />	<!-- Warrior Ability - Haste -->
+			<skill id="26074" level="10" />	<!-- Bot Vicious Stance -->
+		</passive_skills>
+		<consumble_skills>
+			<skill id="8" level="8" target="self" cond="skill;8;8"/> <!-- Sonic Focus -->
+			<skill id="6439" level="1" target="self" cond="MP;50;0"/> <!-- MP Potion, бот использует когда MP меньше 50% один раз -->
+			<skill id="2166" level="1" target="self" cond="CP;90;0"/> <!-- CP Potion Low, бот использует когда CP меньше 90% -->
+		</consumble_skills>
+	</ClassObject>
+ </list>

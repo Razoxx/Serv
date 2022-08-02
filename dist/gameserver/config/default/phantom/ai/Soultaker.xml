@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE list SYSTEM "phantomAI.dtd">
+<list>
+
+     <!-- Некар -->
+	 
+	<ClassObject classId="95" className="Soultaker" sex="1">
+		<ai_type type="b_mystic" sub_type="stupid" />
+		<henna id1="180" id2="171" id3="175"/>
+		<nuke_skills>
+			<skill id="1148" level="13" is_enchantable="true" is_random="false" ench_max_value="30" ench_route="1"/> <!-- Death Spike -->
+			<skill id="1234" level="28" is_enchantable="true" is_random="false" ench_max_value="30" ench_route="1"/> <!-- Vampiric Claw -->
+		</nuke_skills>
+		<rare_nuke_skills>
+			<skill id="1467" level="1" /> <!-- Meteor -->
+		</rare_nuke_skills>
+		<self_buff_skills>
+		</self_buff_skills>
+		<ultimate_self_buff_skills>
+			<skill id="1532" level="1" /> <!-- Enlightenment -->
+		</ultimate_self_buff_skills>
+		<debuff_skills>
+			<skill id="1160" level="15" />	<!-- Slow -->
+			<skill id="1169" level="14" /> <!-- Curse Fear -->
+			<skill id="1170" level="13" /> <!-- Anchor -->
+			<skill id="1495" level="1" />	<!-- Vampiric Mist -->
+			<skill id="1336" level="1" is_enchantable="true" is_random="false" ench_max_value="15" ench_route="1" /> <!-- Curse of Doom -->
+			<skill id="1263" level="13" /> <!-- Curse Gloom -->
+		</debuff_skills>
+		<rare_debuff_skills>
+			<skill id="1343" level="1" is_enchantable="true" is_random="false" ench_max_value="15" ench_route="3"/> <!-- Dark Vortex -->
+		</rare_debuff_skills>
+		<passive_skills>
+			<skill id="632" level="6" /> <!-- Emergent Ability - Defence -->
+			<skill id="652" level="1" /> <!-- Knight Ability - Defense -->
+			<skill id="655" level="1" /> <!-- Enchanter Ability - Barrier -->
+			<skill id="1491" level="1" /> <!-- Summoner Ability - Spirit -->
+		</passive_skills>
+		<consumble_skills>
+			<skill id="6439" level="1" target="self" cond="MP;50;0"/> <!-- MP Potion, бот использует когда MP меньше 50% один раз -->
+			<skill id="2166" level="1" target="self" cond="CP;90;0"/> <!-- CP Potion Low, бот использует когда CP меньше 90% -->
+		</consumble_skills>
+	</ClassObject>
+ </list>

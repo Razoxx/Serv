@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE list SYSTEM "phantomSets.dtd">
+<list>
+	<BotSetObject classId="118" className="Maestro"> <!-- Броня Нубл Веспера -->
+		<helm id="13140" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<chest id="14523" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<gaiter id="13448" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<gloves id="13449" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<boots id="13450" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<shirt id="10512" enchant="6" is_random="false"/>
+		<shield id="13471" enchant="6" is_random="false"/>		
+		<belt id="14961" enchant="6" is_random="false"/>	
+		<male_hat id="8660" chance="30"/> <!-- Шапка для Мужчин -->
+		<female_hat id="7683" chance="30"/> <!-- Шапка для Женщин -->
+		<cloak id="21718" chance="100"/>	
+	</BotSetObject>
+	<BotSetObject classId="118" className="Maestro"> <!-- Броня Верпеса -->
+		<helm id="15589" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<chest id="16171" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<gaiter id="15595" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<gloves id="15598" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<boots id="15601" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<shirt id="10512" enchant="6" is_random="false"/>
+		<shield id="15604" enchant="6" is_random="false"/>
+		<belt id="14961" enchant="6" is_random="false"/>	
+		<male_hat id="8660" chance="30"/> <!-- Шапка для Мужчин -->
+		<female_hat id="7683" chance="30"/> <!-- Шапка для Женщин -->
+		<cloak id="21716" chance="100"/>	
+	</BotSetObject>
+	<BotSetObject classId="118" className="Maestro"> <!-- Броня Дестино -->
+		<helm id="15606" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<chest id="16174" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<gaiter id="15612" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<gloves id="15615" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<boots id="15618" enchant="6" is_random="false" attribute_min="120" attribute_max="120" is_att_random="false"/>
+		<shirt id="10512" enchant="6" is_random="false"/>
+		<shield id="15621" enchant="6" is_random="false"/>
+		<belt id="14961" enchant="6" is_random="false"/>	
+		<male_hat id="8660" chance="30"/> <!-- Шапка для Мужчин -->
+		<female_hat id="7683" chance="30"/> <!-- Шапка для Женщин -->
+		<cloak id="21717" chance="100"/>	
+	</BotSetObject>
+ </list>

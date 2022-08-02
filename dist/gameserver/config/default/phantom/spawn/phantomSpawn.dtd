@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT list (SpawnObject)*>
+<!ELEMENT SpawnObject (coord)*>
+<!ATTLIST SpawnObject
+	ai_type CDATA #REQUIRED
+	is_spawn_enabled CDATA #IMPLIED
+	description CDATA #REQUIRED>
+<!ELEMENT coord (#PCDATA)>
+<!ATTLIST coord
+	x CDATA #REQUIRED
+	y CDATA #REQUIRED
+	z CDATA #REQUIRED
+	count CDATA #REQUIRED
+	handicap_attack CDATA #REQUIRED
+	handicap_defence CDATA #REQUIRED>
