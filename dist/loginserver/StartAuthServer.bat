@@ -1,5 +1,5 @@
 @echo off
-title EmuRT: Login Server Console
+title Login Server Console
 :start
 echo Starting LoginServer.
 echo.

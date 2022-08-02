@@ -1,5 +1,5 @@
 @echo off
-title EmuRT: Game Server Console
+title Game Server Console
 :start
 echo Starting GameServer.
 echo.

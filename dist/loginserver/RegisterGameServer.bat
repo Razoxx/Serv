@@ -1,5 +1,5 @@
 @echo off
-title EmuRT: Game Server Registration...
+title  Game Server Registration...
 :start
 echo Starting Game Server Registration.
 echo.
