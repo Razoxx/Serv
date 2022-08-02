@@ -1,0 +1,37 @@
+package l2p.gameserver.serverpackets;
+
+import l2p.gameserver.model.Creature;
+
+public class SetupGauge extends L2GameServerPacket {
+
+    public static final int BLUE = 0;
+    public static final int RED = 1;
+    public static final int CYAN = 2;
+    private int _charId;
+    private int _dat1;
+    private int _time;
+    private int _maxTime;
+
+    public SetupGauge(Creature character, int dat1, int time) {
+        _charId = character.getObjectId();
+        _dat1 = dat1;// color  0-blue   1-red  2-cyan  3-
+        _time = time;
+        _maxTime = time;
+    }
+
+    public SetupGauge(Creature character, int dat1, int time, int maxTime) {
+        _charId = character.getObjectId();
+        _dat1 = dat1;
+        _time = time;
+        _maxTime = maxTime;
+    }
+
+    @Override
+    protected final void writeImpl() {
+        writeC(0x6b);
+        writeD(_charId);
+        writeD(_dat1);
+        writeD(_time);
+        writeD(_maxTime); //c2
+    }
+}

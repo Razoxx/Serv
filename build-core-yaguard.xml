@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="Core" default="dist" basedir=".">
+
+    <property name="debug" value="on" />
+
+    <property name="src.gameserver" location="java/l2p/gameserver" />
+    <property name="src.loginserver" location="java/l2p/loginserver" />
+    <property name="src.commons" location="java/l2p/commons" />
+    <property name="src.scripts" location="dist/gameserver/data"/>
+	
+    <property name="dist" location="dist" />
+    <property name="lib" location="lib" />
+    <property name="libs" location="libs" />
+
+    <property name="build" location="build" />
+    <property name="build_obf" location="build_obf" />
+    <property name="build.classes" location="${build}/classes" />
+
+    <property name="build.dist" location="${build}/dist" />
+    <property name="build.dist.loginserver" location="${build.dist}/loginserver" />
+    <property name="build.dist.gameserver" location="${build.dist}/gameserver" />
+    <property name="build.dist.tools" location="${build.dist}/tools" />
+	<property name="build.version" value="High Five" />
+	<property name="build.team" value="EmuRT" />
+	<property name="build.teamsite" value="http://emurt.ru" />
+	<property name="build.licensetype" value="Demo Edition" />
+	<property name="build.coredev" value="Deprecat" />
+	<property name="build.datadev" value="Deprecat" />
+	<property name="mainclass" value="l2p.gameserver.GameServer"/>
+
+    <path id="classpath">
+        <fileset dir="${lib}">
+            <include name="**/*.jar" />
+        </fileset>
+    </path>
+
+    <pathconvert property="jar.list" pathsep=" " refid="classpath">
+        <mapper type="flatten" />
+    </pathconvert>
+
+    <property name="build.classpath" refid="classpath"/>
+
+    <tstamp>
+        <format property="build.tstamp" pattern="yyyy.MM.dd HH:mm" />
+    </tstamp>
+
+    <target name="clean" description="Remove the output directories.">
+
+        <delete dir="${build}" />
+        <delete dir="${build_obf}" />
+
+    </target>
+
+    <target name="init" description="Create the output directories.">
+
+        <mkdir dir="${build}" />
+        <mkdir dir="${build_obf}" />
+
+    </target>
+
+    <target name="compile-commons" depends="init">
+        <delete dir="${build.classes}" />
+        <mkdir dir="${build.classes}" />
+
+        <javac srcdir="${src.commons}" destdir="${build.classes}" optimize="on" debug="${debug}" source="1.7" target="1.7" includeantruntime="false" encoding="UTF-8" nowarn="off" classpath="${build.classpath}">
+            <compilerarg value="-Xlint:all,-serial" />
+        </javac>
+    </target>
+
+    <target name="commons-jar" depends="compile-commons">
+
+        <exec dir="${basedir}" executable="svnversion" outputproperty="build.revision" failifexecutionfails="false">
+			<arg line="-n ${src.commons}" />
+		</exec>
+        
+        <jar destfile="${build}/commons.jar">
+            <fileset dir="${build.classes}" />
+            <manifest>
+                <attribute name="Build-By" value="${user.name}" />
+                <attribute name="Build-Date" value="${build.tstamp}" />
+                <attribute name="Build-Os" value="${os.name}" />
+                <attribute name="Revision" value="${build.revision}" />
+                <attribute name="Chronicle" value="${build.version}" />
+				
+				<attribute name="Team-Name" value="${build.team}" />
+				<attribute name="Team-Site" value="${build.teamsite}" />
+				<attribute name="License-Type" value="${build.licensetype}" />
+				<attribute name="Core-Dev" value="${build.coredev}" />
+				<attribute name="Data-Dev" value="${build.datadev}" />
+            </manifest>
+        </jar>
+    </target>
+
+	<target name="compile-gameserver" depends="commons-jar">
+        <delete dir="${build.classes}" />
+        <mkdir dir="${build.classes}" />
+
+        <javac srcdir="${src.gameserver}" destdir="${build.classes}" optimize="on" debug="${debug}" source="1.7" target="1.7" includeantruntime="false" encoding="UTF-8" nowarn="off" classpath="${build.classpath}:${build}/commons.jar">
+            <!--<compilerarg value="-Xlint:deprecation" /> -->
+            <compilerarg value="-Xlint:all,-serial,-rawtypes,-unchecked,-deprecation,-static" />
+        </javac>
+    </target>
+
+    <target name="gameserver-jar" depends="compile-gameserver">
+
+        <exec dir="${basedir}" executable="svnversion" outputproperty="build.revision" failifexecutionfails="false">
+			<arg line="-n ${src.commons}" />
+		</exec>
+        
+        <concat destfile="${build}/dist/gameserver/config/version.ini">
+			version=${build.version}
+			revision=${build.revision}
+			builddate=${build.tstamp}
+			user=${user.name}
+			os=${os.name}
+			java=${ant.java.version}
+        </concat>
+
+        <jar destfile="${build}/gameserver.jar">
+            <fileset dir="${build.classes}" />
+            <manifest>
+                <attribute name="Main-Class" value="l2p.gameserver.GameServer" />
+                <attribute name="Class-Path" value="${jar.list} commons.jar" />
+                <attribute name="Build-By" value="${user.name}" />
+                <attribute name="Build-Date" value="${build.tstamp}" />
+                <attribute name="Build-Os" value="${os.name}" />
+                <attribute name="Revision" value="${build.revision}" />
+                <attribute name="Chronicle" value="${build.version}" />
+				
+				<attribute name="Team-Name" value="${build.team}" />
+				<attribute name="Team-Site" value="${build.teamsite}" />
+				<attribute name="License-Type" value="${build.licensetype}" />
+				<attribute name="Core-Dev" value="${build.coredev}" />
+				<attribute name="Data-Dev" value="${build.datadev}" />
+            </manifest>
+        </jar>
+    </target>
+
+	<target name="obfuscate-gameserver" depends="gameserver-jar">
+          <taskdef name="yguard" 
+           classname="com.yworks.yguard.YGuardTask" 
+           classpath="${libs}/yguard.jar:${build.classpath}"/>
+          <yguard>
+               <inoutpair in="${build}/gameserver.jar" out="${build_obf}/gameserver.jar"/>
+			   
+			   
+			   
+			   
+			   <shrink logfile="${build}/shrink.log">
+					<keep>
+						<class classes="private" methods="private" fields="private">
+						<patternset>
+							<include name="l2p.*"/>
+						</patternset>
+						</class>
+					</keep>
+				</shrink>
+
+			<rename mainclass="${mainclass}" replaceClassNameStrings="true" logfile="${build}/rename.log">
+				<property name="error-checking" value="pedantic"/>
+
+				<keep>
+					<class classes="private" methods="private" fields="private">
+					<patternset>
+						<include name="l2p.gameserver.scripts.**.*"/>
+						<include name="l2p.gameserver.model.**.*"/>
+						<include name="l2p.gameserver.ai.**.*"/>
+						<include name="l2p.gameserver.utils.**.*"/>
+						
+						<exclude name="l2p.gameserver.utils.Loader"/>
+						<include name="l2p.gameserver.tables.**.*"/>
+						<include name="l2p.gameserver.instancemanager.**.*"/>
+						<include name="l2p.gameserver.templates.**.*"/>
+						<include name="l2p.gameserver.serverpackets.**.*"/>
+						<include name="l2p.gameserver.listener.**.*"/>
+						<include name="l2p.gameserver.data.**.*"/>
+						<include name="l2p.gameserver.database.**.*"/>
+						<include name="l2p.gameserver.handler.**.*"/>
+						<include name="l2p.gameserver.stats.**.*"/>
+						<include name="l2p.gameserver.skills.**.*"/>
+						<include name="l2p.gameserver.dao.**.*"/>
+						<include name="l2p.gameserver.cache.**.*"/>
+						
+						<include name="l2p.gameserver.loginservercon.*"/>
+						<include name="l2p.gameserver.loginservercon.lspackets.*"/>
+						<include name="l2p.gameserver.loginservercon.gspackets.BonusRequest"/>
+						<include name="l2p.gameserver.loginservercon.gspackets.PlayerLogout"/>
+						
+						
+						
+						<include name="l2p.gameserver.clientpackets.**.*"/>
+						
+						<include name="l2p.gameserver.idfactory.**.*"/>
+						<include name="l2p.gameserver.geodata.**.*"/>
+						<include name="l2p.gameserver.network.**.*"/>
+						<include name="l2p.gameserver.taskmanager.**.*"/>
+						<include name="l2p.gameserver.model.AggroList."/>
+						<include name="l2p.gameserver.model.AggroList"/>
+						
+						
+						<include name="l2p.gameserver.Announcements"/>
+						<include name="l2p.gameserver.ThreadPoolManager"/>
+						<include name="l2p.gameserver.GameTimeController"/>
+						<include name="l2p.gameserver.Config"/>
+					</patternset>
+					</class>
+				</keep>
+			</rename>
+          </yguard>
+     </target>
+
+    <target name="gameserver" depends="obfuscate-gameserver">
+        <mkdir dir="${build.dist}" />
+        <mkdir dir="${build.dist.tools}" />
+        <mkdir dir="${build.dist.gameserver}" />
+        <mkdir dir="${build.dist.gameserver}/geodata" />
+        <mkdir dir="${build.dist.gameserver}/log" />
+		
+        <!--<delete dir="${build.classes}" />-->
+    </target>
+
+    <target name="compile-loginserver" depends="commons-jar">
+
+        <delete dir="${build.classes}" />
+        <mkdir dir="${build.classes}" />
+
+        <javac srcdir="${src.loginserver}" optimize="on" destdir="${build.classes}" debug="${debug}" source="1.7" target="1.7" includeantruntime="false" encoding="UTF-8" nowarn="off" classpath="${build.classpath}:${build}/commons.jar">
+            <compilerarg value="-Xlint:all,-serial" />
+        </javac>
+    </target>
+
+    <target name="loginserver-jar" depends="compile-loginserver">
+
+        <exec dir="${basedir}" executable="svnversion" outputproperty="build.revision" failifexecutionfails="false">
+			<arg line="-n ${src.commons}" />
+		</exec>
+        <echo>Current Revision ${build.revision}</echo>
+
+        <jar destfile="${build}/loginserver.jar">
+            <fileset dir="${build.classes}" />
+            <manifest>
+                <attribute name="Main-Class" value="l2p.loginserver.loginserver" />
+                <attribute name="Class-Path" value="${jar.list} commons.jar" />
+                <attribute name="Build-By" value="${user.name}" />
+                <attribute name="Build-Date" value="${build.tstamp}" />
+                <attribute name="Build-Os" value="${os.name}" />
+                <attribute name="Revision" value="${build.revision}" />
+                <attribute name="Chronicle" value="${build.version}" />
+				
+				<attribute name="Team-Name" value="${build.team}" />
+				<attribute name="Team-Site" value="${build.teamsite}" />
+				<attribute name="License-Type" value="${build.licensetype}" />
+				<attribute name="Core-Dev" value="${build.coredev}" />
+				<attribute name="Data-Dev" value="${build.datadev}" />
+            </manifest>
+        </jar>
+
+    </target>
+
+	<target name="obfuscate-loginserver" depends="loginserver-jar">
+          <taskdef name="yguard" 
+           classname="com.yworks.yguard.YGuardTask" 
+           classpath="${libs}/yguard.jar:${build.classpath}"/>
+          <yguard>
+               <inoutpair in="${build}/loginserver.jar" out="${build_obf}/loginserver.jar"/>
+			   
+			<shrink logfile="${build}/sk.log">
+				<property name="error-checking" value="pedantic"/>
+				<property name="naming-scheme" value="mix"/>
+				<property name="language-conformity" value="illegal"/>
+				<property name="expose-attributes" value="Override"/>
+				<keep>
+					<class classes="protected" methods="protected" fields="protected">
+						<patternset>
+							<include name="l2p.loginserver.AuthServer"/>
+						</patternset>
+					</class>
+					<method class="l2p.loginserver.AuthServer" name="void main(java.lang.String[])"/>
+					<method class="l2p.loginserver.GameServerRegister" name="void main(java.lang.String[])"/>
+				</keep>
+				
+			</shrink>
+
+			<rename mainclass="l2p.loginserver.AuthServer" logfile="${build}/rename.log">
+				<property name="error-checking" value="pedantic"/>
+				<property name="naming-scheme" value="mix"/>
+				<property name="language-conformity" value="illegal"/>
+				<property name="expose-attributes" value="Override"/>				
+				<keep>
+					<class classes="protected" methods="protected" fields="protected">
+						<patternset>
+							<include name="l2p.loginserver.AuthServer"/>
+							<include name="l2p.loginserver.GameServerRegister"/>
+						</patternset>
+					</class>
+
+					<method class="l2p.loginserver.AuthServer" name="void main(java.lang.String[])"/>
+				</keep>				
+			</rename>
+          </yguard>
+     </target>
+
+    <target name="obfuscate" depends="obfuscate-loginserver, obfuscate-gameserver">
+
+    </target>	
+	
+
+    <target name="loginserver" depends="loginserver-jar">
+
+    </target>	
+	
+    <target name="dist" depends="obfuscate, loginserver, gameserver">	
+
+    </target>
+</project>

@@ -1,0 +1,911 @@
+
+dir:
+   [delete] Deleting directory C:\Users\Miron\Desktop\Serv\build\scripts
+    [mkdir] Created dir: C:\Users\Miron\Desktop\Serv\build\scripts
+    [mkdir] Created dir: C:\Users\Miron\Desktop\Serv\build\scripts\classes
+
+compiles:
+    [javac] Compiling 1796 source files to C:\Users\Miron\Desktop\Serv\build\scripts\classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.7
+    [javac] C:\Users\Miron\Desktop\Serv\java\l2p\gameserver\model\Skill.java:2289: warning: [static] static variable should be qualified by type name, SkillTrait, instead of by an expression
+    [javac]         return getTraitType() == _traitType.DERANGEMENT;
+    [javac]                                            ^
+    [javac] C:\Users\Miron\Desktop\Serv\java\l2p\gameserver\ai\PlayableAI.java:122: warning: [static] static variable should be qualified by type name, nextAction, instead of by an expression
+    [javac]                         setNextAction(nextAction.ATTACK, target, null, _forceUse, false);
+    [javac]                                                 ^
+    [javac] C:\Users\Miron\Desktop\Serv\java\l2p\gameserver\model\Player.java:6724: warning: [rawtypes] found raw type: MultiValueSet
+    [javac]     private final MultiValueSet<String> _vars = new MultiValueSet();
+    [javac]                                                     ^
+    [javac]   missing type arguments for generic class MultiValueSet<T>
+    [javac]   where T is a type-variable:
+    [javac]     T extends Object declared in class MultiValueSet
+    [javac] C:\Users\Miron\Desktop\Serv\java\l2p\gameserver\model\Player.java:6724: warning: [unchecked] unchecked conversion
+    [javac]     private final MultiValueSet<String> _vars = new MultiValueSet();
+    [javac]                                                 ^
+    [javac]   required: MultiValueSet<String>
+    [javac]   found:    MultiValueSet
+    [javac] C:\Users\Miron\Desktop\Serv\java\l2p\gameserver\model\quest\QuestState.java:1130: warning: [cast] redundant cast to double[]
+    [javac]         double[] rates = (double[]) Config.QUEST_RATES.get(getQuest().getClass().getSimpleName());
+    [javac]                          ^
+    [javac] C:\Users\Miron\Desktop\Serv\java\l2p\gameserver\model\items\ManufactureItem.java:3: warning: [overrides] Class ManufactureItem overrides equals, but neither it nor any superclass overrides hashCode method
+    [javac] public class ManufactureItem {
+    [javac]        ^
+    [javac] C:\Users\Miron\Desktop\Serv\java\l2p\gameserver\model\items\ItemInfo.java:7: warning: [overrides] Class ItemInfo overrides equals, but neither it nor any superclass overrides hashCode method
+    [javac] public class ItemInfo {
+    [javac]        ^
+    [javac] C:\Users\Miron\Desktop\Serv\java\l2p\gameserver\model\Party.java:289: warning: [unchecked] unchecked call to add(E) as a member of the raw type List
+    [javac]                 ((List) pplayer).add(new RelationChanged().add(member, player));
+    [javac]                                     ^
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in interface List
+    [javac] C:\Users\Miron\Desktop\Serv\java\l2p\gameserver\model\Party.java:378: warning: [rawtypes] found raw type: ArrayList
+    [javac]         List<L2GameServerPacket> pmember = new ArrayList(2 + outsInfo.size());
+    [javac]                                                ^
+    [javac]   missing type arguments for generic class ArrayList<E>
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in class ArrayList
+    [javac] C:\Users\Miron\Desktop\Serv\java\l2p\gameserver\model\Party.java:378: warning: [unchecked] unchecked conversion
+    [javac]         List<L2GameServerPacket> pmember = new ArrayList(2 + outsInfo.size());
+    [javac]                                            ^
+    [javac]   required: List<L2GameServerPacket>
+    [javac]   found:    ArrayList
+    [javac] C:\Users\Miron\Desktop\Serv\java\l2p\gameserver\utils\BypassStorage.java:29: warning: [rawtypes] found raw type: CopyOnWriteArrayList
+    [javac]     private List<ValidBypass> bypasses = new CopyOnWriteArrayList();
+    [javac]                                              ^
+    [javac]   missing type arguments for generic class CopyOnWriteArrayList<E>
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in class CopyOnWriteArrayList
+    [javac] C:\Users\Miron\Desktop\Serv\java\l2p\gameserver\utils\BypassStorage.java:29: warning: [unchecked] unchecked conversion
+    [javac]     private List<ValidBypass> bypasses = new CopyOnWriteArrayList();
+    [javac]                                          ^
+    [javac]   required: List<ValidBypass>
+    [javac]   found:    CopyOnWriteArrayList
+    [javac] C:\Users\Miron\Desktop\Serv\java\l2p\gameserver\model\actor\instances\player\TpBookMark.java:5: warning: [overrides] Class TpBookMark overrides equals, but neither it nor any superclass overrides hashCode method
+    [javac] public class TpBookMark
+    [javac]        ^
+    [javac] C:\Users\Miron\Desktop\Serv\java\l2p\gameserver\model\entity\events\GameEvent.java:225: warning: [deprecation] spawn(Location,int,Reflection) in Functions has been deprecated
+    [javac]         return Functions.spawn(loc, npcId, reflection);
+    [javac]                         ^
+    [javac] C:\Users\Miron\Desktop\Serv\java\l2p\gameserver\model\entity\residence\Residence.java:139: warning: [rawtypes] found raw type: SiegeEvent
+    [javac]     public <E extends SiegeEvent> E getSiegeEvent() {
+    [javac]                       ^
+    [javac]   missing type arguments for generic class SiegeEvent<R,S>
+    [javac]   where R,S are type-variables:
+    [javac]     R extends Residence declared in class SiegeEvent
+    [javac]     S extends SiegeClanObject declared in class SiegeEvent
+    [javac] C:\Users\Miron\Desktop\Serv\java\l2p\gameserver\model\entity\residence\Castle.java:53: warning: [rawtypes] found raw type: List
+    [javac]     private final IntObjectMap<List> _relatedFortresses = new CTreeIntObjectMap<List>();
+    [javac]                                ^
+    [javac]   missing type arguments for generic class List<E>
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in interface List
+    [javac] C:\Users\Miron\Desktop\Serv\java\l2p\gameserver\model\entity\residence\Castle.java:53: warning: [rawtypes] found raw type: List
+    [javac]     private final IntObjectMap<List> _relatedFortresses = new CTreeIntObjectMap<List>();
+    [javac]                                                                                 ^
+    [javac]   missing type arguments for generic class List<E>
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in interface List
+    [javac] C:\Users\Miron\Desktop\Serv\java\l2p\gameserver\model\entity\residence\Castle.java:77: warning: [rawtypes] found raw type: List
+    [javac]         for (IntObjectPair<List> entry : _relatedFortresses.entrySet()) {
+    [javac]                            ^
+    [javac]   missing type arguments for generic class List<E>
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in interface List
+    [javac] C:\Users\Miron\Desktop\Serv\java\l2p\gameserver\model\entity\residence\Castle.java:690: warning: [rawtypes] found raw type: List
+    [javac]     public IntObjectMap<List> getRelatedFortresses() {
+    [javac]                         ^
+    [javac]   missing type arguments for generic class List<E>
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in interface List
+    [javac] C:\Users\Miron\Desktop\Serv\java\l2p\gameserver\model\entity\Reflection.java:308: warning: [rawtypes] found raw type: ArrayList
+    [javac]             List<ObservePoint> observers = new ArrayList();
+    [javac]                                                ^
+    [javac]   missing type arguments for generic class ArrayList<E>
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in class ArrayList
+    [javac] C:\Users\Miron\Desktop\Serv\java\l2p\gameserver\model\entity\Reflection.java:308: warning: [unchecked] unchecked conversion
+    [javac]             List<ObservePoint> observers = new ArrayList();
+    [javac]                                            ^
+    [javac]   required: List<ObservePoint>
+    [javac]   found:    ArrayList
+    [javac] C:\Users\Miron\Desktop\Serv\java\l2p\gameserver\model\entity\Reflection.java:309: warning: [rawtypes] found raw type: ArrayList
+    [javac]             List<GameObject> delete = new ArrayList();
+    [javac]                                           ^
+    [javac]   missing type arguments for generic class ArrayList<E>
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in class ArrayList
+    [javac] C:\Users\Miron\Desktop\Serv\java\l2p\gameserver\model\entity\Reflection.java:309: warning: [unchecked] unchecked conversion
+    [javac]             List<GameObject> delete = new ArrayList();
+    [javac]                                       ^
+    [javac]   required: List<GameObject>
+    [javac]   found:    ArrayList
+    [javac] C:\Users\Miron\Desktop\Serv\java\l2p\gameserver\model\entity\Reflection.java:470: warning: [rawtypes] found raw type: ArrayList
+    [javac]         List<Creature> result = new ArrayList();
+    [javac]                                     ^
+    [javac]   missing type arguments for generic class ArrayList<E>
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in class ArrayList
+    [javac] C:\Users\Miron\Desktop\Serv\java\l2p\gameserver\model\entity\Reflection.java:470: warning: [unchecked] unchecked conversion
+    [javac]         List<Creature> result = new ArrayList();
+    [javac]                                 ^
+    [javac]   required: List<Creature>
+    [javac]   found:    ArrayList
+    [javac] C:\Users\Miron\Desktop\Serv\java\l2p\gameserver\model\entity\Reflection.java:485: warning: [rawtypes] found raw type: ArrayList
+    [javac]         List<Creature> result = new ArrayList();
+    [javac]                                     ^
+    [javac]   missing type arguments for generic class ArrayList<E>
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in class ArrayList
+    [javac] C:\Users\Miron\Desktop\Serv\java\l2p\gameserver\model\entity\Reflection.java:485: warning: [unchecked] unchecked conversion
+    [javac]         List<Creature> result = new ArrayList();
+    [javac]                                 ^
+    [javac]   required: List<Creature>
+    [javac]   found:    ArrayList
+    [javac] C:\Users\Miron\Desktop\Serv\java\l2p\gameserver\model\instances\TamedBeastInstance.java:38: warning: [rawtypes] found raw type: Entry
+    [javac]     private static final Map.Entry<NpcString, int[]>[] TAMED_DATA = new Map.Entry[6];
+    [javac]                                                                            ^
+    [javac]   missing type arguments for generic class Entry<K,V>
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in interface Entry
+    [javac]     V extends Object declared in interface Entry
+    [javac] C:\Users\Miron\Desktop\Serv\java\l2p\gameserver\stats\funcs\FuncTemplate.java:31: warning: [rawtypes] found raw type: Class
+    [javac]             _constructor = _func.getConstructor(new Class[]{Stats.class, // stats to update
+    [javac]                                                     ^
+    [javac]   missing type arguments for generic class Class<T>
+    [javac]   where T is a type-variable:
+    [javac]     T extends Object declared in class Class
+    [javac] C:\Users\Miron\Desktop\Serv\java\l2p\gameserver\model\WorldRegion.java:280: warning: [cast] redundant cast to Zone[]
+    [javac]             this._zones = ((Zone[]) ArrayUtils.add(this._zones, zone));
+    [javac]                            ^
+    [javac] C:\Users\Miron\Desktop\Serv\java\l2p\gameserver\model\WorldRegion.java:289: warning: [cast] redundant cast to Zone[]
+    [javac]             this._zones = ((Zone[]) ArrayUtils.remove(this._zones, zone));
+    [javac]                            ^
+    [javac] C:\Users\Miron\Desktop\Serv\java\l2p\gameserver\model\quest\QuestTimer.java:10: warning: [overrides] Class QuestTimer overrides equals, but neither it nor any superclass overrides hashCode method
+    [javac] public class QuestTimer extends RunnableImpl {
+    [javac]        ^
+    [javac] C:\Users\Miron\Desktop\Serv\java\l2p\gameserver\templates\npc\Faction.java:7: warning: [overrides] Class Faction overrides equals, but neither it nor any superclass overrides hashCode method
+    [javac] public class Faction {
+    [javac]        ^
+    [javac] C:\Users\Miron\Desktop\Serv\java\l2p\gameserver\model\entity\events\objects\SiegeClanObject.java:83: warning: [rawtypes] found raw type: SiegeEvent
+    [javac]     public void setEvent(boolean start, SiegeEvent event) {
+    [javac]                                         ^
+    [javac]   missing type arguments for generic class SiegeEvent<R,S>
+    [javac]   where R,S are type-variables:
+    [javac]     R extends Residence declared in class SiegeEvent
+    [javac]     S extends SiegeClanObject declared in class SiegeEvent
+    [javac] C:\Users\Miron\Desktop\Serv\java\l2p\gameserver\model\instances\DoorInstance.java:137: warning: [rawtypes] found raw type: SiegeEvent
+    [javac]         SiegeEvent siegeEvent = getEvent(SiegeEvent.class);
+    [javac]         ^
+    [javac]   missing type arguments for generic class SiegeEvent<R,S>
+    [javac]   where R,S are type-variables:
+    [javac]     R extends Residence declared in class SiegeEvent
+    [javac]     S extends SiegeClanObject declared in class SiegeEvent
+    [javac] C:\Users\Miron\Desktop\Serv\java\l2p\gameserver\model\reward\RewardData.java:14: warning: [overrides] Class RewardData overrides equals, but neither it nor any superclass overrides hashCode method
+    [javac] public class RewardData implements Cloneable {
+    [javac]        ^
+    [javac] C:\Users\Miron\Desktop\Serv\java\l2p\gameserver\templates\pet\PetDataTemplate.java:34: warning: [cast] redundant cast to PetLvlData
+    [javac]         return (PetLvlData) _lvlData.get(Math.max(_minLvl, Math.min(_maxLvl, level)));
+    [javac]                ^
+    [javac] C:\Users\Miron\Desktop\Serv\java\l2p\gameserver\Config.java:1472: warning: [rawtypes] found raw type: HashMap
+    [javac]     public static Map<String, double[]> QUEST_RATES = new HashMap();
+    [javac]                                                           ^
+    [javac]   missing type arguments for generic class HashMap<K,V>
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in class HashMap
+    [javac]     V extends Object declared in class HashMap
+    [javac] C:\Users\Miron\Desktop\Serv\java\l2p\gameserver\Config.java:1472: warning: [unchecked] unchecked conversion
+    [javac]     public static Map<String, double[]> QUEST_RATES = new HashMap();
+    [javac]                                                       ^
+    [javac]   required: Map<String,double[]>
+    [javac]   found:    HashMap
+    [javac] C:\Users\Miron\Desktop\Serv\java\l2p\gameserver\Config.java:3230: warning: [rawtypes] found raw type: Iterator
+    [javac]         Iterator interator = questRate.entrySet().iterator();
+    [javac]         ^
+    [javac]   missing type arguments for generic class Iterator<E>
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in interface Iterator
+    [javac] C:\Users\Miron\Desktop\Serv\java\l2p\gameserver\Config.java:3232: warning: [rawtypes] found raw type: Entry
+    [javac]             Map.Entry entry = (Map.Entry) interator.next();
+    [javac]                ^
+    [javac]   missing type arguments for generic class Entry<K,V>
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in interface Entry
+    [javac]     V extends Object declared in interface Entry
+    [javac] C:\Users\Miron\Desktop\Serv\java\l2p\gameserver\Config.java:3236: warning: [cast] redundant cast to double[]
+    [javac]             double[] rates = (double[]) QUEST_RATES.get(str[0]);
+    [javac]                              ^
+    [javac] C:\Users\Miron\Desktop\Serv\java\l2p\gameserver\GameServer.java:271: warning: [rawtypes] found raw type: SelectorThread
+    [javac]         _selectorThreads = new SelectorThread[Config.PORTS_GAME.length];
+    [javac]                                ^
+    [javac]   missing type arguments for generic class SelectorThread<T>
+    [javac]   where T is a type-variable:
+    [javac]     T extends MMOClient declared in class SelectorThread
+    [javac] C:\Users\Miron\Desktop\Serv\java\l2p\gameserver\ai\DefaultAI.java:402: warning: [cast] redundant cast to Creature
+    [javac]             Creature target = (Creature) targets.get(i);
+    [javac]                               ^
+    [javac] C:\Users\Miron\Desktop\Serv\java\l2p\gameserver\clientpackets\RequestBookMarkSlotInfo.java:15: warning: [cast] redundant cast to GameClient
+    [javac]         Player player = ((GameClient) getClient()).getActiveChar();
+    [javac]                          ^
+    [javac] C:\Users\Miron\Desktop\Serv\java\l2p\gameserver\clientpackets\RequestBypassToServer.java:77: warning: [cast] redundant cast to NpcInstance
+    [javac]                 activeChar.setLastNpc((NpcInstance) npc);
+    [javac]                                       ^
+    [javac] C:\Users\Miron\Desktop\Serv\java\l2p\gameserver\clientpackets\RequestDeleteBookMarkSlot.java:20: warning: [cast] redundant cast to GameClient
+    [javac]         Player player = ((GameClient) getClient()).getActiveChar();
+    [javac]                          ^
+    [javac] C:\Users\Miron\Desktop\Serv\java\l2p\gameserver\clientpackets\RequestDeleteBookMarkSlot.java:24: warning: [cast] redundant cast to TpBookMark
+    [javac]         TpBookMark bookMark = (TpBookMark) player.getTpBookMarks().remove(_slot - 1);
+    [javac]                               ^
+    [javac] C:\Users\Miron\Desktop\Serv\java\l2p\gameserver\clientpackets\RequestModifyBookMarkSlot.java:27: warning: [cast] redundant cast to GameClient
+    [javac]         Player player = ((GameClient) getClient()).getActiveChar();
+    [javac]                          ^
+    [javac] C:\Users\Miron\Desktop\Serv\java\l2p\gameserver\clientpackets\RequestModifyBookMarkSlot.java:31: warning: [cast] redundant cast to TpBookMark
+    [javac]         TpBookMark mark = (TpBookMark) CollectionUtils.safeGet(player.getTpBookMarks(), _slot - 1);
+    [javac]                           ^
+    [javac] C:\Users\Miron\Desktop\Serv\java\l2p\gameserver\clientpackets\RequestMultiSellChoose.java:33: warning: [overrides] Class RequestMultiSellChoose.ItemData overrides equals, but neither it nor any superclass overrides hashCode method
+    [javac]     private class ItemData {
+    [javac]             ^
+    [javac] C:\Users\Miron\Desktop\Serv\java\l2p\gameserver\clientpackets\RequestPledgeReorganizeMember.java:70: warning: [static] static method should be qualified by type name, Clan, instead of by an expression
+    [javac]         if (clan.isAcademy(_targetUnit)) {
+    [javac]                 ^
+    [javac] C:\Users\Miron\Desktop\Serv\java\l2p\gameserver\clientpackets\RequestPledgeReorganizeMember.java:79: warning: [static] static method should be qualified by type name, Clan, instead of by an expression
+    [javac]         if (clan.isAcademy(subject.getPledgeType())) {
+    [javac]                 ^
+    [javac] C:\Users\Miron\Desktop\Serv\java\l2p\gameserver\clientpackets\RequestSaveBookMarkSlot.java:27: warning: [cast] redundant cast to GameClient
+    [javac]         Player player = ((GameClient) getClient()).getActiveChar();
+    [javac]                          ^
+    [javac] C:\Users\Miron\Desktop\Serv\java\l2p\gameserver\clientpackets\RequestTeleportBookMark.java:22: warning: [cast] redundant cast to GameClient
+    [javac]         Player activeChar = ((GameClient) getClient()).getActiveChar();
+    [javac]                              ^
+    [javac] C:\Users\Miron\Desktop\Serv\java\l2p\gameserver\clientpackets\RequestTeleportBookMark.java:30: warning: [cast] redundant cast to TpBookMark
+    [javac]         TpBookMark bookMark = (TpBookMark) CollectionUtils.safeGet(activeChar.getTpBookMarks(), _slot - 1);
+    [javac]                               ^
+    [javac] C:\Users\Miron\Desktop\Serv\java\l2p\gameserver\dao\CharacterTPBookmarkDAO.java:29: warning: [rawtypes] found raw type: ArrayList
+    [javac]         List<TpBookMark> list = new ArrayList(9);
+    [javac]                                     ^
+    [javac]   missing type arguments for generic class ArrayList<E>
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in class ArrayList
+    [javac] C:\Users\Miron\Desktop\Serv\java\l2p\gameserver\dao\CharacterTPBookmarkDAO.java:29: warning: [unchecked] unchecked conversion
+    [javac]         List<TpBookMark> list = new ArrayList(9);
+    [javac]                                 ^
+    [javac]   required: List<TpBookMark>
+    [javac]   found:    ArrayList
+    [javac] C:\Users\Miron\Desktop\Serv\java\l2p\gameserver\model\mail\Mail.java:11: warning: [overrides] Class Mail overrides equals, but neither it nor any superclass overrides hashCode method
+    [javac] public class Mail implements JdbcEntity, Comparable<Mail> {
+    [javac]        ^
+    [javac] C:\Users\Miron\Desktop\Serv\java\l2p\gameserver\data\xml\holder\PetDataTemplateHolder.java:31: warning: [cast] redundant cast to PetDataTemplate
+    [javac] 		return (PetDataTemplate)_templatesByNpcId.get(npcId);
+    [javac] 		       ^
+    [javac] C:\Users\Miron\Desktop\Serv\java\l2p\gameserver\data\xml\holder\PetDataTemplateHolder.java:36: warning: [cast] redundant cast to PetDataTemplate
+    [javac] 		return (PetDataTemplate)_templatesByItemId.get(itemId);
+    [javac] 		       ^
+    [javac] C:\Users\Miron\Desktop\Serv\java\l2p\gameserver\data\xml\holder\ResidenceHolder.java:25: warning: [rawtypes] found raw type: Class
+    [javac]     private Map<Class, List<Residence>> _fastResidencesByType = new HashMap<Class, List<Residence>>(4);
+    [javac]                 ^
+    [javac]   missing type arguments for generic class Class<T>
+    [javac]   where T is a type-variable:
+    [javac]     T extends Object declared in class Class
+    [javac] C:\Users\Miron\Desktop\Serv\java\l2p\gameserver\data\xml\holder\ResidenceHolder.java:25: warning: [rawtypes] found raw type: Class
+    [javac]     private Map<Class, List<Residence>> _fastResidencesByType = new HashMap<Class, List<Residence>>(4);
+    [javac]                                                                             ^
+    [javac]   missing type arguments for generic class Class<T>
+    [javac]   where T is a type-variable:
+    [javac]     T extends Object declared in class Class
+    [javac] C:\Users\Miron\Desktop\Serv\java\l2p\gameserver\data\xml\holder\ResidenceHolder.java:110: warning: [rawtypes] found raw type: Class
+    [javac]         for (Map.Entry<Class, List<Residence>> entry : _fastResidencesByType.entrySet()) {
+    [javac]                        ^
+    [javac]   missing type arguments for generic class Class<T>
+    [javac]   where T is a type-variable:
+    [javac]     T extends Object declared in class Class
+    [javac] C:\Users\Miron\Desktop\Serv\java\l2p\gameserver\data\xml\parser\CharTemplateParser.java:39: warning: [rawtypes] found raw type: Iterator
+    [javac]         for (Iterator interator = rootElement.elementIterator(); interator.hasNext();) {
+    [javac]              ^
+    [javac]   missing type arguments for generic class Iterator<E>
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in interface Iterator
+    [javac] C:\Users\Miron\Desktop\Serv\java\l2p\gameserver\data\xml\parser\CharTemplateParser.java:49: warning: [rawtypes] found raw type: Iterator
+    [javac]             for (Iterator template = element.elementIterator(); template.hasNext();) {
+    [javac]                  ^
+    [javac]   missing type arguments for generic class Iterator<E>
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in interface Iterator
+    [javac] C:\Users\Miron\Desktop\Serv\java\l2p\gameserver\data\xml\parser\PetDataTemplateParser.java:48: warning: [cast] redundant cast to Element
+    [javac]             Element element = (Element) iterator.next();
+    [javac]                               ^
+    [javac] C:\Users\Miron\Desktop\Serv\java\l2p\gameserver\data\xml\parser\PetDataTemplateParser.java:62: warning: [cast] redundant cast to Element
+    [javac]                 Element secondElement = (Element) attributeIterator.next();
+    [javac]                                         ^
+    [javac] C:\Users\Miron\Desktop\Serv\java\l2p\gameserver\data\xml\parser\PetDataTemplateParser.java:65: warning: [cast] redundant cast to Element
+    [javac]                         Element thirdElement = (Element) attributeIterator.next();
+    [javac]                                                ^
+    [javac] C:\Users\Miron\Desktop\Serv\java\l2p\gameserver\data\xml\parser\PetDataTemplateParser.java:76: warning: [cast] redundant cast to Element
+    [javac]                                 Element fourthElement = (Element) fourthIterator.next();
+    [javac]                                                         ^
+    [javac] C:\Users\Miron\Desktop\Serv\java\l2p\gameserver\data\xml\parser\PetDataTemplateParser.java:90: warning: [cast] redundant cast to PetDataTemplateHolder
+    [javac]             ((PetDataTemplateHolder) getHolder()).addTemplate(template);
+    [javac]              ^
+    [javac] C:\Users\Miron\Desktop\Serv\java\l2p\gameserver\data\xml\parser\ZoneParser.java:91: warning: [rawtypes] found raw type: Iterator
+    [javac]                         for (Iterator ii = n.elementIterator(); ii.hasNext();) {
+    [javac]                              ^
+    [javac]   missing type arguments for generic class Iterator<E>
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in interface Iterator
+    [javac] C:\Users\Miron\Desktop\Serv\java\l2p\gameserver\handler\admincommands\IAdminCommandHandler.java:16: warning: [rawtypes] found raw type: Enum
+    [javac]     public boolean useAdminCommand(Enum comm, String[] wordList, String fullString, Player activeChar);
+    [javac]                                    ^
+    [javac]   missing type arguments for generic class Enum<E>
+    [javac]   where E is a type-variable:
+    [javac]     E extends Enum<E> declared in class Enum
+    [javac] C:\Users\Miron\Desktop\Serv\java\l2p\gameserver\handler\admincommands\IAdminCommandHandler.java:24: warning: [rawtypes] found raw type: Enum
+    [javac]     public Enum[] getAdminCommandEnum();
+    [javac]            ^
+    [javac]   missing type arguments for generic class Enum<E>
+    [javac]   where E is a type-variable:
+    [javac]     E extends Enum<E> declared in class Enum
+    [javac] C:\Users\Miron\Desktop\Serv\java\l2p\gameserver\handler\admincommands\impl\AdminAdmin.java:56: warning: [rawtypes] found raw type: Enum
+    [javac]     public boolean useAdminCommand(Enum comm, String[] wordList, String fullString, Player activeChar) {
+    [javac]                                    ^
+    [javac]   missing type arguments for generic class Enum<E>
+    [javac]   where E is a type-variable:
+    [javac]     E extends Enum<E> declared in class Enum
+    [javac] C:\Users\Miron\Desktop\Serv\java\l2p\gameserver\handler\admincommands\impl\AdminAdmin.java:405: warning: [rawtypes] found raw type: Enum
+    [javac]     public Enum[] getAdminCommandEnum() {
+    [javac]            ^
+    [javac]   missing type arguments for generic class Enum<E>
+    [javac]   where E is a type-variable:
+    [javac]     E extends Enum<E> declared in class Enum
+    [javac] C:\Users\Miron\Desktop\Serv\java\l2p\gameserver\handler\admincommands\impl\AdminAnnouncements.java:42: warning: [rawtypes] found raw type: Enum
+    [javac]     public boolean useAdminCommand(Enum comm, String[] wordList, String fullString, Player activeChar) {
+    [javac]                                    ^
+    [javac]   missing type arguments for generic class Enum<E>
+    [javac]   where E is a type-variable:
+    [javac]     E extends Enum<E> declared in class Enum
+    [javac] C:\Users\Miron\Desktop\Serv\java\l2p\gameserver\handler\admincommands\impl\AdminAnnouncements.java:169: warning: [rawtypes] found raw type: Enum
+    [javac]     public Enum[] getAdminCommandEnum() {
+    [javac]            ^
+    [javac]   missing type arguments for generic class Enum<E>
+    [javac]   where E is a type-variable:
+    [javac]     E extends Enum<E> declared in class Enum
+    [javac] C:\Users\Miron\Desktop\Serv\java\l2p\gameserver\handler\admincommands\impl\AdminAttribute.java:34: warning: [rawtypes] found raw type: Enum
+    [javac]     public boolean useAdminCommand(Enum comm, String[] wordList, String fullString, Player activeChar) {
+    [javac]                                    ^
+    [javac]   missing type arguments for generic class Enum<E>
+    [javac]   where E is a type-variable:
+    [javac]     E extends Enum<E> declared in class Enum
+    [javac] C:\Users\Miron\Desktop\Serv\java\l2p\gameserver\handler\admincommands\impl\AdminAttribute.java:304: warning: [rawtypes] found raw type: Enum
+    [javac]     public Enum[] getAdminCommandEnum() {
+    [javac]            ^
+    [javac]   missing type arguments for generic class Enum<E>
+    [javac]   where E is a type-variable:
+    [javac]     E extends Enum<E> declared in class Enum
+    [javac] C:\Users\Miron\Desktop\Serv\java\l2p\gameserver\handler\admincommands\impl\AdminBan.java:51: warning: [rawtypes] found raw type: Enum
+    [javac]     public boolean useAdminCommand(Enum comm, String[] wordList, String fullString, Player activeChar) {
+    [javac]                                    ^
+    [javac]   missing type arguments for generic class Enum<E>
+    [javac]   where E is a type-variable:
+    [javac]     E extends Enum<E> declared in class Enum
+    [javac] C:\Users\Miron\Desktop\Serv\java\l2p\gameserver\handler\admincommands\impl\AdminBan.java:281: warning: [rawtypes] found raw type: Collection
+    [javac]         Collection list;
+    [javac]         ^
+    [javac]   missing type arguments for generic class Collection<E>
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in interface Collection
+    [javac] C:\Users\Miron\Desktop\Serv\java\l2p\gameserver\handler\admincommands\impl\AdminBan.java:377: warning: [rawtypes] found raw type: Enum
+    [javac]     public Enum[] getAdminCommandEnum() {
+    [javac]            ^
+    [javac]   missing type arguments for generic class Enum<E>
+    [javac]   where E is a type-variable:
+    [javac]     E extends Enum<E> declared in class Enum
+    [javac] C:\Users\Miron\Desktop\Serv\java\l2p\gameserver\handler\admincommands\impl\AdminCamera.java:18: warning: [rawtypes] found raw type: Enum
+    [javac]     public boolean useAdminCommand(Enum comm, String[] wordList, String fullString, Player activeChar) {
+    [javac]                                    ^
+    [javac]   missing type arguments for generic class Enum<E>
+    [javac]   where E is a type-variable:
+    [javac]     E extends Enum<E> declared in class Enum
+    [javac] C:\Users\Miron\Desktop\Serv\java\l2p\gameserver\handler\admincommands\impl\AdminCamera.java:65: warning: [rawtypes] found raw type: Enum
+    [javac]     public Enum[] getAdminCommandEnum() {
+    [javac]            ^
+    [javac]   missing type arguments for generic class Enum<E>
+    [javac]   where E is a type-variable:
+    [javac]     E extends Enum<E> declared in class Enum
+    [javac] C:\Users\Miron\Desktop\Serv\java\l2p\gameserver\handler\admincommands\impl\AdminCancel.java:18: warning: [rawtypes] found raw type: Enum
+    [javac]     public boolean useAdminCommand(Enum comm, String[] wordList, String fullString, Player activeChar) {
+    [javac]                                    ^
+    [javac]   missing type arguments for generic class Enum<E>
+    [javac]   where E is a type-variable:
+    [javac]     E extends Enum<E> declared in class Enum
+    [javac] C:\Users\Miron\Desktop\Serv\java\l2p\gameserver\handler\admincommands\impl\AdminCancel.java:35: warning: [rawtypes] found raw type: Enum
+    [javac]     public Enum[] getAdminCommandEnum() {
+    [javac]            ^
+    [javac]   missing type arguments for generic class Enum<E>
+    [javac]   where E is a type-variable:
+    [javac]     E extends Enum<E> declared in class Enum
+    [javac] C:\Users\Miron\Desktop\Serv\java\l2p\gameserver\handler\admincommands\impl\AdminChangeAccessLevel.java:43: warning: [rawtypes] found raw type: Enum
+    [javac]     public boolean useAdminCommand(Enum comm, String[] wordList, String fullString, Player activeChar) {
+    [javac]                                    ^
+    [javac]   missing type arguments for generic class Enum<E>
+    [javac]   where E is a type-variable:
+    [javac]     E extends Enum<E> declared in class Enum
+    [javac] C:\Users\Miron\Desktop\Serv\java\l2p\gameserver\handler\admincommands\impl\AdminChangeAccessLevel.java:292: warning: [rawtypes] found raw type: Enum
+    [javac]     public Enum[] getAdminCommandEnum() {
+    [javac]            ^
+    [javac]   missing type arguments for generic class Enum<E>
+    [javac]   where E is a type-variable:
+    [javac]     E extends Enum<E> declared in class Enum
+    [javac] C:\Users\Miron\Desktop\Serv\java\l2p\gameserver\handler\admincommands\impl\AdminCheckBot.java:28: warning: [rawtypes] found raw type: Enum
+    [javac]     public boolean useAdminCommand(Enum comm, String[] wordList, String fullString, Player activeChar) {
+    [javac]                                    ^
+    [javac]   missing type arguments for generic class Enum<E>
+    [javac]   where E is a type-variable:
+    [javac]     E extends Enum<E> declared in class Enum
+    [javac] C:\Users\Miron\Desktop\Serv\java\l2p\gameserver\handler\admincommands\impl\AdminCheckBot.java:198: warning: [rawtypes] found raw type: Enum
+    [javac]     public Enum[] getAdminCommandEnum() {
+    [javac]            ^
+    [javac]   missing type arguments for generic class Enum<E>
+    [javac]   where E is a type-variable:
+    [javac]     E extends Enum<E> declared in class Enum
+    [javac] C:\Users\Miron\Desktop\Serv\java\l2p\gameserver\handler\admincommands\impl\AdminClanHall.java:25: warning: [rawtypes] found raw type: Enum
+    [javac]     public boolean useAdminCommand(Enum comm, String[] wordList, String fullString, Player activeChar) {
+    [javac]                                    ^
+    [javac]   missing type arguments for generic class Enum<E>
+    [javac]   where E is a type-variable:
+    [javac]     E extends Enum<E> declared in class Enum
+    [javac] C:\Users\Miron\Desktop\Serv\java\l2p\gameserver\handler\admincommands\impl\AdminClanHall.java:150: warning: [rawtypes] found raw type: Enum
+    [javac]     public Enum[] getAdminCommandEnum() {
+    [javac]            ^
+    [javac]   missing type arguments for generic class Enum<E>
+    [javac]   where E is a type-variable:
+    [javac]     E extends Enum<E> declared in class Enum
+    [javac] C:\Users\Miron\Desktop\Serv\java\l2p\gameserver\handler\admincommands\impl\AdminClientSupport.java:31: warning: [rawtypes] found raw type: Enum
+    [javac]     public boolean useAdminCommand(Enum comm, String[] wordList, String fullString, Player player) {
+    [javac]                                    ^
+    [javac]   missing type arguments for generic class Enum<E>
+    [javac]   where E is a type-variable:
+    [javac]     E extends Enum<E> declared in class Enum
+    [javac] C:\Users\Miron\Desktop\Serv\java\l2p\gameserver\handler\admincommands\impl\AdminClientSupport.java:121: warning: [rawtypes] found raw type: Enum
+    [javac]     public Enum[] getAdminCommandEnum() {
+    [javac]            ^
+    [javac]   missing type arguments for generic class Enum<E>
+    [javac]   where E is a type-variable:
+    [javac]     E extends Enum<E> declared in class Enum
+    [javac] C:\Users\Miron\Desktop\Serv\java\l2p\gameserver\handler\admincommands\impl\AdminCreateItem.java:40: warning: [rawtypes] found raw type: Enum
+    [javac]     public boolean useAdminCommand(Enum comm, String[] wordList, String fullString, Player activeChar) {
+    [javac]                                    ^
+    [javac]   missing type arguments for generic class Enum<E>
+    [javac]   where E is a type-variable:
+    [javac]     E extends Enum<E> declared in class Enum
+    [javac] C:\Users\Miron\Desktop\Serv\java\l2p\gameserver\handler\admincommands\impl\AdminCreateItem.java:216: warning: [rawtypes] found raw type: Enum
+    [javac]     public Enum[] getAdminCommandEnum() {
+    [javac]            ^
+    [javac]   missing type arguments for generic class Enum<E>
+    [javac]   where E is a type-variable:
+    [javac]     E extends Enum<E> declared in class Enum
+    [javac] C:\Users\Miron\Desktop\Serv\java\l2p\gameserver\handler\admincommands\impl\AdminCursedWeapons.java:24: warning: [rawtypes] found raw type: Enum
+    [javac]     public boolean useAdminCommand(Enum comm, String[] wordList, String fullString, Player activeChar) {
+    [javac]                                    ^
+    [javac]   missing type arguments for generic class Enum<E>
+    [javac]   where E is a type-variable:
+    [javac]     E extends Enum<E> declared in class Enum
+    [javac] C:\Users\Miron\Desktop\Serv\java\l2p\gameserver\handler\admincommands\impl\AdminCursedWeapons.java:125: warning: [rawtypes] found raw type: Enum
+    [javac]     public Enum[] getAdminCommandEnum() {
+    [javac]            ^
+    [javac]   missing type arguments for generic class Enum<E>
+    [javac]   where E is a type-variable:
+    [javac]     E extends Enum<E> declared in class Enum
+    [javac] Note: C:\Users\Miron\Desktop\Serv\java\l2p\gameserver\network\telnet\commands\TelnetPerfomance.java uses or overrides a deprecated API.
+    [javac] Note: Some input files additionally use unchecked or unsafe operations.
+    [javac] 100 warnings
+
+compile:
+    [javac] Compiling 1270 source files to C:\Users\Miron\Desktop\Serv\build\scripts\classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.7
+    [javac] C:\Users\Miron\Desktop\Serv\dist\gameserver\data\scripts\ai\ChristmasTree.java:15: warning: [unchecked] unchecked conversion
+    [javac]     private static final RndSelector<Integer> SOUNDS = new RndSelector(5);
+    [javac]                                                        ^
+    [javac]   required: RndSelector<Integer>
+    [javac]   found:    RndSelector
+    [javac] C:\Users\Miron\Desktop\Serv\dist\gameserver\data\scripts\events\DeathMatch\DeathMatch.java:63: warning: [unchecked] unchecked conversion
+    [javac]     private static List<Long> players_list1 = new CopyOnWriteArrayList();
+    [javac]                                               ^
+    [javac]   required: List<Long>
+    [javac]   found:    CopyOnWriteArrayList
+    [javac] C:\Users\Miron\Desktop\Serv\dist\gameserver\data\scripts\events\DeathMatch\DeathMatch.java:64: warning: [unchecked] unchecked conversion
+    [javac]     private static List<Long> players_list2 = new CopyOnWriteArrayList();
+    [javac]                                               ^
+    [javac]   required: List<Long>
+    [javac]   found:    CopyOnWriteArrayList
+    [javac] C:\Users\Miron\Desktop\Serv\dist\gameserver\data\scripts\events\DeathMatch\DeathMatch.java:65: warning: [unchecked] unchecked conversion
+    [javac]     private static List<Long> live_list1 = new CopyOnWriteArrayList();
+    [javac]                                            ^
+    [javac]   required: List<Long>
+    [javac]   found:    CopyOnWriteArrayList
+    [javac] C:\Users\Miron\Desktop\Serv\dist\gameserver\data\scripts\events\DeathMatch\DeathMatch.java:66: warning: [unchecked] unchecked conversion
+    [javac]     private static List<Long> live_list2 = new CopyOnWriteArrayList();
+    [javac]                                            ^
+    [javac]   required: List<Long>
+    [javac]   found:    CopyOnWriteArrayList
+    [javac] C:\Users\Miron\Desktop\Serv\dist\gameserver\data\scripts\events\DeathMatch\DeathMatch.java:70: warning: [unchecked] unchecked conversion
+    [javac]     private static Map<Long, Location> playerRestoreCoord = new LinkedHashMap();
+    [javac]                                                             ^
+    [javac]   required: Map<Long,Location>
+    [javac]   found:    LinkedHashMap
+    [javac] C:\Users\Miron\Desktop\Serv\dist\gameserver\data\scripts\events\DeathMatch\DeathMatch.java:71: warning: [unchecked] unchecked conversion
+    [javac]     private static Map<Long, String> boxes = new LinkedHashMap();
+    [javac]                                              ^
+    [javac]   required: Map<Long,String>
+    [javac]   found:    LinkedHashMap
+    [javac] C:\Users\Miron\Desktop\Serv\dist\gameserver\data\scripts\events\DeathMatch\DeathMatch.java:84: warning: [unchecked] unchecked conversion
+    [javac]     private static Map<String, ZoneTemplate> _zones = new HashMap();
+    [javac]                                                       ^
+    [javac]   required: Map<String,ZoneTemplate>
+    [javac]   found:    HashMap
+    [javac] C:\Users\Miron\Desktop\Serv\dist\gameserver\data\scripts\events\DeathMatch\DeathMatch.java:85: warning: [unchecked] unchecked conversion
+    [javac]     private static IntObjectMap<DoorTemplate> _doors = new HashIntObjectMap();
+    [javac]                                                        ^
+    [javac]   required: IntObjectMap<DoorTemplate>
+    [javac]   found:    HashIntObjectMap
+    [javac] C:\Users\Miron\Desktop\Serv\dist\gameserver\data\scripts\events\DeathMatch\DeathMatch.java:296: warning: [unchecked] unchecked conversion
+    [javac]         players_list1 = new CopyOnWriteArrayList();
+    [javac]                         ^
+    [javac]   required: List<Long>
+    [javac]   found:    CopyOnWriteArrayList
+    [javac] C:\Users\Miron\Desktop\Serv\dist\gameserver\data\scripts\events\DeathMatch\DeathMatch.java:297: warning: [unchecked] unchecked conversion
+    [javac]         players_list2 = new CopyOnWriteArrayList();
+    [javac]                         ^
+    [javac]   required: List<Long>
+    [javac]   found:    CopyOnWriteArrayList
+    [javac] C:\Users\Miron\Desktop\Serv\dist\gameserver\data\scripts\events\DeathMatch\DeathMatch.java:298: warning: [unchecked] unchecked conversion
+    [javac]         live_list1 = new CopyOnWriteArrayList();
+    [javac]                      ^
+    [javac]   required: List<Long>
+    [javac]   found:    CopyOnWriteArrayList
+    [javac] C:\Users\Miron\Desktop\Serv\dist\gameserver\data\scripts\events\DeathMatch\DeathMatch.java:299: warning: [unchecked] unchecked conversion
+    [javac]         live_list2 = new CopyOnWriteArrayList();
+    [javac]                      ^
+    [javac]   required: List<Long>
+    [javac]   found:    CopyOnWriteArrayList
+    [javac] C:\Users\Miron\Desktop\Serv\dist\gameserver\data\scripts\events\DeathMatch\DeathMatch.java:301: warning: [unchecked] unchecked conversion
+    [javac]         playerRestoreCoord = new LinkedHashMap();
+    [javac]                              ^
+    [javac]   required: Map<Long,Location>
+    [javac]   found:    LinkedHashMap
+    [javac] C:\Users\Miron\Desktop\Serv\dist\gameserver\data\scripts\events\DeathMatch\DeathMatch.java:733: warning: [unchecked] unchecked call to add(E) as a member of the raw type List
+    [javac]                 new_live_list1.add(storeId);
+    [javac]                                   ^
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in interface List
+    [javac] C:\Users\Miron\Desktop\Serv\dist\gameserver\data\scripts\events\DeathMatch\DeathMatch.java:739: warning: [unchecked] unchecked call to add(E) as a member of the raw type List
+    [javac]                 new_live_list2.add(storeId);
+    [javac]                                   ^
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in interface List
+    [javac] C:\Users\Miron\Desktop\Serv\dist\gameserver\data\scripts\events\DeathMatch\DeathMatch.java:742: warning: [unchecked] unchecked conversion
+    [javac]         live_list1 = new_live_list1;
+    [javac]                      ^
+    [javac]   required: List<Long>
+    [javac]   found:    List
+    [javac] C:\Users\Miron\Desktop\Serv\dist\gameserver\data\scripts\events\DeathMatch\DeathMatch.java:743: warning: [unchecked] unchecked conversion
+    [javac]         live_list2 = new_live_list2;
+    [javac]                      ^
+    [javac]   required: List<Long>
+    [javac]   found:    List
+    [javac] C:\Users\Miron\Desktop\Serv\dist\gameserver\data\scripts\events\DeathMatch\DeathMatch.java:865: warning: [unchecked] unchecked call to add(E) as a member of the raw type List
+    [javac]                 result.add(player);
+    [javac]                           ^
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in interface List
+    [javac] C:\Users\Miron\Desktop\Serv\dist\gameserver\data\scripts\events\DeathMatch\DeathMatch.java:868: warning: [unchecked] unchecked conversion
+    [javac]         return result;
+    [javac]                ^
+    [javac]   required: List<Player>
+    [javac]   found:    List
+    [javac] C:\Users\Miron\Desktop\Serv\dist\gameserver\data\scripts\events\FightClub\FightClub.java:542: warning: non-varargs call of varargs method with inexact argument type for last parameter;
+    [javac]             _player.sendPacket(new ExShowScreenMessage(sm.add(args).toString(), 3000, ScreenMessageAlign.TOP_CENTER, bigFont));
+    [javac]                                                               ^
+    [javac]   cast to Object for a varargs call
+    [javac]   cast to Object[] for a non-varargs call and to suppress this warning
+    [javac] C:\Users\Miron\Desktop\Serv\dist\gameserver\data\scripts\events\FightClub\FightClub.java:550: warning: non-varargs call of varargs method with inexact argument type for last parameter;
+    [javac]             _player.sendPacket(new ExShowScreenMessage(sm.add(args).toString(), 3000, ScreenMessageAlign.TOP_CENTER, bigFont));
+    [javac]                                                               ^
+    [javac]   cast to Object for a varargs call
+    [javac]   cast to Object[] for a non-varargs call and to suppress this warning
+    [javac] C:\Users\Miron\Desktop\Serv\dist\gameserver\data\scripts\events\HuntingforSharks\HuntingforSharks.java:20: warning: [unchecked] unchecked conversion
+    [javac]     private static List<SimpleSpawner> _spawns = new ArrayList();
+    [javac]                                                  ^
+    [javac]   required: List<SimpleSpawner>
+    [javac]   found:    ArrayList
+    [javac] C:\Users\Miron\Desktop\Serv\dist\gameserver\data\scripts\events\L2Coins\L2Coins.java:28: warning: [unchecked] unchecked conversion
+    [javac]     private static List<SimpleSpawner> _spawns = new ArrayList();
+    [javac]                                                  ^
+    [javac]   required: List<SimpleSpawner>
+    [javac]   found:    ArrayList
+    [javac] C:\Users\Miron\Desktop\Serv\dist\gameserver\data\scripts\events\TVTArena\TVTArena1.java:38: warning: [unchecked] unchecked conversion
+    [javac]     private static List<SimpleSpawner> _spawns = new ArrayList();
+    [javac]                                                  ^
+    [javac]   required: List<SimpleSpawner>
+    [javac]   found:    ArrayList
+    [javac] C:\Users\Miron\Desktop\Serv\dist\gameserver\data\scripts\events\TVTArena\TVTArenaTemplate.java:949: warning: [unchecked] unchecked call to add(E) as a member of the raw type List
+    [javac]                 result.add(player);
+    [javac]                           ^
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in interface List
+    [javac] C:\Users\Miron\Desktop\Serv\dist\gameserver\data\scripts\events\TVTArena\TVTArenaTemplate.java:952: warning: [unchecked] unchecked conversion
+    [javac]         return result;
+    [javac]                ^
+    [javac]   required: List<Player>
+    [javac]   found:    List
+    [javac] C:\Users\Miron\Desktop\Serv\dist\gameserver\data\scripts\events\TVTArena\TVTArena1.java:344: warning: [unchecked] unchecked conversion
+    [javac]             _team1list = new CopyOnWriteArrayList();
+    [javac]                          ^
+    [javac]   required: List<Long>
+    [javac]   found:    CopyOnWriteArrayList
+    [javac] C:\Users\Miron\Desktop\Serv\dist\gameserver\data\scripts\events\TVTArena\TVTArena1.java:345: warning: [unchecked] unchecked conversion
+    [javac]             _team2list = new CopyOnWriteArrayList();
+    [javac]                          ^
+    [javac]   required: List<Long>
+    [javac]   found:    CopyOnWriteArrayList
+    [javac] C:\Users\Miron\Desktop\Serv\dist\gameserver\data\scripts\events\TVTArena\TVTArena1.java:346: warning: [unchecked] unchecked conversion
+    [javac]             _team1live = new CopyOnWriteArrayList();
+    [javac]                          ^
+    [javac]   required: List<Long>
+    [javac]   found:    CopyOnWriteArrayList
+    [javac] C:\Users\Miron\Desktop\Serv\dist\gameserver\data\scripts\events\TVTArena\TVTArena1.java:347: warning: [unchecked] unchecked conversion
+    [javac]             _team2live = new CopyOnWriteArrayList();
+    [javac]                          ^
+    [javac]   required: List<Long>
+    [javac]   found:    CopyOnWriteArrayList
+    [javac] C:\Users\Miron\Desktop\Serv\dist\gameserver\data\scripts\events\TVTArena\TVTArena1.java:353: warning: [unchecked] unchecked conversion
+    [javac]             _team1points = new ArrayList();
+    [javac]                            ^
+    [javac]   required: List<Location>
+    [javac]   found:    ArrayList
+    [javac] C:\Users\Miron\Desktop\Serv\dist\gameserver\data\scripts\events\TVTArena\TVTArena1.java:354: warning: [unchecked] unchecked conversion
+    [javac]             _team2points = new ArrayList();
+    [javac]                            ^
+    [javac]   required: List<Location>
+    [javac]   found:    ArrayList
+    [javac] C:\Users\Miron\Desktop\Serv\dist\gameserver\data\scripts\events\TVTArena\TVTArena2.java:38: warning: [unchecked] unchecked conversion
+    [javac]     private static List<SimpleSpawner> _spawns = new ArrayList();
+    [javac]                                                  ^
+    [javac]   required: List<SimpleSpawner>
+    [javac]   found:    ArrayList
+    [javac] C:\Users\Miron\Desktop\Serv\dist\gameserver\data\scripts\events\TVTArena\TVTArena2.java:340: warning: [unchecked] unchecked conversion
+    [javac]             _team1list = new CopyOnWriteArrayList();
+    [javac]                          ^
+    [javac]   required: List<Long>
+    [javac]   found:    CopyOnWriteArrayList
+    [javac] C:\Users\Miron\Desktop\Serv\dist\gameserver\data\scripts\events\TVTArena\TVTArena2.java:341: warning: [unchecked] unchecked conversion
+    [javac]             _team2list = new CopyOnWriteArrayList();
+    [javac]                          ^
+    [javac]   required: List<Long>
+    [javac]   found:    CopyOnWriteArrayList
+    [javac] C:\Users\Miron\Desktop\Serv\dist\gameserver\data\scripts\events\TVTArena\TVTArena2.java:342: warning: [unchecked] unchecked conversion
+    [javac]             _team1live = new CopyOnWriteArrayList();
+    [javac]                          ^
+    [javac]   required: List<Long>
+    [javac]   found:    CopyOnWriteArrayList
+    [javac] C:\Users\Miron\Desktop\Serv\dist\gameserver\data\scripts\events\TVTArena\TVTArena2.java:343: warning: [unchecked] unchecked conversion
+    [javac]             _team2live = new CopyOnWriteArrayList();
+    [javac]                          ^
+    [javac]   required: List<Long>
+    [javac]   found:    CopyOnWriteArrayList
+    [javac] C:\Users\Miron\Desktop\Serv\dist\gameserver\data\scripts\events\TVTArena\TVTArena2.java:349: warning: [unchecked] unchecked conversion
+    [javac]             _team1points = new ArrayList();
+    [javac]                            ^
+    [javac]   required: List<Location>
+    [javac]   found:    ArrayList
+    [javac] C:\Users\Miron\Desktop\Serv\dist\gameserver\data\scripts\events\TVTArena\TVTArena2.java:350: warning: [unchecked] unchecked conversion
+    [javac]             _team2points = new ArrayList();
+    [javac]                            ^
+    [javac]   required: List<Location>
+    [javac]   found:    ArrayList
+    [javac] C:\Users\Miron\Desktop\Serv\dist\gameserver\data\scripts\events\TVTArena\TVTArena3.java:38: warning: [unchecked] unchecked conversion
+    [javac]     private static List<SimpleSpawner> _spawns = new ArrayList();
+    [javac]                                                  ^
+    [javac]   required: List<SimpleSpawner>
+    [javac]   found:    ArrayList
+    [javac] C:\Users\Miron\Desktop\Serv\dist\gameserver\data\scripts\events\TVTArena\TVTArena3.java:340: warning: [unchecked] unchecked conversion
+    [javac]             _team1list = new CopyOnWriteArrayList();
+    [javac]                          ^
+    [javac]   required: List<Long>
+    [javac]   found:    CopyOnWriteArrayList
+    [javac] C:\Users\Miron\Desktop\Serv\dist\gameserver\data\scripts\events\TVTArena\TVTArena3.java:341: warning: [unchecked] unchecked conversion
+    [javac]             _team2list = new CopyOnWriteArrayList();
+    [javac]                          ^
+    [javac]   required: List<Long>
+    [javac]   found:    CopyOnWriteArrayList
+    [javac] C:\Users\Miron\Desktop\Serv\dist\gameserver\data\scripts\events\TVTArena\TVTArena3.java:342: warning: [unchecked] unchecked conversion
+    [javac]             _team1live = new CopyOnWriteArrayList();
+    [javac]                          ^
+    [javac]   required: List<Long>
+    [javac]   found:    CopyOnWriteArrayList
+    [javac] C:\Users\Miron\Desktop\Serv\dist\gameserver\data\scripts\events\TVTArena\TVTArena3.java:343: warning: [unchecked] unchecked conversion
+    [javac]             _team2live = new CopyOnWriteArrayList();
+    [javac]                          ^
+    [javac]   required: List<Long>
+    [javac]   found:    CopyOnWriteArrayList
+    [javac] C:\Users\Miron\Desktop\Serv\dist\gameserver\data\scripts\events\TVTArena\TVTArena3.java:349: warning: [unchecked] unchecked conversion
+    [javac]             _team1points = new ArrayList();
+    [javac]                            ^
+    [javac]   required: List<Location>
+    [javac]   found:    ArrayList
+    [javac] C:\Users\Miron\Desktop\Serv\dist\gameserver\data\scripts\events\TVTArena\TVTArena3.java:350: warning: [unchecked] unchecked conversion
+    [javac]             _team2points = new ArrayList();
+    [javac]                            ^
+    [javac]   required: List<Location>
+    [javac]   found:    ArrayList
+    [javac] C:\Users\Miron\Desktop\Serv\dist\gameserver\data\scripts\events\TVTArena\TVTArena4.java:38: warning: [unchecked] unchecked conversion
+    [javac]     private static List<SimpleSpawner> _spawns = new ArrayList();
+    [javac]                                                  ^
+    [javac]   required: List<SimpleSpawner>
+    [javac]   found:    ArrayList
+    [javac] C:\Users\Miron\Desktop\Serv\dist\gameserver\data\scripts\events\TVTArena\TVTArena4.java:340: warning: [unchecked] unchecked conversion
+    [javac]             _team1list = new CopyOnWriteArrayList();
+    [javac]                          ^
+    [javac]   required: List<Long>
+    [javac]   found:    CopyOnWriteArrayList
+    [javac] C:\Users\Miron\Desktop\Serv\dist\gameserver\data\scripts\events\TVTArena\TVTArena4.java:341: warning: [unchecked] unchecked conversion
+    [javac]             _team2list = new CopyOnWriteArrayList();
+    [javac]                          ^
+    [javac]   required: List<Long>
+    [javac]   found:    CopyOnWriteArrayList
+    [javac] C:\Users\Miron\Desktop\Serv\dist\gameserver\data\scripts\events\TVTArena\TVTArena4.java:342: warning: [unchecked] unchecked conversion
+    [javac]             _team1live = new CopyOnWriteArrayList();
+    [javac]                          ^
+    [javac]   required: List<Long>
+    [javac]   found:    CopyOnWriteArrayList
+    [javac] C:\Users\Miron\Desktop\Serv\dist\gameserver\data\scripts\events\TVTArena\TVTArena4.java:343: warning: [unchecked] unchecked conversion
+    [javac]             _team2live = new CopyOnWriteArrayList();
+    [javac]                          ^
+    [javac]   required: List<Long>
+    [javac]   found:    CopyOnWriteArrayList
+    [javac] C:\Users\Miron\Desktop\Serv\dist\gameserver\data\scripts\events\TVTArena\TVTArena4.java:349: warning: [unchecked] unchecked conversion
+    [javac]             _team1points = new ArrayList();
+    [javac]                            ^
+    [javac]   required: List<Location>
+    [javac]   found:    ArrayList
+    [javac] C:\Users\Miron\Desktop\Serv\dist\gameserver\data\scripts\events\TVTArena\TVTArena4.java:350: warning: [unchecked] unchecked conversion
+    [javac]             _team2points = new ArrayList();
+    [javac]                            ^
+    [javac]   required: List<Location>
+    [javac]   found:    ArrayList
+    [javac] C:\Users\Miron\Desktop\Serv\dist\gameserver\data\scripts\events\TVTArena\TVTArena5.java:38: warning: [unchecked] unchecked conversion
+    [javac]     private static List<SimpleSpawner> _spawns = new ArrayList();
+    [javac]                                                  ^
+    [javac]   required: List<SimpleSpawner>
+    [javac]   found:    ArrayList
+    [javac] C:\Users\Miron\Desktop\Serv\dist\gameserver\data\scripts\events\TVTArena\TVTArena5.java:340: warning: [unchecked] unchecked conversion
+    [javac]             _team1list = new CopyOnWriteArrayList();
+    [javac]                          ^
+    [javac]   required: List<Long>
+    [javac]   found:    CopyOnWriteArrayList
+    [javac] C:\Users\Miron\Desktop\Serv\dist\gameserver\data\scripts\events\TVTArena\TVTArena5.java:341: warning: [unchecked] unchecked conversion
+    [javac]             _team2list = new CopyOnWriteArrayList();
+    [javac]                          ^
+    [javac]   required: List<Long>
+    [javac]   found:    CopyOnWriteArrayList
+    [javac] C:\Users\Miron\Desktop\Serv\dist\gameserver\data\scripts\events\TVTArena\TVTArena5.java:342: warning: [unchecked] unchecked conversion
+    [javac]             _team1live = new CopyOnWriteArrayList();
+    [javac]                          ^
+    [javac]   required: List<Long>
+    [javac]   found:    CopyOnWriteArrayList
+    [javac] C:\Users\Miron\Desktop\Serv\dist\gameserver\data\scripts\events\TVTArena\TVTArena5.java:343: warning: [unchecked] unchecked conversion
+    [javac]             _team2live = new CopyOnWriteArrayList();
+    [javac]                          ^
+    [javac]   required: List<Long>
+    [javac]   found:    CopyOnWriteArrayList
+    [javac] C:\Users\Miron\Desktop\Serv\dist\gameserver\data\scripts\events\TVTArena\TVTArena5.java:349: warning: [unchecked] unchecked conversion
+    [javac]             _team1points = new ArrayList();
+    [javac]                            ^
+    [javac]   required: List<Location>
+    [javac]   found:    ArrayList
+    [javac] C:\Users\Miron\Desktop\Serv\dist\gameserver\data\scripts\events\TVTArena\TVTArena5.java:350: warning: [unchecked] unchecked conversion
+    [javac]             _team2points = new ArrayList();
+    [javac]                            ^
+    [javac]   required: List<Location>
+    [javac]   found:    ArrayList
+    [javac] C:\Users\Miron\Desktop\Serv\dist\gameserver\data\scripts\events\TreasuresOfTheHerald\TreasuresOfTheHerald.java:53: warning: [unchecked] unchecked conversion
+    [javac]     private static List<HardReference<Player>> leaderList = new CopyOnWriteArrayList();
+    [javac]                                                             ^
+    [javac]   required: List<HardReference<Player>>
+    [javac]   found:    CopyOnWriteArrayList
+    [javac] C:\Users\Miron\Desktop\Serv\dist\gameserver\data\scripts\events\lastHero\LastHero.java:64: warning: [unchecked] unchecked conversion
+    [javac]     private static List<Long> players_list = new CopyOnWriteArrayList();
+    [javac]                                              ^
+    [javac]   required: List<Long>
+    [javac]   found:    CopyOnWriteArrayList
+    [javac] C:\Users\Miron\Desktop\Serv\dist\gameserver\data\scripts\events\lastHero\LastHero.java:65: warning: [unchecked] unchecked conversion
+    [javac]     private static List<Long> live_list = new CopyOnWriteArrayList();
+    [javac]                                           ^
+    [javac]   required: List<Long>
+    [javac]   found:    CopyOnWriteArrayList
+    [javac] C:\Users\Miron\Desktop\Serv\dist\gameserver\data\scripts\events\lastHero\LastHero.java:68: warning: [unchecked] unchecked conversion
+    [javac]     private static Map<Long, Location> playerRestoreCoord = new LinkedHashMap();
+    [javac]                                                             ^
+    [javac]   required: Map<Long,Location>
+    [javac]   found:    LinkedHashMap
+    [javac] C:\Users\Miron\Desktop\Serv\dist\gameserver\data\scripts\events\lastHero\LastHero.java:69: warning: [unchecked] unchecked conversion
+    [javac]     private static Map<Long, String> boxes = new LinkedHashMap();
+    [javac]                                              ^
+    [javac]   required: Map<Long,String>
+    [javac]   found:    LinkedHashMap
+    [javac] C:\Users\Miron\Desktop\Serv\dist\gameserver\data\scripts\events\lastHero\LastHero.java:81: warning: [unchecked] unchecked conversion
+    [javac]     private static Map<String, ZoneTemplate> _zones = new HashMap();
+    [javac]                                                       ^
+    [javac]   required: Map<String,ZoneTemplate>
+    [javac]   found:    HashMap
+    [javac] C:\Users\Miron\Desktop\Serv\dist\gameserver\data\scripts\events\lastHero\LastHero.java:82: warning: [unchecked] unchecked conversion
+    [javac]     private static IntObjectMap<DoorTemplate> _doors = new HashIntObjectMap();
+    [javac]                                                        ^
+    [javac]   required: IntObjectMap<DoorTemplate>
+    [javac]   found:    HashIntObjectMap
+    [javac] C:\Users\Miron\Desktop\Serv\dist\gameserver\data\scripts\events\lastHero\LastHero.java:301: warning: [unchecked] unchecked conversion
+    [javac]         players_list = new CopyOnWriteArrayList();
+    [javac]                        ^
+    [javac]   required: List<Long>
+    [javac]   found:    CopyOnWriteArrayList
+    [javac] C:\Users\Miron\Desktop\Serv\dist\gameserver\data\scripts\events\lastHero\LastHero.java:302: warning: [unchecked] unchecked conversion
+    [javac]         live_list = new CopyOnWriteArrayList();
+    [javac]                     ^
+    [javac]   required: List<Long>
+    [javac]   found:    CopyOnWriteArrayList
+    [javac] C:\Users\Miron\Desktop\Serv\dist\gameserver\data\scripts\events\lastHero\LastHero.java:303: warning: [unchecked] unchecked conversion
+    [javac]         playerRestoreCoord = new LinkedHashMap();
+    [javac]                              ^
+    [javac]   required: Map<Long,Location>
+    [javac]   found:    LinkedHashMap
+    [javac] C:\Users\Miron\Desktop\Serv\dist\gameserver\data\scripts\events\lastHero\LastHero.java:621: warning: [unchecked] unchecked call to add(E) as a member of the raw type List
+    [javac]                 new_live_list.add(storeId);
+    [javac]                                  ^
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in interface List
+    [javac] C:\Users\Miron\Desktop\Serv\dist\gameserver\data\scripts\events\lastHero\LastHero.java:624: warning: [unchecked] unchecked conversion
+    [javac]         live_list = new_live_list;
+    [javac]                     ^
+    [javac]   required: List<Long>
+    [javac]   found:    List
+    [javac] C:\Users\Miron\Desktop\Serv\dist\gameserver\data\scripts\events\lastHero\LastHero.java:733: warning: [unchecked] unchecked call to add(E) as a member of the raw type List
+    [javac]                 result.add(player);
+    [javac]                           ^
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in interface List
+    [javac] C:\Users\Miron\Desktop\Serv\dist\gameserver\data\scripts\events\lastHero\LastHero.java:736: warning: [unchecked] unchecked conversion
+    [javac]         return result;
+    [javac]                ^
+    [javac]   required: List<Player>
+    [javac]   found:    List
+    [javac] C:\Users\Miron\Desktop\Serv\dist\gameserver\data\scripts\instances\TreasuresOfTheHeraldInstance.java:51: warning: [unchecked] unchecked conversion
+    [javac]     private List<HardReference<Player>> bothTeams = new CopyOnWriteArrayList();
+    [javac]                                                     ^
+    [javac]   required: List<HardReference<Player>>
+    [javac]   found:    CopyOnWriteArrayList
+    [javac] C:\Users\Miron\Desktop\Serv\dist\gameserver\data\scripts\instances\TreasuresOfTheHeraldInstance.java:52: warning: [unchecked] unchecked conversion
+    [javac]     private TIntObjectHashMap<MutableInt> score = new TIntObjectHashMap();
+    [javac]                                                   ^
+    [javac]   required: TIntObjectHashMap<MutableInt>
+    [javac]   found:    TIntObjectHashMap
+    [javac] C:\Users\Miron\Desktop\Serv\dist\gameserver\data\scripts\npc\model\residences\castle\ChamberlainInstance.java:462: warning: [unchecked] unchecked conversion
+    [javac]                 List<Fortress> fortresses = entry.getValue();
+    [javac]                                                           ^
+    [javac]   required: List<Fortress>
+    [javac]   found:    List
+    [javac] C:\Users\Miron\Desktop\Serv\dist\gameserver\data\scripts\services\community\CommunityBoardBuffer.java:323: warning: [unchecked] unchecked call to ArrayList(Collection<? extends E>) as a member of the raw type ArrayList
+    [javac]                     List<Effect> effects = new ArrayList(player.getEffectList().getAllEffects());
+    [javac]                                            ^
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in class ArrayList
+    [javac] C:\Users\Miron\Desktop\Serv\dist\gameserver\data\scripts\services\community\CommunityBoardBuffer.java:323: warning: [unchecked] unchecked conversion
+    [javac]                     List<Effect> effects = new ArrayList(player.getEffectList().getAllEffects());
+    [javac]                                            ^
+    [javac]   required: List<Effect>
+    [javac]   found:    ArrayList
+    [javac] 81 warnings
+
+dist:
+   [delete] Deleting directory C:\Users\Miron\Desktop\Serv\build\scripts\classes\l2p
+      [jar] Building jar: C:\Users\Miron\Desktop\Serv\build\scripts\scripts.jar
+   [delete] Deleting directory C:\Users\Miron\Desktop\Serv\build\scripts\classes
+     [copy] Copying 1 file to C:\Users\Miron\Desktop\Serv\build\dist\serverslibs
+
+BUILD SUCCESSFUL
+Total time: 41 seconds

@@ -1,0 +1,361 @@
+
+checkRequirements:
+
+clean:
+   [delete] Deleting directory G:\ddddd\build
+
+init:
+    [mkdir] Created dir: G:\ddddd\build
+
+compile-commons:
+    [mkdir] Created dir: G:\ddddd\build\classes
+    [javac] Compiling 93 source files to G:\ddddd\build\classes
+    [javac] G:\ddddd\java\l2p\commons\dbcp\BasicDataSource.java:50: warning: [unchecked] unchecked call to GenericObjectPool(PoolableObjectFactory<T>) as a member of the raw type GenericObjectPool
+    [javac]         GenericObjectPool connectionPool = new GenericObjectPool(null);
+    [javac]                                            ^
+    [javac]   where T is a type-variable:
+    [javac]     T extends Object declared in class GenericObjectPool
+    [javac] G:\ddddd\java\l2p\commons\dbcp\BasicDataSource.java:65: warning: [unchecked] unchecked call to GenericKeyedObjectPoolFactory(KeyedPoolableObjectFactory<K,V>,int,byte,long,int,int) as a member of the raw type GenericKeyedObjectPoolFactory
+    [javac]             statementPoolFactory = new GenericKeyedObjectPoolFactory(null, -1, GenericObjectPool.WHEN_EXHAUSTED_FAIL, 0L, 1, GenericKeyedObjectPool.DEFAULT_MAX_TOTAL);
+    [javac]                                    ^
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in class GenericKeyedObjectPoolFactory
+    [javac]     V extends Object declared in class GenericKeyedObjectPoolFactory
+    [javac] 2 warnings
+
+commons-jar:
+     [exec] Execute failed: java.io.IOException: Cannot run program "svnversion" (in directory "G:\ddddd"): CreateProcess error=2, Не удается найти указанный файл
+      [jar] Building jar: G:\ddddd\build\commons.jar
+
+compile-authserver:
+   [delete] Deleting directory G:\ddddd\build\classes
+    [mkdir] Created dir: G:\ddddd\build\classes
+    [javac] Compiling 59 source files to G:\ddddd\build\classes
+    [javac] G:\ddddd\java\l2p\loginserver\IpBanManager.java:23: warning: [unchecked] unchecked conversion
+    [javac]     private final Map<String, Long> bannedIps = new HashMap();
+    [javac]                                                 ^
+    [javac]   required: Map<String,Long>
+    [javac]   found:    HashMap
+    [javac] G:\ddddd\java\l2p\loginserver\IpBanManager.java:24: warning: [unchecked] unchecked conversion
+    [javac]     private final Map<String, Deque<Long>> loginIps = new HashMap();
+    [javac]                                                       ^
+    [javac]   required: Map<String,Deque<Long>>
+    [javac]   found:    HashMap
+    [javac] G:\ddddd\java\l2p\loginserver\IpBanManager.java:46: warning: [unchecked] unchecked conversion
+    [javac]                         Deque<Long> logins = (Deque) itr.next();
+    [javac]                                              ^
+    [javac]   required: Deque<Long>
+    [javac]   found:    Deque
+    [javac] G:\ddddd\java\l2p\loginserver\IpBanManager.java:88: warning: [unchecked] unchecked conversion
+    [javac]             if ((logins = (Deque) this.loginIps.get(ip)) == null) {
+    [javac]                           ^
+    [javac]   required: Deque<Long>
+    [javac]   found:    Deque
+    [javac] G:\ddddd\java\l2p\loginserver\IpBanManager.java:89: warning: [unchecked] unchecked conversion
+    [javac]                 this.loginIps.put(ip, logins = new LinkedList());
+    [javac]                                                ^
+    [javac]   required: Deque<Long>
+    [javac]   found:    LinkedList
+    [javac] 5 warnings
+
+authserver-jar:
+     [exec] Execute failed: java.io.IOException: Cannot run program "svnversion" (in directory "G:\ddddd"): CreateProcess error=2, Не удается найти указанный файл
+      [jar] Building jar: G:\ddddd\build\loginserver.jar
+
+authserver:
+    [mkdir] Created dir: G:\ddddd\build\dist
+    [mkdir] Created dir: G:\ddddd\build\dist\loginserver
+    [mkdir] Created dir: G:\ddddd\build\dist\serverslibs
+    [mkdir] Created dir: G:\ddddd\build\dist\loginserver\log
+     [copy] Copying 2 files to G:\ddddd\build\dist\serverslibs
+     [copy] Copying 33 files to G:\ddddd\build\dist\serverslibs
+
+compile-gameserver:
+   [delete] Deleting directory G:\ddddd\build\classes
+    [mkdir] Created dir: G:\ddddd\build\classes
+    [javac] Compiling 1796 source files to G:\ddddd\build\classes
+    [javac] G:\ddddd\java\l2p\gameserver\model\Player.java:6724: warning: [unchecked] unchecked conversion
+    [javac]     private final MultiValueSet<String> _vars = new MultiValueSet();
+    [javac]                                                 ^
+    [javac]   required: MultiValueSet<String>
+    [javac]   found:    MultiValueSet
+    [javac] G:\ddddd\java\l2p\gameserver\model\Party.java:289: warning: [unchecked] unchecked call to add(E) as a member of the raw type List
+    [javac]                 ((List) pplayer).add(new RelationChanged().add(member, player));
+    [javac]                                     ^
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in interface List
+    [javac] G:\ddddd\java\l2p\gameserver\model\Party.java:378: warning: [unchecked] unchecked conversion
+    [javac]         List<L2GameServerPacket> pmember = new ArrayList(2 + outsInfo.size());
+    [javac]                                            ^
+    [javac]   required: List<L2GameServerPacket>
+    [javac]   found:    ArrayList
+    [javac] G:\ddddd\java\l2p\gameserver\utils\BypassStorage.java:29: warning: [unchecked] unchecked conversion
+    [javac]     private List<ValidBypass> bypasses = new CopyOnWriteArrayList();
+    [javac]                                          ^
+    [javac]   required: List<ValidBypass>
+    [javac]   found:    CopyOnWriteArrayList
+    [javac] G:\ddddd\java\l2p\gameserver\model\entity\Reflection.java:308: warning: [unchecked] unchecked conversion
+    [javac]             List<ObservePoint> observers = new ArrayList();
+    [javac]                                            ^
+    [javac]   required: List<ObservePoint>
+    [javac]   found:    ArrayList
+    [javac] G:\ddddd\java\l2p\gameserver\model\entity\Reflection.java:309: warning: [unchecked] unchecked conversion
+    [javac]             List<GameObject> delete = new ArrayList();
+    [javac]                                       ^
+    [javac]   required: List<GameObject>
+    [javac]   found:    ArrayList
+    [javac] G:\ddddd\java\l2p\gameserver\model\entity\Reflection.java:470: warning: [unchecked] unchecked conversion
+    [javac]         List<Creature> result = new ArrayList();
+    [javac]                                 ^
+    [javac]   required: List<Creature>
+    [javac]   found:    ArrayList
+    [javac] G:\ddddd\java\l2p\gameserver\model\entity\Reflection.java:485: warning: [unchecked] unchecked conversion
+    [javac]         List<Creature> result = new ArrayList();
+    [javac]                                 ^
+    [javac]   required: List<Creature>
+    [javac]   found:    ArrayList
+    [javac] G:\ddddd\java\l2p\gameserver\Config.java:1472: warning: [unchecked] unchecked conversion
+    [javac]     public static Map<String, double[]> QUEST_RATES = new HashMap();
+    [javac]                                                       ^
+    [javac]   required: Map<String,double[]>
+    [javac]   found:    HashMap
+    [javac] G:\ddddd\java\l2p\gameserver\dao\CharacterTPBookmarkDAO.java:29: warning: [unchecked] unchecked conversion
+    [javac]         List<TpBookMark> list = new ArrayList(9);
+    [javac]                                 ^
+    [javac]   required: List<TpBookMark>
+    [javac]   found:    ArrayList
+    [javac] G:\ddddd\java\l2p\gameserver\instancemanager\UnderGroundColliseumManager.java:39: warning: [unchecked] unchecked conversion
+    [javac]             this._coliseums = new HashMap();
+    [javac]                               ^
+    [javac]   required: HashMap<String,Coliseum>
+    [javac]   found:    HashMap
+    [javac] G:\ddddd\java\l2p\gameserver\model\entity\Coliseum.java:31: warning: [unchecked] unchecked conversion
+    [javac]     private ArrayList<Party> party_waiting_list = new ArrayList();
+    [javac]                                                   ^
+    [javac]   required: ArrayList<Party>
+    [javac]   found:    ArrayList
+    [javac] G:\ddddd\java\l2p\gameserver\model\entity\Coliseum.java:32: warning: [unchecked] unchecked conversion
+    [javac]     private ArrayList<Party> party_inbattle_list = new ArrayList();
+    [javac]                                                    ^
+    [javac]   required: ArrayList<Party>
+    [javac]   found:    ArrayList
+    [javac] G:\ddddd\java\l2p\gameserver\model\entity\Coliseum.java:410: warning: [unchecked] unchecked call to add(E) as a member of the raw type ArrayList
+    [javac]                         toDel.add(party);
+    [javac]                                  ^
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in class ArrayList
+    [javac] G:\ddddd\java\l2p\gameserver\model\HardSpawner.java:27: warning: [unchecked] unchecked conversion
+    [javac]     private IntObjectMap<Queue<NpcInstance>> _cache = new CHashIntObjectMap();
+    [javac]                                                       ^
+    [javac]   required: IntObjectMap<Queue<NpcInstance>>
+    [javac]   found:    CHashIntObjectMap
+    [javac] G:\ddddd\java\l2p\gameserver\model\HardSpawner.java:144: warning: [unchecked] unchecked conversion
+    [javac]         Queue<NpcInstance> queue = (Queue) _cache.get(npc.getNpcId());
+    [javac]                                    ^
+    [javac]   required: Queue<NpcInstance>
+    [javac]   found:    Queue
+    [javac] G:\ddddd\java\l2p\gameserver\model\HardSpawner.java:146: warning: [unchecked] unchecked conversion
+    [javac]             _cache.put(npc.getNpcId(), queue = new ArrayDeque());
+    [javac]                                                ^
+    [javac]   required: Queue<NpcInstance>
+    [javac]   found:    ArrayDeque
+    [javac] G:\ddddd\java\l2p\gameserver\model\HardSpawner.java:152: warning: [unchecked] unchecked conversion
+    [javac]         Queue<NpcInstance> queue = (Queue) _cache.get(id);
+    [javac]                                    ^
+    [javac]   required: Queue<NpcInstance>
+    [javac]   found:    Queue
+    [javac] G:\ddddd\java\l2p\gameserver\model\PhantomPlayers.java:54: warning: [unchecked] unchecked conversion
+    [javac]     private static FastList<Integer> _nameColors = new FastList();
+    [javac]                                                    ^
+    [javac]   required: FastList<Integer>
+    [javac]   found:    FastList
+    [javac] G:\ddddd\java\l2p\gameserver\model\PhantomPlayers.java:55: warning: [unchecked] unchecked conversion
+    [javac]     private static FastList<Integer> _titleColors = new FastList();
+    [javac]                                                     ^
+    [javac]   required: FastList<Integer>
+    [javac]   found:    FastList
+    [javac] G:\ddddd\java\l2p\gameserver\model\PhantomPlayers.java:56: warning: [unchecked] unchecked conversion
+    [javac]     private static FastList<L2Set> _sets = new FastList();
+    [javac]                                            ^
+    [javac]   required: FastList<L2Set>
+    [javac]   found:    FastList
+    [javac] G:\ddddd\java\l2p\gameserver\model\PhantomPlayers.java:58: warning: [unchecked] unchecked conversion
+    [javac]     private static FastList<L2Set> _setsArcher = new FastList();
+    [javac]                                                  ^
+    [javac]   required: FastList<L2Set>
+    [javac]   found:    FastList
+    [javac] G:\ddddd\java\l2p\gameserver\model\PhantomPlayers.java:61: warning: [unchecked] unchecked conversion
+    [javac]     private static FastList<L2Set> _setsOly = new FastList();
+    [javac]                                               ^
+    [javac]   required: FastList<L2Set>
+    [javac]   found:    FastList
+    [javac] G:\ddddd\java\l2p\gameserver\model\PhantomPlayers.java:63: warning: [unchecked] unchecked conversion
+    [javac]     private static FastList<Location> _PhantomsTownLoc = new FastList();
+    [javac]                                                          ^
+    [javac]   required: FastList<Location>
+    [javac]   found:    FastList
+    [javac] G:\ddddd\java\l2p\gameserver\model\PhantomPlayers.java:64: warning: [unchecked] unchecked conversion
+    [javac]     private static FastMap<Integer, L2Fantome> _phantoms = new FastMap();
+    [javac]                                                            ^
+    [javac]   required: FastMap<Integer,L2Fantome>
+    [javac]   found:    FastMap
+    [javac] G:\ddddd\java\l2p\gameserver\model\PhantomPlayers.java:66: warning: [unchecked] unchecked conversion
+    [javac]     private static FastList<String> _PhantomsEnchPhrases = new FastList();
+    [javac]                                                            ^
+    [javac]   required: FastList<String>
+    [javac]   found:    FastList
+    [javac] G:\ddddd\java\l2p\gameserver\model\PhantomPlayers.java:68: warning: [unchecked] unchecked conversion
+    [javac]     private static FastList<String> _PhantomsLastPhrases = new FastList();
+    [javac]                                                            ^
+    [javac]   required: FastList<String>
+    [javac]   found:    FastList
+    [javac] G:\ddddd\java\l2p\gameserver\model\PhantomPlayers.java:69: warning: [unchecked] unchecked conversion
+    [javac]     private static Map<Integer, ConcurrentLinkedQueue<Player>> _PhantomsTown = new ConcurrentHashMap();
+    [javac]                                                                                ^
+    [javac]   required: Map<Integer,ConcurrentLinkedQueue<Player>>
+    [javac]   found:    ConcurrentHashMap
+    [javac] G:\ddddd\java\l2p\gameserver\model\PhantomPlayers.java:70: warning: [unchecked] unchecked conversion
+    [javac]     private static Map<Integer, ConcurrentLinkedQueue<Player>> _PhantomsTownClan = new ConcurrentHashMap();
+    [javac]                                                                                    ^
+    [javac]   required: Map<Integer,ConcurrentLinkedQueue<Player>>
+    [javac]   found:    ConcurrentHashMap
+    [javac] G:\ddddd\java\l2p\gameserver\model\PhantomPlayers.java:71: warning: [unchecked] unchecked conversion
+    [javac]     private static Map<Integer, ConcurrentLinkedQueue<Integer>> _PhantomsTownClanList = new ConcurrentHashMap();
+    [javac]                                                                                         ^
+    [javac]   required: Map<Integer,ConcurrentLinkedQueue<Integer>>
+    [javac]   found:    ConcurrentHashMap
+    [javac] G:\ddddd\java\l2p\gameserver\model\PhantomPlayers.java:105: warning: [unchecked] unchecked method invocation: method put in interface Map is applied to given types
+    [javac]             _PhantomsTown.put(1, new ConcurrentLinkedQueue());
+    [javac]                              ^
+    [javac]   required: K,V
+    [javac]   found: int,ConcurrentLinkedQueue
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in interface Map
+    [javac]     V extends Object declared in interface Map
+    [javac] G:\ddddd\java\l2p\gameserver\model\PhantomPlayers.java:105: warning: [unchecked] unchecked conversion
+    [javac]             _PhantomsTown.put(1, new ConcurrentLinkedQueue());
+    [javac]                                  ^
+    [javac]   required: V
+    [javac]   found:    ConcurrentLinkedQueue
+    [javac]   where V is a type-variable:
+    [javac]     V extends Object declared in interface Map
+    [javac] G:\ddddd\java\l2p\gameserver\model\PhantomPlayers.java:106: warning: [unchecked] unchecked method invocation: method put in interface Map is applied to given types
+    [javac]             _PhantomsTown.put(2, new ConcurrentLinkedQueue());
+    [javac]                              ^
+    [javac]   required: K,V
+    [javac]   found: int,ConcurrentLinkedQueue
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in interface Map
+    [javac]     V extends Object declared in interface Map
+    [javac] G:\ddddd\java\l2p\gameserver\model\PhantomPlayers.java:106: warning: [unchecked] unchecked conversion
+    [javac]             _PhantomsTown.put(2, new ConcurrentLinkedQueue());
+    [javac]                                  ^
+    [javac]   required: V
+    [javac]   found:    ConcurrentLinkedQueue
+    [javac]   where V is a type-variable:
+    [javac]     V extends Object declared in interface Map
+    [javac] G:\ddddd\java\l2p\gameserver\model\PhantomPlayers.java:306: warning: [unchecked] unchecked call to add(E) as a member of the raw type ConcurrentLinkedQueue
+    [javac]                         players.add(Integer.parseInt(plid));
+    [javac]                                    ^
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in class ConcurrentLinkedQueue
+    [javac] G:\ddddd\java\l2p\gameserver\model\PhantomPlayers.java:308: warning: [unchecked] unchecked method invocation: method put in interface Map is applied to given types
+    [javac]                     _PhantomsTownClanList.put(clanId, players);
+    [javac]                                              ^
+    [javac]   required: K,V
+    [javac]   found: int,ConcurrentLinkedQueue
+    [javac]   where K,V are type-variables:
+    [javac]     K extends Object declared in interface Map
+    [javac]     V extends Object declared in interface Map
+    [javac] G:\ddddd\java\l2p\gameserver\model\PhantomPlayers.java:308: warning: [unchecked] unchecked conversion
+    [javac]                     _PhantomsTownClanList.put(clanId, players);
+    [javac]                                                       ^
+    [javac]   required: V
+    [javac]   found:    ConcurrentLinkedQueue
+    [javac]   where V is a type-variable:
+    [javac]     V extends Object declared in interface Map
+    [javac] G:\ddddd\java\l2p\gameserver\model\PhantomPlayers.java:730: warning: [unchecked] unchecked call to add(E) as a member of the raw type ConcurrentLinkedQueue
+    [javac]                                 ((ConcurrentLinkedQueue) _PhantomsTown.get(_task)).add(next);
+    [javac]                                                                                       ^
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in class ConcurrentLinkedQueue
+    [javac] G:\ddddd\java\l2p\gameserver\model\PhantomPlayers.java:773: warning: [unchecked] unchecked call to add(E) as a member of the raw type ConcurrentLinkedQueue
+    [javac]                                 ((ConcurrentLinkedQueue) _PhantomsTown.get(1)).add(fantom);
+    [javac]                                                                                   ^
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in class ConcurrentLinkedQueue
+    [javac] G:\ddddd\java\l2p\gameserver\model\PhantomPlayers.java:803: warning: [unchecked] unchecked call to add(E) as a member of the raw type ConcurrentLinkedQueue
+    [javac]                                 ((ConcurrentLinkedQueue) _PhantomsTown.get(2)).add(fantom2);
+    [javac]                                                                                   ^
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in class ConcurrentLinkedQueue
+    [javac] G:\ddddd\java\l2p\gameserver\model\World.java:784: warning: [unchecked] unchecked conversion
+    [javac]         List<Player> result = new LazyArrayList(64);
+    [javac]                               ^
+    [javac]   required: List<Player>
+    [javac]   found:    LazyArrayList
+    [javac] G:\ddddd\java\l2p\gameserver\model\World.java:810: warning: [unchecked] unchecked conversion
+    [javac]         List<Player> result = new LazyArrayList(64);
+    [javac]                               ^
+    [javac]   required: List<Player>
+    [javac]   found:    LazyArrayList
+    [javac] G:\ddddd\java\l2p\gameserver\serverpackets\components\HtmlMessage.java:110: warning: [unchecked] unchecked conversion
+    [javac]             _variables = new HashMap(2);
+    [javac]                          ^
+    [javac]   required: Map<String,Object>
+    [javac]   found:    HashMap
+    [javac] G:\ddddd\java\l2p\gameserver\serverpackets\components\HtmlMessage.java:127: warning: [unchecked] unchecked conversion
+    [javac]             _replaces = new LinkedHashMap(2);
+    [javac]                         ^
+    [javac]   required: Map<String,String>
+    [javac]   found:    LinkedHashMap
+    [javac] G:\ddddd\java\l2p\gameserver\skills\effects\EffectCancel.java:41: warning: [unchecked] unchecked call to ArrayList(Collection<? extends E>) as a member of the raw type ArrayList
+    [javac]         List<Effect> effectList = new ArrayList(_effected.getEffectList().getAllEffects());
+    [javac]                                   ^
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in class ArrayList
+    [javac] G:\ddddd\java\l2p\gameserver\skills\effects\EffectCancel.java:41: warning: [unchecked] unchecked conversion
+    [javac]         List<Effect> effectList = new ArrayList(_effected.getEffectList().getAllEffects());
+    [javac]                                   ^
+    [javac]   required: List<Effect>
+    [javac]   found:    ArrayList
+    [javac] G:\ddddd\java\l2p\gameserver\skills\skillclasses\Extract.java:44: warning: [unchecked] unchecked conversion
+    [javac]         List<ExtractGroup> extractGroupList = (List) set.get("extractlist");
+    [javac]                                               ^
+    [javac]   required: List<ExtractGroup>
+    [javac]   found:    List
+    [javac] G:\ddddd\java\l2p\gameserver\skills\skillclasses\Extract.java:48: warning: [unchecked] unchecked conversion
+    [javac]         _selector = new RndSelector(extractGroupList.size());
+    [javac]                     ^
+    [javac]   required: RndSelector<ExtractGroup>
+    [javac]   found:    RndSelector
+    [javac] G:\ddddd\java\l2p\gameserver\skills\skillclasses\StealBuff.java:46: warning: [unchecked] unchecked call to ArrayList(Collection<? extends E>) as a member of the raw type ArrayList
+    [javac]                     List<Effect> effectsList = new ArrayList(target.getEffectList().getAllEffects());
+    [javac]                                                ^
+    [javac]   where E is a type-variable:
+    [javac]     E extends Object declared in class ArrayList
+    [javac] G:\ddddd\java\l2p\gameserver\skills\skillclasses\StealBuff.java:46: warning: [unchecked] unchecked conversion
+    [javac]                     List<Effect> effectsList = new ArrayList(target.getEffectList().getAllEffects());
+    [javac]                                                ^
+    [javac]   required: List<Effect>
+    [javac]   found:    ArrayList
+    [javac] G:\ddddd\java\l2p\gameserver\utils\velocity\VelocityUtils.java:20: warning: [unchecked] unchecked conversion
+    [javac]     public static final Map<String, Object> GLOBAL_VARIABLES = new HashMap();
+    [javac]                                                                ^
+    [javac]   required: Map<String,Object>
+    [javac]   found:    HashMap
+    [javac] Note: Some input files use or override a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+    [javac] 51 warnings
+
+gameserver-jar:
+     [exec] Execute failed: java.io.IOException: Cannot run program "svnversion" (in directory "G:\ddddd"): CreateProcess error=2, Не удается найти указанный файл
+      [jar] Building jar: G:\ddddd\build\gameserver.jar
+
+gameserver:
+    [mkdir] Created dir: G:\ddddd\build\dist\tools
+    [mkdir] Created dir: G:\ddddd\build\dist\gameserver\geodata
+    [mkdir] Created dir: G:\ddddd\build\dist\gameserver\log
+     [copy] Copying 1 file to G:\ddddd\build\dist\serverslibs
+   [delete] Deleting directory G:\ddddd\build\classes
+     [copy] Copying 33116 files to G:\ddddd\build\dist\gameserver

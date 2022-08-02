@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="Scripts" default="dist" basedir=".">
+    <description></description>
+
+    <property name="src" location="java/l2p/gameserver"/>
+    <property name="scr" location="dist/gameserver/data/scripts"/>
+    <property name="lib" location="lib"/>
+    <property name="build" location="build"/>
+	<property name="build.scripts" location="${build}/scripts"/>
+    <property name="build.classes" location="${build.scripts}/classes"/>
+	<property name="build.dist.game" location="${build}/dist/serverslibs"/>
+    <property name="l2p" location="build/scripts/classes/l2p"/>
+
+    <path id="classpath">
+        <fileset dir="${lib}">
+            <include name="*.jar"/>
+        </fileset>
+    </path>
+
+    <target name="dir">
+        <delete dir="${build.scripts}"/>
+        <delete dir="${build.classes}"/>
+        <mkdir dir="${build.scripts}"/>
+        <mkdir dir="${build.classes}"/>
+    </target>
+    <target name="compiles" depends="dir" description="Compile the source.">
+        <javac destdir="${build.classes}" optimize="on" debug="on" source="1.7" target="1.7" encoding="UTF-8" includeantruntime="false" nowarn="off">
+            <compilerarg value="-Xlint:all,-serial"></compilerarg>
+			<src path="${src}"/>
+            <classpath refid="classpath"/>
+        </javac>
+    </target>
+
+    <target name="compile" depends="dir" description="Compile the source.">
+        <javac destdir="${build.classes}" optimize="on" debug="on" source="1.7" target="1.7" encoding="UTF-8" includeantruntime="false" nowarn="off">
+            <compilerarg value="-Xlint:unchecked,-serial"></compilerarg>
+            <src path="${scr}"/>
+            <classpath refid="classpath"/>
+        </javac>
+	</target>
+    <target name="dist" depends="compiles, compile" description="Create jar-file">
+        <delete dir="${l2p}"/>
+    	 <delete dir="build/scripts/classes/drin"/>
+         <jar destfile="${build.scripts}/scripts.jar">
+            <fileset dir="${build.classes}"/>
+            <manifest>
+                <attribute name="Class-Path"
+                           value=". "/>
+            </manifest>
+        </jar>
+        <delete dir="${build.classes}"/>
+		<copy todir="${build.dist.game}" preservelastmodified="true">
+			<fileset dir="${build.scripts}">
+				<include name="scripts.jar"/>
+			</fileset>
+		</copy>
+    </target>
+</project>
